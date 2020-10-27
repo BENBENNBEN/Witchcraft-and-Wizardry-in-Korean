@@ -403,7 +403,7 @@ tag @s[scores={convState=10},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그스미드는 작은 마을이지만 많은 상점이 있어. 그렇지만 우리처럼 네가 팔려는 물품이 뭐든 기꺼이 구매할 수 있는 상점은 많지 않아. 우리 상점에 파는 게 나을 거야. 저 골목 위 여주인은 사기꾼이니까. \\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Хогсмид - небольшая деревня, но тут много магазинов. Тем не менее, есть только несколько владельцев магазинов, как мы, которые готовы купить любые предметы, которые вы хотите продать. Рекомендую остаться с нами. Хотя и женщина на той стороне улицы тоже много с кем имеет дело. \\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ###############################

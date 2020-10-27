@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 죽음을 먹는 자들이 마법부를 공격하고 있다고? 빌어먹을 놈들! 불사조 기사단으로 와서 잘 알렸구나. 몇 년 동안 숨어있다가 어딜 다시 기어 나오려고...\\n\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 죽음을 먹는 자들이 마법 정부를 공격하고 있다고? 빌어먹을 놈들! 불사조 기사단으로 와서 잘 알렸구나. 몇 년 동안 숨어있다가 어딜 다시 기어 나오려고...\\n\\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
