@@ -27,17 +27,17 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" Рад видеть! Я \"},{\"text\":\"Барлиман Баттербур\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\", владелец и основатель 'Вионного Бареля'. Чем могу быть полезен?\",\"color\":\"white\",\"bold\":\"false\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 오 반가워! 나는 \"},{\"text\":\"발리만 버터버\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\", 더 와인 배럴 여관의 주인이라네. 뭘 도와줄까?\",\"color\":\"white\",\"bold\":\"false\"}]"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≡ Покажите что у вас можно купить\"}",Tags:["_____buy_____","_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≡ 판매 중인 상품을 보여주세요\"}",Tags:["_____buy_____","_____Normal_____","_____click_____","convOption","i"]}
 
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≥ До свидания\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
 
@@ -62,7 +62,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Вы должно быть впервые тут. 'Ежедневный Пророк' это волшебная газета. Основной источник новостей для британских и ирландских волшебников. Это магическая газета, и с помощью Протеевых чар она может меняться в течение дня, по мере изменения новостей.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기 온 지 얼마 안 됐구만. 예언자 일보는 마법사 신문이야. 영국과 아일랜드 마녀와 마법사를 위한 주요 소식지이지. 프로티안 주문으로 하루 내 뉴스가 바뀌면 알아서 내용이 변하는 마법 신문이라네.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -93,7 +93,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 'Ежедневный Пророк' выпускает газеты с 1743 года, в том же году описывал Гидеона Флэтворфи, главу экстремистской анти-магловской группы, как 'слабого волшебника, при этом ленивого, похожего на моржа объекта, который лежит весь день на довольно вонючей подушке, и ожидает, что люди будут восхищаться им за это'\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 예언자 일보는 1743년에 발간되었고, 같은 해 극단적인 반머글주의 수장인 기디언 플랫워디를 '마법사는커녕 하루 종일 냄새나는 방석 위에 누워서 사람들이 존경하기를 바라는 게으른 바다코끼리에 더 가깝다'라고 서술해서 유명해졌지.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -124,7 +124,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Ну да, конечно. Вы предполагаете, что Министерство Магии говорит нам, что писать? Да, у нас есть некоторые связи с Министерством, но идея о том, что эта газета пожертвует журналистской честностью, чтобы успокоить Министерство абсурдна.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아 그럼. 마법부가 뭘 쓰라고 시킨다는 거야? 그래, 마법부와 아예 관계없다고는 할 수 없지만 그래도 마법부 비위 맞춘다고 언론의 청렴성을 희생했다는 건 터무니없는 생각이야.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -155,7 +155,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Не о чем говорить. Есть только несколько второстепенных публикаций, таких как 'Придира'. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 말할 필요도 없지만, 이러쿵 저러쿵처럼 작은 신문 잡지도 있어. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

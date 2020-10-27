@@ -228,7 +228,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 하지만 그 두루마리 사라진 지 오래야. 호그와트 어딘가 잊혀진 지하 도서관에 보관되어 있다고 하더구나. 분명 본관에 있을 거야... 실제로 존재한다면 말이야.  \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 하지만 그 두루마리 사라진 지 오래야. 호그와트 어딘가 잊혀진 지하 도서관에 보관되어 있다고 하더구나. 분명 본관에 있을 거야... 실제로 존재한다면 말이야.   \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
