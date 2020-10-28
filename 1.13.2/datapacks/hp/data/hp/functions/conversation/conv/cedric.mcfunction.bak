@@ -832,7 +832,7 @@ tag @s[scores={convState=24},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 간단해. 변환 마법 교실은 중앙 안뜰 건너편에 있어. 왼쪽의 작은 탑에 있는 문을 통해 들어가면 오른쪽 문이 바로 변환 마법 교실이야. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Это легко. Трансгресия возможна только снаружи и в Дворе Трансгресии. Иди через дверь в маленькой башне слева, и она должна быть через дверь справа от тебя. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
