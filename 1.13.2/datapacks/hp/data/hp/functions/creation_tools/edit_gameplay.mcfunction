@@ -320,7 +320,7 @@ execute as @e[tag=spawningcreaturePoint] run tag @s remove spawningcreaturePoint
 execute as @e[tag=spawnCreaturePoint] run kill @s
 
 
-execute at @e[tag=spawnLargeChest] run summon minecraft:armor_stand ~ ~-.675 ~-.35 {NoGravity:1b,Team:"NPC",CustomName:"{\"text\":\"Большой Сундукˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈ\",\"color\":\"dark_gray\"}",Invulnerable:1b,DisabledSlots:2039583,Pose:{RightArm:[0.0f,0.0f,0.0f],LeftLeg:[180.0f,0.0f,0.0f],Head:[90.0f,0.0f,0.0f],LeftArm:[0.0f,0.0f,0.0f],RightLeg:[180.0f,0.0f,0.0f]},Invisible:1b,Tags:["chest","largeChest","interactable","resettable","glowable","restorable","largeChestBeingSpawned"],HandItems:[{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:58}},{}],ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:57}}],NoBasePlate:1b}
+execute at @e[tag=spawnLargeChest] run summon minecraft:armor_stand ~ ~-.675 ~-.35 {NoGravity:1b,Team:"NPC",CustomName:"{\"text\":\"큰 상자ˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈ\",\"color\":\"dark_gray\"}",Invulnerable:1b,DisabledSlots:2039583,Pose:{RightArm:[0.0f,0.0f,0.0f],LeftLeg:[180.0f,0.0f,0.0f],Head:[90.0f,0.0f,0.0f],LeftArm:[0.0f,0.0f,0.0f],RightLeg:[180.0f,0.0f,0.0f]},Invisible:1b,Tags:["chest","largeChest","interactable","resettable","glowable","restorable","largeChestBeingSpawned"],HandItems:[{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:58}},{}],ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:57}}],NoBasePlate:1b}
 scoreboard players set @e[tag=largeChestBeingSpawned] animTest 0
 tag @e[tag=largeChestBeingSpawned] remove largeChestBeingSpawned
 execute as @e[tag=spawnLargeChest] run kill @s
@@ -332,7 +332,7 @@ tag @e[tag=fakeChestBeingSpawned] remove fakeChestBeingSpawned
 execute as @e[tag=spawnFakeChest] run kill @s
 
 
-execute at @e[tag=spawnSmallChest] run summon minecraft:armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Team:"NPC",CustomName:"{\"text\":\"Маленький Сундукˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈ\",\"color\":\"dark_gray\"}",Invulnerable:1b,DisabledSlots:2039583,Invisible:1b,Tags:["chest","smallChest","interactable","glowable","restorable","smallChestBeingSpawned","resettable"],ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:56}}],NoBasePlate:1b}
+execute at @e[tag=spawnSmallChest] run summon minecraft:armor_stand ~ ~ ~ {Marker:1b,NoGravity:1b,Team:"NPC",CustomName:"{\"text\":\"작은 상자ˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈ\",\"color\":\"dark_gray\"}",Invulnerable:1b,DisabledSlots:2039583,Invisible:1b,Tags:["chest","smallChest","interactable","glowable","restorable","smallChestBeingSpawned","resettable"],ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:56}}],NoBasePlate:1b}
 scoreboard players set @e[tag=smallChestBeingSpawned] animTest 0
 tag @e[tag=smallChestBeingSpawned] remove smallChestBeingSpawned
 execute as @e[tag=spawnSmallChest] run kill @s
@@ -427,7 +427,7 @@ execute as @e[tag=spawnFlask] run kill @s
 execute at @e[tag=spawnQuestCrate] run summon armor_stand ~ ~ ~ {Team:"NPC",NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["crate","glowable","restorable","editInteractable"],ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:38}}]}
 execute as @e[tag=spawnQuestCrate] run kill @s
 
-execute at @e[tag=spawnStupefyTarget] run summon zombie ~ ~ ~ {PersistenceRequired:1b,Silent:1b,NoAI:1b,Team:"NPC",NoGravity:1b,Marker:0b,Invisible:1b,Tags:["restorable","glowable","invisible","spellEntity","stupefyTarget","editInteractable"],ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:46}}],Health:10000f,Attributes:[{Name:generic.maxHealth,Base:10000}]}
+execute at @e[tag=spawnStupefyTarget] run summon zombie ~ ~ ~ {PersistenceRequired:1b,Silent:1b,NoAI:1b,Team:"NPC",NoGravity:1b,Marker:0b,Invisible:1b,Tags:["restorable","glowable","invisible","spellEntity","stupefyTarget","editInteractable"],ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:46}}],Health:10000f,Attributes:[{Name:generic.max_health,Base:10000}]}
 execute as @e[tag=spawnStupefyTarget] at @s run setblock ~ 1 ~ minecraft:quartz_block
 execute as @e[tag=spawnStupefyTarget] at @s run setblock ~ 0 ~ minecraft:command_block
 execute as @e[tag=spawnStupefyTarget] run kill @s
