@@ -13,4 +13,4 @@ execute as @s[scores={currentSpell=1,selectedSlot=1},tag=inLumosArea,tag=!preven
 
 execute as @s[scores={currentSpell=1,selectedSlot=1},tag=!inLumosArea,tag=!preventDoubleExecution,tag=!inLumos,tag=hasDoubleRightClicked] run title @s times 5 20 5
 execute as @s[scores={currentSpell=1,selectedSlot=1},tag=!inLumosArea,tag=!preventDoubleExecution,tag=!inLumos,tag=hasDoubleRightClicked] run title @s title {"text":" "}
-execute as @s[scores={currentSpell=1,selectedSlot=1},tag=!inLumosArea,tag=!preventDoubleExecution,tag=!inLumos,tag=hasDoubleRightClicked] run title @s subtitle {"text":"Тут достаточно света!","bold":false,"color":"red"}
+execute as @s[scores={currentSpell=1,selectedSlot=1},tag=!inLumosArea,tag=!preventDoubleExecution,tag=!inLumos,tag=hasDoubleRightClicked] run title @s subtitle {"text":"이미 충분히 밝습니다!","bold":false,"color":"red"}
