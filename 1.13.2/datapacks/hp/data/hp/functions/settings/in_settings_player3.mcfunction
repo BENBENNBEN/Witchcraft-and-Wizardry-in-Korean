@@ -12,10 +12,10 @@ execute store result score @s falling run data get entity 0-0-13-0-3 FallDistanc
 tag @s remove hasScrolled
 
 # Scroll testers
-execute as 0-0-13-0-3 at @s positioned ^ ^ ^10 run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"settingsUp\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[settingsSelect,selectUp],UUIDMost:20,UUIDLeast:9}
-execute as 0-0-13-0-3 at @s positioned ^ ^ ^-10 run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"settingsDown\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[settingsSelect,selectDown],UUIDMost:20,UUIDLeast:10}
-execute as 0-0-13-0-3 at @s positioned ^10 ^ ^ run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"settingsUp\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[settingsSelect,selectLeft],UUIDMost:20,UUIDLeast:11}
-execute as 0-0-13-0-3 at @s positioned ^-10 ^ ^ run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"settingsDown\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[settingsSelect,selectRight],UUIDMost:20,UUIDLeast:12}
+execute as 0-0-13-0-3 at @s positioned ^ ^ ^10 run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"settingsUp\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[settingsSelect,selectUp],UUID:[I;0,20,0,9]}
+execute as 0-0-13-0-3 at @s positioned ^ ^ ^-10 run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"settingsDown\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[settingsSelect,selectDown],UUID:[I;0,20,0,10]}
+execute as 0-0-13-0-3 at @s positioned ^10 ^ ^ run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"settingsUp\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[settingsSelect,selectLeft],UUID:[I;0,20,0,11]}
+execute as 0-0-13-0-3 at @s positioned ^-10 ^ ^ run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"settingsDown\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[settingsSelect,selectRight],UUID:[I;0,20,0,12]}
 
 # Scroll down
 execute unless score @s convState matches 1..2 as @s[tag=hasChangedSlotDown,tag=!hasScrolled] run function hp:settings/settings_scroll_down

@@ -14,7 +14,7 @@ execute as @s[tag=fakeChest,tag=!burstOpen] if entity @p[tag=activePlayer,tag=ha
 execute as @s[tag=fakeChest,tag=!burstOpen] if entity @p[tag=activePlayer,tag=hasPressedF,tag=!flyingBroom] run tag @s add burstOpen
 
 # Brewer
-execute if entity @s[tag=brewer] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"Нажмите ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":"для использования котла","color":"gold"}]
+execute if entity @s[tag=brewer] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"Нажмите ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" для использования котла","color":"gold"}]
 execute if entity @s[tag=brewer] as @p[tag=activePlayer,tag=hasPressedF,tag=!flyingBroom] run tag @s add enterBrewer
 
 # Pensive
@@ -25,7 +25,7 @@ execute unless score confirmingPensiveMemoryID global matches 0 if entity @s[tag
 # Hogwarts Letter
 execute if entity @s[tag=hogwartsLetter] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"Нажмите ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" для ознакомления с письмом","color":"gold"}]
 
-# Косой Переулок
+# Diagon Alley
 execute if entity @s[tag=diagonAlleyBrick] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar] store success score @s tmp run title @s actionbar ["",{"text":"Нажмите ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" чтобы надавить на кирпич","color":"gold"}]
 execute if entity @s[tag=diagonAlleyBrick] as @p[tag=activePlayer,tag=hasPressedF] run function hp:misc/diagon_alley_door/startup_open
 execute as @s[tag=diagonAlleyBrick] if entity @p[tag=activePlayer,tag=hasPressedF] run data merge entity @s {Glowing:0b}

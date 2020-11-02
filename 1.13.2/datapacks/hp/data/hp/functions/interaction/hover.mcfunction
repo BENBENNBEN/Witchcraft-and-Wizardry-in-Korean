@@ -13,7 +13,7 @@ scoreboard players set @s tmp 0
 execute store result score @s tmp run tag @e[type=!item_frame,tag=questHover,limit=1] add hover
 execute at @s[tag=!hoverLocked] positioned ^ ^-.25 ^1 run tag @e[type=!item_frame,distance=..2,limit=1,sort=nearest,tag=interactable] add potentialHover
 
-# Hacky way to prevent Косой Переулок and potion stands, etc. until it is unlocked
+# Hacky way to prevent Diagon Alley and potion stands, etc. until it is unlocked
 execute as @s[tag=diagonAlleyNotUnlocked] run tag @e[tag=potentialHover,limit=1,tag=diagonAlleyBrick] remove potentialHover
 execute as @s[tag=potionStandLocked] run tag @e[tag=potentialHover,limit=1,tag=brewer] remove potentialHover
 execute as @s[tag=earmuffsLocked] run tag @e[tag=potentialHover,limit=1,tag=earmuffs] remove potentialHover
