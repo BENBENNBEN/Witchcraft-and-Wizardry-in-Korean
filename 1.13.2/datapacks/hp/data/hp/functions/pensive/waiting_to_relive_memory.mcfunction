@@ -5,8 +5,8 @@ execute as @a[tag=play,tag=inGame] run scoreboard players add @p[tag=activePlaye
 
 execute if score @s tmp2 = @s tmp3 as @a[tag=inGame,tag=waitingToReliveMemory] run function hp:pensive/relive_memory
 
-execute as @s[tag=!cancelPensive] store success score @s tmp run title @s actionbar ["",{"text":"Дождитесь остальных для взаимодействия с Омутом Памяти (","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":" / ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":") ","color":"gold"}]
-execute as @s[tag=cancelPensive] store success score @s tmp run title @s actionbar ["",{"text":"Отмена","color":"red"}]
+execute as @s[tag=!cancelPensive] store success score @s tmp run title @s actionbar ["",{"text":"모든 사람들이 펜시브와 상호 작용할 때까지 기다리세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":" / ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":") ","color":"gold"}]
+execute as @s[tag=cancelPensive] store success score @s tmp run title @s actionbar ["",{"text":"최소됨","color":"red"}]
 
 
 execute as @s[tag=!cancelPensive] unless entity @s[x=6002,y=49,z=990,dx=7,dy=12,dz=5] at @s run playsound minecraft:custom.ui.error master @a ~ ~ ~ 100 1
