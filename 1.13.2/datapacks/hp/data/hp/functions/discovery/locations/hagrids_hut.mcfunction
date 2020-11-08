@@ -1,8 +1,8 @@
 # On Discover
-execute as @s[tag=!discovered_hagrids_hut,scores={playerID=1},tag=!inProperCutScene] run bossbar set minecraft:player1empty name {"text":"Обнаружено","color":"white","italic":"true"}
-execute as @s[tag=!discovered_hagrids_hut,scores={playerID=2},tag=!inProperCutScene] run bossbar set minecraft:player2empty name {"text":"Обнаружено","color":"white","italic":"true"}
-execute as @s[tag=!discovered_hagrids_hut,scores={playerID=3},tag=!inProperCutScene] run bossbar set minecraft:player3empty name {"text":"Обнаружено","color":"white","italic":"true"}
-execute as @s[tag=!discovered_hagrids_hut,scores={playerID=4},tag=!inProperCutScene] run bossbar set minecraft:player4empty name {"text":"Обнаружено","color":"white","italic":"true"}
+execute as @s[tag=!discovered_hagrids_hut,scores={playerID=1},tag=!inProperCutScene] run bossbar set minecraft:player1empty name {"text":"발견","color":"white","italic":"true"}
+execute as @s[tag=!discovered_hagrids_hut,scores={playerID=2},tag=!inProperCutScene] run bossbar set minecraft:player2empty name {"text":"발견","color":"white","italic":"true"}
+execute as @s[tag=!discovered_hagrids_hut,scores={playerID=3},tag=!inProperCutScene] run bossbar set minecraft:player3empty name {"text":"발견","color":"white","italic":"true"}
+execute as @s[tag=!discovered_hagrids_hut,scores={playerID=4},tag=!inProperCutScene] run bossbar set minecraft:player4empty name {"text":"발견","color":"white","italic":"true"}
 execute at @s[tag=!discovered_hagrids_hut,tag=!inProperCutScene] run playsound minecraft:custom.ui.discovery.discover_location master @s ~ ~ ~ 10 1 1
 # Unlock location if it has not been discovered
 execute as @s[tag=!discovered_hagrids_hut,tag=!inProperCutScene] run scoreboard players set @s mapLocationID 68
@@ -12,10 +12,10 @@ scoreboard players set @s[tag=discovered_hagrids_hut,tag=!inProperCutScene] disc
 execute as @s[tag=!discovered_hagrids_hut,tag=!inProperCutScene] run tag @s add discovered_hagrids_hut
 
 # Title
-execute as @s[scores={playerID=1},tag=!inProperCutScene] run bossbar set minecraft:player1discover name {"text":"Хижина Хагрида","color":"white","italic":"false"}
-execute as @s[scores={playerID=2},tag=!inProperCutScene] run bossbar set minecraft:player2discover name {"text":"Хижина Хагрида","color":"white","italic":"false"}
-execute as @s[scores={playerID=3},tag=!inProperCutScene] run bossbar set minecraft:player3discover name {"text":"Хижина Хагрида","color":"white","italic":"false"}
-execute as @s[scores={playerID=4},tag=!inProperCutScene] run bossbar set minecraft:player4discover name {"text":"Хижина Хагрида","color":"white","italic":"false"}
+execute as @s[scores={playerID=1},tag=!inProperCutScene] run bossbar set minecraft:player1discover name {"text":"해그리드 오두막","color":"white","italic":"false"}
+execute as @s[scores={playerID=2},tag=!inProperCutScene] run bossbar set minecraft:player2discover name {"text":"해그리드 오두막","color":"white","italic":"false"}
+execute as @s[scores={playerID=3},tag=!inProperCutScene] run bossbar set minecraft:player3discover name {"text":"해그리드 오두막","color":"white","italic":"false"}
+execute as @s[scores={playerID=4},tag=!inProperCutScene] run bossbar set minecraft:player4discover name {"text":"해그리드 오두막","color":"white","italic":"false"}
 execute as @s[tag=!inProperCutScene] run function hp:misc/update_bossbars
 
 # Set location

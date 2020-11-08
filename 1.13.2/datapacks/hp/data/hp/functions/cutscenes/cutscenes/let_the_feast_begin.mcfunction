@@ -25,7 +25,6 @@ tp @s[scores={cutSceneTimer=22..189}] 4942.22 33.15 1055.55 -13.89 3.83
 
 
 # ¤Dumbledore:¤ Let the feast begin!
-# ¤Дамблдор;¤ Да начнётся пир!
 execute as @s[scores={cutSceneTimer=30},tag=cutsceneLeader] as @e[tag=sortingCeremonyWalkingDumbledore,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1 1 0
 execute as @s[scores={cutSceneTimer=30..175}] run title @s actionbar ["",{"text":""},{"text":"Дамблдор;","color":"dark_gray"},{"text":" Да начнётся пир!"}]
 execute as @s[scores={cutSceneTimer=30},tag=cutsceneLeader] as @e[tag=sortingCeremonyWalkingDumbledore,limit=1] run function hp:npc/update_npc_head_expression

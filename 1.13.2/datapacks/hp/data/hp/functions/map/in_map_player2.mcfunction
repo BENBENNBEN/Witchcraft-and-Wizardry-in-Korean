@@ -19,10 +19,10 @@ execute if entity @s[scores={playerID=4,animTest=0..1}] as 0-0-5-0-4 run functio
 tag @s remove hasScrolled
 
 # Scroll testers
-execute as 0-0-a-0-2 at @s[tag=!softExitMap] positioned ^ ^ ^10 run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invUp\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectUp],UUIDMost:11,UUIDLeast:5}
-execute as 0-0-a-0-2 at @s[tag=!softExitMap] positioned ^ ^ ^-10 run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invDown\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectDown],UUIDMost:11,UUIDLeast:6}
-execute as 0-0-a-0-2 at @s[tag=!softExitMap] positioned ^10 ^ ^ run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invUp\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectLeft],UUIDMost:11,UUIDLeast:7}
-execute as 0-0-a-0-2 at @s[tag=!softExitMap] positioned ^-10 ^ ^ run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invDown\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectRight],UUIDMost:11,UUIDLeast:8}
+execute as 0-0-a-0-2 at @s[tag=!softExitMap] positioned ^ ^ ^10 run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invUp\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectUp],UUID:[I;0,11,0,5]}
+execute as 0-0-a-0-2 at @s[tag=!softExitMap] positioned ^ ^ ^-10 run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invDown\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectDown],UUID:[I;0,11,0,6]}
+execute as 0-0-a-0-2 at @s[tag=!softExitMap] positioned ^10 ^ ^ run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invUp\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectLeft],UUID:[I;0,11,0,7]}
+execute as 0-0-a-0-2 at @s[tag=!softExitMap] positioned ^-10 ^ ^ run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invDown\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectRight],UUID:[I;0,11,0,8]}
 
 # Scroll down
 execute as @s[tag=hasChangedSlotDown,tag=!softExitMap,tag=!hasScrolled] run function hp:map/map_scroll_down
@@ -64,7 +64,7 @@ execute as @s[scores={animTest=1..}] run scoreboard players remove @s animTest 1
 
 # Yo future me this is a really nasty hack but done to prevent a visual bug please fix it 
 # execute as @s[tag=tmpExecute] run function hp:draw_hotbar/draw_inventory
-# Yo past me I fixed it Не беспокойся.
+# Yo past me I fixed it no worries.
 
 # input
 execute as @s[tag=hasPressedF] run function hp:map/map_press_f
@@ -73,8 +73,8 @@ execute as @s[tag=isSneaking,scores={shiftTest=1}] run function hp:map/map_press
 # Draw map
 execute as @s[tag=!softExitMap,scores={animTest=0},tag=!invInspectItem] run function hp:map/tellraw_map
 
-execute as @s[tag=!softExitMap,tag=invInspectItem,scores={selectSecondary=1},tag=!delayMapOneTick] run tellraw @s ["",{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{"text":"     Вы действительно хотите отправиться в \n     ","bold":false,"color":"gray"},{"selector":"@e[type=armor_stand,tag=inventoryOption,tag=inspectedItem,limit=1]"},{"text":"?","bold":false,"color":"gray"},{"text":"\n     ˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙\n     "},{"text":">> [","color":"green"},{"text":"Да","color":"dark_green","underlined":true},{"text":"] <<","color":"green"},{"text":"\n       "},{"text":" [","color":"dark_gray"},{"text":"Нет","color":"red"},{"text":"]","color":"dark_gray"},{"text":"\n\n\n"}]]
-execute as @s[tag=!softExitMap,tag=invInspectItem,scores={selectSecondary=2},tag=!delayMapOneTick] run tellraw @s ["",{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{"text":"     Вы действительно хотите отправиться в \n     ","bold":false,"color":"gray"},{"selector":"@e[type=armor_stand,tag=inventoryOption,tag=inspectedItem,limit=1]"},{"text":"?","bold":false,"color":"gray"},{"text":"\n     ˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙\n       "},{"text":" [","color":"dark_gray"},{"text":"Да","color":"green"},{"text":"]","color":"dark_gray"},{"text":"\n     "},{"text":">> [","color":"red"},{"text":"Нет","color":"dark_red","underlined":true},{"text":"] <<","color":"red"},{"text":"\n\n\n"}]]
+execute as @s[tag=!softExitMap,tag=invInspectItem,scores={selectSecondary=1},tag=!delayMapOneTick] run tellraw @s ["",{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{"text":"     다음 장소로 이동하겠습니까? \n     ","bold":false,"color":"gray"},{"selector":"@e[type=armor_stand,tag=inventoryOption,tag=inspectedItem,limit=1]"},{"text":"?","bold":false,"color":"gray"},{"text":"\n     ˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙\n     "},{"text":">> [","color":"green"},{"text":"네","color":"dark_green","underlined":true},{"text":"] <<","color":"green"},{"text":"\n       "},{"text":" [","color":"dark_gray"},{"text":"아니요","color":"red"},{"text":"]","color":"dark_gray"},{"text":"\n\n\n"}]]
+execute as @s[tag=!softExitMap,tag=invInspectItem,scores={selectSecondary=2},tag=!delayMapOneTick] run tellraw @s ["",{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"},{"text":"     다음 장소로 이동하겠습니까? \n     ","bold":false,"color":"gray"},{"selector":"@e[type=armor_stand,tag=inventoryOption,tag=inspectedItem,limit=1]"},{"text":"?","bold":false,"color":"gray"},{"text":"\n     ˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙\n       "},{"text":" [","color":"dark_gray"},{"text":"네","color":"green"},{"text":"]","color":"dark_gray"},{"text":"\n     "},{"text":">> [","color":"red"},{"text":"아니요","color":"dark_red","underlined":true},{"text":"] <<","color":"red"},{"text":"\n\n\n"}]]
 
 
 

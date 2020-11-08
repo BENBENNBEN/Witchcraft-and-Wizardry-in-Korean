@@ -207,7 +207,7 @@ tp @s[scores={cutSceneTimer=220}] 2847.594 60.17463 905.1658 1982.48 2.2
 tp @s[scores={cutSceneTimer=221}] 2847.594 60.17521 905.1807 1982.48 2.2
 execute as @s[scores={cutSceneTimer=201}] run function hp:cutscenes/fade_in
 
-# Это Косой Переулок.
+# This is Diagon Alley.
 title @s[scores={cutSceneTimer=50..220}] actionbar ["",{"text":"Это Косой Переулок"}]
 
 execute as @s[scores={cutSceneTimer=222}] run function hp:cutscenes/fade_out
@@ -313,7 +313,6 @@ tp @s[scores={cutSceneTimer=320}] 2848.26 47.74 950.02 1938.66 -8.900038
 execute as @s[scores={cutSceneTimer=301}] run function hp:cutscenes/fade_in
 
 # Here, you can purchase supplies and solve quests for the shop owners.
-# Здесь вы можете торговать и брать задания у владельцев магазинов.
 title @s[scores={cutSceneTimer=221..620}] actionbar ["",{"text":" Здесь вы можете торговать и брать задания у владельцев магазинов"}]
 
 execute as @s[scores={cutSceneTimer=322}] run function hp:cutscenes/fade_out	
@@ -769,8 +768,7 @@ tp @s[scores={cutSceneTimer=759}] 2845.1 46.71 990.12 1.68 -13.20489
 tp @s[scores={cutSceneTimer=760}] 2845.1 46.71 990.12 1.68 -13.03989
 
 
-# You can get money for your school supplies in Банк Гринготтс located at the end of the street.
-# Вы можете взять деньги для школьных принадлежностей в Банке Гринготтс в конце улицы.
+# You can get money for your school supplies in Gringotts Wizarding Bank located at the end of the street.
 title @s[scores={cutSceneTimer=621..740}] actionbar ["",{"text":"Вы можете взять деньги для школьных принадлежностей в Банке Гринготтс в конце улицы"}]
 
 # Clear subtitles instantly rather than a slow fade I can't control

@@ -330,7 +330,6 @@ tp @s[scores={cutSceneTimer=320}] 5054.226 97.1879 83.68314 -118.92 1.82
 execute as @s[scores={cutSceneTimer=300}] run function hp:cutscenes/fade_in
 
 # ¤Flitwick:¤ Welcome students. My name is Professor Flitwick and I teach charms here at Hogwarts.
-# ¤Флитвик;¤ Здравствуйте студенты. Я профессор Флитвик и я преподаватель заклинаний в Хогвартсе.
 execute as @s[scores={cutSceneTimer=30},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
 execute as @s[scores={cutSceneTimer=25..160}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Здравствуйте студенты. Я профессор Флитвик и я преподаватель заклинаний в Хогвартсе."}]
 execute as @s[scores={cutSceneTimer=33},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -343,7 +342,6 @@ execute as @s[scores={cutSceneTimer=63},tag=cutsceneLeader] as @e[tag=flitwickCl
 execute as @s[scores={cutSceneTimer=70},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Flitwick:¤ For this first class we will be learning a simple spell, 'Lumos'
-# ¤Flitwick:¤ На первом задании мы будем учить простое заклинание - 'Люмос'
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
 execute as @s[scores={cutSceneTimer=161..230}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" На первом задании мы будем учить простое заклинание - 'Люмос'"}]
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -356,7 +354,6 @@ execute as @s[scores={cutSceneTimer=194},tag=cutsceneLeader] as @e[tag=flitwickC
 execute as @s[scores={cutSceneTimer=201},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Flitwick:¤ which will allow you to cast light from the tip of your wand to illuminate dark places.
-# ¤Flitwick:¤ которое позволит вам излучать свет с кончика палочки, для освещения темных мест.
 execute as @s[scores={cutSceneTimer=231},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
 execute as @s[scores={cutSceneTimer=231..350}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" которое позволит вам излучать свет с кончика палочки, для освещения темных мест."}]
 execute as @s[scores={cutSceneTimer=231},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -644,7 +641,6 @@ execute as @s[scores={cutSceneTimer=570}] run function hp:cutscenes/fade_in
 
 
 # ¤Flitwick:¤ When you're in a room that is too dark for you to see anything,
-# ¤Flitwick:¤ Когда вы находитесь в слишком темной комнате, чтобы что-то увидеть,
 execute as @s[scores={cutSceneTimer=351},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
 execute as @s[scores={cutSceneTimer=351..490}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Когда вы находитесь в слишком темной комнате, чтобы что-то увидеть,"}]
 execute as @s[scores={cutSceneTimer=351},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -657,7 +653,6 @@ execute as @s[scores={cutSceneTimer=384},tag=cutsceneLeader] as @e[tag=flitwickC
 execute as @s[scores={cutSceneTimer=391},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Flitwick:¤ you can cast the Lumos spell by double clicking ⌠.
-# ¤Flitwick:¤ вам следует вызвать заклинание дважды нажав
 execute as @s[scores={cutSceneTimer=491},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
 execute as @s[scores={cutSceneTimer=491..590}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" вам следует вызвать заклинание дважды нажав ⌠"}]
 execute as @s[scores={cutSceneTimer=491},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -865,7 +860,6 @@ tp @s[scores={cutSceneTimer=780}] 5039.009 95.83092 81.98344 -91.58 -2.63
 execute as @s[scores={cutSceneTimer=760}] run function hp:cutscenes/fade_in
 
 # ¤Flitwick:¤ To practice Lumos, I have arranged a special task for you that you must complete.
-# ¤Flitwick:¤ Для практики Люмос я сделал для вас специальное задание, которое вы должны пройти.
 execute as @s[scores={cutSceneTimer=590},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
 execute as @s[scores={cutSceneTimer=590..700}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Для практики Люмос я сделал для вас специальное задание, которое вы должны пройти."}]
 execute as @s[scores={cutSceneTimer=590},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -877,7 +871,7 @@ execute as @s[scores={cutSceneTimer=619},tag=cutsceneLeader] as @e[tag=flitwickC
 execute as @s[scores={cutSceneTimer=623},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=630},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
-# ¤Flitwick:¤ The task is simple: Задание простое;
+# ¤Flitwick:¤ The task is simple:
 execute as @s[scores={cutSceneTimer=701},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
 execute as @s[scores={cutSceneTimer=701..780}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Задание простое;"}]
 execute as @s[scores={cutSceneTimer=701},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1056,7 +1050,6 @@ execute as @s[scores={cutSceneTimer=920}] run function hp:cutscenes/fade_in
 
 
 # ¤Flitwick:¤ Collect the five stars scattered throughout this maze of corridors, and return to me to complete the lesson.
-# ¤Flitwick:¤ Соберите пять звёзд в этом лабиринте и вернитесь ко мне для завершения занятия.
 execute as @s[scores={cutSceneTimer=781},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
 execute as @s[scores={cutSceneTimer=781..940}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Соберите пять звёзд в этом лабиринте и вернитесь ко мне для завершения занятия."}]
 execute as @s[scores={cutSceneTimer=781},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] run function hp:npc/update_npc_head_expression
@@ -1363,7 +1356,6 @@ tp @s[scores={cutSceneTimer=1222}] 5097.933 94.18749 39.80437 124.78 4.1
 
 
 # ¤Flitwick:¤ Only this maze is completely dark. You will need to use your wand to find your way.
-# ¤Flitwick:¤ Но этот лабиринт очень тёмный. Вам придётся использовать магию для поиска пути.
 execute as @s[scores={cutSceneTimer=941},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
 execute as @s[scores={cutSceneTimer=941..1100}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Но этот лабиринт очень тёмный. Вам придётся использовать магию для поиска пути."}]
 execute as @s[scores={cutSceneTimer=941},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] run function hp:npc/update_npc_head_expression

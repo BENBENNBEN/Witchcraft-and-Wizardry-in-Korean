@@ -1072,8 +1072,7 @@ execute as @s[scores={cutSceneTimer=842},tag=cutsceneLeader] as @e[tag=phoenixOr
 execute as @s[scores={cutSceneTimer=842},tag=cutsceneLeader] as @e[tag=phoenixOrder5,limit=1] run tag @s add npcLookAtPlayer
 
 
-# ¤Аластор Грюм:¤ These villains are everywhere. Hunt them down. Fight them. They must not escape!
-# ¤Аластор Грюм:¤ Эти злодеи повсюду! Уничтожьте их! Сражайтесь с ними! Они не должны сбежать!
+# ¤Alastor Moody:¤ These villains are everywhere. Hunt them down. Fight them. They must not escape!
 execute as @s[scores={cutSceneTimer=800},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=800..940}] run title @s actionbar ["",{"text":""},{"text":"Аластор Грюм:","color":"dark_gray"},{"text":" Эти злодеи повсюду! Уничтожьте их! Сражайтесь с ними! Они не должны сбежать!"}]
 

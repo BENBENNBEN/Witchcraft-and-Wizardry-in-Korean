@@ -17,8 +17,8 @@ execute as @s[scores={cutSceneTimer=..20}] run title @s actionbar ["",{"text":" 
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run summon area_effect_cloud ~ ~ ~ {Radius:0.0f,Duration:1000,Particle:"block air",Tags:[chunkLoader]}
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=chunkLoader,limit=1,sort=nearest] at @s run spreadplayers 728 136 1 1 false @s
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run kill @e[tag=chunkLoader]
-execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run summon minecraft:armor_stand 720.53 67.57 137.51 {NoGravity: 1b, HurtByTimestamp: 0, Attributes: [{Base: 20.0d, Name: "generic.maxHealth"}, {Base: 0.0d, Name: "generic.knockbackResistance"}, {Base: 0.699999988079071d, Name: "generic.movementSpeed"}, {Base: 0.0d, Name: "generic.armor"}, {Base: 0.0d, Name: "generic.armorToughness"}], Invulnerable: 1b, FallFlying: 0b, ShowArms: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, DisabledSlots: 0, DeathTime: 0s, Pose: {Head: [0.0f, 0.5f, 0.0f]}, Invisible: 1b, Tags: ["veraVertoGoblet"], Motion: [0.0d, 0.0d, 0.0d], Small: 0b, Health: 20.0f, Air: 300s, OnGround: 1b, Rotation: [-90.0f, 0.0f], HandItems: [{}, {}], Fire: 0s, ArmorItems: [{},{},{},{}], NoBasePlate: 0b, HurtTime: 0s}
-execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run summon minecraft:villager 722.5 300 140.28 {HurtByTimestamp: 0, Attributes: [{Base: 20.0d, Name: "generic.maxHealth"}, {Base: 1.0d, Name: "generic.knockbackResistance"}, {Base: 0.0d, Name: "generic.movementSpeed"}, {Base: 0.0d, Name: "generic.armor"}, {Base: 0.0d, Name: "generic.armorToughness"}, {Base: 0.0d, Name: "generic.followRange"}], Riches: 0, Invulnerable: 1b, FallFlying: 0b, ForcedAge: 0, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, DeathTime: 0s, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, Tags: ["npc", "mcGonagallClassroomCutscene", "useVillagerScaleOnHead", "mcGonagallClassroom", "restorable"], Age: 0, Motion: [0.0d, 0.0d, 0.0d], Leashed: 0b, Health: 20.0f, Silent: 1b, LeftHanded: 0b, Air: 300s, OnGround: 1b, Offers: {Recipes: []}, NoAI: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: 5, Fire: -1s, ArmorItems: [{}, {}, {}, {id: "minecraft:stone_hoe", Count: 1b, tag: {npcHead: 103, lerp3End: 0, Unbreakable: 1b, lerp2Increment: 0, lerp2Time: 0, lerp3Start: 0, lerp3Current: 0, lerp2Current: 0, lerp2Start: -72, lerp3Increment: 0, lerp3Time: 0, conv: 3, Damage: 63, lerp2End: 0}}], CanPickUpLoot: 1b, HurtTime: 0s, CareerLevel: 1, Career: 0, Inventory: [], Willing: 0b}
+execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run summon minecraft:armor_stand 720.53 67.57 137.51 {NoGravity: 1b, HurtByTimestamp: 0, Attributes: [{Base: 20.0d, Name: "generic.max_health"}, {Base: 0.0d, Name: "generic.knockback_resistance"}, {Base: 0.699999988079071d, Name: "generic.movement_speed"}, {Base: 0.0d, Name: "generic.armor"}, {Base: 0.0d, Name: "generic.armor_toughness"}], Invulnerable: 1b, FallFlying: 0b, ShowArms: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, DisabledSlots: 0, DeathTime: 0s, Pose: {Head: [0.0f, 0.5f, 0.0f]}, Invisible: 1b, Tags: ["veraVertoGoblet"], Motion: [0.0d, 0.0d, 0.0d], Small: 0b, Health: 20.0f, Air: 300s, OnGround: 1b, Rotation: [-90.0f, 0.0f], HandItems: [{}, {}], Fire: 0s, ArmorItems: [{},{},{},{}], NoBasePlate: 0b, HurtTime: 0s}
+execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run summon minecraft:villager 722.5 300 140.28 {HurtByTimestamp: 0, Attributes: [{Base: 20.0d, Name: "generic.max_health"}, {Base: 1.0d, Name: "generic.knockback_resistance"}, {Base: 0.0d, Name: "generic.movement_speed"}, {Base: 0.0d, Name: "generic.armor"}, {Base: 0.0d, Name: "generic.armor_toughness"}, {Base: 0.0d, Name: "generic.follow_range"}], Riches: 0, Invulnerable: 1b, FallFlying: 0b, ForcedAge: 0, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, DeathTime: 0s, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, Tags: ["npc", "mcGonagallClassroomCutscene", "useVillagerScaleOnHead", "mcGonagallClassroom", "restorable"], Age: 0, Motion: [0.0d, 0.0d, 0.0d], Leashed: 0b, Health: 20.0f, Silent: 1b, LeftHanded: 0b, Air: 300s, OnGround: 1b, Offers: {Recipes: []}, NoAI: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], VillagerData: {profession: "minecraft:nitwit", level: 1, type: "minecraft:plains"}, Fire: -1s, ArmorItems: [{}, {}, {}, {id: "minecraft:stone_hoe", Count: 1b, tag: {npcHead: 103, lerp3End: 0, Unbreakable: 1b, lerp2Increment: 0, lerp2Time: 0, lerp3Start: 0, lerp3Current: 0, lerp2Current: 0, lerp2Start: -72, lerp3Increment: 0, lerp3Time: 0, conv: 3, Damage: 63, lerp2End: 0}}], CanPickUpLoot: 1b, HurtTime: 0s, CareerLevel: 1, Career: 0, Inventory: [], Willing: 0b}
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run effect clear @e[tag=veraVertoParrot,limit=1] minecraft:invisibility
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run data merge entity @e[tag=veraVertoGoblet,limit=1] {ArmorItems:[{},{},{},{}]}
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run effect give @e[tag=mcGonagallClassroomCutscene,limit=1] minecraft:invisibility 100000 1 true
@@ -1241,7 +1241,6 @@ tp @s[scores={cutSceneTimer=1149}] 8612.33 90.07959 -5.56 -1133.367 53.6
 tp @s[scores={cutSceneTimer=1150}] 8612.33 90.08459 -5.56 -1133.542 53.85
 
 # ¤McGonagall:¤ Could I have your attention, please?
-# ¤McGonagall:¤ Прошу вашего внимания!
 execute as @s[scores={cutSceneTimer=90},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=90..200}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Прошу вашего внимания!"}]
 execute as @s[scores={cutSceneTimer=90},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
@@ -1254,7 +1253,6 @@ execute as @s[scores={cutSceneTimer=123},tag=cutsceneLeader] as @e[tag=mcGonagal
 execute as @s[scores={cutSceneTimer=130},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤McGonagall:¤ Now today we will be learning the spell Vera Verto.
-# ¤McGonagall:¤ Сегодня мы будем изучать заклинание Фера Верто.
 execute as @s[scores={cutSceneTimer=200},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=200..320}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Сегодня мы будем изучать заклинание Фера Верто."}]
 execute as @s[scores={cutSceneTimer=200},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
@@ -1267,7 +1265,6 @@ execute as @s[scores={cutSceneTimer=233},tag=cutsceneLeader] as @e[tag=mcGonagal
 execute as @s[scores={cutSceneTimer=240},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤McGonagall:¤ This spell will let you change the shape and properties of your surroundings,
-# ¤McGonagall:¤ Это заклинание позволит вам изменить форму и свойства вашего окружения,
 execute as @s[scores={cutSceneTimer=330},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=330..420}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Это заклинание позволит вам изменить форму и свойства вашего окружения,"}]
 execute as @s[scores={cutSceneTimer=330},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
@@ -1281,7 +1278,6 @@ execute as @s[scores={cutSceneTimer=370},tag=cutsceneLeader] as @e[tag=mcGonagal
 
 
 # ¤McGonagall:¤ and will let you transform certain objects and enemies.
-# ¤McGonagall:¤ и позволит трансформировать определенные объекты и врагов.
 execute as @s[scores={cutSceneTimer=420},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=420..500}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" и позволит трансформировать определенные объекты и врагов."}]
 execute as @s[scores={cutSceneTimer=420},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
@@ -1323,7 +1319,6 @@ execute as @s[scores={cutSceneTimer=640},tag=cutsceneLeader] as @e[tag=mcGonagal
 
 
 # ¤McGonagall:¤ Now it's your turn. I have prepared a section of the castle, where you might practice.
-# ¤McGonagall:¤ Теперь ваша очередь. Для практики выделена часть помещений.
 execute as @s[scores={cutSceneTimer=701},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=700..850}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Теперь ваша очередь. Для практики выделена часть помещений."}]
 
@@ -1336,7 +1331,6 @@ execute as @s[scores={cutSceneTimer=1000}] run function hp:music/music/swish_and
 execute as @s[scores={cutSceneTimer=1000}] run scoreboard players set @s queuedMusic 0
 
 # ¤McGonagall:¤ Now, off you go. Best of luck!
-# ¤McGonagall:¤ Теперь ваша очередь. Желаю удачи!
 execute as @s[scores={cutSceneTimer=1000},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=1000..1090}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Теперь ваша очередь. Желаю удачи!"}]
 

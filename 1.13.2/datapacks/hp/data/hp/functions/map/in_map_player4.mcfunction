@@ -19,10 +19,10 @@ execute if entity @s[scores={playerID=4,animTest=0..1}] as 0-0-5-0-4 run functio
 tag @s remove hasScrolled
 
 # Scroll testers
-execute as 0-0-a-0-4 at @s[tag=!softExitMap] positioned ^ ^ ^10 run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invUp\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectUp],UUIDMost:11,UUIDLeast:13}
-execute as 0-0-a-0-4 at @s[tag=!softExitMap] positioned ^ ^ ^-10 run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invDown\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectDown],UUIDMost:11,UUIDLeast:14}
-execute as 0-0-a-0-4 at @s[tag=!softExitMap] positioned ^10 ^ ^ run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invUp\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectLeft],UUIDMost:11,UUIDLeast:15}
-execute as 0-0-a-0-4 at @s[tag=!softExitMap] positioned ^-10 ^ ^ run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invDown\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectRight],UUIDMost:11,UUIDLeast:16}
+execute as 0-0-a-0-4 at @s[tag=!softExitMap] positioned ^ ^ ^10 run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invUp\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectUp],UUID:[I;0,11,0,13]}
+execute as 0-0-a-0-4 at @s[tag=!softExitMap] positioned ^ ^ ^-10 run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invDown\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectDown],UUID:[I;0,11,0,14]}
+execute as 0-0-a-0-4 at @s[tag=!softExitMap] positioned ^10 ^ ^ run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invUp\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectLeft],UUID:[I;0,11,0,15]}
+execute as 0-0-a-0-4 at @s[tag=!softExitMap] positioned ^-10 ^ ^ run summon area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"invDown\"}",Radius:0.0f,Duration:0,Particle:"block air",Tags:[mapSelect,selectRight],UUID:[I;0,11,0,16]}
 
 # Scroll down
 execute as @s[tag=hasChangedSlotDown,tag=!softExitMap,tag=!hasScrolled] run function hp:map/map_scroll_down

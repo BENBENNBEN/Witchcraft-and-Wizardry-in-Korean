@@ -1,103 +1,103 @@
 # Name
-execute if entity @s[tag=bossBarCreatureFocus,tag=trollCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Тролль","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=trollCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Тролль","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=trollCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Тролль","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=trollCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Тролль","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=trollCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"트롤","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=trollCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"트롤","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=trollCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"트롤","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=trollCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"트롤","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=deathEaterCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Пожиратель Смерти","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=deathEaterCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Пожиратель Смерти","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=deathEaterCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Пожиратель Смерти","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=deathEaterCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Пожиратель Смерти","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=deathEaterCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"죽음을 먹는 자들","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=deathEaterCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"죽음을 먹는 자들","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=deathEaterCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"죽음을 먹는 자들","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=deathEaterCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"죽음을 먹는 자들","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=flubberwormCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Флоббер-червь","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=flubberwormCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Флоббер-червь","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=flubberwormCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Флоббер-червь","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=flubberwormCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Флоббер-червь","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=flubberwormCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"플로버웜","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=flubberwormCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"플로버웜","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=flubberwormCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"플로버웜","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=flubberwormCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"플로버웜","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Жаба","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Жаба","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Жаба","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Жаба","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"두꺼비","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"두꺼비","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"두꺼비","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"두꺼비","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature,scores={toadType=5..8}] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Ядовитая Жаба","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature,scores={toadType=5..8}] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Ядовитая Жаба","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature,scores={toadType=5..8}] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Ядовитая Жаба","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature,scores={toadType=5..8}] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Ядовитая Жаба","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature,scores={toadType=5..8}] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"독두꺼비","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature,scores={toadType=5..8}] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"독두꺼비","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature,scores={toadType=5..8}] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"독두꺼비","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=toadCreature,scores={toadType=5..8}] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"독두꺼비","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=monsterBookCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Книга Монстров","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=monsterBookCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Книга Монстров","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=monsterBookCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Книга Монстров","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=monsterBookCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Книга Монстров","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=monsterBookCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"괴물들에 관한 괴물책","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=monsterBookCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"괴물들에 관한 괴물책","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=monsterBookCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"괴물들에 관한 괴물책","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=monsterBookCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"괴물들에 관한 괴물책","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=armorSuitCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Заколдованные Рыцарские Доспехи","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=armorSuitCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Заколдованные Рыцарские Доспехи","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=armorSuitCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Заколдованные Рыцарские Доспехи","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=armorSuitCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Заколдованные Рыцарские Доспехи","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=armorSuitCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"마법에 걸린 갑옷","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=armorSuitCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"마법에 걸린 갑옷","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=armorSuitCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"마법에 걸린 갑옷","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=armorSuitCreature,tag=!keyBearer] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"마법에 걸린 갑옷","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=keyBearer] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Страж Ключа","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=keyBearer] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Страж Ключа","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=keyBearer] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Страж Ключа","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=keyBearer] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Страж Ключа","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=keyBearer] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"열쇠 지킴이","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=keyBearer] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"열쇠 지킴이","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=keyBearer] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"열쇠 지킴이","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=keyBearer] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"열쇠 지킴이","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Заколдованный Скелет","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Заколдованный Скелет","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Заколдованный Скелет","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Заколдованный Скелет","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"마법에 걸린 해골","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"마법에 걸린 해골","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"마법에 걸린 해골","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"마법에 걸린 해골","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonArcherCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Заколдованный Скелет-лучник","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonArcherCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Заколдованный Скелет-лучник","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonArcherCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Заколдованный Скелет-лучник","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonArcherCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Заколдованный Скелет-лучник","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonArcherCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"마법에 걸린 해골 궁수","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonArcherCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"마법에 걸린 해골 궁수","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonArcherCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"마법에 걸린 해골 궁수","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonArcherCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"마법에 걸린 해골 궁수","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonSwordsmanCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Заколдованный Скелет Крестоносца","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonSwordsmanCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Заколдованный Скелет Крестоносца","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonSwordsmanCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Заколдованный Скелет Крестоносца","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonSwordsmanCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Заколдованный Скелет Крестоносца","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonSwordsmanCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"마법에 걸린 해골 검사","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonSwordsmanCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"마법에 걸린 해골 검사","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonSwordsmanCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"마법에 걸린 해골 검사","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=skeletonSwordsmanCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"마법에 걸린 해골 검사","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=largeSpiderCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Большой Паук","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=largeSpiderCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Большой Паук","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=largeSpiderCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Большой Паук","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=largeSpiderCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Большой Паук","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=largeSpiderCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"큰 거미","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=largeSpiderCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"큰 거미","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=largeSpiderCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"큰 거미","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=largeSpiderCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"큰 거미","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=smallSpiderCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Ядовитый Паук","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=smallSpiderCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Ядовитый Паук","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=smallSpiderCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Ядовитый Паук","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=smallSpiderCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Ядовитый Паук","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=smallSpiderCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"독거미","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=smallSpiderCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"독거미","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=smallSpiderCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"독거미","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=smallSpiderCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"독거미","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=poltergeistCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Полтергейст","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=poltergeistCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Полтергейст","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=poltergeistCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Полтергейст","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=poltergeistCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Полтергейст","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=poltergeistCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"폴터가이스트","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=poltergeistCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"폴터가이스트","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=poltergeistCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"폴터가이스트","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=poltergeistCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"폴터가이스트","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=darkSpiritCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Тёмный Призрак","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=darkSpiritCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Тёмный Призрак","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=darkSpiritCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Тёмный Призрак","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=darkSpiritCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Тёмный Призрак","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=darkSpiritCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"어둠의 영혼","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=darkSpiritCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"어둠의 영혼","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=darkSpiritCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"어둠의 영혼","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=darkSpiritCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"어둠의 영혼","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=pixieCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Пикси","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=pixieCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Пикси","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=pixieCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Пикси","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=pixieCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Пикси","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=pixieCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"픽시","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=pixieCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"픽시","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=pixieCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"픽시","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=pixieCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"픽시","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=ratCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Крыса","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=ratCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Крыса","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=ratCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Крыса","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=ratCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Крыса","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=ratCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"쥐","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=ratCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"쥐","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=ratCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"쥐","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=ratCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"쥐","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=darkWizardCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Тёмный Маг","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=darkWizardCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Тёмный Маг","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=darkWizardCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Тёмный Маг","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=darkWizardCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Тёмный Маг","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=darkWizardCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"어둠의 마법사","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=darkWizardCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"어둠의 마법사","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=darkWizardCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"어둠의 마법사","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=darkWizardCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"어둠의 마법사","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=murtlapCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Растопырник","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=murtlapCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Растопырник","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=murtlapCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Растопырник","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=murtlapCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Растопырник","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=murtlapCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"머트랩","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=murtlapCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"머트랩","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=murtlapCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"머트랩","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=murtlapCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"머트랩","color":"white"}
 
-execute if entity @s[tag=bossBarCreatureFocus,tag=grindylowCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"Гриндилоу","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=grindylowCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"Гриндилоу","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=grindylowCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"Гриндилоу","color":"white"}
-execute if entity @s[tag=bossBarCreatureFocus,tag=grindylowCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"Гриндилоу","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=grindylowCreature] as @p[tag=activePlayer,scores={playerID=2}] run bossbar set minecraft:player2enemy name {"text":"그린딜로","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=grindylowCreature] as @p[tag=activePlayer,scores={playerID=1}] run bossbar set minecraft:player1enemy name {"text":"그린딜로","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=grindylowCreature] as @p[tag=activePlayer,scores={playerID=3}] run bossbar set minecraft:player3enemy name {"text":"그린딜로","color":"white"}
+execute if entity @s[tag=bossBarCreatureFocus,tag=grindylowCreature] as @p[tag=activePlayer,scores={playerID=4}] run bossbar set minecraft:player4enemy name {"text":"그린딜로","color":"white"}
 
 # Max
 execute store result score @p[tag=activePlayer] tmp run scoreboard players get @s maxHealth

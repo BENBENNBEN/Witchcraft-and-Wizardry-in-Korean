@@ -4,7 +4,7 @@ execute if entity @s[scores={fastTravelID=3}] run title @s subtitle {"text":"움
 execute if entity @s[scores={fastTravelID=4}] run title @s subtitle {"text":"마법약 교실","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=5}] run title @s subtitle {"text":"어둠의 마법 방어법 교실","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=6}] run title @s subtitle {"text":"일반 마법 교실","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=7}] run title @s subtitle {"text":"변형 마법 교실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=7}] run title @s subtitle {"text":"변환 마법 교실","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=8}] run title @s subtitle {"text":"그리핀도르 휴게실","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=9}] run title @s subtitle {"text":"후플푸프 휴게실","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=10}] run title @s subtitle {"text":"래번클로 휴게실","bold":true,"color":"gold"}
@@ -21,7 +21,7 @@ execute if entity @s[scores={fastTravelID=20}] run title @s subtitle {"text":"�
 execute if entity @s[scores={fastTravelID=21}] run title @s subtitle {"text":"금지된 숲","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=22}] run title @s subtitle {"text":"거미 은신처","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=23}] run title @s subtitle {"text":"퀴디치 경기장","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=24}] run title @s subtitle {"text":"호그와트 꼭대기","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=24}] run title @s subtitle {"text":"꼭대기 층","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=25}] run title @s subtitle {"text":"울보 머틀 화장실","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=26}] run title @s subtitle {"text":"후려치는 나무","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=27}] run title @s subtitle {"text":"호그와트 길목","bold":true,"color":"gold"}
@@ -66,7 +66,7 @@ execute if entity @s[scores={fastTravelID=61}] run title @s subtitle {"text":"�
 execute if entity @s[scores={fastTravelID=62}] run title @s subtitle {"text":"호그스미드 길목","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=63}] run title @s subtitle {"text":"호그스미드 입구","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=64}] run title @s subtitle {"text":"허니듀크스","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=65}] run title @s subtitle {"text":"스리 브룸스틱스","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=65}] run title @s subtitle {"text":"스리 브룸스틱스 여관","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=66}] run title @s subtitle {"text":"호그스 헤드 여관","bold":true,"color":"gold"}
 execute if entity @s[scores={fastTravelID=67}] run title @s subtitle {"text":"비명을 지르는 오두막집","bold":true,"color":"gold"}
 

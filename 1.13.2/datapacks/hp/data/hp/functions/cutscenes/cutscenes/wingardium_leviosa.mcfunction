@@ -312,7 +312,6 @@ execute as @s[scores={cutSceneTimer=53},tag=cutsceneLeader] as @e[tag=flitwickCl
 execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Flitwick:¤ Now, one of a wizard's most rudimentary skills is levitation: The ability to make objects fly.
-# ¤Flitwick:¤ Одним из базовых навыков волшебника является левитация: способность заставлять объекты летать.
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
 execute as @s[scores={cutSceneTimer=161..350}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Одним из базовых навыков волшебника является левитация: способность заставлять объекты летать."}]
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -325,7 +324,6 @@ execute as @s[scores={cutSceneTimer=194},tag=cutsceneLeader] as @e[tag=flitwickC
 execute as @s[scores={cutSceneTimer=201},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Flitwick:¤ The charm "Wingardium Leviosa" will allow you to levitate certain objects.
-# ¤Flitwick:¤ Заклинание 'Вингардиум Левиоса' позволит вам перемещать определенные объекты.
 execute as @s[scores={cutSceneTimer=351},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
 execute as @s[scores={cutSceneTimer=351..500}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Заклинание 'Вингардиум Левиоса' позволит вам перемещать определенные объекты."}]
 execute as @s[scores={cutSceneTimer=351},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -338,12 +336,10 @@ execute as @s[scores={cutSceneTimer=384},tag=cutsceneLeader] as @e[tag=flitwickC
 execute as @s[scores={cutSceneTimer=391},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Flitwick:¤ To focus on an object to levitate, start by double clicking £.
-# ¤Flitwick:¤ Чтобы сосредоточиться на объекте, нажмите дважды на.
 execute as @s[scores={cutSceneTimer=500},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
 execute as @s[scores={cutSceneTimer=500..600}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Чтобы сосредоточиться на объекте, нажмите дважды на £."}]
 
 # ¤Flitwick:¤ After that, you can click € once to levitate the object you are looking at,
-# ¤Flitwick:¤ После этого нажмите € один раз, чтобы поднять объект, на который смотрите,
 execute as @s[scores={cutSceneTimer=601},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
 execute as @s[scores={cutSceneTimer=601..690}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" После этого нажмите € один раз, чтобы поднять объект, на который смотрите,"}]
 
@@ -352,27 +348,22 @@ execute as @s[scores={cutSceneTimer=691},tag=cutsceneLeader] as @e[tag=flitwickC
 execute as @s[scores={cutSceneTimer=691..760}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" и нажмите ещё раз € чтобы опустить."}]
 
 # ¤Flitwick:¤ When levitating an object simply look where you want it to go.
-# ¤Flitwick:¤ При левитации объекта смотрите, куда он должен двигаться.
 execute as @s[scores={cutSceneTimer=761},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
 execute as @s[scores={cutSceneTimer=761..850}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" При левитации объекта смотрите, куда он должен двигаться."}]
 
 # ¤Flitwick:¤ You can use the mouse-wheel to adjust its distance to you.
-# ¤Flitwick:¤ Используйте колесо мыши, чтобы изменить расстояние к вам.
 execute as @s[scores={cutSceneTimer=861},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
 execute as @s[scores={cutSceneTimer=861..950}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Используйте колесо мыши, чтобы изменить расстояние к вам."}]
 
 # ¤Flitwick:¤ When you are done you can unfocus by double clicking £ again.
-# ¤Flitwick:¤ Когда вы закончите, щелкните дважды £.
 execute as @s[scores={cutSceneTimer=951},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
 execute as @s[scores={cutSceneTimer=951..1050}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Когда вы закончите, щелкните дважды £."}]
 
 # ¤Flitwick:¤ This spell is particularly useful for moving heavy blocks into switches, to trigger their mechanisms.
-# ¤Flitwick:¤ Это заклинание особенно полезно для перемещения тяжелых блоков, для активации механизмов.
 execute as @s[scores={cutSceneTimer=1051},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
 execute as @s[scores={cutSceneTimer=1051..1200}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Это заклинание особенно полезно для перемещения тяжелых блоков, для активации механизмов."}]
 
 # ¤Flitwick:¤ I've put up an obstacle course that will require you to use the levitation spell.
-# ¤Flitwick:¤ Я сделал полосу препятствий, которая научит вас использовать это заклинание.
 execute as @s[scores={cutSceneTimer=1201},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
 execute as @s[scores={cutSceneTimer=1201..1350}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Я сделал полосу препятствий, которая научит вас использовать это заклинание."}]
 

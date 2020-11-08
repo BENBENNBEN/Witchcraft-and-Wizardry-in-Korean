@@ -15,6 +15,8 @@ execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run tag @e[tag=lupin
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run tag @e[tag=lupinFogClearingFpEngine,limit=1] remove stop
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run tag @e[tag=lupinFogClearingFpEngine,limit=1] remove permStop
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=lupinFogClearingFpEngine,limit=1] at @s run function hp:npc/update_path
+execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run setblock 7493 84 410 minecraft:air
+execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run setblock 7493 85 410 minecraft:air
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run setblock 7493 84 410 minecraft:iron_door[facing=east,half=lower,hinge=right,open=false,powered=false]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] run setblock 7493 85 410 minecraft:iron_door[facing=east,half=upper,hinge=right,open=false,powered=false]
 execute as @s[scores={cutSceneTimer=200},tag=cutsceneLeader] run tag @e[tag=lupinFogClearingFpEngine,limit=1] remove cutsceneStop
@@ -299,6 +301,8 @@ execute as @s[scores={cutSceneTimer=290}] run tag @s remove cutsceneLevitate
 execute as @s[scores={cutSceneTimer=290}] run tag @s remove cutsceneZoom
 execute as @s[scores={cutSceneTimer=290}] run function hp:cutscenes/revert_to_start_position
 execute as @s[scores={cutSceneTimer=290}] run function hp:cutscenes/fade_out
+execute as @s[scores={cutSceneTimer=290},tag=cutsceneLeader] run setblock 7493 84 410 minecraft:air
+execute as @s[scores={cutSceneTimer=290},tag=cutsceneLeader] run setblock 7493 85 410 minecraft:air
 execute as @s[scores={cutSceneTimer=290},tag=cutsceneLeader] run setblock 7493 84 410 minecraft:iron_door[facing=north,half=lower,hinge=right,open=false,powered=false]
 execute as @s[scores={cutSceneTimer=290},tag=cutsceneLeader] run setblock 7493 85 410 minecraft:iron_door[facing=north,half=upper,hinge=right,open=false,powered=false]
 # Door 1
@@ -346,7 +350,6 @@ execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=lupinFogCl
 
 
 # ¤Lupin:¤ But you're not done yet. Keep heading upwards and I'll meet you at the top.
-# ¤Lupin:¤ Но ты еще не закончил. Продолжай двигаться вверх и я встречу тебя там.
 execute as @s[scores={cutSceneTimer=100},tag=cutsceneLeader] as @e[tag=lupinFogClearing,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=100..240}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Но ты еще не закончил. Продолжай двигаться вверх и я встречу тебя там."}]
 execute as @s[scores={cutSceneTimer=100},tag=cutsceneLeader] as @e[tag=lupinFogClearing,limit=1] run function hp:npc/update_npc_head_expression

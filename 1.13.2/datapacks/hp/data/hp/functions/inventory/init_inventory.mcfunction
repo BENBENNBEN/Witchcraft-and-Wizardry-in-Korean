@@ -20,10 +20,10 @@ execute as @s[tag=isContainer,tag=!buy,tag=!sell,scores={playerID=1}] run bossba
 execute as @s[tag=isContainer,tag=!buy,tag=!sell,scores={playerID=2}] run bossbar set minecraft:player2info name {"text":"Контейнер","bold":true,"color":"gray"}
 execute as @s[tag=isContainer,tag=!buy,tag=!sell,scores={playerID=3}] run bossbar set minecraft:player3info name {"text":"Контейнер","bold":true,"color":"gray"}
 execute as @s[tag=isContainer,tag=!buy,tag=!sell,scores={playerID=4}] run bossbar set minecraft:player4info name {"text":"Контейнер","bold":true,"color":"gray"}
-execute as @s[scores={playerID=1}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initInvPlController","invPlControllerPlayer1"],CustomName:"{\"text\":\"plController\"}",UUIDMost:12,UUIDLeast:1}
-execute as @s[scores={playerID=2}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initInvPlController","invPlControllerPlayer2"],CustomName:"{\"text\":\"plController\"}",UUIDMost:12,UUIDLeast:2}
-execute as @s[scores={playerID=3}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initInvPlController","invPlControllerPlayer3"],CustomName:"{\"text\":\"plController\"}",UUIDMost:12,UUIDLeast:3}
-execute as @s[scores={playerID=4}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initInvPlController","invPlControllerPlayer4"],CustomName:"{\"text\":\"plController\"}",UUIDMost:12,UUIDLeast:4}
+execute as @s[scores={playerID=1}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initInvPlController","invPlControllerPlayer1"],CustomName:"{\"text\":\"plController\"}",UUID:[I;0,12,0,1]}
+execute as @s[scores={playerID=2}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initInvPlController","invPlControllerPlayer2"],CustomName:"{\"text\":\"plController\"}",UUID:[I;0,12,0,2]}
+execute as @s[scores={playerID=3}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initInvPlController","invPlControllerPlayer3"],CustomName:"{\"text\":\"plController\"}",UUID:[I;0,12,0,3]}
+execute as @s[scores={playerID=4}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initInvPlController","invPlControllerPlayer4"],CustomName:"{\"text\":\"plController\"}",UUID:[I;0,12,0,4]}
 
 # To prevent player not being able to use w and s if they stand up against a wall (more likely that being blocked backwards.) It also fixes backwards movement by glitching the player very slightly into the block, which is a fine tradeoff, and only a tiny bit janky.
 execute at @s run tp @e[tag=initInvPlController] @s

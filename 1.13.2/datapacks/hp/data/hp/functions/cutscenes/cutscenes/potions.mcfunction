@@ -1095,7 +1095,6 @@ tp @s[scores={cutSceneTimer=1080}] 758.9767 36.55687 188.6976 267.87 6.05
 
 
 # ¤Snape:¤ There will be no foolish wand waving or silly incantations in this class.
-# ¤Snape:¤ На этом уроке не будет дурацких взмахов волшебной палочки и глупых заклинаний.
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=20..140}] run title @s actionbar ["",{"text":""},{"text":"Снегг;","color":"dark_gray"},{"text":" На этом уроке не будет дурацких взмахов волшебной палочки и глупых заклинаний."}]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1156,8 +1155,7 @@ execute as @s[scores={cutSceneTimer=543},tag=cutsceneLeader] as @e[tag=snapeClas
 execute as @s[scores={cutSceneTimer=550},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 
-# ¤Snape:¤ In this lesson you will be brewing the "Настойка Растопырника" potion,
-# ¤Snape:¤ На этом занятии вы научитесь варить зелье 'Настойка Растопырника',
+# ¤Snape:¤ In this lesson you will be brewing the "Murtlap Essence" potion,
 execute as @s[scores={cutSceneTimer=600},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=600..800}] run title @s actionbar ["",{"text":""},{"text":"Снегг;","color":"dark_gray"},{"text":" На этом занятии вы научитесь варить зелье 'Настойка Растопырника',"}]
 execute as @s[scores={cutSceneTimer=600},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1170,7 +1168,6 @@ execute as @s[scores={cutSceneTimer=633},tag=cutsceneLeader] as @e[tag=snapeClas
 execute as @s[scores={cutSceneTimer=640},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Snape:¤ which when consumed will restore a significant amount of your health.
-# ¤Snape:¤ которое восстановит часть вашего здоровья при употреблении.
 execute as @s[scores={cutSceneTimer=700},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=700..800}] run title @s actionbar ["",{"text":""},{"text":"Снегг;","color":"dark_gray"},{"text":" которое восстановит часть вашего здоровья при употреблении."}]
 execute as @s[scores={cutSceneTimer=700},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1184,7 +1181,6 @@ execute as @s[scores={cutSceneTimer=740},tag=cutsceneLeader] as @e[tag=snapeClas
 
 
 # ¤Snape:¤ For this you need to collect a variety of potion supplies that are scattered in and around this room.
-# ¤Snape:¤ Для этого вам нужно собрать различные ингредиенты для зелья, разложенные в этой комнате.
 execute as @s[scores={cutSceneTimer=800},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=800..970}] run title @s actionbar ["",{"text":""},{"text":"Снегг;","color":"dark_gray"},{"text":" Для этого вам нужно собрать различные ингредиенты для зелья, разложенные в этой комнате."}]
 execute as @s[scores={cutSceneTimer=800},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression

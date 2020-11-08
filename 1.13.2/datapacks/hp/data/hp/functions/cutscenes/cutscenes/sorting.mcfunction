@@ -602,7 +602,6 @@ execute as @s[scores={cutSceneTimer=-520},tag=cutsceneLeader] as @e[tag=sortingC
 
 
 # ¤McGonagall:¤ Now in a few moments you will pass through these doors, and join your classmates,
-# ¤McGonagall:¤ Скоро начнется банкет по случаю начала учебного года,
 execute as @s[scores={cutSceneTimer=-450},tag=cutsceneLeader] as @e[tag=sortingCeremonyMcGonagall,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1 1 0
 execute as @s[scores={cutSceneTimer=-450..-330}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Скоро начнется банкет по случаю начала учебного года,"}]
 execute as @s[scores={cutSceneTimer=-450},tag=cutsceneLeader] as @e[tag=sortingCeremonyMcGonagall,limit=1] run function hp:npc/update_npc_head_expression

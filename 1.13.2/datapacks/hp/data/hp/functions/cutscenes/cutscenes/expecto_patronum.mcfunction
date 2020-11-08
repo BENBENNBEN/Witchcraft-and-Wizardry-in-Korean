@@ -1934,7 +1934,6 @@ execute as @s[scores={cutSceneTimer=1250},tag=cutsceneLeader] run tp @e[tag=lupi
 
 
 # ¤Lupin:¤ Now, before we begin, I must tell you: This is very advanced magic, well beyond the normal wizarding level.
-# ¤Lupin:¤ Прежде чем мы начнем, я должен вам сказать: это очень продвинутая магия, намного сложнее обычной магии.
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=20..190}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Прежде чем мы начнем, я должен вам сказать: это очень продвинутая магия, намного сложнее обычной магии."}]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1948,7 +1947,6 @@ execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=lupinPatro
 
 
 # ¤Lupin:¤ The spell I'm going to try to teach you is called a Patronus charm.
-# ¤Lupin:¤ Заклинание, которому я собираюсь тебя научить - чары Патронуса.
 execute as @s[scores={cutSceneTimer=190},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=190..290}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Заклинание, которому я собираюсь тебя научить - чары Патронуса."}]
 execute as @s[scores={cutSceneTimer=190},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1962,7 +1960,6 @@ execute as @s[scores={cutSceneTimer=230},tag=cutsceneLeader] as @e[tag=lupinPatr
 
 
 # ¤Lupin:¤ A Patronus is a kind of positive force, which can protect you against dementors.
-# ¤Lupin:¤ Патронус - своего рода позитивная сила, которая может защитить вас от дементоров.
 execute as @s[scores={cutSceneTimer=290},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=290..410}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Патронус - своего рода позитивная сила, которая может защитить вас от дементоров."}]
 execute as @s[scores={cutSceneTimer=290},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1988,7 +1985,6 @@ execute as @s[scores={cutSceneTimer=443},tag=cutsceneLeader] as @e[tag=lupinPatr
 execute as @s[scores={cutSceneTimer=450},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Lupin:¤ But with the Patronus charm you can force it to keep its distance, if only for a little while.
-# ¤Lupin:¤ Но с чарами Патронуса вы можете держать их на расстоянии, хотя бы ненадолго.
 execute as @s[scores={cutSceneTimer=490},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=490..610}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Но с чарами Патронуса вы можете держать их на расстоянии, хотя бы ненадолго."}]
 execute as @s[scores={cutSceneTimer=490},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -2001,7 +1997,6 @@ execute as @s[scores={cutSceneTimer=523},tag=cutsceneLeader] as @e[tag=lupinPatr
 execute as @s[scores={cutSceneTimer=530},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Lupin:¤ The aim is to produce a silvery-white guardian or protector,
-# ¤Lupin:¤ Цель - создать серебристо-белого стража или защитника,
 execute as @s[scores={cutSceneTimer=610},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=610..710}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Цель - создать серебристо-белого стража или защитника,"}]
 execute as @s[scores={cutSceneTimer=610},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -2014,7 +2009,6 @@ execute as @s[scores={cutSceneTimer=643},tag=cutsceneLeader] as @e[tag=lupinPatr
 execute as @s[scores={cutSceneTimer=650},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Lupin:¤ which takes the form of an animal, and which will force the dementors to retreat.
-# ¤Lupin:¤ который принимает форму животного и который заставит дементоров отступить.
 execute as @s[scores={cutSceneTimer=710},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=710..820}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" который принимает форму животного и который заставит дементоров отступить."}]
 execute as @s[scores={cutSceneTimer=710},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -2042,7 +2036,7 @@ execute as @s[scores={cutSceneTimer=860},tag=cutsceneLeader] as @e[tag=lupinPatr
 execute as @s[scores={cutSceneTimer=900..960}] run title @s actionbar ""
 
 
-# ¤Lupin:¤ Expecto Patronum! Эспекто Патронум!
+# ¤Lupin:¤ Expecto Patronum!
 execute as @s[scores={cutSceneTimer=960},tag=cutsceneLeader] run tag @e[tag=lupinPatronusClassroomFpEngine,limit=1] remove cutsceneStop
 execute as @s[scores={cutSceneTimer=960},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=960..1020}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Эспекто Патронум!"}]

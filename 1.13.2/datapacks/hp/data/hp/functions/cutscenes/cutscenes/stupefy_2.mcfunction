@@ -321,7 +321,7 @@ tp @s[scores={cutSceneTimer=319}] 5506.076 55.66586 32.91362 1816.05 1.72
 tp @s[scores={cutSceneTimer=320}] 5506.072 55.66541 32.92803 1816.05 1.72
 execute as @s[scores={cutSceneTimer=300}] run function hp:cutscenes/fade_in
 
-# ¤Lupin:¤ Отличная работа!
+# ¤Lupin:¤ Excellent work!
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=20..160}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Отличная работа!"}]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_expression
@@ -335,7 +335,6 @@ execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=lupinStupe
 
 
 # ¤Lupin:¤ You've already learned to aim and shoot the spell. Now for a bit more of a challenge.
-# ¤Lupin:¤ Ты научился использовать заклинание. Теперь перейдём к следующему заданию.
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=161..311}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Вы научились использовать заклинание. Теперь перейдём к следующему заданию."}]
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_expression
@@ -580,7 +579,7 @@ tp @s[scores={cutSceneTimer=549}] 5508.943 56.58221 7.840209 373.75 14.53
 tp @s[scores={cutSceneTimer=550}] 5508.946 56.58598 7.826105 373.75 14.53
 execute as @s[scores={cutSceneTimer=530}] run function hp:cutscenes/fade_in
 
-# ¤Lupin:¤ Don't be nervous. Не волнуйтесь.
+# ¤Lupin:¤ Don't be nervous.
 execute as @s[scores={cutSceneTimer=311},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=311..400}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Не волнуйтесь."}]
 execute as @s[scores={cutSceneTimer=311},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_expression
@@ -999,7 +998,6 @@ tp @s[scores={cutSceneTimer=949}] 5504.59 56.06844 29.49616 -0.04 2.23
 tp @s[scores={cutSceneTimer=950}] 5504.59 56.06864 29.49116 -0.04 2.23
 
 # ¤Lupin:¤ In these cabinets there are 'boggarts'.
-# ¤Lupin:¤ Тут находятся боггарты.
 execute as @s[scores={cutSceneTimer=400},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=400..480}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Тут находятся боггарты."}]
 execute as @s[scores={cutSceneTimer=400},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_expression
@@ -1012,7 +1010,6 @@ execute as @s[scores={cutSceneTimer=433},tag=cutsceneLeader] as @e[tag=lupinStup
 execute as @s[scores={cutSceneTimer=440},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Lupin:¤ Shape shifting creatures that dwell in dark places and take on form to scare their target.
-# ¤Lupin:¤ Они обитают в темных местах и принимают форму того, что очень сильно пугает вас.
 execute as @s[scores={cutSceneTimer=480},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=480..650}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Они обитают в темных местах и принимают форму того, что очень сильно пугает вас."}]
 execute as @s[scores={cutSceneTimer=480},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_expression
@@ -1025,7 +1022,6 @@ execute as @s[scores={cutSceneTimer=513},tag=cutsceneLeader] as @e[tag=lupinStup
 execute as @s[scores={cutSceneTimer=520},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Lupin:¤ I want you to fight them with the Stupefy spell, so you can practice your combat abilities.
-# ¤Lupin:¤ Я хочу, чтобы ты сражался с ними с помощью заклинания 'Остолбеней' для практики.
 execute as @s[scores={cutSceneTimer=650},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
 execute as @s[scores={cutSceneTimer=650..800}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Я хочу, чтобы ты сразился с ними с помощью заклинания 'Остолбеней' для практики."}]
 execute as @s[scores={cutSceneTimer=650},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_expression

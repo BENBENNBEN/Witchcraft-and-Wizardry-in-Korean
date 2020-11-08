@@ -1,10 +1,10 @@
 scoreboard players set @s discoverLocation 50
 
 # Title
-execute as @s[scores={playerID=1}] run bossbar set minecraft:player1discover name {"text":"Литтл Уингинг","color":"white","italic":"false"}
-execute as @s[scores={playerID=2}] run bossbar set minecraft:player2discover name {"text":"Литтл Уингинг","color":"white","italic":"false"}
-execute as @s[scores={playerID=3}] run bossbar set minecraft:player3discover name {"text":"Литтл Уингинг","color":"white","italic":"false"}
-execute as @s[scores={playerID=4}] run bossbar set minecraft:player4discover name {"text":"Литтл Уингинг","color":"white","italic":"false"}
+execute as @s[scores={playerID=1}] run bossbar set minecraft:player1discover name {"text":"리틀 윈징","color":"white","italic":"false"}
+execute as @s[scores={playerID=2}] run bossbar set minecraft:player2discover name {"text":"리틀 윈징","color":"white","italic":"false"}
+execute as @s[scores={playerID=3}] run bossbar set minecraft:player3discover name {"text":"리틀 윈징","color":"white","italic":"false"}
+execute as @s[scores={playerID=4}] run bossbar set minecraft:player4discover name {"text":"리틀 윈징","color":"white","italic":"false"}
 function hp:misc/update_bossbars
 
 # Set location
