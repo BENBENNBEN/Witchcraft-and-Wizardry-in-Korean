@@ -66,7 +66,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 5 ###########################################################################################
 #############
-# Speak to Уикли Двукрест
+# Speak to Wilkie Twycross
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking
 execute as @s[scores={questState=5},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1462,Unbreakable:1b,qDetect:1b}
@@ -478,7 +478,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 14 ###########################################################################################
 #############
-# Speak to Уикли Двукрест
+# Speak to Wilkie Twycross
 ### Tracked Quest ###
 execute as @s[scores={questState=14},tag=isTrackedQuest] run tag @s remove hideQuestTracking
 execute as @s[scores={questState=14},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1462,Unbreakable:1b,qDetect:1b}

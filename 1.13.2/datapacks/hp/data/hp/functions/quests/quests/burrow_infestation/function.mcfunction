@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Speak to Молли Уизли
+# Speak to Molly Weasley
 
 execute as @s[scores={questState=1..3,lastRegion=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
 execute as @s[scores={questState=1..3,lastRegion=1},tag=isTrackedQuest] run tag @s remove questHasNoDirection
@@ -109,7 +109,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 3 ###########################################################################################
 #############
-# Speak to Молли Уизли
+# Speak to Molly Weasley
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3,lastRegion=10},tag=isTrackedQuest] run tag @s remove hideQuestTracking

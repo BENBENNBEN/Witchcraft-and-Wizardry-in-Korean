@@ -1,5 +1,5 @@
 ##############################################
-# Брахиам Эмендо Lesson
+# Brackium Emendo Lesson
 ##############################################
 scoreboard players set @s questID 16
 execute store result score @s questState run data get entity @e[tag=questHolder,limit=1] ArmorItems[3].tag."quests.brackiumEmmendo"
@@ -42,7 +42,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 3 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 1)
+# Fight the waves of creatures (wave 1)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -132,7 +132,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 4 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 2)
+# Fight the waves of creatures (wave 2)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -218,7 +218,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 5 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 3)
+# Fight the waves of creatures (wave 3)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -305,7 +305,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 6 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 4)
+# Fight the waves of creatures (wave 4)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=6},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -393,7 +393,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 7 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 5)
+# Fight the waves of creatures (wave 5)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=7},tag=isTrackedQuest] run tag @s remove hideQuestTracking

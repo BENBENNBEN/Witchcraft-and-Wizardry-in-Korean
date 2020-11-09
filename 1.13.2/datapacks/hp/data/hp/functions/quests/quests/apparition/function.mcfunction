@@ -16,7 +16,7 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove com
 #############
 ## State 1 ###########################################################################################
 #############
-# Отправиться в Министерство Магии
+# Travel to the Ministry of magic
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -24,8 +24,9 @@ execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showing
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=1,lastRegion=1},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 1010.35 78.00 -180.75
 execute as @s[scores={questState=1,lastRegion=1},tag=isTrackedQuest] run scoreboard players set @s questRegion 1
-execute as @s[scores={questState=1,lastRegion=2},tag=isTrackedQuest] at @s unless entity @s[x=2870,y=53,z=-465,dx=268,dy=27,dz=40] as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 2478.61 56.81 368.50
+execute as @s[scores={questState=1,lastRegion=2},tag=isTrackedQuest] at @s unless entity @s[x=2733,y=36,z=387,dx=629,dy=256,dz=538] unless entity @s[x=2870,y=53,z=-465,dx=268,dy=27,dz=40] as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 2478.61 56.81 368.50
 execute as @s[scores={questState=1,lastRegion=2},tag=isTrackedQuest] at @s if entity @s[x=2870,y=53,z=-465,dx=268,dy=27,dz=40] as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 3047 60 -462
+execute as @s[scores={questState=1,lastRegion=2},tag=isTrackedQuest] at @s if entity @s[x=2733,y=36,z=387,dx=629,dy=256,dz=538] as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 2744 60 360
 execute as @s[scores={questState=1,lastRegion=2},tag=isTrackedQuest] run scoreboard players set @s questRegion 2
 execute as @s[scores={questState=1,lastRegion=3},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 834.49 49.00 -1731.57
 execute as @s[scores={questState=1,lastRegion=3},tag=isTrackedQuest] run scoreboard players set @s questRegion 3
@@ -50,7 +51,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Speak to Уикли Двукрест in his office
+# Speak to Wilkie Twycross in his office
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking
 execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1557,Unbreakable:1b,qDetect:1b}
@@ -151,7 +152,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 5 ###########################################################################################
 #############
-# Speak to Уикли Двукрест
+# Speak to Wilkie Twycross
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking
 execute as @s[scores={questState=5},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1462,Unbreakable:1b,qDetect:1b}
@@ -322,7 +323,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 11 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 1)
+# Fight the waves of creatures (wave 1)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=11},tag=isTrackedQuest] run tag @s remove hideQuestTracking

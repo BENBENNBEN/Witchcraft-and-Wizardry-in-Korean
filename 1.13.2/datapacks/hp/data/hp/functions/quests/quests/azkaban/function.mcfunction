@@ -28,6 +28,7 @@ execute as @s[tag=newState] run function hp:quests/set_quest
 execute as @s[tag=newState] run function hp:quests/ding_sound
 execute as @s[tag=newState] run tag @s add lockTrackedQuest
 execute as @s[tag=newState] run tag @s add maraudersMapLocked
+execute as @s[tag=newState] run function hp:discovery/regions/azkaban
 execute as @s[tag=newState] run tag @s remove newState
 
 #############
@@ -63,7 +64,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 3 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 1)
+# Fight the waves of creatures (wave 1)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -138,7 +139,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 4 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 2)
+# Fight the waves of creatures (wave 2)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -212,7 +213,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 5 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 3)
+# Fight the waves of creatures (wave 3)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -286,7 +287,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 6 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 4)
+# Fight the waves of creatures (wave 4)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=6},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -361,7 +362,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 7 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 5)
+# Fight the waves of creatures (wave 5)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=7},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -440,7 +441,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 8 ###########################################################################################
 #############
-# Speak to Аластор Грюм
+# Speak to Alastor Moody
 
 ### Tracked Quest ###
 execute as @s[scores={questState=8},tag=isTrackedQuest] run tag @s remove hideQuestTracking

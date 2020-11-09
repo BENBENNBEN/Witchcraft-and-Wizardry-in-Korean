@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Отправиться в Hogwarts
+# Travel to Hogwarts
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -302,6 +302,7 @@ execute as @s[tag=completeQuest,scores={playerID=3}] run scoreboard players oper
 execute as @s[tag=completeQuest,scores={playerID=4}] run scoreboard players operation anticAdvertisement p4Quests = anticAdvertisement sharedQuests
 execute as @s[tag=completeQuest,tag=gameLeader] run scoreboard players add global sqCompleted 1
 execute as @s[tag=completeQuest] run tag @s remove completeQuest
+
 # Complete Quest Cheat
 execute as @s[tag=completeTrackedQuest] run scoreboard players set anticAdvertisement sharedQuests -1
 execute as @s[tag=completeTrackedQuest] run tag @s remove completeTrackedQuest

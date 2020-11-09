@@ -89,7 +89,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Speak to Треван Дэвис
+# Speak to Trevan Davies
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -127,7 +127,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 3 ###########################################################################################
 #############
-# Speak to Кевин Энтвистл
+# Speak to Kevin Entwhistle
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -190,7 +190,7 @@ execute as @s[tag=completeQuest] run tag @s remove completeQuest
 #############
 ## State 4 ###########################################################################################
 #############
-# Speak to Треван Дэвис
+# Speak to Trevan Davies
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking

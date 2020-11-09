@@ -53,6 +53,7 @@ execute as @s[tag=newState,scores={playerID=1}] run scoreboard players set hagri
 execute as @s[tag=newState,scores={playerID=2}] run scoreboard players set hagrid p2convOverride 22
 execute as @s[tag=newState,scores={playerID=3}] run scoreboard players set hagrid p3convOverride 22
 execute as @s[tag=newState,scores={playerID=4}] run scoreboard players set hagrid p4convOverride 22
+execute as @s[tag=newState] run tag @s add lockTrackedQuest
 execute as @s[tag=newState] run tag @s remove newState
 
 
@@ -229,7 +230,6 @@ execute as @s[tag=newState,tag=isTrackedQuest] run scoreboard players operation 
 execute as @s[tag=newState] run function hp:quests/set_quest
 execute as @s[tag=newState] run function hp:quests/ding_sound
 execute as @s[tag=newState] unless entity @p[tag=cutsceneLeader,scores={cutSceneID=4}] run tag @s add cutsceneLeader
-execute as @s[tag=newState] run tag @s add doNotSaveStartingLocation
 execute as @s[tag=newState] run scoreboard players set @s cutSceneID 4
 execute as @s[tag=newState] run function hp:cutscenes/init_cutscene
 # (Sorted players + 1 to match playerID)
@@ -472,6 +472,7 @@ execute as @s[tag=completeQuest] run scoreboard players set @s cutSceneID 5
 execute as @s[tag=completeQuest] run function hp:cutscenes/init_cutscene
 execute as @s[tag=completeQuest] run function hp:quests/quests/arrival_at_hogwarts/clear_great_hall_doors
 execute as @s[tag=completeQuest] unless entity @p[scores={trackedQuestID=8}] run scoreboard players set boatWalkingHagridExists global 0
+execute as @s[tag=completeQuest] run tag @s remove lockTrackedQuest
 execute as @s[tag=completeQuest] run tag @s remove completeQuest
 
 # reset quest tracking boolean
