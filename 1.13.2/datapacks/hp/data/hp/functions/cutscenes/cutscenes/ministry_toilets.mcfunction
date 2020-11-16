@@ -4,8 +4,8 @@ execute as @s[scores={cutSceneTimer=1}] at @s run playsound minecraft:custom.mis
 execute as @s run title @s actionbar ""
 
 execute as @s[scores={cutSceneTimer=20}] run title @s times 15 35 15
-execute as @s[scores={cutSceneTimer=20}] run title @s subtitle ["",{"text":"Министерство Магии","bold":true,"color":"gold"}]
-execute as @s[scores={cutSceneTimer=20}] run title @s title {"text":"Путешествие в","color":"gray"}
+execute as @s[scores={cutSceneTimer=20}] run title @s subtitle ["",{"text":"마법 정부","bold":true,"color":"gold"}]
+execute as @s[scores={cutSceneTimer=20}] run title @s title {"text":"이동 중","color":"gray"}
 
 execute as @s[scores={cutSceneTimer=50,playerID=1}] run tp @s 9840.89 122.00 10211.70 -90.90 -0.57
 execute as @s[scores={cutSceneTimer=50,playerID=2}] run tp @s 9840.74 122.00 10223.33 -90.52 -1.00

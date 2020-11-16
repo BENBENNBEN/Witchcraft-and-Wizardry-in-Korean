@@ -49,7 +49,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Return to Мариэтта Эджком
+# Return to Marietta Edgecombe
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking

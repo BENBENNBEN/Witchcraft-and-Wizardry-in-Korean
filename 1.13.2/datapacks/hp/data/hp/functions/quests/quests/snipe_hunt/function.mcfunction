@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Отправиться в the Дом Лавгудов
+# Travel to the Lovegood residence
 
 execute as @s[scores={questState=1..6,lastRegion=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
 execute as @s[scores={questState=1..6,lastRegion=1},tag=isTrackedQuest] run tag @s remove questHasNoDirection
@@ -49,7 +49,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Talk to Ксенофилиус Лавгуд
+# Talk to Xenophilius Lovegood
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2,lastRegion=10},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -93,7 +93,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 4 ###########################################################################################
 #############
-# Отправиться в the windmill
+# Travel to the windmill
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4,lastRegion=10},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -121,7 +121,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 5 ###########################################################################################
 #############
-# Equip the Спектрально-астральные очки and investigate the area
+# Equip the Spectrespecs and investigate the area
 
 ### Tracked Quest ###
 execute as @s[scores={questState=5,lastRegion=10},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -168,7 +168,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 6 ###########################################################################################
 #############
-# Return to Ксенофилиус Лавгуд
+# Return to Xenophilius Lovegood
 
 ### Tracked Quest ###
 execute as @s[scores={questState=6,lastRegion=10},tag=isTrackedQuest] run tag @s remove hideQuestTracking

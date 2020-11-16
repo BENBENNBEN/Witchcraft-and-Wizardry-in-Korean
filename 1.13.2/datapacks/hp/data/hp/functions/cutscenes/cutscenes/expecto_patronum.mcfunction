@@ -1935,7 +1935,7 @@ execute as @s[scores={cutSceneTimer=1250},tag=cutsceneLeader] run tp @e[tag=lupi
 
 # ¤Lupin:¤ Now, before we begin, I must tell you: This is very advanced magic, well beyond the normal wizarding level.
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=20..190}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Прежде чем мы начнем, я должен вам сказать: это очень продвинутая магия, намного сложнее обычной магии."}]
+execute as @s[scores={cutSceneTimer=20..190}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 시작하기 전에 미리 말해줄 게 있어. 오늘 배울 마법은 대단히 터득하기 어려운 고등 마법이야."}]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=27},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=31},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1948,7 +1948,7 @@ execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=lupinPatro
 
 # ¤Lupin:¤ The spell I'm going to try to teach you is called a Patronus charm.
 execute as @s[scores={cutSceneTimer=190},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=190..290}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Заклинание, которому я собираюсь тебя научить - чары Патронуса."}]
+execute as @s[scores={cutSceneTimer=190..290}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 바로 패트로누스를 소환하는 마법 주문이란다."}]
 execute as @s[scores={cutSceneTimer=190},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=197},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=201},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1961,7 +1961,7 @@ execute as @s[scores={cutSceneTimer=230},tag=cutsceneLeader] as @e[tag=lupinPatr
 
 # ¤Lupin:¤ A Patronus is a kind of positive force, which can protect you against dementors.
 execute as @s[scores={cutSceneTimer=290},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=290..410}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Патронус - своего рода позитивная сила, которая может защитить вас от дементоров."}]
+execute as @s[scores={cutSceneTimer=290..410}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 패트로누스는 일종의 선한 힘으로, 디멘터로부터 자신을 보호할 수 있어."}]
 execute as @s[scores={cutSceneTimer=290},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=297},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=301},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1974,7 +1974,7 @@ execute as @s[scores={cutSceneTimer=330},tag=cutsceneLeader] as @e[tag=lupinPatr
 
 # ¤Lupin:¤ A dementor cannot be killed.
 execute as @s[scores={cutSceneTimer=410},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=410..490}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Дементоров нельзя убить."}]
+execute as @s[scores={cutSceneTimer=410..490}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 디멘터를 죽일 수는 없지만"}]
 execute as @s[scores={cutSceneTimer=410},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=417},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=421},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1986,7 +1986,7 @@ execute as @s[scores={cutSceneTimer=450},tag=cutsceneLeader] as @e[tag=lupinPatr
 
 # ¤Lupin:¤ But with the Patronus charm you can force it to keep its distance, if only for a little while.
 execute as @s[scores={cutSceneTimer=490},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=490..610}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Но с чарами Патронуса вы можете держать их на расстоянии, хотя бы ненадолго."}]
+execute as @s[scores={cutSceneTimer=490..610}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 패트로누스를 소환하면 잠시 동안이라도 다가오지 못하도록 막을 수 있단다."}]
 execute as @s[scores={cutSceneTimer=490},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=497},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=501},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1998,7 +1998,7 @@ execute as @s[scores={cutSceneTimer=530},tag=cutsceneLeader] as @e[tag=lupinPatr
 
 # ¤Lupin:¤ The aim is to produce a silvery-white guardian or protector,
 execute as @s[scores={cutSceneTimer=610},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=610..710}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Цель - создать серебристо-белого стража или защитника,"}]
+execute as @s[scores={cutSceneTimer=610..710}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 희뿌연 빛을 띤 패트로누스를 불러내면"}]
 execute as @s[scores={cutSceneTimer=610},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=617},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=621},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -2010,7 +2010,7 @@ execute as @s[scores={cutSceneTimer=650},tag=cutsceneLeader] as @e[tag=lupinPatr
 
 # ¤Lupin:¤ which takes the form of an animal, and which will force the dementors to retreat.
 execute as @s[scores={cutSceneTimer=710},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=710..820}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" который принимает форму животного и который заставит дементоров отступить."}]
+execute as @s[scores={cutSceneTimer=710..820}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 대부분 동물의 형상의 소환수가 나와서 디멘터를 물리치는 거지."}]
 execute as @s[scores={cutSceneTimer=710},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=717},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=721},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -2022,7 +2022,7 @@ execute as @s[scores={cutSceneTimer=750},tag=cutsceneLeader] as @e[tag=lupinPatr
 
 # ¤Lupin:¤ Let me demonstrate:
 execute as @s[scores={cutSceneTimer=820},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=820..900}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Позволь показать"}]
+execute as @s[scores={cutSceneTimer=820..900}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 내가 한 번 시범을 보여주마."}]
 execute as @s[scores={cutSceneTimer=820},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=827},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=831},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -2039,7 +2039,7 @@ execute as @s[scores={cutSceneTimer=900..960}] run title @s actionbar ""
 # ¤Lupin:¤ Expecto Patronum!
 execute as @s[scores={cutSceneTimer=960},tag=cutsceneLeader] run tag @e[tag=lupinPatronusClassroomFpEngine,limit=1] remove cutsceneStop
 execute as @s[scores={cutSceneTimer=960},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=960..1020}] run title @s actionbar ["",{"text":""},{"text":"Люпин;","color":"dark_gray"},{"text":" Эспекто Патронум!"}]
+execute as @s[scores={cutSceneTimer=960..1020}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 엑스펙토 패트로눔!"}]
 execute as @s[scores={cutSceneTimer=960},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=967},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=971},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression

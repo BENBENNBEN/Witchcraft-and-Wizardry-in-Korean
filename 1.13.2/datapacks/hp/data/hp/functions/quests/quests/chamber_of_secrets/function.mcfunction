@@ -1,5 +1,5 @@
 ##############################################
-# Тайная Комната
+# Chamber of Secrets
 ##############################################
 scoreboard players set @s questID 42
 scoreboard players operation @s questState = chamberOfSecrets sharedQuests
@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Отправиться в Hogwarts
+# Travel to Hogwarts
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -73,7 +73,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 3 ###########################################################################################
 #############
-# Find the entrance to the Тайная Комната
+# Find the entrance to the Chamber of Secrets
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -142,7 +142,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 5 ###########################################################################################
 #############
-# Return to Наземникус Флетчер
+# Return to Mundungus Fletcher
 
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking

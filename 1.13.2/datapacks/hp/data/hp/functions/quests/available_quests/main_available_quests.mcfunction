@@ -10,7 +10,7 @@ execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlay
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s questConvOffset 1
 tag @s remove use
 
-# Wonky placement for adding the option to enter площадь Гриммо
+# Wonky placement for adding the option to enter grimmauld place
 execute if score unlockedGrimmauldPlace sharedQuests matches 1 positioned 2456 60 -218 as @s[distance=..6,tag=inConversation,scores={convState=8,conv=220}] run tag @s add use
 scoreboard players remove @s[tag=use] questConvOffset 1
 
@@ -28,7 +28,7 @@ execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlay
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s questConvOffset 1
 tag @s remove use
 
-# Дом Лавгудов
+# Lovegood Residence
 execute if score unlockedLovegoodResidence sharedQuests matches 1 as @s[tag=inConversation,scores={convState=1,conv=16}] unless score @s lastRegion matches 10 run tag @s add use
 scoreboard players remove @s[tag=use] questConvOffset 1
 
@@ -52,7 +52,7 @@ tag @s remove use
 
 
 #############
-# Охота за Жабой #
+# Toad Hunt #
 #############
 execute if score toadHuntIsGoing sharedQuests matches 0 if score toadHunt1 sharedQuests matches 0 as @s[scores={npcQuestIcon=10}] at @e[tag=nevillePlatform9_3_4,scores={conv=15},tag=npc,tag=!inConversationNPC] run particle minecraft:heart ~ ~2 ~ 0 0 0 100 1 force @s
 execute if entity @s[x=3016,y=58,z=-457,dx=15,dy=11,dz=11] if score toadHuntIsGoing sharedQuests matches 0 if score toadHunt1 sharedQuests matches 0 as @s[tag=inConversation,scores={convState=6,conv=15}] run tag @s add use
@@ -139,7 +139,7 @@ execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlay
 tag @s remove use
 
 ######################
-# Тайная Комната #
+# Chamber of Secrets #
 ######################
 execute if score chamberOfSecrets sharedQuests matches 0 as @s[scores={npcQuestIcon=10},tag=hasBeenToAzkaban] at @e[scores={conv=220},tag=npc,tag=!inConversationNPC] run particle minecraft:heart ~ ~2 ~ 0 0 0 100 1 force @s
 execute if score chamberOfSecrets sharedQuests matches 0 as @s[tag=inConversation,tag=hasBeenToAzkaban,scores={convState=8,conv=220}] run tag @s add use
@@ -161,7 +161,7 @@ execute if score goldenSkull sharedQuests matches 0 as @s[x=702,y=53,z=32,dx=11,
 execute if score undergroundLibraryResetFilch sharedQuests matches 1 as @e[tag=filchFpEngine,limit=1] if entity @s[tag=cutsceneStop] run function hp:quests/quests/underground_library/reset_filch
 
 ######################
-# Зеркало Еиналеж   #
+# Mirror of Erised   #
 ######################
 execute if score mirrorOfErised sharedQuests matches 0 unless score undergroundLibrary sharedQuests matches 1.. as @s[scores={npcQuestIcon=10}] at @e[scores={conv=5},tag=npc,tag=!inConversationNPC] run particle minecraft:heart ~ ~2 ~ 0 0 0 100 1 force @s
 execute if score mirrorOfErised sharedQuests matches 0 unless score undergroundLibrary sharedQuests matches 1.. as @s[tag=inConversation,scores={convState=1,conv=5}] run tag @s add use
@@ -310,7 +310,7 @@ execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlay
 tag @s remove use
 
 ############################
-# Delinquent 'Ежедневный Пророк' #
+# Delinquent Daily Prophet #
 ############################
 execute if score delinquentDailyProphet sharedQuests matches 0 as @s[scores={npcQuestIcon=10}] at @e[scores={conv=427},tag=npc,tag=!inConversationNPC] run particle minecraft:heart ~ ~2 ~ 0 0 0 100 1 force @s
 

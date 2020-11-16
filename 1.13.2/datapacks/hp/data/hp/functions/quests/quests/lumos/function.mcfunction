@@ -18,7 +18,7 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove com
 #############
 ## State 1 ###########################################################################################
 #############
-# Locate the Класс Заклинаний
+# Locate the charms classroom
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking

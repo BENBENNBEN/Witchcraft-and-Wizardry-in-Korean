@@ -24,10 +24,11 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run scoreboard player
 execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run scoreboard players set @s clothesSlot3ID 27
 execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tp @s 2855.18 48.06 927.75 -32.52 2.86
 execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove completeTrackedQuest
+
 #############
 ## State 1 ###########################################################################################
 #############
-# Locate Мадам Малкинs
+# Locate Madam Malkins
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -49,7 +50,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Speak to Мадам Малкинs
+# Speak to Madam Malkins
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2..5},tag=isTrackedQuest] run tag @s remove hideQuestTracking

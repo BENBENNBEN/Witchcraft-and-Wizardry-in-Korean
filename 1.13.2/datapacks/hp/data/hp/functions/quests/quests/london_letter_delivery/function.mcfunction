@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Отправиться в London
+# Travel to London
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -49,7 +49,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Deliver the letter to Демельза Робинс' friend in the park near Глаз Лондона
+# Deliver the letter to Demelza Robins' friend in the park near London Eye
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking

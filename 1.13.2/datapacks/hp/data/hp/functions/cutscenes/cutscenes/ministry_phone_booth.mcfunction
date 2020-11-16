@@ -205,8 +205,8 @@ execute as @s[scores={cutSceneTimer=202}] run data merge entity 855784f9-b30a-44
 
 
 execute as @s[scores={cutSceneTimer=180}] run title @s times 15 35 15
-execute as @s[scores={cutSceneTimer=200}] run title @s subtitle ["",{"text":"Министерство Магии","bold":true,"color":"gold"}]
-execute as @s[scores={cutSceneTimer=200}] run title @s title {"text":"Путешествие в","color":"gray"}
+execute as @s[scores={cutSceneTimer=200}] run title @s subtitle ["",{"text":"마법 정부","bold":true,"color":"gold"}]
+execute as @s[scores={cutSceneTimer=200}] run title @s title {"text":"이동 중","color":"gray"}
 
 execute as @s[scores={cutSceneTimer=260}] run function hp:cutscenes/fade_out
 

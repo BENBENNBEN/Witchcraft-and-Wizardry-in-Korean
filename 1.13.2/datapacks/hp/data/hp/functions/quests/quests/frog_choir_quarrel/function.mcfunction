@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Hang the papers on 4 notice boards around Замок Хогвартс
+# Hang the papers on 4 notice boards around Hogwarts Castle
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -194,7 +194,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 5 ###########################################################################################
 #############
-# Speak to Лайза Турпин
+# Speak to Lisa Turpin
 
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking

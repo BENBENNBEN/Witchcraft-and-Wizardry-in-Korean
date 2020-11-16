@@ -271,7 +271,7 @@ execute as @s[scores={questState=9},tag=isTrackedQuest] run scoreboard players s
 
 
 ### Trigger ###
-execute positioned 8007.53 129.00 26.51 as @s[distance=..7,scores={questState=9},tag=inNormalState] run tag @s add newState
+execute as @s[x=8002,y=120,z=8,dx=47,dy=30,dz=39,scores={questState=9},tag=inNormalState] run tag @s add newState
 execute as @s[tag=newState] run scoreboard players set @s questState 10
 execute as @s[tag=newState] run function hp:quests/set_quest
 execute as @s[tag=newState] run function hp:quests/ding_sound
@@ -297,7 +297,7 @@ execute as @a[tag=!hasLearnedExpectoPatronum,tag=play] unless score @s trackedQu
 execute as @a[scores={trackedQuestID=21,trackQuestState=..10},tag=play] run scoreboard players add @p[tag=activePlayer] suitableCount 1
 
 scoreboard players set @s tmp 0
-execute positioned 8007.53 129.00 26.51 as @a[distance=..7,scores={trackedQuestID=21,trackQuestState=10},tag=inNormalState] run scoreboard players add @p[tag=activePlayer] tmp 1
+execute as @a[x=8002,y=120,z=8,dx=47,dy=30,dz=39,scores={trackedQuestID=21,trackQuestState=10},tag=inNormalState] run scoreboard players add @p[tag=activePlayer] tmp 1
 
 # Title
 execute as @s[scores={questState=10},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless score @s suitableCount = @s tmp run scoreboard players set @s questTextTimer 2
@@ -594,7 +594,6 @@ execute as @s[tag=completeQuest] unless entity @p[scores={trackedQuestID=21}] ru
 execute as @s[tag=completeQuest] run tag @s add musicController
 execute as @s[tag=completeQuest,scores={musicPhase=..0}] run scoreboard players set @s musicPhase 0
 execute as @s[tag=completeQuest] run tag @s remove completeQuest
-
 
 # reset quest tracking boolean
 tag @s remove isTrackedQuest

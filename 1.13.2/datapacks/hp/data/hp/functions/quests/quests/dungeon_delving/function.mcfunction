@@ -49,7 +49,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Enter the dungeon in the Запретный Лес
+# Enter the dungeon in the Forbidden Forest
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -144,7 +144,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 4 ###########################################################################################
 #############
-# Speak to Эрнест Поттс
+# Speak to Ernest Potts
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking

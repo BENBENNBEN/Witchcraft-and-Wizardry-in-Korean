@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Gain access to the Кухня Хогвартса
+# Gain access to the Hogwarts Kitchens
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -78,7 +78,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 3 ###########################################################################################
 #############
-# Speak to Fred or Джордж Уизли
+# Speak to Fred or George Weasley
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking

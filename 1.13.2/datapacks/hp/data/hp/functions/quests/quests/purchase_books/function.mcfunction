@@ -27,10 +27,11 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run scoreboard player
 execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run function hp:inventory/give_player_item
 execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tp @s 2839.99 55.00 866.10 846.97 2.54
 execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove completeTrackedQuest
+
 #############
 ## State 1 ###########################################################################################
 #############
-# Locate Флориш и Блоттс
+# Locate Flourish and Blotts
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking

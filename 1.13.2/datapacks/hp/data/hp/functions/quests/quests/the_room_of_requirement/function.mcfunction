@@ -1,5 +1,5 @@
 ##############################################
-# The Выручай-комната
+# The Room of Requirement
 ##############################################
 scoreboard players set @s questID 44
 scoreboard players operation @s questState = theRoomOfRequirement sharedQuests
@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Locate the Выручай-комната
+# Locate the Room of Requirement
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking

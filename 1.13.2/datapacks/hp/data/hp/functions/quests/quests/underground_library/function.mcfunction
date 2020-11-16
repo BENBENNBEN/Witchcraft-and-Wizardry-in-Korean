@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Speak to Батильда Бэгшот in Hogsmeade
+# Speak to Bathilda Bagshot in Hogsmeade
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -248,7 +248,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 5 ###########################################################################################
 #############
-# Find a way to get rid of Аргус Филч
+# Find a way to get rid of Argus Filch
 
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -417,7 +417,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 9 ###########################################################################################
 #############
-# Отправиться в the underground library
+# Travel to the underground library
 
 ### Tracked Quest ###
 execute as @s[scores={questState=9},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -498,7 +498,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 11 ###########################################################################################
 #############
-# Deliver the scroll to Батильда Бэгшот
+# Deliver the scroll to Bathilda Bagshot
 
 ### Tracked Quest ###
 execute as @s[scores={questState=11},tag=isTrackedQuest] run tag @s remove hideQuestTracking

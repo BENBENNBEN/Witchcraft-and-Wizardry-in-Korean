@@ -1,5 +1,5 @@
 ##############################################
-# Охота за Жабой
+# Toad Hunt
 ##############################################
 scoreboard players set @s questID 37
 scoreboard players operation @s questState = toadHunt2 sharedQuests

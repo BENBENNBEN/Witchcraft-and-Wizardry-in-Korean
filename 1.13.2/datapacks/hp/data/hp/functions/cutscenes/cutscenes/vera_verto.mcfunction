@@ -1242,7 +1242,7 @@ tp @s[scores={cutSceneTimer=1150}] 8612.33 90.08459 -5.56 -1133.542 53.85
 
 # ¤McGonagall:¤ Could I have your attention, please?
 execute as @s[scores={cutSceneTimer=90},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=90..200}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Прошу вашего внимания!"}]
+execute as @s[scores={cutSceneTimer=90..200}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 여기 주목하렴!"}]
 execute as @s[scores={cutSceneTimer=90},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=97},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=101},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
@@ -1254,7 +1254,7 @@ execute as @s[scores={cutSceneTimer=130},tag=cutsceneLeader] as @e[tag=mcGonagal
 
 # ¤McGonagall:¤ Now today we will be learning the spell Vera Verto.
 execute as @s[scores={cutSceneTimer=200},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=200..320}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Сегодня мы будем изучать заклинание Фера Верто."}]
+execute as @s[scores={cutSceneTimer=200..320}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 오늘은 베라 베르토 주문을 배울 거야."}]
 execute as @s[scores={cutSceneTimer=200},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=207},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=211},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
@@ -1266,7 +1266,7 @@ execute as @s[scores={cutSceneTimer=240},tag=cutsceneLeader] as @e[tag=mcGonagal
 
 # ¤McGonagall:¤ This spell will let you change the shape and properties of your surroundings,
 execute as @s[scores={cutSceneTimer=330},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=330..420}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Это заклинание позволит вам изменить форму и свойства вашего окружения,"}]
+execute as @s[scores={cutSceneTimer=330..420}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 이 주문은 주변 환경에 맞춰서 모양과 특성을 바꿀 수 있어."}]
 execute as @s[scores={cutSceneTimer=330},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=337},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=341},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
@@ -1279,7 +1279,7 @@ execute as @s[scores={cutSceneTimer=370},tag=cutsceneLeader] as @e[tag=mcGonagal
 
 # ¤McGonagall:¤ and will let you transform certain objects and enemies.
 execute as @s[scores={cutSceneTimer=420},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=420..500}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" и позволит трансформировать определенные объекты и врагов."}]
+execute as @s[scores={cutSceneTimer=420..500}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 그리고 특정 물체나 적을 변형시킬 수 있지."}]
 execute as @s[scores={cutSceneTimer=420},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=427},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=431},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
@@ -1292,7 +1292,7 @@ execute as @s[scores={cutSceneTimer=460},tag=cutsceneLeader] as @e[tag=mcGonagal
 
 # ¤McGonagall:¤ Like so:
 execute as @s[scores={cutSceneTimer=500},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=500..560}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Примерно так;"}]
+execute as @s[scores={cutSceneTimer=500..560}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 바로 이렇게."}]
 execute as @s[scores={cutSceneTimer=500},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=507},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=511},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
@@ -1307,7 +1307,7 @@ execute as @s[scores={cutSceneTimer=561..599}] run title @s actionbar ""
 
 # ¤McGonagall:¤ Vera Verto
 execute as @s[scores={cutSceneTimer=600},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=600..660}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Фера Верто"}]
+execute as @s[scores={cutSceneTimer=600..660}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 베라 베르토"}]
 execute as @s[scores={cutSceneTimer=600},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=607},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=611},tag=cutsceneLeader] as @e[tag=mcGonagallClassroomCutscene,limit=1] run function hp:npc/update_npc_head_expression
@@ -1320,19 +1320,18 @@ execute as @s[scores={cutSceneTimer=640},tag=cutsceneLeader] as @e[tag=mcGonagal
 
 # ¤McGonagall:¤ Now it's your turn. I have prepared a section of the castle, where you might practice.
 execute as @s[scores={cutSceneTimer=701},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=700..850}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Теперь ваша очередь. Для практики выделена часть помещений."}]
+execute as @s[scores={cutSceneTimer=700..850}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 이제 너희 차례란다. 연습할 장소를 준비해놨어."}]
 
 # ¤McGonagall:¤ When you see blue particles around an object, you will be able to transform it.
-# ¤McGonagall:¤ Если вы увидите синие частицы вокруг объекта, вы сможете преобразовать его.
 execute as @s[scores={cutSceneTimer=851},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=850..1000}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Если вы увидите синие частицы вокруг объекта, вы сможете преобразовать его."}]
+execute as @s[scores={cutSceneTimer=850..1000}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 물체 주변에 파란색 반짝이가 보이면 변신시킬 수 있어."}]
 
 execute as @s[scores={cutSceneTimer=1000}] run function hp:music/music/swish_and_flick
 execute as @s[scores={cutSceneTimer=1000}] run scoreboard players set @s queuedMusic 0
 
 # ¤McGonagall:¤ Now, off you go. Best of luck!
 execute as @s[scores={cutSceneTimer=1000},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=1000..1090}] run title @s actionbar ["",{"text":""},{"text":"Макгонагалл;","color":"dark_gray"},{"text":" Теперь ваша очередь. Желаю удачи!"}]
+execute as @s[scores={cutSceneTimer=1000..1090}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 자, 이제 가보렴. 행운을 빌어!"}]
 
 execute as @s[scores={cutSceneTimer=1090..}] run title @s actionbar ""
 

@@ -12,10 +12,10 @@ tag @s add showBossbarHeader
 function hp:misc/update_bossbars
 
 # This could be done differently to support any number of players
-execute as @s[scores={playerID=1}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initQuestPlController","questPlControllerPlayer1"],CustomName:"{\"text\":\"plController\"}",UUIDMost:13,UUIDLeast:1}
-execute as @s[scores={playerID=2}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initQuestPlController","questPlControllerPlayer2"],CustomName:"{\"text\":\"plController\"}",UUIDMost:13,UUIDLeast:2}
-execute as @s[scores={playerID=3}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initQuestPlController","questPlControllerPlayer3"],CustomName:"{\"text\":\"plController\"}",UUIDMost:13,UUIDLeast:3}
-execute as @s[scores={playerID=4}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initQuestPlController","questPlControllerPlayer4"],CustomName:"{\"text\":\"plController\"}",UUIDMost:13,UUIDLeast:4}
+execute as @s[scores={playerID=1}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initQuestPlController","questPlControllerPlayer1"],CustomName:"{\"text\":\"plController\"}",UUID:[I;0,13,0,1]}
+execute as @s[scores={playerID=2}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initQuestPlController","questPlControllerPlayer2"],CustomName:"{\"text\":\"plController\"}",UUID:[I;0,13,0,2]}
+execute as @s[scores={playerID=3}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initQuestPlController","questPlControllerPlayer3"],CustomName:"{\"text\":\"plController\"}",UUID:[I;0,13,0,3]}
+execute as @s[scores={playerID=4}] at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["initQuestPlController","questPlControllerPlayer4"],CustomName:"{\"text\":\"plController\"}",UUID:[I;0,13,0,4]}
 
 # To prevent player not being able to use w and s if they stand up against a wall (more likely that being blocked backwards.) It also fixes backwards movement by glitching the player very slightly into the block, which is a fine tradeoff, and only a tiny bit janky.
 execute at @s run tp @e[type=armor_stand,tag=initQuestPlController,limit=1] @s
@@ -42,5 +42,5 @@ tag @e[type=armor_stand,tag=initQuestPlController,limit=1] remove initQuestPlCon
 tag @s add delayQuestBookOneTick
 tag @s remove enterQuestBook
 
-# Reminder tip for Охота за Жабой
+# Reminder tip for Toad Hunt
 tag @s remove remindQuestBook

@@ -68,7 +68,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 3 ###########################################################################################
 #############
-# Use the map to Отправиться в your common room
+# Use the map to travel to your common room
 
 scoreboard players remove @s[scores={questTimer=1..}] questTimer 1
 execute as @s[scores={questTimer=1}] run scoreboard players set @s hotbar_stage 9
@@ -128,6 +128,10 @@ execute as @s[tag=completeQuest,scores={playerID=1}] run scoreboard players set 
 execute as @s[tag=completeQuest,scores={playerID=2}] run scoreboard players set slytherinPrefect p2convOverride 9
 execute as @s[tag=completeQuest,scores={playerID=3}] run scoreboard players set slytherinPrefect p3convOverride 9
 execute as @s[tag=completeQuest,scores={playerID=4}] run scoreboard players set slytherinPrefect p4convOverride 9
+execute as @s[tag=completeQuest,scores={playerID=1}] run scoreboard players set malfoy p1convOverride 14
+execute as @s[tag=completeQuest,scores={playerID=2}] run scoreboard players set malfoy p2convOverride 14
+execute as @s[tag=completeQuest,scores={playerID=3}] run scoreboard players set malfoy p3convOverride 14
+execute as @s[tag=completeQuest,scores={playerID=4}] run scoreboard players set malfoy p4convOverride 14
 execute as @s[tag=completeQuest,tag=gameLeader] run gamerule doDaylightCycle true
 execute as @s[tag=completeQuest] run tag @s remove onlyCommonRoomIsUnlocked
 execute as @s[tag=completeQuest] run tag @s add hogwartsExpressUnlocked

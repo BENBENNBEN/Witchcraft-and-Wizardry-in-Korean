@@ -1,5 +1,5 @@
 ##############################################
-# Спор из-за Квиддича
+# Quidditch Squabble
 ##############################################
 scoreboard players set @s questID 62
 scoreboard players operation @s questState = quidditchSquabble sharedQuests
@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Speak to Оливер Вуд
+# Speak to Oliver Wood
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -37,7 +37,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Speak to Маркус Флинт
+# Speak to Marcus Flint
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -1387,7 +1387,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 70 ###########################################################################################
 #############
-# Speak to Оливер Вуд
+# Speak to Oliver Wood
 
 ### Tracked Quest ###
 execute as @s[scores={questState=70}] run tag @s remove hideQuestTracking

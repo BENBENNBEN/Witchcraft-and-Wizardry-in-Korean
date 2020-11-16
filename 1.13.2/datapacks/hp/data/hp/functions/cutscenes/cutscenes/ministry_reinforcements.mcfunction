@@ -612,7 +612,7 @@ tp @s[scores={cutSceneTimer=592}] 9047.223 69.24598 98.04636 121.62 0.68
 
 # ¤Twycross:¤ Don't worry, I'm here! I've brought reinforcements...
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=walkingTwycross2,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=20..110}] run title @s actionbar ["",{"text":""},{"text":"Двукрест;","color":"dark_gray"},{"text":" Не волнуйтесь, я здесь! Я пришёл с подкрепление..."}]
+execute as @s[scores={cutSceneTimer=20..110}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 걱정마, 내가 왔다! 지원해줄 사람을 데려왔어..."}]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=walkingTwycross2,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=27},tag=cutsceneLeader] as @e[tag=walkingTwycross2,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=31},tag=cutsceneLeader] as @e[tag=walkingTwycross2,limit=1] run function hp:npc/update_npc_head_expression
@@ -705,7 +705,7 @@ execute as @s[scores={cutSceneTimer=590}] as @e[tag=fpEngine,tag=walkingTwycross
 
 # ¤Twycross:¤ Oh. It seems you have this situation under control.
 execute as @s[scores={cutSceneTimer=111},tag=cutsceneLeader] as @e[tag=walkingTwycross2,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=111..200}] run title @s actionbar ["",{"text":""},{"text":"Двукрест;","color":"dark_gray"},{"text":" Ой. Похоже у вас ситуацию уже под контролем."}]
+execute as @s[scores={cutSceneTimer=111..200}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 오, 근데 이미 알아서 잘 해결했구나."}]
 execute as @s[scores={cutSceneTimer=111},tag=cutsceneLeader] as @e[tag=walkingTwycross2,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=118},tag=cutsceneLeader] as @e[tag=walkingTwycross2,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=122},tag=cutsceneLeader] as @e[tag=walkingTwycross2,limit=1] run function hp:npc/update_npc_head_expression
@@ -717,7 +717,7 @@ execute as @s[scores={cutSceneTimer=151},tag=cutsceneLeader] as @e[tag=walkingTw
 
 # ¤Ministry Worker:¤ What situation? Deatheaters...? Nonsense. These are outrageous claims!
 execute as @s[scores={cutSceneTimer=201},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=201..300}] run title @s actionbar ["",{"text":""},{"text":"Работник Министерства;","color":"dark_gray"},{"text":" Какая ситуация? Пожиратели...? Чепуха. Возмутительные обвинения!"}]
+execute as @s[scores={cutSceneTimer=201..300}] run title @s actionbar ["",{"text":""},{"text":"공무원","color":"dark_gray"},{"text":" 이게 무슨 상황이죠? 죽음을 먹는 자들....? 그게 뭔 소리입니까. 그런 터무니없는 얘기를 하다니!"}]
 execute as @s[scores={cutSceneTimer=201},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=208},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=212},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] run function hp:npc/update_npc_head_expression
@@ -731,7 +731,7 @@ execute as @s[scores={cutSceneTimer=201}] as @e[tag=fpEngine,tag=ministryWorker1
 
 # ¤Ministry Worker:¤ Seems plain to me what happened here.
 execute as @s[scores={cutSceneTimer=301},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=301..360}] run title @s actionbar ["",{"text":""},{"text":"Работник Министерства;","color":"dark_gray"},{"text":" Кажеться, я знаю что здесь происходит."}]
+execute as @s[scores={cutSceneTimer=301..360}] run title @s actionbar ["",{"text":""},{"text":"공무원","color":"dark_gray"},{"text":" 여기서 무슨 일이 있었는지 뻔하군요."}]
 execute as @s[scores={cutSceneTimer=301},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=308},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=312},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] run function hp:npc/update_npc_head_expression
@@ -743,7 +743,7 @@ execute as @s[scores={cutSceneTimer=341},tag=cutsceneLeader] as @e[tag=ministryW
 
 # ¤Ministry Worker:¤ One of your students accidentally blew up this wall, and now you're trying to cover it up.
 execute as @s[scores={cutSceneTimer=361},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=361..450}] run title @s actionbar ["",{"text":""},{"text":"Работник Министерства;","color":"dark_gray"},{"text":" Один из ваших студентов случайно взорвал эту стену, и теперь вы пытаетесь скрыть это."}]
+execute as @s[scores={cutSceneTimer=361..450}] run title @s actionbar ["",{"text":""},{"text":"공무원","color":"dark_gray"},{"text":" 당신 학생 중에 한 명이 실수로 벽을 폭파한 걸 지금 다른 핑계를 대고 있는 거잖습니까."}]
 execute as @s[scores={cutSceneTimer=361},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=368},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=372},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] run function hp:npc/update_npc_head_expression
@@ -756,7 +756,7 @@ execute as @s[scores={cutSceneTimer=401},tag=cutsceneLeader] as @e[tag=ministryW
 
 # ¤Ministry Worker:¤ I'm keeping an eye on you, Twycross.
 execute as @s[scores={cutSceneTimer=451},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=451..540}] run title @s actionbar ["",{"text":""},{"text":"Работник Министерства;","color":"dark_gray"},{"text":" Я слежу за тобой, Двукрест."}]
+execute as @s[scores={cutSceneTimer=451..540}] run title @s actionbar ["",{"text":""},{"text":"공무원","color":"dark_gray"},{"text":" 제가 지켜보겠습니다, 트와이크로스."}]
 execute as @s[scores={cutSceneTimer=451},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=458},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=462},tag=cutsceneLeader] as @e[tag=ministryWorker1,limit=1] run function hp:npc/update_npc_head_expression

@@ -16,7 +16,7 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove com
 #############
 ## State 1 ###########################################################################################
 #############
-# Locate the Класс Заклинаний
+# Locate the charms classroom
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -105,6 +105,7 @@ execute as @s[scores={questState=3},tag=isTrackedQuest] run scoreboard players s
 
 ### Trigger ###
 execute positioned 7145.57 54.00 -12.26 as @s[distance=..5,scores={questState=3},tag=inNormalState] run tag @s add newState
+execute positioned 7146 53 -25 as @s[distance=..4,scores={questState=3},tag=inNormalState] run tag @s add newState
 execute as @s[tag=newState] run scoreboard players set @s questState 4
 execute as @s[tag=newState] run function hp:quests/set_quest
 execute as @s[tag=newState] run function hp:quests/ding_sound

@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Speak to Драко Малфой 
+# Speak to Draco Malfoy 
 
 
 execute as @s[scores={questState=1..3,lastRegion=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -151,7 +151,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 4 ###########################################################################################
 #############
-# Deliver the items to Caractus Burke in Лютный Переулок
+# Deliver the items to Caractus Burke in Knockturn Alley
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking

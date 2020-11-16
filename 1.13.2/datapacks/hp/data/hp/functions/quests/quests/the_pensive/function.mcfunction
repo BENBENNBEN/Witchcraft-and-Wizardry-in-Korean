@@ -14,7 +14,7 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove com
 #############
 ## State 1 ###########################################################################################
 #############
-# Отправиться в Кабинет Директора
+# Travel to the Headmaster's office
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -55,7 +55,7 @@ execute as @s[scores={questState=2},tag=isTrackedQuest] run scoreboard players s
 execute as @s[tag=inConversation,scores={questState=2,convState=1,conv=2}] run tag @s add use
 scoreboard players remove @s[tag=use] questConvOffset 1
 
-execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ (Tell Dumbledore about Azkaban)\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ (ddd)\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s convState 37
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s questConvOffset 1
 tag @s remove use

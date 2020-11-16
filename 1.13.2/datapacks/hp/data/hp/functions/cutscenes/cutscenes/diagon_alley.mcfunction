@@ -208,7 +208,7 @@ tp @s[scores={cutSceneTimer=221}] 2847.594 60.17521 905.1807 1982.48 2.2
 execute as @s[scores={cutSceneTimer=201}] run function hp:cutscenes/fade_in
 
 # This is Diagon Alley.
-title @s[scores={cutSceneTimer=50..220}] actionbar ["",{"text":"Это Косой Переулок"}]
+title @s[scores={cutSceneTimer=50..220}] actionbar ["",{"text":"여기는 다이애건 앨리입니다"}]
 
 execute as @s[scores={cutSceneTimer=222}] run function hp:cutscenes/fade_out
 tp @s[scores={cutSceneTimer=222}] 2848.26 47.74 950.02 1938.66 -23.6
@@ -313,7 +313,7 @@ tp @s[scores={cutSceneTimer=320}] 2848.26 47.74 950.02 1938.66 -8.900038
 execute as @s[scores={cutSceneTimer=301}] run function hp:cutscenes/fade_in
 
 # Here, you can purchase supplies and solve quests for the shop owners.
-title @s[scores={cutSceneTimer=221..620}] actionbar ["",{"text":" Здесь вы можете торговать и брать задания у владельцев магазинов"}]
+title @s[scores={cutSceneTimer=221..620}] actionbar ["",{"text":" 이곳에서 물품을 구입하고, 여러 상점 주인에게 퀘스트를 받을 수 있는 곳이죠."}]
 
 execute as @s[scores={cutSceneTimer=322}] run function hp:cutscenes/fade_out	
 tp @s[scores={cutSceneTimer=322}] 2856.13 54.23 862.24 87.75 -8.44
@@ -769,7 +769,7 @@ tp @s[scores={cutSceneTimer=760}] 2845.1 46.71 990.12 1.68 -13.03989
 
 
 # You can get money for your school supplies in Gringotts Wizarding Bank located at the end of the street.
-title @s[scores={cutSceneTimer=621..740}] actionbar ["",{"text":"Вы можете взять деньги для школьных принадлежностей в Банке Гринготтс в конце улицы"}]
+title @s[scores={cutSceneTimer=621..740}] actionbar ["",{"text":"이 거리의 끝에 있는 그린고트 은행에서 학교 준비물을 구매할 돈을 찾으세요."}]
 
 # Clear subtitles instantly rather than a slow fade I can't control
 title @s[scores={cutSceneTimer=740..}] actionbar ["",{"text":" "}]

@@ -72,7 +72,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 3 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 1)
+# Fight the waves of creatures (wave 1)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -164,7 +164,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 8 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 2)
+# Fight the waves of creatures (wave 2)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -247,7 +247,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 9 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 3)
+# Fight the waves of creatures (wave 3)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -328,13 +328,15 @@ execute as @s[tag=newState,scores={playerID=3}] run scoreboard players set elikE
 execute as @s[tag=newState,scores={playerID=4}] run scoreboard players set elikElixersRatsTimer p4Quests 100
 execute as @s[tag=newState,tag=gameLeader] run setblock 2852 26 983 minecraft:ladder[facing=south,waterlogged=false]
 execute as @s[tag=newState,tag=gameLeader] run setblock 2852 27 983 minecraft:ladder[facing=south,waterlogged=false]
+execute as @s[tag=newState] run tag @s add musicController
+execute as @s[tag=newState,scores={musicPhase=..0}] run scoreboard players set @s musicPhase 0
 execute as @s[tag=newState] run tag @s remove newState
 
 
 #############
 ## State 6 ###########################################################################################
 #############
-# Return to Элик Трисгистус
+# Return to Elik Trismegistus
 
 ### Tracked Quest ###
 execute as @s[scores={questState=6},tag=isTrackedQuest] run tag @s remove hideQuestTracking

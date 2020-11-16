@@ -1005,7 +1005,6 @@ execute as @s[tag=completeQuest] run tag @s remove lockTrackedQuest
 execute as @s[tag=completeQuest] run tag @s remove isInFlyingQuest
 execute as @s[tag=completeQuest] run tag @s add musicController
 execute as @s[tag=completeQuest,scores={musicPhase=..0}] run scoreboard players set @s musicPhase 00
-execute as @s[tag=completeQuest,tag=gameLeader] run scoreboard players add global sqCompleted 1
 execute as @s[tag=completeQuest] run tag @s remove completeQuest
 
 

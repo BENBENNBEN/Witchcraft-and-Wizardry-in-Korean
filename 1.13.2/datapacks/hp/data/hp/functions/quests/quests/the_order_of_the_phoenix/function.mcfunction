@@ -22,7 +22,7 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove com
 #############
 ## State 1 ###########################################################################################
 #############
-# Отправиться в Кабинет Директора
+# Travel to the Headmaster's office
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -78,14 +78,13 @@ execute as @s[tag=newState,scores={playerID=1}] run scoreboard players set dumbl
 execute as @s[tag=newState,scores={playerID=2}] run scoreboard players set dumbledore p2convOverride 36
 execute as @s[tag=newState,scores={playerID=3}] run scoreboard players set dumbledore p3convOverride 36
 execute as @s[tag=newState,scores={playerID=4}] run scoreboard players set dumbledore p4convOverride 36
-execute as @s[tag=newState] run scoreboard players set stupefyProgressLocked global 0
 execute as @s[tag=newState] run tag @s remove newState
 
 
 #############
 ## State 3 ###########################################################################################
 #############
-# Отправиться в площадь Гриммо
+# Travel to Grimmauld Place
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -141,7 +140,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 4 ###########################################################################################
 #############
-# Speak to Аластор Грюм
+# Speak to Alastor Moody
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -166,7 +165,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 5 ###########################################################################################
 #############
-# Speak to Аластор Грюм
+# Speak to Alastor Moody
 
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -214,7 +213,6 @@ execute as @s[scores={questState=6,playerID=4},tag=!inConversation,tag=!inProper
 
 # Trigger
 execute as @s[scores={questState=6},tag=isTrackedQuest,tag=inNormalState] if score @s suitableCount <= @s tmp run tag @s add completeQuest
-
 
 #################
 ### Completed ###

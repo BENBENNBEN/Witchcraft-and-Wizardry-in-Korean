@@ -14,7 +14,7 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove com
 #############
 ## State 1 ###########################################################################################
 #############
-# Find Роланда Трюк at the Тренировочные Поля
+# Find Madam Hooch at the training grounds
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -118,7 +118,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 4 ###########################################################################################
 #############
-# Select 'Обычная Метла'
+# Select 'Basic Broom'
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -1199,7 +1199,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 101 ###########################################################################################
 #############
-# Speak to Роланда Трюк
+# Speak to madam Hooch
 
 ### Tracked Quest ###
 execute as @s[scores={questState=101},tag=isTrackedQuest] run tag @s remove hideQuestTracking

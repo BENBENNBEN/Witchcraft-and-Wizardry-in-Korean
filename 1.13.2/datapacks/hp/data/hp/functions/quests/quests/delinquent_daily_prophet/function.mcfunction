@@ -1,5 +1,5 @@
 ##############################################
-# Delinquent 'Ежедневный Пророк'
+# Delinquent Daily Prophet
 ##############################################
 scoreboard players set @s questID 50
 scoreboard players operation @s questState = delinquentDailyProphet sharedQuests
@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Отправиться в the 'Ежедневный Пророк' offices in Косой Переулок
+# Travel to the Daily Prophet offices in Diagon Alley
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -42,7 +42,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Speak to Варнава Кафф
+# Speak to Barnabas Cuffe
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -82,7 +82,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 3 ###########################################################################################
 #############
-# Speak to Кевин Летас
+# Speak to Kevin Lethas
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -116,7 +116,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 4 ###########################################################################################
 #############
-# Give Кевин Летас a remembrall
+# Give Kevin Lethas a remembrall
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -158,7 +158,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 5 ###########################################################################################
 #############
-# Speak to Уэйн Броклхерст
+# Speak to Wayne Brocklehurst
 
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking

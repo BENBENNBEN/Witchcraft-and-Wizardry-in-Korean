@@ -1,5 +1,5 @@
 ##############################################
-# Квиддичское Озорство
+# Quidditch Mischief
 ##############################################
 scoreboard players set @s questID 66
 scoreboard players operation @s questState = quidditchMischief sharedQuests
@@ -52,7 +52,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Talk to Кэти Белл
+# Talk to Katie Bell
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking

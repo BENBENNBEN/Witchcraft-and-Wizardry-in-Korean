@@ -161,5 +161,3 @@ execute as @s[tag=completeTrackedQuest] run tag @s remove completeTrackedQuest
 
 # reset quest tracking boolean
 tag @s remove isTrackedQuest
-
-# Used to detect when another player advances the quest

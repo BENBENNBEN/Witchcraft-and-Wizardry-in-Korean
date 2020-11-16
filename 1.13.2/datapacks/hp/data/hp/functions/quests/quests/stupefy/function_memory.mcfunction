@@ -58,6 +58,7 @@ execute as @s[scores={questState=3},tag=isTrackedQuest] run scoreboard players s
 
 ### Trigger ###
 execute as @s[scores={questState=3},tag=hasSpokenToLupinAboutMagicka,tag=inNormalState] run tag @s add newState
+execute positioned 5541 49 -70 as @s[scores={questState=3},distance=..5,tag=inNormalState] run tag @s add newState
 execute as @s[tag=newState] run scoreboard players set @s questState 4
 execute as @s[tag=newState] run function hp:quests/set_quest
 execute as @s[tag=newState] run function hp:quests/ding_sound
@@ -166,7 +167,7 @@ execute as @s[scores={questState=6,playerID=2},tag=isTrackedQuest] if score stup
 execute as @s[scores={questState=6,playerID=3},tag=isTrackedQuest] if score stupefyTimer p3Quests matches 100 at @s run playsound minecraft:custom.ui.event6 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=6,playerID=4},tag=isTrackedQuest] if score stupefyTimer p4Quests matches 100 at @s run playsound minecraft:custom.ui.event6 master @s ~ ~ ~ 10000 1 1
 
-execute as @s[scores={questState=6,playerID=1},tag=isTrackedQuest] if score stupefyTimer p1Quests matches 1..100 run bossbar set minecraft:player1quest name ["",{"text":"Используйте Остолбеней для атаки!","color":"gold"}]
+execute as @s[scores={questState=6,playerID=1},tag=isTrackedQuest] if score stupefyTimer p1Quests matches 1..100 run bossbar set minecraft:player1quest name ["",{"text":"Используйте Остолбеней для атаки!","color":"gold"}]	
 execute as @s[scores={questState=6,playerID=2},tag=isTrackedQuest] if score stupefyTimer p2Quests matches 1..100 run bossbar set minecraft:player2quest name ["",{"text":"Используйте Остолбеней для атаки!","color":"gold"}]
 execute as @s[scores={questState=6,playerID=3},tag=isTrackedQuest] if score stupefyTimer p3Quests matches 1..100 run bossbar set minecraft:player3quest name ["",{"text":"Используйте Остолбеней для атаки!","color":"gold"}]
 execute as @s[scores={questState=6,playerID=4},tag=isTrackedQuest] if score stupefyTimer p4Quests matches 1..100 run bossbar set minecraft:player4quest name ["",{"text":"Используйте Остолбеней для атаки!","color":"gold"}]
@@ -211,7 +212,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 7 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 1)
+# Fight the waves of creatures (wave 1)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=7},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -285,7 +286,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 8 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 2)
+# Fight the waves of creatures (wave 2)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=8},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -359,7 +360,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 9 ###########################################################################################
 #############
-# Fight the waves of creatures (Волна 3)
+# Fight the waves of creatures (wave 3)
 
 ### Tracked Quest ###
 execute as @s[scores={questState=9},tag=isTrackedQuest] run tag @s remove hideQuestTracking

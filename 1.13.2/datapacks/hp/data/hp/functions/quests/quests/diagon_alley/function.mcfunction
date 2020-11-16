@@ -1,5 +1,5 @@
 ##############################################
-# Косой Переулок
+# Diagon Alley
 ##############################################
 scoreboard players set @s questID 2
 execute store result score @s questState run data get entity @e[tag=questHolder,limit=1] ArmorItems[3].tag."quests.diagonAlley"
@@ -16,7 +16,7 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove com
 #############
 ## State 1 ###########################################################################################
 #############
-# Find 'Ночной рыцарь'
+# Find the Knight Bus
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -42,7 +42,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Speak to 'Ночной рыцарь' conductor
+# Speak to the Knight Bus conductor
 
 execute as @s[scores={questState=2,questTextTimer=1..},tag=isTrackedQuest] run scoreboard players remove @s questTextTimer 1
 execute as @s[scores={questState=2,questTextTimer=24},tag=isTrackedQuest] run function hp:quests/ding_sound
@@ -116,7 +116,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 4 ###########################################################################################
 #############
-# Enter Дырявый Котёл
+# Enter The Leaky Cauldron
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -138,7 +138,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 5 ###########################################################################################
 #############
-# Find an entrance to Косой Переулок
+# Find an entrance to Diagon Alley
 
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -198,7 +198,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 7 ###########################################################################################
 #############
-# Enter Косой Переулок
+# Enter Diagon Alley
 
 ### Tracked Quest ###
 execute as @s[scores={questState=7},tag=isTrackedQuest] run tag @s remove hideQuestTracking

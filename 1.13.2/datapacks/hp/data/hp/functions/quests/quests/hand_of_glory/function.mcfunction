@@ -52,7 +52,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Look for Блейз Забини in the Гостиная Слизерина
+# Look for Blaise Zabini in the Slytherin Common room
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -90,7 +90,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 3 ###########################################################################################
 #############
-# Look for Блейз Забини in the Астрономическая Башня
+# Look for Blaise Zabini in the Astronomy tower
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -124,7 +124,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 4 ###########################################################################################
 #############
-# Look for Блейз Забини in the studyhall
+# Look for Blaise Zabini in the studyhall
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking

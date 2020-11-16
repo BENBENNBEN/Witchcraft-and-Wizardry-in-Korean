@@ -1,5 +1,5 @@
 ##############################################
-# Зеркало Еиналеж
+# Mirror of Erised
 ##############################################
 scoreboard players set @s questID 43
 scoreboard players operation @s questState = mirrorOfErised sharedQuests
@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Locate the Коридор на Третьем Этаже
+# Locate the Third Floor Corridor
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -38,7 +38,7 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Make your way to the Зеркало Еиналеж
+# Make your way to the Mirror of Erised
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking

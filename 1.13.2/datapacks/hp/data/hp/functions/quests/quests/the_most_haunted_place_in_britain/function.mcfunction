@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Отправиться в Визжащая Хижина
+# Travel to the Shrieking Shack
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
@@ -54,7 +54,7 @@ execute as @s[scores={questState=2,playerID=4},tag=isTrackedQuest] run bossbar s
 
 
 ### Trigger ###
-execute positioned 5429 65 2787 as @s[distance=..70,scores={questState=2},tag=isTrackedQuest] run scoreboard players operation shriekingShackPoltergeistKills sharedQuests += @s poltergeistsK
+execute positioned 5429 65 2787 as @s[distance=..200,scores={questState=2},tag=isTrackedQuest] run scoreboard players operation shriekingShackPoltergeistKills sharedQuests += @s poltergeistsK
 
 execute as @s[scores={questState=2},tag=isTrackedQuest] if score shriekingShackPoltergeistKills sharedQuests matches 10.. run scoreboard players set theMostHauntedPlaceInBritain sharedQuests 3
 execute as @s[scores={playerID=1}] unless score theMostHauntedPlaceInBritain p1Quests = theMostHauntedPlaceInBritain sharedQuests if score theMostHauntedPlaceInBritain sharedQuests matches 3 run tag @s add newState
