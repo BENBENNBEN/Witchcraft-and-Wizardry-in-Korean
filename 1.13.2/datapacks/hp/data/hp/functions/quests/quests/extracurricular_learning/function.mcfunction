@@ -18,7 +18,7 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove com
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1536,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1536,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=1},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 776.50 76.00 87.51
 execute as @s[scores={questState=1},tag=isTrackedQuest] run scoreboard players set @s questRegion 1
@@ -26,7 +26,7 @@ execute as @s[scores={questState=1,npcQuestIcon=1},tag=!inProperCutScene,tag=!in
 ### Inject conversation ###
 execute as @s[tag=inConversation,scores={questState=1,convState=1,conv=14}] run tag @s add use
 scoreboard players remove @s[tag=use] questConvOffset 1
-execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ профессор Флитвик сказал что вы можете меня обучить\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 플리트윅 교수님께서 말하시길 선배님이 뭔가 가르쳐 줄 수 있을 거라고 하셨어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s convState 8
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s questConvOffset 1
 tag @s remove use
@@ -51,7 +51,7 @@ execute as @s[tag=newState] run tag @s remove newState
 # Travel To Hogsmeade
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1535,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1535,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=2,lastRegion=1},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 1010.35 78.00 -180.75
 execute as @s[scores={questState=2,lastRegion=1},tag=isTrackedQuest] run scoreboard players set @s questRegion 1
@@ -74,7 +74,7 @@ execute as @s[tag=newState] run tag @s remove newState
 # Put up all the flyers
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1534,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1534,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=3},tag=isTrackedQuest] run scoreboard players set @s questRegion 4
 
@@ -84,10 +84,10 @@ execute as @s[scores={questState=3}] as @e[type=!item_frame,tag=questHover,tag=h
 
 # Title
 execute as @s[scores={questState=3},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=3,playerID=1},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (0 / 5)","color":"gold"}]
-execute as @s[scores={questState=3,playerID=2},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (0 / 5)","color":"gold"}]
-execute as @s[scores={questState=3,playerID=3},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (0 / 5)","color":"gold"}]
-execute as @s[scores={questState=3,playerID=4},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (0 / 5)","color":"gold"}]
+execute as @s[scores={questState=3,playerID=1},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"전단지 5장을 붙이세요 (0 / 5)","color":"gold"}]
+execute as @s[scores={questState=3,playerID=2},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"전단지 5장을 붙이세요 (0 / 5)","color":"gold"}]
+execute as @s[scores={questState=3,playerID=3},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"전단지 5장을 붙이세요 (0 / 5)","color":"gold"}]
+execute as @s[scores={questState=3,playerID=4},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"전단지 5장을 붙이세요 (0 / 5)","color":"gold"}]
 
 ### Trigger ###
 execute as @s[scores={questState=3},tag=hasPressedF] if entity @e[tag=questHover,tag=hogsmeadeNoticeBoard] run scoreboard players operation extracurricularBoard1 sharedQuests = @e[tag=questHover,limit=1,sort=nearest] toolID
@@ -108,7 +108,7 @@ execute as @s[tag=newState] run tag @s remove newState
 # Put up all the flyers
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=4},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1534,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=4},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1534,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=4},tag=isTrackedQuest] run scoreboard players set @s questRegion 4
 
@@ -119,10 +119,10 @@ execute as @s[scores={questState=4}] as @e[type=!item_frame,tag=questHover,tag=h
 
 # Title
 execute as @s[scores={questState=4},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=4,playerID=1},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (1 / 5)","color":"gold"}]
-execute as @s[scores={questState=4,playerID=2},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (1 / 5)","color":"gold"}]
-execute as @s[scores={questState=4,playerID=3},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (1 / 5)","color":"gold"}]
-execute as @s[scores={questState=4,playerID=4},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (1 / 5)","color":"gold"}]
+execute as @s[scores={questState=4,playerID=1},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"전단지 5장을 붙이세요 (1 / 5)","color":"gold"}]
+execute as @s[scores={questState=4,playerID=2},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"전단지 5장을 붙이세요 (1 / 5)","color":"gold"}]
+execute as @s[scores={questState=4,playerID=3},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"전단지 5장을 붙이세요 (1 / 5)","color":"gold"}]
+execute as @s[scores={questState=4,playerID=4},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"전단지 5장을 붙이세요 (1 / 5)","color":"gold"}]
 
 ### Trigger ###
 execute as @s[scores={questState=4},tag=hasPressedF] if entity @e[tag=questHover,tag=hogsmeadeNoticeBoard] run scoreboard players operation extracurricularBoard2 sharedQuests = @e[tag=questHover,limit=1,sort=nearest] toolID
@@ -142,7 +142,7 @@ execute as @s[tag=newState] run tag @s remove newState
 # Put up all the flyers
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=5},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1534,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=5},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1534,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=5},tag=isTrackedQuest] run scoreboard players set @s questRegion 4
 
@@ -154,10 +154,10 @@ execute as @s[scores={questState=5}] as @e[type=!item_frame,tag=questHover,tag=h
 
 # Title
 execute as @s[scores={questState=5},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=5,playerID=1},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (2 / 5)","color":"gold"}]
-execute as @s[scores={questState=5,playerID=2},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (2 / 5)","color":"gold"}]
-execute as @s[scores={questState=5,playerID=3},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (2 / 5)","color":"gold"}]
-execute as @s[scores={questState=5,playerID=4},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (2 / 5)","color":"gold"}]
+execute as @s[scores={questState=5,playerID=1},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"전단지 5장을 붙이세요 (2 / 5)","color":"gold"}]
+execute as @s[scores={questState=5,playerID=2},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"전단지 5장을 붙이세요 (2 / 5)","color":"gold"}]
+execute as @s[scores={questState=5,playerID=3},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"전단지 5장을 붙이세요 (2 / 5)","color":"gold"}]
+execute as @s[scores={questState=5,playerID=4},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"전단지 5장을 붙이세요 (2 / 5)","color":"gold"}]
 
 ### Trigger ###
 execute as @s[scores={questState=5},tag=hasPressedF] if entity @e[tag=questHover,tag=hogsmeadeNoticeBoard] run scoreboard players operation extracurricularBoard3 sharedQuests = @e[tag=questHover,limit=1,sort=nearest] toolID
@@ -178,7 +178,7 @@ execute as @s[tag=newState] run tag @s remove newState
 # Put up all the flyers
 ### Tracked Quest ###
 execute as @s[scores={questState=6},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=6},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1534,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=6},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1534,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=6},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=6},tag=isTrackedQuest] run scoreboard players set @s questRegion 4
 
@@ -190,10 +190,10 @@ execute as @s[scores={questState=6}] as @e[tag=questHover,tag=hogsmeadeNoticeBoa
 execute as @s[scores={questState=6}] as @e[type=!item_frame,tag=questHover,tag=hogsmeadeNoticeBoard,limit=1] at @s run function hp:interaction/quest_hover_block_check_launch
 # Title
 execute as @s[scores={questState=6},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=6,playerID=1},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (3 / 5)","color":"gold"}]
-execute as @s[scores={questState=6,playerID=2},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (3 / 5)","color":"gold"}]
-execute as @s[scores={questState=6,playerID=3},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (3 / 5)","color":"gold"}]
-execute as @s[scores={questState=6,playerID=4},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (3 / 5)","color":"gold"}]
+execute as @s[scores={questState=6,playerID=1},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"전단지 5장을 붙이세요 (3 / 5)","color":"gold"}]
+execute as @s[scores={questState=6,playerID=2},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"전단지 5장을 붙이세요 (3 / 5)","color":"gold"}]
+execute as @s[scores={questState=6,playerID=3},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"전단지 5장을 붙이세요 (3 / 5)","color":"gold"}]
+execute as @s[scores={questState=6,playerID=4},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"전단지 5장을 붙이세요 (3 / 5)","color":"gold"}]
 
 ### Trigger ###
 execute as @s[scores={questState=6},tag=hasPressedF] if entity @e[tag=questHover,tag=hogsmeadeNoticeBoard] run scoreboard players operation extracurricularBoard4 sharedQuests = @e[tag=questHover,limit=1,sort=nearest] toolID
@@ -213,7 +213,7 @@ execute as @s[tag=newState] run tag @s remove newState
 # Put up all the flyers
 ### Tracked Quest ###
 execute as @s[scores={questState=7},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=7},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1534,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=7},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1534,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=7},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=7},tag=isTrackedQuest] run scoreboard players set @s questRegion 4
 
@@ -227,10 +227,10 @@ execute as @s[scores={questState=7}] as @e[type=!item_frame,tag=questHover,tag=h
 
 # Title
 execute as @s[scores={questState=7},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=7,playerID=1},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (4 / 5)","color":"gold"}]
-execute as @s[scores={questState=7,playerID=2},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (4 / 5)","color":"gold"}]
-execute as @s[scores={questState=7,playerID=3},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (4 / 5)","color":"gold"}]
-execute as @s[scores={questState=7,playerID=4},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Повесьте листовки на 5 досок объявлений (4 / 5)","color":"gold"}]
+execute as @s[scores={questState=7,playerID=1},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"전단지 5장을 붙이세요 (4 / 5)","color":"gold"}]
+execute as @s[scores={questState=7,playerID=2},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"전단지 5장을 붙이세요 (4 / 5)","color":"gold"}]
+execute as @s[scores={questState=7,playerID=3},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"전단지 5장을 붙이세요 (4 / 5)","color":"gold"}]
+execute as @s[scores={questState=7,playerID=4},tag=!inConversation,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"전단지 5장을 붙이세요 (4 / 5)","color":"gold"}]
 
 ### Trigger ###
 execute as @s[scores={questState=7},tag=hasPressedF] if entity @e[tag=questHover,tag=hogsmeadeNoticeBoard] run scoreboard players operation extracurricularBoard4 sharedQuests = @e[tag=questHover,limit=1,sort=nearest] toolID
@@ -260,7 +260,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=8},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=8},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1533,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=8},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1533,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=8},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=8,lastRegion=1},tag=isTrackedQuest] run scoreboard players set @s questRegion 1
 execute as @s[scores={questState=8,lastRegion=3},tag=isTrackedQuest] run scoreboard players set @s questRegion 3
@@ -301,7 +301,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=9},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=9},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1533,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=9},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1533,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=9},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=9},tag=isTrackedQuest] run scoreboard players set @s questRegion 1
 
@@ -315,10 +315,10 @@ execute as @a[tag=!hasPutUpSpewFlyers,scores={trackedQuestID=29,trackQuestState=
 
 # Title
 execute as @s[scores={questState=9},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless score @s suitableCount = @s tmp run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=9,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Дождитесь, пока все будут готовы (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / ","color":"gold"},{"score":{"name":"@s","objective":"suitableCount"},"color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=9,playerID=2},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Дождитесь, пока все будут готовы (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / ","color":"gold"},{"score":{"name":"@s","objective":"suitableCount"},"color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=9,playerID=3},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Дождитесь, пока все будут готовы (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / ","color":"gold"},{"score":{"name":"@s","objective":"suitableCount"},"color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=9,playerID=4},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Дождитесь, пока все будут готовы (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / ","color":"gold"},{"score":{"name":"@s","objective":"suitableCount"},"color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=9,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"모두 준비될 때까지 기다리세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / ","color":"gold"},{"score":{"name":"@s","objective":"suitableCount"},"color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=9,playerID=2},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"모두 준비될 때까지 기다리세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / ","color":"gold"},{"score":{"name":"@s","objective":"suitableCount"},"color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=9,playerID=3},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"모두 준비될 때까지 기다리세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / ","color":"gold"},{"score":{"name":"@s","objective":"suitableCount"},"color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=9,playerID=4},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"모두 준비될 때까지 기다리세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / ","color":"gold"},{"score":{"name":"@s","objective":"suitableCount"},"color":"gold"},{"text":")","color":"gold"}]
 
 # Trigger
 execute as @s[scores={questState=9},tag=inNormalState,tag=isTrackedQuest] if score @s suitableCount <= @s tmp run tag @s add completeQuest

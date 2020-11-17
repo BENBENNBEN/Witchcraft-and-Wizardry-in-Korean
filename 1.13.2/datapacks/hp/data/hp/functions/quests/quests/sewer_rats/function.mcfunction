@@ -13,7 +13,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1351,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1351,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=1},tag=isTrackedQuest] positioned 2830 39 959 if entity @s[distance=..15] run tag @s add questHasNoDirection
 execute as @s[scores={questState=1},tag=isTrackedQuest] positioned 2830 39 959 unless entity @s[distance=..15] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=1},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 2830 39 959
@@ -42,7 +42,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1350,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1350,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=2},tag=isTrackedQuest] run scoreboard players set @s questRegion 2
 
@@ -76,7 +76,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1349,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1349,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=3},tag=isTrackedQuest] run scoreboard players set @s questRegion 2
 
@@ -96,20 +96,20 @@ execute as @s[scores={questState=3,playerID=2},tag=isTrackedQuest] if score elik
 execute as @s[scores={questState=3,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 200 at @s run playsound minecraft:custom.ui.event6 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=3,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 200 at @s run playsound minecraft:custom.ui.event6 master @s ~ ~ ~ 10000 1 1
 
-execute as @s[scores={questState=3,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 101..200 run bossbar set minecraft:player1quest name ["",{"text":"Победите З волны врагов!","color":"gold"}]
-execute as @s[scores={questState=3,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 101..200 run bossbar set minecraft:player2quest name ["",{"text":"Победите З волны врагов!","color":"gold"}]
-execute as @s[scores={questState=3,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 101..200 run bossbar set minecraft:player3quest name ["",{"text":"Победите З волны врагов!","color":"gold"}]
-execute as @s[scores={questState=3,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 101..200 run bossbar set minecraft:player4quest name ["",{"text":"Победите З волны врагов!","color":"gold"}]
+execute as @s[scores={questState=3,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 101..200 run bossbar set minecraft:player1quest name ["",{"text":"총 3번의 웨이브를 완료하세요!","color":"gold"}]
+execute as @s[scores={questState=3,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 101..200 run bossbar set minecraft:player2quest name ["",{"text":"총 3번의 웨이브를 완료하세요!","color":"gold"}]
+execute as @s[scores={questState=3,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 101..200 run bossbar set minecraft:player3quest name ["",{"text":"총 3번의 웨이브를 완료하세요!","color":"gold"}]
+execute as @s[scores={questState=3,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 101..200 run bossbar set minecraft:player4quest name ["",{"text":"총 3번의 웨이브를 완료하세요!","color":"gold"}]
 
 execute as @s[scores={questState=3,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 100 at @s run playsound minecraft:custom.ui.event13 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=3,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 100 at @s run playsound minecraft:custom.ui.event13 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=3,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 100 at @s run playsound minecraft:custom.ui.event13 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=3,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 100 at @s run playsound minecraft:custom.ui.event13 master @s ~ ~ ~ 10000 1 1
 
-execute as @s[scores={questState=3,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 1..100 run bossbar set minecraft:player1quest name ["",{"text":"Волна 1","color":"gold"}]	
-execute as @s[scores={questState=3,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 1..100 run bossbar set minecraft:player2quest name ["",{"text":"Волна 1","color":"gold"}]
-execute as @s[scores={questState=3,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 1..100 run bossbar set minecraft:player3quest name ["",{"text":"Волна 1","color":"gold"}]
-execute as @s[scores={questState=3,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 1..100 run bossbar set minecraft:player4quest name ["",{"text":"Волна 1","color":"gold"}]
+execute as @s[scores={questState=3,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 1..100 run bossbar set minecraft:player1quest name ["",{"text":"웨이브 1","color":"gold"}]	
+execute as @s[scores={questState=3,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 1..100 run bossbar set minecraft:player2quest name ["",{"text":"웨이브 1","color":"gold"}]
+execute as @s[scores={questState=3,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 1..100 run bossbar set minecraft:player3quest name ["",{"text":"웨이브 1","color":"gold"}]
+execute as @s[scores={questState=3,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 1..100 run bossbar set minecraft:player4quest name ["",{"text":"웨이브 1","color":"gold"}]
 
 execute as @s[scores={questState=3,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 1 at @s run playsound minecraft:custom.ui.event15 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=3,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 1 at @s run playsound minecraft:custom.ui.event15 master @s ~ ~ ~ 10000 1 1
@@ -135,10 +135,10 @@ execute as @s[scores={questState=3,playerID=4},tag=gameLeader] if score elikElix
 # Count the enemies
 scoreboard players set @s tmp 9
 execute as @e[tag=creature,scores={waveID=1,questID=32}] run scoreboard players remove @p[tag=activePlayer] tmp 1
-execute as @s[scores={questState=3,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 0 run bossbar set minecraft:player1quest name ["",{"text":"Защищайтесь от противников (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" из 9)","color":"gold"}]
-execute as @s[scores={questState=3,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 0 run bossbar set minecraft:player2quest name ["",{"text":"Защищайтесь от противников (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" из 9)","color":"gold"}]
-execute as @s[scores={questState=3,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 0 run bossbar set minecraft:player3quest name ["",{"text":"Защищайтесь от противников (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" из 9)","color":"gold"}]
-execute as @s[scores={questState=3,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 0 run bossbar set minecraft:player4quest name ["",{"text":"Защищайтесь от противников (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" из 9)","color":"gold"}]
+execute as @s[scores={questState=3,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 0 run bossbar set minecraft:player1quest name ["",{"text":"모든 쥐를 물리치세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / 9)","color":"gold"}]
+execute as @s[scores={questState=3,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 0 run bossbar set minecraft:player2quest name ["",{"text":"모든 쥐를 물리치세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / 9)","color":"gold"}]
+execute as @s[scores={questState=3,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 0 run bossbar set minecraft:player3quest name ["",{"text":"모든 쥐를 물리치세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / 9)","color":"gold"}]
+execute as @s[scores={questState=3,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 0 run bossbar set minecraft:player4quest name ["",{"text":"모든 쥐를 물리치세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / 9)","color":"gold"}]
 
 ### Trigger ###
 execute as @s[scores={questState=3,playerID=1,tmp=9},tag=inNormalState] if score elikElixersRatsTimer p1Quests matches 0 run scoreboard players set elikElixersRats sharedQuests 4
@@ -168,7 +168,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=4},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1349,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=4},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1349,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=4},tag=isTrackedQuest] run scoreboard players set @s questRegion 2
 
@@ -188,20 +188,20 @@ execute as @s[scores={questState=4,playerID=2},tag=isTrackedQuest] if score elik
 execute as @s[scores={questState=4,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 200 at @s run playsound minecraft:custom.ui.event12 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=4,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 200 at @s run playsound minecraft:custom.ui.event12 master @s ~ ~ ~ 10000 1 1
 
-execute as @s[scores={questState=4,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 101..200 run bossbar set minecraft:player1quest name ["",{"text":"Волна завершена!","color":"gold"}]
-execute as @s[scores={questState=4,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 101..200 run bossbar set minecraft:player2quest name ["",{"text":"Волна завершена!","color":"gold"}]
-execute as @s[scores={questState=4,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 101..200 run bossbar set minecraft:player3quest name ["",{"text":"Волна завершена!","color":"gold"}]
-execute as @s[scores={questState=4,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 101..200 run bossbar set minecraft:player4quest name ["",{"text":"Волна завершена!","color":"gold"}]
+execute as @s[scores={questState=4,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 101..200 run bossbar set minecraft:player1quest name ["",{"text":"웨이브 완료!","color":"gold"}]
+execute as @s[scores={questState=4,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 101..200 run bossbar set minecraft:player2quest name ["",{"text":"웨이브 완료!","color":"gold"}]
+execute as @s[scores={questState=4,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 101..200 run bossbar set minecraft:player3quest name ["",{"text":"웨이브 완료!","color":"gold"}]
+execute as @s[scores={questState=4,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 101..200 run bossbar set minecraft:player4quest name ["",{"text":"웨이브 완료!","color":"gold"}]
 
 execute as @s[scores={questState=4,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 100 at @s run playsound minecraft:custom.ui.event13 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=4,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 100 at @s run playsound minecraft:custom.ui.event13 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=4,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 100 at @s run playsound minecraft:custom.ui.event13 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=4,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 100 at @s run playsound minecraft:custom.ui.event13 master @s ~ ~ ~ 10000 1 1
 
-execute as @s[scores={questState=4,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 1..100 run bossbar set minecraft:player1quest name ["",{"text":"Волна 2","color":"gold"}]
-execute as @s[scores={questState=4,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 1..100 run bossbar set minecraft:player2quest name ["",{"text":"Волна 2","color":"gold"}]
-execute as @s[scores={questState=4,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 1..100 run bossbar set minecraft:player3quest name ["",{"text":"Волна 2","color":"gold"}]
-execute as @s[scores={questState=4,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 1..100 run bossbar set minecraft:player4quest name ["",{"text":"Волна 2","color":"gold"}]
+execute as @s[scores={questState=4,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 1..100 run bossbar set minecraft:player1quest name ["",{"text":"웨이브 2","color":"gold"}]
+execute as @s[scores={questState=4,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 1..100 run bossbar set minecraft:player2quest name ["",{"text":"웨이브 2","color":"gold"}]
+execute as @s[scores={questState=4,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 1..100 run bossbar set minecraft:player3quest name ["",{"text":"웨이브 2","color":"gold"}]
+execute as @s[scores={questState=4,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 1..100 run bossbar set minecraft:player4quest name ["",{"text":"웨이브 2","color":"gold"}]
 
 execute as @s[scores={questState=4,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 1 at @s run playsound minecraft:custom.ui.event15 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=4,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 1 at @s run playsound minecraft:custom.ui.event15 master @s ~ ~ ~ 10000 1 1
@@ -217,10 +217,10 @@ execute as @s[scores={questState=4,playerID=4},tag=gameLeader] if score elikElix
 # Count the enemies
 scoreboard players set @s tmp 9
 execute as @e[tag=creature,scores={waveID=2,questID=32}] run scoreboard players remove @p[tag=activePlayer] tmp 1
-execute as @s[scores={questState=4,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 0 run bossbar set minecraft:player1quest name ["",{"text":"Защищайтесь  от противников (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" из 9)","color":"gold"}]
-execute as @s[scores={questState=4,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 0 run bossbar set minecraft:player2quest name ["",{"text":"Защищайтесь  от противников (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" из 9)","color":"gold"}]
-execute as @s[scores={questState=4,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 0 run bossbar set minecraft:player3quest name ["",{"text":"Защищайтесь  от противников (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" из 9)","color":"gold"}]
-execute as @s[scores={questState=4,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 0 run bossbar set minecraft:player4quest name ["",{"text":"Защищайтесь  от противников (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" из 9)","color":"gold"}]
+execute as @s[scores={questState=4,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 0 run bossbar set minecraft:player1quest name ["",{"text":"모든 쥐를 물리치세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / 9)","color":"gold"}]
+execute as @s[scores={questState=4,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 0 run bossbar set minecraft:player2quest name ["",{"text":"모든 쥐를 물리치세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / 9)","color":"gold"}]
+execute as @s[scores={questState=4,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 0 run bossbar set minecraft:player3quest name ["",{"text":"모든 쥐를 물리치세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / 9)","color":"gold"}]
+execute as @s[scores={questState=4,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 0 run bossbar set minecraft:player4quest name ["",{"text":"모든 쥐를 물리치세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / 9)","color":"gold"}]
 
 
 ### Trigger ###
@@ -251,7 +251,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=5},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1349,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=5},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1349,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=5},tag=isTrackedQuest] run scoreboard players set @s questRegion 2
 
@@ -271,20 +271,20 @@ execute as @s[scores={questState=5,playerID=2},tag=isTrackedQuest] if score elik
 execute as @s[scores={questState=5,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 200 at @s run playsound minecraft:custom.ui.event12 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=5,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 200 at @s run playsound minecraft:custom.ui.event12 master @s ~ ~ ~ 10000 1 1
 
-execute as @s[scores={questState=5,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 101..200 run bossbar set minecraft:player1quest name ["",{"text":"Волна завершена!","color":"gold"}]
-execute as @s[scores={questState=5,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 101..200 run bossbar set minecraft:player2quest name ["",{"text":"Волна завершена!","color":"gold"}]
-execute as @s[scores={questState=5,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 101..200 run bossbar set minecraft:player3quest name ["",{"text":"Волна завершена!","color":"gold"}]
-execute as @s[scores={questState=5,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 101..200 run bossbar set minecraft:player4quest name ["",{"text":"Волна завершена!","color":"gold"}]
+execute as @s[scores={questState=5,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 101..200 run bossbar set minecraft:player1quest name ["",{"text":"웨이브 완료!","color":"gold"}]
+execute as @s[scores={questState=5,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 101..200 run bossbar set minecraft:player2quest name ["",{"text":"웨이브 완료!","color":"gold"}]
+execute as @s[scores={questState=5,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 101..200 run bossbar set minecraft:player3quest name ["",{"text":"웨이브 완료!","color":"gold"}]
+execute as @s[scores={questState=5,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 101..200 run bossbar set minecraft:player4quest name ["",{"text":"웨이브 완료!","color":"gold"}]
 
 execute as @s[scores={questState=5,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 100 at @s run playsound minecraft:custom.ui.event13 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=5,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 100 at @s run playsound minecraft:custom.ui.event13 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=5,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 100 at @s run playsound minecraft:custom.ui.event13 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=5,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 100 at @s run playsound minecraft:custom.ui.event13 master @s ~ ~ ~ 10000 1 1
 
-execute as @s[scores={questState=5,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 1..100 run bossbar set minecraft:player1quest name ["",{"text":"Волна 3","color":"gold"}]
-execute as @s[scores={questState=5,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 1..100 run bossbar set minecraft:player2quest name ["",{"text":"Волна 3","color":"gold"}]
-execute as @s[scores={questState=5,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 1..100 run bossbar set minecraft:player3quest name ["",{"text":"Волна 3","color":"gold"}]
-execute as @s[scores={questState=5,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 1..100 run bossbar set minecraft:player4quest name ["",{"text":"Волна 3","color":"gold"}]
+execute as @s[scores={questState=5,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 1..100 run bossbar set minecraft:player1quest name ["",{"text":"웨이브 3","color":"gold"}]
+execute as @s[scores={questState=5,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 1..100 run bossbar set minecraft:player2quest name ["",{"text":"웨이브 3","color":"gold"}]
+execute as @s[scores={questState=5,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 1..100 run bossbar set minecraft:player3quest name ["",{"text":"웨이브 3","color":"gold"}]
+execute as @s[scores={questState=5,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 1..100 run bossbar set minecraft:player4quest name ["",{"text":"웨이브 3","color":"gold"}]
 
 execute as @s[scores={questState=5,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 1 at @s run playsound minecraft:custom.ui.event15 master @s ~ ~ ~ 10000 1 1
 execute as @s[scores={questState=5,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 1 at @s run playsound minecraft:custom.ui.event15 master @s ~ ~ ~ 10000 1 1
@@ -300,10 +300,10 @@ execute as @s[scores={questState=5,playerID=4},tag=gameLeader] if score elikElix
 # Count the enemies
 scoreboard players set @s tmp 9
 execute as @e[tag=creature,scores={waveID=3,questID=32}] run scoreboard players remove @p[tag=activePlayer] tmp 1
-execute as @s[scores={questState=5,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 0 run bossbar set minecraft:player1quest name ["",{"text":"Защищайтесь  от противников (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" из 9)","color":"gold"}]
-execute as @s[scores={questState=5,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 0 run bossbar set minecraft:player2quest name ["",{"text":"Защищайтесь  от противников (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" из 9)","color":"gold"}]
-execute as @s[scores={questState=5,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 0 run bossbar set minecraft:player3quest name ["",{"text":"Защищайтесь  от противников (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" из 9)","color":"gold"}]
-execute as @s[scores={questState=5,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 0 run bossbar set minecraft:player4quest name ["",{"text":"Защищайтесь  от противников (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" из 9)","color":"gold"}]
+execute as @s[scores={questState=5,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches 0 run bossbar set minecraft:player1quest name ["",{"text":"모든 쥐를 물리치세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / 9)","color":"gold"}]
+execute as @s[scores={questState=5,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches 0 run bossbar set minecraft:player2quest name ["",{"text":"모든 쥐를 물리치세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / 9)","color":"gold"}]
+execute as @s[scores={questState=5,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 0 run bossbar set minecraft:player3quest name ["",{"text":"모든 쥐를 물리치세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / 9)","color":"gold"}]
+execute as @s[scores={questState=5,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 0 run bossbar set minecraft:player4quest name ["",{"text":"모든 쥐를 물리치세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp"},"color":"gold"},{"text":" / 9)","color":"gold"}]
 
 ### Trigger ###
 execute as @s[scores={questState=5,playerID=1,tmp=9},tag=inNormalState] if score elikElixersRatsTimer p1Quests matches 0 run scoreboard players set elikElixersRats sharedQuests 6
@@ -340,7 +340,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=6},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=6},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1348,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=6},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1348,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=6},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=6},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 2829.51 46.00 957.43
 execute as @s[scores={questState=6,npcQuestIcon=1},tag=!inProperCutScene,tag=!inResetPoint,tag=!isFastTravelling] at @e[scores={conv=57},tag=npc,tag=!inConversationNPC] run particle minecraft:angry_villager ~ ~1.7 ~ 0 0 0 100 1 force @s
@@ -358,10 +358,10 @@ execute as @s[scores={questState=6,playerID=2},tag=isTrackedQuest] if score elik
 execute as @s[scores={questState=6,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches 1..100 run scoreboard players set @s questTextTimer 2
 execute as @s[scores={questState=6,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches 1..100 run scoreboard players set @s questTextTimer 2
 
-execute as @s[scores={questState=6,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches ..100 run bossbar set minecraft:player1quest name ["",{"text":"Крысы повержены!","color":"gold"}]
-execute as @s[scores={questState=6,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches ..100 run bossbar set minecraft:player3quest name ["",{"text":"Крысы повержены!","color":"gold"}]
-execute as @s[scores={questState=6,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches ..100 run bossbar set minecraft:player2quest name ["",{"text":"Крысы повержены!","color":"gold"}]
-execute as @s[scores={questState=6,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches ..100 run bossbar set minecraft:player4quest name ["",{"text":"Крысы повержены!","color":"gold"}]
+execute as @s[scores={questState=6,playerID=1},tag=isTrackedQuest] if score elikElixersRatsTimer p1Quests matches ..100 run bossbar set minecraft:player1quest name ["",{"text":"처치 완료!","color":"gold"}]
+execute as @s[scores={questState=6,playerID=3},tag=isTrackedQuest] if score elikElixersRatsTimer p2Quests matches ..100 run bossbar set minecraft:player3quest name ["",{"text":"처치 완료!","color":"gold"}]
+execute as @s[scores={questState=6,playerID=2},tag=isTrackedQuest] if score elikElixersRatsTimer p3Quests matches ..100 run bossbar set minecraft:player2quest name ["",{"text":"처치 완료!","color":"gold"}]
+execute as @s[scores={questState=6,playerID=4},tag=isTrackedQuest] if score elikElixersRatsTimer p4Quests matches ..100 run bossbar set minecraft:player4quest name ["",{"text":"처치 완료!","color":"gold"}]
 
 ### Inject conversation ###
 execute as @s[tag=inConversation,scores={questState=6,convState=1,conv=57}] run tag @s add use

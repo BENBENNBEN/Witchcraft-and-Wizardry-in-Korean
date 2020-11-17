@@ -13,7 +13,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1432,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1432,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=1},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 778 99 106
 execute as @s[scores={questState=1},tag=isTrackedQuest] run scoreboard players set @s questRegion 1
@@ -43,7 +43,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1431,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1431,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=2},tag=isTrackedQuest] run scoreboard players set @s questRegion 8
 
@@ -68,10 +68,10 @@ execute as @s[scores={questState=2},tag=isTrackedQuest] as @e[tag=lunaBelonging,
 
 # Title
 execute as @s[scores={questState=2},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=2,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Найдите Вещи Полумны Лавгуд (","color":"gold"},{"score":{"name":"lunaBelongings","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=2,playerID=2},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Найдите Вещи Полумны Лавгуд (","color":"gold"},{"score":{"name":"lunaBelongings","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=2,playerID=3},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Найдите Вещи Полумны Лавгуд (","color":"gold"},{"score":{"name":"lunaBelongings","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=2,playerID=4},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Найдите Вещи Полумны Лавгуд (","color":"gold"},{"score":{"name":"lunaBelongings","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=2,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"루나 러브굿의 물건을 찾으세요 (","color":"gold"},{"score":{"name":"lunaBelongings","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=2,playerID=2},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"루나 러브굿의 물건을 찾으세요 (","color":"gold"},{"score":{"name":"lunaBelongings","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=2,playerID=3},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"루나 러브굿의 물건을 찾으세요 (","color":"gold"},{"score":{"name":"lunaBelongings","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=2,playerID=4},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"루나 러브굿의 물건을 찾으세요 (","color":"gold"},{"score":{"name":"lunaBelongings","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
 
 
 execute if score lunaBelongings sharedQuests matches 5 run scoreboard players set theRoomOfRequirement sharedQuests 3
@@ -99,7 +99,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1430,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1430,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=3,lastRegion=8},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 5493 50 1038
 execute as @s[scores={questState=3,lastRegion=8},tag=isTrackedQuest] run scoreboard players set @s questRegion 8
@@ -112,7 +112,7 @@ execute as @s[scores={questState=3,npcQuestIcon=1},tag=!inProperCutScene,tag=!in
 execute as @s[tag=inConversation,scores={questState=3,conv=16,convState=1}] run tag @s add use
 scoreboard players remove @s[tag=use] questConvOffset 1
 
-execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ Я нашёл твою одежду\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 네 물건을 발견했어\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s convState 12
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s questConvOffset 1
 tag @s remove use

@@ -19,16 +19,16 @@ execute as @s[scores={questState=1..3,lastRegion=1},tag=isTrackedQuest] at @s as
 
 # Title
 execute as @s[scores={questState=1..3,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4929,dx=228,y=0,dy=255,z=6958,dz=214] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=1..3,playerID=1,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4929,dx=228,y=0,dy=255,z=6958,dz=214] run bossbar set minecraft:player1quest name ["",{"text":"Поговорите с Драко Малфоем, чтобы отправиться в Поместье Малфоев","color":"gold"}]
-execute as @s[scores={questState=1..3,playerID=2,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4929,dx=228,y=0,dy=255,z=6958,dz=214] run bossbar set minecraft:player2quest name ["",{"text":"Поговорите с Драко Малфоем, чтобы отправиться в Поместье Малфоев","color":"gold"}]
-execute as @s[scores={questState=1..3,playerID=3,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4929,dx=228,y=0,dy=255,z=6958,dz=214] run bossbar set minecraft:player3quest name ["",{"text":"Поговорите с Драко Малфоем, чтобы отправиться в Поместье Малфоев","color":"gold"}]
-execute as @s[scores={questState=1..3,playerID=4,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4929,dx=228,y=0,dy=255,z=6958,dz=214] run bossbar set minecraft:player4quest name ["",{"text":"Поговорите с Драко Малфоем, чтобы отправиться в Поместье Малфоев","color":"gold"}]
+execute as @s[scores={questState=1..3,playerID=1,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4929,dx=228,y=0,dy=255,z=6958,dz=214] run bossbar set minecraft:player1quest name ["",{"text":"드레이코 말포이 대화하고 말포이 저택으로 이동하세요","color":"gold"}]
+execute as @s[scores={questState=1..3,playerID=2,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4929,dx=228,y=0,dy=255,z=6958,dz=214] run bossbar set minecraft:player2quest name ["",{"text":"드레이코 말포이 대화하고 말포이 저택으로 이동하세요","color":"gold"}]
+execute as @s[scores={questState=1..3,playerID=3,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4929,dx=228,y=0,dy=255,z=6958,dz=214] run bossbar set minecraft:player3quest name ["",{"text":"드레이코 말포이 대화하고 말포이 저택으로 이동하세요","color":"gold"}]
+execute as @s[scores={questState=1..3,playerID=4,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4929,dx=228,y=0,dy=255,z=6958,dz=214] run bossbar set minecraft:player4quest name ["",{"text":"드레이코 말포이 대화하고 말포이 저택으로 이동하세요","color":"gold"}]
 
 
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1,lastRegion=11},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1341,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1341,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=1,lastRegion=11},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=1,lastRegion=11},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 5042 62 7062
 execute as @s[scores={questState=1,lastRegion=11},tag=isTrackedQuest] run scoreboard players set @s questRegion 11
@@ -60,7 +60,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2,lastRegion=11},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1340,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1340,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=2,lastRegion=11},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=2,lastRegion=11},tag=isTrackedQuest] run scoreboard players set @s questRegion 11
 
@@ -85,10 +85,10 @@ execute as @s[scores={questState=2},tag=isTrackedQuest] as @e[tag=illegalItem,ta
 
 # Title
 execute as @s[scores={questState=2,lastRegion=11},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=2,playerID=1,lastRegion=11},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Соберите незаконные предметы в поместье Малфоев (","color":"gold"},{"score":{"name":"illegalItemsFound","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=2,playerID=2,lastRegion=11},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Соберите незаконные предметы в поместье Малфоев (","color":"gold"},{"score":{"name":"illegalItemsFound","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=2,playerID=3,lastRegion=11},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Соберите незаконные предметы в поместье Малфоев (","color":"gold"},{"score":{"name":"illegalItemsFound","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=2,playerID=4,lastRegion=11},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Соберите незаконные предметы в поместье Малфоев (","color":"gold"},{"score":{"name":"illegalItemsFound","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=2,playerID=1,lastRegion=11},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"말포이 저택에서 불법 물품을 수집하세요 (","color":"gold"},{"score":{"name":"illegalItemsFound","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=2,playerID=2,lastRegion=11},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"말포이 저택에서 불법 물품을 수집하세요 (","color":"gold"},{"score":{"name":"illegalItemsFound","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=2,playerID=3,lastRegion=11},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"말포이 저택에서 불법 물품을 수집하세요 (","color":"gold"},{"score":{"name":"illegalItemsFound","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=2,playerID=4,lastRegion=11},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"말포이 저택에서 불법 물품을 수집하세요 (","color":"gold"},{"score":{"name":"illegalItemsFound","objective":"sharedQuests"},"color":"gold"},{"text":" / 5","color":"gold"},{"text":")","color":"gold"}]
 
 
 execute as @s[scores={questState=2},tag=isTrackedQuest] if score illegalItemsFound sharedQuests matches 5 run scoreboard players set illegalItems sharedQuests 3
@@ -114,7 +114,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3,lastRegion=11},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1339,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1339,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=3,lastRegion=11},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=3,lastRegion=11},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 5042 62 7062
 execute as @s[scores={questState=3,lastRegion=11},tag=isTrackedQuest] run scoreboard players set @s questRegion 11
@@ -125,7 +125,7 @@ execute as @s[scores={questState=3,npcQuestIcon=1},tag=!inProperCutScene,tag=!in
 execute as @s[tag=inConversation,scores={questState=3,conv=17,convState=14}] run tag @s add use
 scoreboard players remove @s[tag=use] questConvOffset 1
 
-execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ Я собрал все вещи\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 모든 물품을 수집했어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s convState 28
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s questConvOffset 1
 tag @s remove use
@@ -155,7 +155,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=4},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1338,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=4},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1338,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=4},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 2790.58 31.00 1037.88
 execute as @s[scores={questState=4},tag=isTrackedQuest] run scoreboard players set @s questRegion 2
@@ -165,7 +165,7 @@ execute as @s[scores={questState=4,npcQuestIcon=1},tag=!inProperCutScene,tag=!in
 execute as @s[tag=inConversation,scores={questState=4,conv=75,convState=1}] run tag @s add use
 scoreboard players remove @s[tag=use] questConvOffset 1
 
-execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ У меня есть вещи, которые могут вас заинтересовать\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 당신이 관심 가질만한 물건들을 갖고 있는데요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s convState 14
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s questConvOffset 1
 tag @s remove use

@@ -17,7 +17,7 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove com
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1..},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=1..},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1531,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=1..},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1531,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=1..},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=1..},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 668.57 53.00 9.76
 execute as @s[scores={questState=1..12},tag=isTrackedQuest] positioned 668.57 53.00 9.76 rotated 0 -90 run function hp:quests/quests/flying/fire_circle
@@ -25,10 +25,10 @@ execute as @s[scores={questState=1..12},tag=isTrackedQuest] positioned 668.57 53
 ### Function ###
 # Title
 execute as @s[scores={questState=1},tag=!inConversation,tag=!inProperCutScene,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=1,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Идите в отмеченную область и оседлайте метлу","color":"gold"}]
-execute as @s[scores={questState=1,playerID=2},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Идите в отмеченную область и оседлайте метлу","color":"gold"}]
-execute as @s[scores={questState=1,playerID=3},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Идите в отмеченную область и оседлайте метлу","color":"gold"}]
-execute as @s[scores={questState=1,playerID=4},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Идите в отмеченную область и оседлайте метлу","color":"gold"}]
+execute as @s[scores={questState=1,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"표시된 곳으로 가서 빗자루에 타세요","color":"gold"}]
+execute as @s[scores={questState=1,playerID=2},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"표시된 곳으로 가서 빗자루에 타세요","color":"gold"}]
+execute as @s[scores={questState=1,playerID=3},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"표시된 곳으로 가서 빗자루에 타세요","color":"gold"}]
+execute as @s[scores={questState=1,playerID=4},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"표시된 곳으로 가서 빗자루에 타세요","color":"gold"}]
 
 
 
@@ -130,7 +130,7 @@ execute as @s[scores={questState=12,playerID=4},tag=isTrackedQuest] if score fly
 execute as @s[tag=newState] run scoreboard players set @s questState 13
 execute as @s[tag=newState] run function hp:quests/set_quest
 execute as @s[tag=newState] run title @s times 2 16 2
-execute as @s[tag=newState] run title @s subtitle {"text":"Вперёд!","color":"gold"}
+execute as @s[tag=newState] run title @s subtitle {"text":"시작!","color":"gold"}
 execute as @s[tag=newState] at @s run playsound minecraft:custom.ui.event3 master @s ~ ~ ~ 10 1 1
 execute as @s[tag=newState] run title @s title {"text":""}
 execute as @s[tag=newState] run tag @s remove newState
@@ -939,16 +939,16 @@ execute as @s[scores={questState=100},tag=isTrackedQuest] run function hp:quests
 
 # Not Highscore
 execute as @s[scores={questState=100},tag=isTrackedQuest] run scoreboard players set @s questTextTimer 5
-execute as @s[scores={questState=100,playerID=1},tag=isTrackedQuest,tag=!setHighScore] run bossbar set minecraft:player1quest name ["",{"text":"Ваше время ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":". Самое быстрое время круга ","color":"gold"},{"score":{"name":"минут","objective":"flyingHighscore"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"секунд","objective":"flyingHighscore"},"color":"gold"},{"text":".","color":"gold"}]
-execute as @s[scores={questState=100,playerID=3},tag=isTrackedQuest,tag=!setHighScore] run bossbar set minecraft:player3quest name ["",{"text":"Ваше время ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":". Самое быстрое время круга ","color":"gold"},{"score":{"name":"минут","objective":"flyingHighscore"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"секунд","objective":"flyingHighscore"},"color":"gold"},{"text":".","color":"gold"}]
-execute as @s[scores={questState=100,playerID=2},tag=isTrackedQuest,tag=!setHighScore] run bossbar set minecraft:player2quest name ["",{"text":"Ваше время ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":". Самое быстрое время круга ","color":"gold"},{"score":{"name":"минут","objective":"flyingHighscore"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"секунд","objective":"flyingHighscore"},"color":"gold"},{"text":".","color":"gold"}]
-execute as @s[scores={questState=100,playerID=4},tag=isTrackedQuest,tag=!setHighScore] run bossbar set minecraft:player4quest name ["",{"text":"Ваше время ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":". Самое быстрое время круга ","color":"gold"},{"score":{"name":"минут","objective":"flyingHighscore"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"секунд","objective":"flyingHighscore"},"color":"gold"},{"text":".","color":"gold"}]
+execute as @s[scores={questState=100,playerID=1},tag=isTrackedQuest,tag=!setHighScore] run bossbar set minecraft:player1quest name ["",{"text":"지금 기록은 ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":". 가장 빠른 기록은 ","color":"gold"},{"score":{"name":"분","objective":"flyingHighscore"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"초입니다","objective":"flyingHighscore"},"color":"gold"},{"text":".","color":"gold"}]
+execute as @s[scores={questState=100,playerID=3},tag=isTrackedQuest,tag=!setHighScore] run bossbar set minecraft:player3quest name ["",{"text":"지금 기록은 ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":". 가장 빠른 기록은 ","color":"gold"},{"score":{"name":"분","objective":"flyingHighscore"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"초입니다","objective":"flyingHighscore"},"color":"gold"},{"text":".","color":"gold"}]
+execute as @s[scores={questState=100,playerID=2},tag=isTrackedQuest,tag=!setHighScore] run bossbar set minecraft:player2quest name ["",{"text":"지금 기록은 ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":". 가장 빠른 기록은 ","color":"gold"},{"score":{"name":"분","objective":"flyingHighscore"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"초입니다","objective":"flyingHighscore"},"color":"gold"},{"text":".","color":"gold"}]
+execute as @s[scores={questState=100,playerID=4},tag=isTrackedQuest,tag=!setHighScore] run bossbar set minecraft:player4quest name ["",{"text":"지금 기록은 ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":". 가장 빠른 기록은 ","color":"gold"},{"score":{"name":"분","objective":"flyingHighscore"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"초입니다","objective":"flyingHighscore"},"color":"gold"},{"text":".","color":"gold"}]
 
 # Highscore
-execute as @s[scores={questState=100,playerID=1},tag=isTrackedQuest,tag=setHighScore] run bossbar set minecraft:player1quest name ["",{"text":"Вы установили новый рекорд круга. Ваше время ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":".","color":"gold"}]
-execute as @s[scores={questState=100,playerID=3},tag=isTrackedQuest,tag=setHighScore] run bossbar set minecraft:player3quest name ["",{"text":"Вы установили новый рекорд круга. Ваше время ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":".","color":"gold"}]
-execute as @s[scores={questState=100,playerID=2},tag=isTrackedQuest,tag=setHighScore] run bossbar set minecraft:player2quest name ["",{"text":"Вы установили новый рекорд круга. Ваше время ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":".","color":"gold"}]
-execute as @s[scores={questState=100,playerID=4},tag=isTrackedQuest,tag=setHighScore] run bossbar set minecraft:player4quest name ["",{"text":"Вы установили новый рекорд круга. Ваше время ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":".","color":"gold"}]
+execute as @s[scores={questState=100,playerID=1},tag=isTrackedQuest,tag=setHighScore] run bossbar set minecraft:player1quest name ["",{"text":"신기록을 세웠습니다! 지금 기록은 ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":".","color":"gold"}]
+execute as @s[scores={questState=100,playerID=3},tag=isTrackedQuest,tag=setHighScore] run bossbar set minecraft:player3quest name ["",{"text":"신기록을 세웠습니다! 지금 기록은 ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":".","color":"gold"}]
+execute as @s[scores={questState=100,playerID=2},tag=isTrackedQuest,tag=setHighScore] run bossbar set minecraft:player2quest name ["",{"text":"신기록을 세웠습니다! 지금 기록은 ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":".","color":"gold"}]
+execute as @s[scores={questState=100,playerID=4},tag=isTrackedQuest,tag=setHighScore] run bossbar set minecraft:player4quest name ["",{"text":"신기록을 세웠습니다! 지금 기록은 ","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":".","color":"gold"}]
 
 ### Trigger ###
 execute as @s[scores={questState=100,playerID=1},tag=isTrackedQuest] if score flyingTimer p1Quests matches 0.. run tag @s add completeQuest
@@ -976,10 +976,10 @@ execute as @s[tag=newState] run tag @s remove newState
 ##############
 # Cancelled
 execute as @s[scores={questState=101,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=101,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Полёт отменен.","color":"red"}]
-execute as @s[scores={questState=101,playerID=3},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Полёт отменен.","color":"red"}]
-execute as @s[scores={questState=101,playerID=2},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Полёт отменен.","color":"red"}]
-execute as @s[scores={questState=101,playerID=4},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Полёт отменен.","color":"red"}]
+execute as @s[scores={questState=101,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"기록이 취소되었습니다.","color":"red"}]
+execute as @s[scores={questState=101,playerID=3},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"기록이 취소되었습니다.","color":"red"}]
+execute as @s[scores={questState=101,playerID=2},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"기록이 취소되었습니다.","color":"red"}]
+execute as @s[scores={questState=101,playerID=4},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"기록이 취소되었습니다.","color":"red"}]
 
 ### Trigger ###
 execute as @s[scores={questState=101,playerID=1}] if score flyingTimer p1Quests matches 0.. run tag @s add completeQuest
