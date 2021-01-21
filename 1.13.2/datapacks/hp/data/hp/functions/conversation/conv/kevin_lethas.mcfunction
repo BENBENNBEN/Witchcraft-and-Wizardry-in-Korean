@@ -16,10 +16,10 @@ execute as @s[scores={delayConvTellraw=2,playerID=1}] if score delinquentDailyPr
 execute as @s[scores={delayConvTellraw=2,playerID=2}] if score delinquentDailyProphet sharedQuests matches 4 store result score @s tmp2 run data get entity 0-0-5-0-2 ArmorItems[3].tag."invItem.Remembrall.count" 1
 execute as @s[scores={delayConvTellraw=2,playerID=3}] if score delinquentDailyProphet sharedQuests matches 4 store result score @s tmp2 run data get entity 0-0-5-0-3 ArmorItems[3].tag."invItem.Remembrall.count" 1
 execute as @s[scores={delayConvTellraw=2,playerID=4}] if score delinquentDailyProphet sharedQuests matches 4 store result score @s tmp2 run data get entity 0-0-5-0-4 ArmorItems[3].tag."invItem.Remembrall.count" 1
-execute as @s[scores={delayConvTellraw=2,playerID=1}] if score delinquentDailyProphet sharedQuests matches 4 if score @s tmp2 matches 1.. if score @s tmp3 matches 1.. run scoreboard players set @s convState 7
-execute as @s[scores={delayConvTellraw=2,playerID=2}] if score delinquentDailyProphet sharedQuests matches 4 if score @s tmp2 matches 1.. if score @s tmp3 matches 1.. run scoreboard players set @s convState 7
-execute as @s[scores={delayConvTellraw=2,playerID=3}] if score delinquentDailyProphet sharedQuests matches 4 if score @s tmp2 matches 1.. if score @s tmp3 matches 1.. run scoreboard players set @s convState 7
-execute as @s[scores={delayConvTellraw=2,playerID=4}] if score delinquentDailyProphet sharedQuests matches 4 if score @s tmp2 matches 1.. if score @s tmp3 matches 1.. run scoreboard players set @s convState 7
+execute as @s[scores={delayConvTellraw=2,playerID=1}] if score delinquentDailyProphet sharedQuests matches 4 if score @s tmp2 matches 1.. run scoreboard players set @s convState 7
+execute as @s[scores={delayConvTellraw=2,playerID=2}] if score delinquentDailyProphet sharedQuests matches 4 if score @s tmp2 matches 1.. run scoreboard players set @s convState 7
+execute as @s[scores={delayConvTellraw=2,playerID=3}] if score delinquentDailyProphet sharedQuests matches 4 if score @s tmp2 matches 1.. run scoreboard players set @s convState 7
+execute as @s[scores={delayConvTellraw=2,playerID=4}] if score delinquentDailyProphet sharedQuests matches 4 if score @s tmp2 matches 1.. run scoreboard players set @s convState 7
 execute as @s[scores={delayConvTellraw=2}] run scoreboard players set @s oldConvState -2
 execute as @s[scores={delayConvTellraw=1..}] run scoreboard players remove @s delayConvTellraw 1
 
