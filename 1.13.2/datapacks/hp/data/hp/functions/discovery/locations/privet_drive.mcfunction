@@ -12,10 +12,10 @@ scoreboard players set @s[tag=discovered_privet_drive,tag=!inProperCutScene] dis
 execute as @s[tag=!discovered_privet_drive,tag=!inProperCutScene] run tag @s add discovered_privet_drive
 
 # Title
-execute as @s[scores={playerID=1},tag=!inProperCutScene] run bossbar set minecraft:player1discover name {"text":"프리벳가","color":"white","italic":"false"}
-execute as @s[scores={playerID=2},tag=!inProperCutScene] run bossbar set minecraft:player2discover name {"text":"프리벳가","color":"white","italic":"false"}
-execute as @s[scores={playerID=3},tag=!inProperCutScene] run bossbar set minecraft:player3discover name {"text":"프리벳가","color":"white","italic":"false"}
-execute as @s[scores={playerID=4},tag=!inProperCutScene] run bossbar set minecraft:player4discover name {"text":"프리벳가","color":"white","italic":"false"}
+execute as @s[scores={playerID=1},tag=!inProperCutScene] run bossbar set minecraft:player1discover name {"text":"프리빗가","color":"white","italic":"false"}
+execute as @s[scores={playerID=2},tag=!inProperCutScene] run bossbar set minecraft:player2discover name {"text":"프리빗가","color":"white","italic":"false"}
+execute as @s[scores={playerID=3},tag=!inProperCutScene] run bossbar set minecraft:player3discover name {"text":"프리빗가","color":"white","italic":"false"}
+execute as @s[scores={playerID=4},tag=!inProperCutScene] run bossbar set minecraft:player4discover name {"text":"프리빗가","color":"white","italic":"false"}
 execute as @s[tag=!inProperCutScene] run function hp:misc/update_bossbars
 
 # Set location
