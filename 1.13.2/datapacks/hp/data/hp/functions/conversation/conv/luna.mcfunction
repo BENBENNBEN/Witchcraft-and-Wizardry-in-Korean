@@ -574,9 +574,8 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] if entity @p[tag=queingQuest] run data merge entity @s {CustomName:"{\"text\":\"ⁿ√ Отправиться в Дом Лавгудов\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] unless entity @p[tag=queingQuest] run data merge entity @s {CustomName:"{\"text\":\"ⁿ√ Travel to the Lovegood Residence\"}",Tags:["_____Normal_____","_____click_____","fastTravel","_____destinationLovegoodResidence_____","convOption","i"]}
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] unless entity @p[tag=queingQuest] if entity @p[tag=activePlayer,tag=confirmConvOption,tag=!inMemory] run data merge entity @s {CustomName:"{\"text\":\"Дом Лавгудов\"}",Tags:["_____Normal_____","_____click_____","fastTravel","_____destinationLovegoodResidence_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"ⁿ√ Отправиться в Дом Лавгудов\"}",Tags:["_____Normal_____","_____click_____","fastTravel","_____destinationLovegoodResidence_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] if entity @p[tag=activePlayer,tag=confirmConvOption,tag=!inMemory] run data merge entity @s {CustomName:"{\"text\":\"Дом Лавгудов\"}",Tags:["_____Normal_____","_____click_____","fastTravel","_____destinationLovegoodResidence_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless entity @p[tag=queingQuest] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] run scoreboard players set unlockedLovegoodResidence sharedQuests 1
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless entity @p[tag=queingQuest] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] run scoreboard players set snipeHunt sharedQuests 1
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless entity @p[tag=queingQuest] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] run scoreboard players set snipeHunt p1Quests 1

@@ -12,10 +12,10 @@ scoreboard players set @s[tag=discovered_platform_9_3_4,tag=!inProperCutScene] d
 execute as @s[tag=!discovered_platform_9_3_4,tag=!inProperCutScene] run tag @s add discovered_platform_9_3_4
 
 # Title
-execute as @s[scores={playerID=1},tag=!inProperCutScene] run bossbar set minecraft:player1discover name {"text":"9와 4분의 3 승강장","color":"white","italic":"false"}
-execute as @s[scores={playerID=2},tag=!inProperCutScene] run bossbar set minecraft:player2discover name {"text":"9와 4분의 3 승강장","color":"white","italic":"false"}
-execute as @s[scores={playerID=3},tag=!inProperCutScene] run bossbar set minecraft:player3discover name {"text":"9와 4분의 3 승강장","color":"white","italic":"false"}
-execute as @s[scores={playerID=4},tag=!inProperCutScene] run bossbar set minecraft:player4discover name {"text":"9와 4분의 3 승강장","color":"white","italic":"false"}
+execute as @s[scores={playerID=1},tag=!inProperCutScene] run bossbar set minecraft:player1discover name {"text":"9와 3/4 승강장","color":"white","italic":"false"}
+execute as @s[scores={playerID=2},tag=!inProperCutScene] run bossbar set minecraft:player2discover name {"text":"9와 3/4 승강장","color":"white","italic":"false"}
+execute as @s[scores={playerID=3},tag=!inProperCutScene] run bossbar set minecraft:player3discover name {"text":"9와 3/4 승강장","color":"white","italic":"false"}
+execute as @s[scores={playerID=4},tag=!inProperCutScene] run bossbar set minecraft:player4discover name {"text":"9와 3/4 승강장","color":"white","italic":"false"}
 execute as @s[tag=!inProperCutScene] run function hp:misc/update_bossbars
 
 # Set location

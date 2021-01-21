@@ -213,7 +213,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" На каждую команду приходится по одному Ловцу. Цель Ловца - поймать Золотой Снитч. Они играют ключевую роль в Квиддиче, так как игра не заканчивается, пока Ловец не поймает Снитч. Команда, чей Ловец поймает Стнитч, получает 150 очков, так что эта команда почти всегда выигрывает матч.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" There is one Seeker per team. The goal of Ловец is to catch Золотой Снитч. They play a crucial role in Quidditch, as a game does not end until Ловец catches the Snitch. A team whose Seeker catches the Snitch receives one-hundred and fifty points, which almost always wins the match for that team.На каждую команду приходится по одному Ловцу. Цель Ловца - поймать Золотой Снитч. Они играют ключевую роль в Квиддиче, так как игра не заканчивается, пока Ловец не поймает Снитч. Команда, чей Ловец поймает Стнитч, получает 150 очков, так что эта команда почти всегда выигрывает матч.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
