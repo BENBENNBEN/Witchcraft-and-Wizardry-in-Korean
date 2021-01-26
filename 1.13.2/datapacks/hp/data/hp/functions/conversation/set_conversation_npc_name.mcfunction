@@ -331,10 +331,10 @@ execute as @s[scores={conv=113,playerID=1}] run bossbar set minecraft:player1inf
 execute as @s[scores={conv=113,playerID=2}] run bossbar set minecraft:player2info name {"text":"종코","bold":true,"color":"gold"}
 execute as @s[scores={conv=113,playerID=3}] run bossbar set minecraft:player3info name {"text":"종코","bold":true,"color":"gold"}
 execute as @s[scores={conv=113,playerID=4}] run bossbar set minecraft:player4info name {"text":"종코","bold":true,"color":"gold"}
-execute as @s[scores={conv=114,playerID=1}] run bossbar set minecraft:player1info name {"text":"그리젤다 벌베이지","bold":true,"color":"gold"}
-execute as @s[scores={conv=114,playerID=2}] run bossbar set minecraft:player2info name {"text":"그리젤다 벌베이지","bold":true,"color":"gold"}
-execute as @s[scores={conv=114,playerID=3}] run bossbar set minecraft:player3info name {"text":"그리젤다 벌베이지","bold":true,"color":"gold"}
-execute as @s[scores={conv=114,playerID=4}] run bossbar set minecraft:player4info name {"text":"그리젤다 벌베이지","bold":true,"color":"gold"}
+execute as @s[scores={conv=114,playerID=1}] run bossbar set minecraft:player1info name {"text":"그리셀다 벌베이지","bold":true,"color":"gold"}
+execute as @s[scores={conv=114,playerID=2}] run bossbar set minecraft:player2info name {"text":"그리셀다 벌베이지","bold":true,"color":"gold"}
+execute as @s[scores={conv=114,playerID=3}] run bossbar set minecraft:player3info name {"text":"그리셀다 벌베이지","bold":true,"color":"gold"}
+execute as @s[scores={conv=114,playerID=4}] run bossbar set minecraft:player4info name {"text":"그리셀다 벌베이지","bold":true,"color":"gold"}
 execute as @s[scores={conv=115,playerID=1}] run bossbar set minecraft:player1info name {"text":"휴고 트림볼","bold":true,"color":"gold"}
 execute as @s[scores={conv=115,playerID=2}] run bossbar set minecraft:player2info name {"text":"휴고 트림볼","bold":true,"color":"gold"}
 execute as @s[scores={conv=115,playerID=3}] run bossbar set minecraft:player3info name {"text":"휴고 트림볼","bold":true,"color":"gold"}
