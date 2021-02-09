@@ -37,7 +37,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≡ 판매 중인 상품을 보여주세요\"}",Tags:["_____buy_____","_____Normal_____","_____click_____","convOption","i"]}
 
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 질문하고 싶어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 질문이 있어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -64,7 +64,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐를? \\n\",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭔데? \\n\",\"color\":\"white\",\"bold\":\"false\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -81,7 +81,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그스미드에 대해 얘기해주세요 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 4
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\" 다른 얘기는요 \"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\" 다른 거요 \"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=4}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 0
 
 #===============================
@@ -104,7 +104,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 책방은 1768년부터 있었지. 브리태니커 백과사전의 초판이 발행된 해부터 말이야. 원래는 마법사들이 쓴 건데 이제는 머글들이 편집하고 있어. 더 이상 책 속에 마법이 없다네. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 책방은 1768년부터 있었지. 브리태니커 백과사전의 초판이 발행된 해부터 말이야. 그 백과사전도 원래 마법사들이 쓴 건데 이제는 머글들이 편집하고 있어. 책 속에 마법이 없어진 지 오래야. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -135,7 +135,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 책들은 오래되었어. 역사에 관심 있다면 여기서 사도록 해. 찾고 있는 책이 없으면, 호그스미드 중고 서점에 가봐. 하이스트리트로 쭉 가다가 왼쪽으로 꺾으면 오른쪽에 있어. 아니면 런던에 다이애건 앨리로 가보던가. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 책들은 하나같이 다 오래됐어. 역사에 관심 있다면 여기서 사도록 해. 찾고 있는 책이 없으면, 호그스미드 중고 서점에 가보고. 하이스트리트로 쭉 가다가 왼쪽으로 꺾으면 오른쪽에 있어. 아니면 런던에 다이애건 앨리로 가보던가. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -166,7 +166,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그스미드 마을의 역사에 대해 말해줄게. 여기는 영국에서 유일하게 마법사만 사는 마을이라네. 약 천 년 전에 호그와트가 설립됐을 때 즈음 우드크로프트의 헹기스트가 머글들의 박해로 집 떠나서 세운 마을이야. 마법사 카드에도 있는 인물이지. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 마을의 역사에 대해 들려줄게. 호그스미드는 영국에서 유일하게 마법사만 사는 마을이야. 약 천 년 전에 호그와트가 설립됐을 때 즈음 우드크로프트의 헹기스트가 머글들의 박해로 집 떠나서 세운 마을이지. 마법사 카드에도 있는 인물이야. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -197,7 +197,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 학생들은 수백 년 동안 마을을 방문해왔어. 1714년에 학생들이 호그스미드를 방문하는 동안 지켜야 할 규정을 제정했어. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 학생들은 수백 년 동안 이 마을을 방문해왔어. 1714년에 학생들이 호그스미드를 방문하는 동안 지켜야 할 규정이 제정되었지. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -228,7 +228,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭘 얘기해줘야 하나... 아, 한 가지 더. 1600년도에 이 근처에서 고블린 반란이 일어났을 때 호그스미드가 마법사 본부 역할을 했었지. 아쉽게도 그 이후로 그닥 흥미로운 일은 없었어.  \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭘 얘기해줘야 하나... 아, 한 가지 더. 1600년도에 이 근처에서 고블린 반란이 일어났을 때 이 마을이 마법사 본부 역할을 했었지. 아쉽게도 그 이후로 흥미로운 일은 없었지만. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
