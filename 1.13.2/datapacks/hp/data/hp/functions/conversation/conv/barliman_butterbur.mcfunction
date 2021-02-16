@@ -62,7 +62,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기 온 지 얼마 안 됐구만. 예언자 일보는 마법사 신문이야. 영국과 아일랜드 마녀와 마법사를 위한 주요 소식지이지. 프로티안 주문으로 하루 내 뉴스가 바뀌면 알아서 내용이 변하는 마법 신문이라네.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기 온 지 얼마 안 됐구만. 예언자 일보는 마법사 신문이야. 영국과 아일랜드 마녀와 마법사를 위한 주요 소식지이지. 프로티안 주문이 걸려있어서 내용이 알아서 변하는 마법 신문이라네.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -93,7 +93,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 예언자 일보는 1743년에 발간되었고, 같은 해 극단적인 반머글주의 수장인 기디언 플랫워디를 '마법사는커녕 하루 종일 냄새나는 방석 위에 누워서 사람들이 존경하기를 바라는 게으른 바다코끼리에 더 가깝다'라고 서술해서 유명해졌지.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 예언자 일보는 1743년에 발간되었고, 같은 해 극단적인 반머글주의 수장인 기디언 플랫워디를 '마법사는커녕 종일 냄새 나는 방석 위에 누워서 사람들이 존경하기를 바라는 게으른 바다코끼리에 더 가깝다'라고 서술해서 유명해졌지.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -124,7 +124,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아 그럼. 마법부가 뭘 쓰라고 시킨다는 거야? 그래, 마법부와 아예 관계없다고는 할 수 없지만 그래도 마법부 비위 맞춘다고 언론의 청렴성을 희생했다는 건 터무니없는 생각이야.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아 그럼 마법부가 뭘 쓰라고 시킨다는 거야? 그래, 아예 상관없다고 할 수 없지만 그래도 비위 맞춘다고 청렴성을 버리진 않았어.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -155,7 +155,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 말할 필요도 없지만, 이러쿵 저러쿵처럼 작은 신문 잡지도 있어. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 알다시피 이러쿵 저러쿵처럼 작은 신문 잡지도 있어. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

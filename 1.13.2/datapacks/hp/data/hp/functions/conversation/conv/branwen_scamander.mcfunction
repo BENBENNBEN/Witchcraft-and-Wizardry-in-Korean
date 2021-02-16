@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕! 나는 브란웬 스캐먼더야. 편하게 둘러보고 생물들은 조심해. 궁금한 거 있으면 알려줘.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕! 나는 브란웬 스캐먼더야. 편하게 둘러봐. 마법 생물들은 조심하고. 궁금한 거 있으면 알려줘.\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -38,7 +38,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 마법의 생물에 대해 질문이 있어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 스캐맨더? 그 작가랑 같은 성인가요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 스캐맨더? 그 책 작가분과 같은 성인가요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 2
 
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
@@ -65,7 +65,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐 물어보고 싶은 게 있니? \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭘 물어보고 싶은데? \\n\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -130,7 +130,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아, 그런 말 많이 들어. 마법 생명을 잘 돌보는 것의 중요성을 전 세계에 알렸잖아. 나도 그 뜻을 계속 알리고 싶어. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아, 맞아 그런 질문 많이 들어. 마법 생명을 잘 돌보는 것의 중요성을 전 세계에 알린 분이셨지. 나도 그 뜻을 계속 이어가고 싶어. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -162,7 +162,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 니플러는 새까만 털에 긴 주둥이를 한 마법 생물이야. 무해한 생물이지만 반짝거리는 물건을 좋아하는 특성상 주변을 엉망으로 만들거나 혼란을 일으킬 수 있어.  \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 니플러는 새까만 털에 긴 주둥이를 한 마법 생물이야. 무해한 생물이지만 반짝거리는 물건을 좋아하는 특성상 주변을 엉망으로 만들거나 혼란을 일으키곤 해.  \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -193,7 +193,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 문카프는 수줍음이 많은 마법 생물이라 오직 보름달이 뜰 때만 나와. 짝짓기 위해서 뒷발로 일어선 채로 복잡하고 정교한 구애의 춤을 추기도 해. 그러다 밀밭에 기하학적인 무늬가 남기는데 머글들은 그걸 보고 혼란스러워하지. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 문카프는 수줍음이 많은 마법 생물이라 보름달이 뜰 때만 나와. 짝짓기 때는 뒷발로 일어선 채로 복잡하고 정교한 구애의 춤을 추는데, 그러다 밀밭에 기하학적인 무늬를 남겨. 머글들에게는 풀리지 않는 미스터리야. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -224,7 +224,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 머트랩은 길들여지지 않으면 공격적일 수 있어. 대부분 물린다고 해도 심각하지 않지만 심한 반응을 보이는 사람들이 있지. 증상은 항문에서 불꽃이 쏘아지는데, 다행히 24시간 이상 지속되지는 않아. 머트랩 등에서 자라는 촉수를 이용해서 용액으로 만들 수 있어. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 머트랩은 길들지 않으면 공격적이야. 대부분 물린다고 해도 부상이 심각하지 않지만, 가끔 심한 반응을 보이는 사람들이 있어. 항문에서 불꽃을 쏘는 증상을 보이거든. 다행히 24시간 이상 지속하지 않아. 머트랩 등에서 자라는 촉수를 사용해서 용액으로도 만들 수 있어. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -256,7 +256,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 보우트러클은 곤충을 먹고 나무에 사는 작은 마법 생물이야. 나무껍질과 나뭇가지로 이루어진 것처럼 생겨서 나무와 구별하기 힘들다고 해.  \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 보우트러클은 곤충을 먹고 나무에 사는 작은 마법 생물이야. 나무껍질과 나뭇가지로 이뤄진 것처럼 생겨서 나무와 구별하기 힘들다고 해. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -288,7 +288,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 보우트러클은 위겐나무처럼 주로 지팡이를 만드는 나무에 살아. 나뭇가지 같은 손가락은 자기가 사는 나무에 기생하는 벌레를 잡아먹는데 적합하며 상대의 눈을 겨냥할 때 무기로 사용하기도 하지. 보우트러클 그룹을 가지라고 불러. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 보우트러클은 위겐나무처럼 주로 지팡이를 만드는 나무에 살아. 나뭇가지 같은 손가락으로 자기가 사는 나무에 기생하는 벌레를 잡아먹는데, 상대의 눈을 겨냥할 때 무기로 사용하기도 하지. 보우트러클 한 무리는 나뭇가지를 부르듯 한 다발 있다고 해. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -319,7 +319,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 피그미 퍼프는 퍼프스캔의 신종이야. 마치 굴러다니는 솜털 공처럼 생겼고 다양한 분홍색이나 보라색을 하고 있어. 어린 마녀나 마법사들에게 인기가 많지. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 피그미 퍼프는 퍼프스캔의 신종 생물이야. 마치 굴러다니는 솜털 공처럼 생겼고, 다양한 분홍색이나 보라색을 하고 있어. 어린 마녀나 마법사들에게 인기가 많지. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -350,7 +350,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 데미가이즈는 온순한 초식동물로 몸을 투명하게 만들거나 미래에 일어날 일을 볼 수 있어서 포획하기가 매우 어려워. 데미가이즈의 털로 투명망토를 만드는데, 투명망토는 시간이 지남에 따라 불투명 해지고 투명 효과를 잃어. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 데미가이즈는 온순한 초식동물로 몸을 투명하게 만들거나 미래에 일어날 일을 볼 수 있어서 포획하기가 매우 어려워. 데미가이즈의 털로 투명망토를 만드는데, 보통 투명망토는 시간이 지남에 따라 불투명해지고 투명 효과를 잃어. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -381,7 +381,7 @@ tag @s[scores={convState=10},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 두꺼비는 마법 생물이 아니야. 머글과 마법사, 마녀 모두가 잘 알지만, 마법 세계에서 반려동물로 인기가 높아. 호그와트 학생들에게 허용되는 동물 중 하나야. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 두꺼비는 마법 생물이 아니야. 머글도 마법사도 잘 알고 있는 동물이지만, 마법 세계에서는 반려동물로 인기가 높아. 호그와트 학생들에게 허용되는 동물 중 하나야. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -412,7 +412,7 @@ tag @s[scores={convState=11},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 부엉이는 마법 생물이 아니야. 머글과 마법사, 마녀 모두가 잘 알지만, 마법 세계에서는 부엉이가 우편배달을 도와줘. 마법에 친화력이 전혀 없는 돼지랑은 다르게 부엉이는 마법 친화력이 있어. 그래서 마법 세계에서 유용하지. 편지, 소포, 하울러는 모두 부엉이가 배달해 줘. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 부엉이는 마법 생물이 아니야. 머글도 마법사도 알고 있는 동물이지. 마법 세계에서는 부엉이가 우편배달을 도와줘. 마법 친화력이 전혀 없는 돼지랑은 다르게 부엉이는 마법 친화력이 있어. 그래서 마법 세계에서 유용하지. 편지나 소포, 하울러는 모두 부엉이가 배달해 줘. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -443,7 +443,7 @@ tag @s[scores={convState=12},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고양이는 마녀와 마법사들이 반려동물로 많이 기르지. 호그와트 학생들이 고양이를 데리고 갈 수도 있어. 고양이와 니즐은 교배가 가능하고 몇몇 마법사와 마녀는 순종 니즐이나 혼혈 니즐과 교배시켜서 분양하는 걸로 돈을 벌기도 해. 내 친구 아라벨라 피그는 스큅이라 이런 식으로 생계를 유지하지. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고양이는 마녀와 마법사들이 반려동물로 많이 기르지. 호그와트에 고양이를 데려갈 수도 있어. 고양이와 니즐은 교배가 가능하고 몇몇 마법사와 마녀는 순종 니즐이나 혼혈 니즐과 교배시켜서 분양하는 걸로 돈을 벌기도 해. 내 친구 아라벨라 피그는 스큅이라 그런 식으로 생계를 유지하지. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -504,7 +504,7 @@ tag @s[scores={convState=14},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 쥐도 마법사와 마녀의 반려 동물이야. 몇 년밖에 못 살아서 부엉이나 고양이만큼 인기가 없지만, 쥐꼬리는 물약 만들 때 유용해. 야생쥐는 다소 공격적일 수 도 있으니까 조심해야 해. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 쥐도 마법사와 마녀의 반려 동물이야. 몇 년밖에 못 살아서 부엉이나 고양이만큼 인기가 없지만, 쥐꼬리는 물약 만들 때 유용해. 야생 쥐는 다소 공격적일 수도 있으니까 조심해야 해. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

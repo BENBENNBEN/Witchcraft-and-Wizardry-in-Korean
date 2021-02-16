@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 30년 가까이 생선 요리를 해왔어. 사람들이 나보고 잘한다고 하더라고 나도 그 말에 부정하지 않아.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 30년 가까이 생선 요리를 해왔어. 사람들이 나만큼 잘하는 곳은 또 없다고 하더라고, 나도 그렇게 생각해.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

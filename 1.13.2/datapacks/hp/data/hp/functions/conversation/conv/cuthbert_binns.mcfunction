@@ -72,10 +72,10 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 #-------------------------------
 
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 마법의 역사 과목에 대해 얘기해주세요 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 마법의 역사 과목에 대해 얘기해주세요. \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 2
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트에서 가르친 지 얼마나 되셨나요? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트에서 가르치신 지 얼마나 되셨나요? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 3
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 유령이세요? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -106,7 +106,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 좋아 그러지. 마법의 역사는 이곳 호그와트 마법학교에서 가르치는 핵심 수업 과목이다. 그것은 물론 마법의 역사에 대한 학문이다. 고블린 반란, 거대한 전쟁과 같은 역사 말이다. 그리고 신화나 전설이 아닌 사실만을 가르친다. 또한 마법이 실질적으로 필요하지 않은 수업 중 하나이다. 지팡이는 필요 없다. 양피지와 깃펜만 필요하지. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 좋아 그래. 마법의 역사는 이곳 호그와트 마법학교에서 가르치는 핵심 수업 과목이야. 말 그대로 마법의 역사에 관해 탐구하고 배우는 과목이지. 고블린 반란이나 거대한 전쟁과 같은 역사 말이야. 그리고 신화나 전설이 아닌 사실만을 배우게 될 거야. 또한, 마법이 실질적으로 필요하지 않은 수업 중 하나야. 그러니까 지팡이는 필요 없어. 양피지와 깃펜만 필요하지. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -137,7 +137,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 정말 오래되었지. 나는 평생을 가르쳤고, 죽은 이후로도 줄곧 가르치고 있다. 나는 교무실에서 잠을 자다가 죽었거든. 알맞은 자리에서 죽었지. 그래서 유령이 된 채로 일어나 계속 가르쳤어. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 정말 오래되었어. 나는 평생을 가르쳤고, 죽은 이후로도 줄곧 가르치고 있지. 내가 교무실에서 잠을 자다가 죽었거든. 알맞은 자리에서 죽었지. 그러고 나서 유령이 된 채로 일어나 계속 가르쳤어. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

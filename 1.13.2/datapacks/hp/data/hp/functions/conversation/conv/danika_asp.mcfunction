@@ -64,7 +64,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기 처음이야? WWN은 마법사들에게 인기 있는 무선국이야. 머글들은 라디오 방송국이라고 부르지. 그치만 무선국은 마법에 의해 작동해, 그 전기 같은 헛소리가 아니라. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기 처음이니? WWN은 마법사들에게 인기 있는 무선국이야. 머글들이 라디오 방송국이라고 부르는 곳 말이야. 우리 무선국은 마법으로 작동해, 그 전기 같은 헛소리가 아니라. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -96,7 +96,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" WWN 프로그램은 글렌다 치톡이 진행하는 '마녀의 시간'과 같은 음악 프로그램이나, 청취자 참여가 가능한 틸든 투츠의 '투츠, 슈츠 앤 루츠'나 정규 뉴스 프로그램인 '위저딩 무선 네트워크 뉴스'로 이뤄져 있어. 셀레스티나 워벡이나 이상한 자매들 같은 유명한 스타들도 나와.  \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" WWN는 글렌다 치톡이 진행하는 '마녀의 시간'과 같은 음악 프로그램이나, 청취자 참여가 가능한 틸든 투츠의 '투츠, 슈츠 앤 루츠'나, 정규 뉴스 프로그램인 '위저딩 무선 네트워크 뉴스'로 이뤄져 있어. 셀레스티나 워벡이나 이상한 자매들 같은 유명한 스타들도 나와. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

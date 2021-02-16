@@ -66,7 +66,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 혹시 나가서 직접 찾기 귀찮으면, 다이애건 앨리에 마법약 파는 곳이 많이 있어. 여기서 찾는 물약이 없으면 내 친구 윌튼 햄록이 하는 가게에 가봐. 길 아래에 있는 슬러그 앤 지글러 마법약 상점이야. \\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 혹시 나가서 직접 재료를 구하기 귀찮은 거라면, 다이애건 앨리에는 마법약 재료를 파는 곳이 많이 있지. 여기서 없으면 내 친구 윌튼 햄록이 하는 가게에 가보던가. 조금만 가면 있는 슬러그 앤 지글러 마법약 상점으로 말이야. \\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -129,7 +129,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 마법약 양조에 유용한 식물이랑 여러 용품을 팔아. 있지, 요즘 가게 운영하는 게 힘들어. 멀페퍼 씨가 이 거리에 가게를 낸 이후로 수익이 줄었어. 나뿐만이 아니야. 모든 가게를 몰아내고 있다고. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 마법약 양조에 필요한 식물이랑 여러 재료를 팔아. 그런데 있지, 요즘 가게 운영하는 게 아주 힘들어졌어. 멀페퍼 씨가 이 거리에 가게를 낸 이후로 수익이 엄청나게 줄었다고. 나뿐만이 아니야. 이 거리에 모든 가게를 몰아내고 있다니까. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
