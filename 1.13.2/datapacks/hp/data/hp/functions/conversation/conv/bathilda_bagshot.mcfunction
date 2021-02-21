@@ -228,7 +228,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 하지만 그 두루마리는 사람들 기억 속에서 사라진 지 오래야. 호그와트의 잊혀진 지하 도서관에 있다는 소문만 있을 뿐. 분명 본관 어딘가에 있을 거야... 실제로 존재한다면 말이야. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 하지만 그 두루마리는 사람들 기억 속에서 사라진 지 오래야. 호그와트의 잊혀진 지하 도서관에 있다는 소문만 있을 뿐. 분명 본관 어딘가에 있을 텐데... 실제로 존재한다면 말이야. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -261,7 +261,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 조심해. 괴물도 있을지도 모르니까. 어쨌든 이제 가서 두루마리를 가져오렴! 부탁은 그것뿐이야. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 조심해. 괴물도 있을지 모르니까. 어쨌든 이제 가서 두루마리를 가져오렴! 부탁은 그것뿐이야. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -296,7 +296,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 오래되었다는 것 말고 거의 알려지지 않았어. 호그와트만큼이나 오래되었을 거야. 어떤 이들은 도서관에 걸린 어둡고 강력한 마법 때문에 버려졌다고 하더라고. 오랜 시간이 지난 후에도 여전히 공기에 어둠의 마법이 퍼져 있다고.\\n\"}"} 
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 오래되었다는 것 말고 거의 알려지지 않았어. 호그와트만큼이나 오래되었을 거야. 어떤 이들은 도서관에 걸린 어둡고 강력한 마법 때문에 버려졌다고 하더라고. 오랜 시간이 지난 후에도 여전히 공기 중에 어둠의 마법이 퍼져 있다고.\\n\"}"} 
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕 친구! 난 뚱보 수도사라네. 후플푸프의 유령이지. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕 친구! 난 뚱보 수도사야. 후플푸프의 유령이지. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -67,7 +67,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그럼! 헬가 후플푸프 교수님께 직접 배웠지. 후플푸프는 좋은 기숙사라고. 친절하고 사려 깊은 학생들로 이뤄져 있지. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그럼! 헬가 후플푸프 교수님께 직접 배웠지. 후플푸프는 좋은 기숙사라고. 친절하고 사려 깊은 학생들로 가득 차 있지. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -99,7 +99,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그런 우울한 질문은 유쾌하게 답해줘야 하지 않겠어? 그냥 아주 어이없는 죽음이었어. 호그와트에서 졸업하고 나서 성직자가 돼서 기부 좀 해달라고 평생을 구걸했어. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그런 우울한 질문은 유쾌하게 답해줘야지. 그냥 아주 어이없는 죽음이었어. 호그와트에서 졸업하고 나서 성직자가 되었는데 평생을 기부 좀 해달라고 구걸만하다 죽었다니까. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -131,7 +131,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 사람들이 내가 쓸데없이 친절했다가 죽은 거라고 하더라. 내가 그냥 '막대기'로 농민들을 찌르는 것만으로 수두를 치료하고, 가끔 성찬용 컵에서 토끼를 꺼내는 것을 수상하게 여긴 고위 성직자가 날 처형시켰거든. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 사람들은 내가 쓸데없이 친절을 베풀다 죽은 거라고 하더라. 내가 그냥 '막대기'로 농민들을 찌르는 것만으로 수두를 치료하고, 가끔 성찬용 컵에서 토끼를 꺼내는 것을 수상하게 여긴 고위 성직자가 날 처형시켰거든. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -163,7 +163,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 유령이 되고 호그와트로 돌아왔지. 내 인생에서 가장 즐거운 추억들이 있는 곳이고, 죽고 나서도 가장 즐거운 곳이라서 아주 당연하게 후플푸프의 기숙사 유령이 됐어. 호그와트에서 다른 유령들과 함께 만족하면서 사후 세계를 보내고 있어. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 유령이 되고나서 호그와트로 돌아왔지. 내 인생에서 가장 즐거운 추억들이 있는 곳이고, 죽고 나서도 가장 즐거운 곳이라서 아주 당연하게 후플푸프의 기숙사 유령이 됐어. 지금은 다른 유령들과 함께 만족스러운 사후 세계를 보내고 있지. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

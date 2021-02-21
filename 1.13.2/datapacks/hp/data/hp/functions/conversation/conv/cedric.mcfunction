@@ -28,7 +28,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕. 난 기숙사 반장이야. 혹시 질문이 있으면 답해줄게.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕. 내가 기숙사 반장이야. 혹시 질문이 있으면 편하게 물어봐.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -92,7 +92,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 기숙사에 배정된 학생들은 성실하고, 친절하고, 충직하고, 또 공정한 것으로 알려졌어. 모든 사람을 환영하고 다른 기숙사처럼 경쟁하지 않으며, 자신의 업적만 내세우지 않고 겸손하지.\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 기숙사 학생들은 성실하고, 친절하고, 충직하고, 또 공정해. 모든 사람을 환영하고 다른 기숙사처럼 경쟁하지 않으며, 자신의 업적만 내세우기보다는 겸손하지.\\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -123,7 +123,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 자유롭게 성을 탐험해봐! 그전에 내가 몇 가지만 알려줄게. 첫 번째 수업에서 플리트윅 교수님이 '루모스'를 가르치실 거야. 지금 당장 가도 되고, 성을 둘러본 다음 가도 돼. 교실은 1층에 있어.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 자유롭게 성을 탐험해봐! 그전에 내가 몇 가지만 알려줄게. 첫 번째 수업에서 플리트윅 교수님이 '루모스'를 가르치실 거야. 지금 가도 되고, 먼저 성을 둘러본 다음 가도 돼. 교실은 1층에 있어.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -153,7 +153,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 성 이곳저곳에서 너에게 퀘스트를 줄 사람들을 찾을 수 있어. 머리 위에 떠있는 ⁿ 아이콘으로 알아볼 수 있을 거야. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 성 이곳저곳에서 퀘스트를 받을 수 있을 거야. 머리 위에 떠있는 ⁿ 아이콘으로 알아볼 수 있어.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -187,7 +187,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 행운을 빌어. 프레드와 조지 위즐리가 너랑 얘기하고 싶은 것 같더라. 그리핀도르 테이블에 가봐.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그럼 행운을 빌어. 프레드와 조지 위즐리가 너랑 얘기하고 싶은 것 같더라. 그리핀도르 테이블에 가봐.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -335,7 +335,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕. 나는 후플푸프 기숙사 반장이야. 혹시 질문이 있으면 최대한 답해줄 수 있도록 노력할게. 우리 후플푸프는 할 수 있는 한 모든 사람을 돕고 싶으니까.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕. 나는 후플푸프 기숙사 반장이야. 혹시 질문이 있으면 최대한 답해줄 수 있도록 노력할게. 우리 후플푸프는 가능한 한 모든 사람을 돕고 싶으니까.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

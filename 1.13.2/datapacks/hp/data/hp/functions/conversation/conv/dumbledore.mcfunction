@@ -93,7 +93,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=7}] as @s[tag=
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=8}] run data merge entity @s {CustomName:"{\"text\":\"≤ 어느 기숙사에 속하셨나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=8}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 31
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=9}] run data merge entity @s {CustomName:"{\"text\":\"≥ 몸조심하세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=9}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=9}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
 
@@ -118,7 +118,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 마법학교는 영국 마법학교야. 더 알고 싶은 게 있니?\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 마법학교는 영국 마법학교야. 자세히 알고 싶은 게 있니?\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -177,7 +177,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 성은 스코틀랜드의 하일랜드 지방에 위치해 있어. 머글에게는 보이지 않고, 버려진 지 오래된 성처럼 보이지. 우리의 교육 방식이 드러나지 않도록 해서 학생들을 위험으로부터 보호하기 위함이란다. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 성은 스코틀랜드의 하일랜드 지방에 있어. 머글한테는 버려진 지 오래된 성처럼 보이는데 학생들을 위험으로부터 보호하기 위함이란다. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -209,7 +209,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트는 990년대에 고드릭 그리핀도르, 헬가 후플푸프, 로위너 래번클로, 살라자르 슬리데린 2명의 마법사와 2명의 마녀에 의해 설립되었단다. 그들은 각자 학생들에게 바라는 중요한 특성을 대표하지.\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트는 990년대에 고드릭 그리핀도르, 헬가 후플푸프, 로위너 래번클로, 살라자르 슬리데린 2명의 마법사와 2명의 마녀에 의해 설립되었단다. 각자 학생들에게 바라는 특성이 달랐지.\\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -363,7 +363,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 초기에는 4명의 창립자들이 자신들의 이념에 따라 직접 학생들을 선발했었어. 그들이 죽은 후에도 그들을 대신해 학생들을 분류하기 위해 고드릭 그리핀도르가 자신이 쓰고 있던 모자를 벗어 분류모자로 만들었단다. 매년 마법의 분류모자가 신입생들 머리에 씌여져 기숙사가 배정되는 거야.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 초기에는 4명의 창립자가 자신의 이념에 따라 직접 학생들을 선발했었어. 죽은 후에도 같은 이념에 따라 배정될 수 있게 고드릭 그리핀도르가 쓰고 있던 모자를 벗어 분류모자로 만들었단다. 매년 마법의 분류모자가 신입생들 머리에 쓰이고 기숙사를 배정하는 거야.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -396,7 +396,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 일 년 내내 기숙사 점수를 얻고 잃으면서 경쟁하다가 학기 말에 결산해 그 해 우승 기숙사를 정해. 각 기숙사마다 퀴디치 팀이 있는데 기숙사 경쟁전도 치러져. 이런 대회는 기숙사 사이에 경쟁을 일으키고 가장 뜨거운 것은 그리핀도르와 슬리데린 사이의 경쟁이란다.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 기숙사 점수를 매년 학기 말에 결산해서 그 해 우승 기숙사를 정해. 기숙사마다 퀴디치 팀이 있는데, 퀴디치 우승컵을 차지하기 위한 기숙사 대항전도 치러. 경기마다 기숙사 사이의 경쟁으로 뜨거워지지. 그 중 그리핀도르와 슬리데린이 가장 치열하단다.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -506,7 +506,7 @@ tag @s[scores={convState=12},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 헬가 후플푸프는 웨일스 태생의 마녀였어. 그녀는 나머지 설립자들이 각자의 기준에 따라 선별하고 남은 학생 모두를 받아들였어. 후플푸프 학생들은 성실하고 열심히 노력하지. 그리고 그녀가 음식 관련 마법 주문에 뛰어난 재능이 있었는데, 그녀가 만든 음식 레시피는 아직도 호그와트 요리를 만드는 데 쓰이고 있단다.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 헬가 후플푸프는 웨일스 태생의 마녀였어. 그녀는 다른 설립자들이 선택하지 않은 모든 학생을 받아들였어. 후플푸프 학생들은 성실하고 열심히 노력하지. 그녀는 음식 마법 주문에 뛰어난 재능이 있었는데, 그녀가 만든 음식 레시피는 아직도 호그와트 요리를 만드는 데 쓰이고 있단다.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -538,7 +538,7 @@ tag @s[scores={convState=13},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 로위너 래번클로는 스코틀랜트 태생의 마녀였어. 그녀의 뛰어난 지성과 창의성으로 당대 최고의 마녀라고 불리었어. 래번클로는 치명적인 병에 걸린 후 사망했지. 전설에 따르면 그녀의 딸 헬레나가 로위너의 보관을 훔쳐 도망친 후 상처 받은 마음이 병의 원인이라고 해. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 로위너 래번클로는 스코틀랜드 태생의 마녀였어. 그녀의 뛰어난 지성과 창의성으로 당대 최고의 마녀라고 불리었어. 안타깝게도 치명적인 병에 걸린 후 사망했지. 전설에 따르면 그녀의 딸 헬레나가 로위너의 보관을 훔쳐 도망친 후 상처받은 마음이 병의 원인이라고 해. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -667,7 +667,7 @@ tag @s[scores={convState=17},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 래번클로 기숙사 학생들은 지혜, 지식, 그리고 재치가 있지. 래번클로를 상징하는 동물은 독수리이고, 파란색과 청동색이 상징 색이야. 래번클로 기숙사 사감은 필리우스 플리트윅이고 기숙사 유령은 '회색 숙녀' 헬레나 래번클로야.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 래번클로 기숙사 학생들은 지혜, 지식, 그리고 재치가 있지. 래번클로를 상징하는 동물은 독수리이고, 파란색과 청동색이 상징하는 색이야. 래번클로 기숙사 사감은 필리우스 플리트윅이고 기숙사 유령은 '회색 숙녀' 헬레나 래번클로야.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -765,7 +765,7 @@ tag @s[scores={convState=20},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오전 7시 30분에 연회장에서 아침 식사로 호그와트의 하루는 시작돼. 아침 식사 중에 우편물이 도착하지. 점심시간 전에 두 개의 수업이 있는데 기숙사마다 다르단다. 점심 식사 후에는 휴식시간과 두 개의 오후 수업이 더 있어. 저녁식사는 연회장에 하고, 그 이후에 학생들은 공부와 사교 시간을 위해 기숙사 휴게실에서 시간을 보내.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오전 7시 30분에 연회장에서 아침 식사로 호그와트의 하루가 시작돼. 아침 식사 중에 우편물이 도착하지. 점심시간 전에 두 개의 수업이 있는데 기숙사마다 다르단다. 점심 후에는 휴식시간과 두 개의 오후 수업이 더 있어. 저녁은 연회장에서 하고, 그 이후에 학생들은 공부와 사교 시간을 위해 기숙사 휴게실에서 시간을 보내.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -799,7 +799,7 @@ tag @s[scores={convState=21},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 성 주변에는 경사가 진 잔디밭과, 꽃밭, 그리고 채소밭이 있어. 검은 호수와 금지된 숲, 여러 온실과 다른 건물들과 퀴디치 경기장이 있지. 그리고 부엉이장이 있는데 학교 부엉이와 학생들의 부엉이가 살고 있단다.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 성 주변에는 경사가 진 잔디밭과, 꽃밭, 그리고 채소밭이 있어. 검은 호수와 금지된 숲, 여러 온실이나 건물들, 퀴디치 경기장이 있지. 그리고 부엉이장도 있는데 학교 부엉이와 학생들 개인 부엉이가 살고 있단다.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -833,7 +833,7 @@ tag @s[scores={convState=22},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 성 안에 수많은 탑과 터렛 그리고 매우 깊은 지하 던전 사이를 142개의 움직이는 계단으로 이어져 있어. 이 계단들은 움직인단다. 나도 모르는 비밀 통로나 마법도 많아.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 성 안에 수많은 탑과 터렛이 있고, 매우 깊은 지하 던전 사이를 142개의 움직이는 계단으로 이어져 있단다. 이 계단들은 전부 움직여. 그리고 나도 모르는 비밀 통로나 마법도 많아.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -867,7 +867,7 @@ tag @s[scores={convState=23},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여러 사람이 교장직을 맡았단다. 마지막 5명으로는 내 전임자였던 아만도 디펫, 그 전은 피니어스 나이젤러스 블랙, 브루투스 스크림저, 몰디쿠스 에그와 월터 아르곤이 있었어.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여러 사람이 교장직을 맡았단다. 5명만 얘기하자면 내 전임자였던 아만도 디펫, 그 전에 피니어스 나이젤러스 블랙, 브루투스 스크림저, 몰디쿠스 에그, 그리고 월터 아르곤이 있었어.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -901,7 +901,7 @@ tag @s[scores={convState=24},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내 담당 과목은 변형 마법이었어. 몇 년 동안 호그와트에서 변형 과목으로 가르쳤고 '오늘의 변형 마법'이라는 학술지에 칼럼니스트였단다. 사물이나 사람의 형태를 바꾸는 마법이야.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 변환 마법을 담당했었어. 몇 년 동안 호그와트에서 변환 과목을 가르쳤고 '오늘의 변환 마법'이라는 학술지에 기고하는 칼럼니스트였단다. 변환 마법이란 사물이나 사람의 형태를 바꾸는 마법이야.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -935,7 +935,7 @@ tag @s[scores={convState=25},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 이외에도 많은 마법학교가 있지. 예를 들어, 보바통 마법학교나 덤스트랭 마법학교가 있고, 다른 학교도 많단다.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 이외에도 많은 마법학교가 있지. 예를 들어, 보바통 마법학교나 덤스트랭 마법학교가 있고, 그 외 다른 학교도 많단다.\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1045,7 +1045,7 @@ tag @s[scores={convState=28},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 트라이위저드 시합은 유럽의 대표 마법학교인 호그와트, 보바통, 덤스트랭이 모여 5년마다 한 번씩 실력을 겨루는 시합이야. 한 명씩 학교 대표 학생으로 선발되어 온갖 위험한 시험을 치르게 되는 거야. 우승한 학교는 트라이위저드 트로피가 주어져.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 트라이위저드 시합은 유럽의 대표 마법학교인 호그와트, 보바통, 덤스트랭이 모여 5년마다 한 번씩 실력을 겨루는 시합이야. 한 명씩 학교 대표 학생으로 선발되어 온갖 위험한 시험을 치르게 되는 거야. 우승한 학교가 트라이위저드 트로피를 차지해.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1079,7 +1079,7 @@ tag @s[scores={convState=29},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 멀린 훈장은 중세 시대 대마법사였던 멀린에 의해 만들어졌어. 멀린은 마법사와 마녀가 머글들을 도와야 한다고 믿었고, 머글에게 마법 사용에 대한 규칙을 확립했어.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 멀린 훈장은 중세 시대 대마법사였던 멀린에 의해 만들어졌어. 멀린은 마법사와 마녀가 머글을 도와야 한다고 믿었고, 머글에게 마법 사용을 엄격히 규제했어.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1112,7 +1112,7 @@ tag @s[scores={convState=30},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 니콜라스 플라멜은 유명한 연금술사야. 불로장생의 약으로 690년이나 살았지. 아내 페르넬과 함께 마법사의 돌을 이용해 불로장생의 약을 만들었어.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 니콜라스 플라멜은 유명한 연금술사야. 불로장생의 약으로 690년이나 살았지. 아내 페르넬과 함께 마법사의 돌로 불로장생의 약을 만들었어.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1145,7 +1145,7 @@ tag @s[scores={convState=31},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 1892년 가을에 호그와트에 다니기 시작했고 그리핀도르 기숙사에 배정받았었단다.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 1892년 가을에 호그와트에 입학했고 그리핀도르 기숙사에 배정받았었단다.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
  
 ################################
@@ -1178,7 +1178,7 @@ tag @s[scores={convState=32},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" ... 리무스 루핀 교수가 어둠의 마법 방어술을 가르치고, 루비우스 해그리드가 마법 생명체 돌보기를 가르치고, 시빌 트릴로니 교수가 점술을 가르치고 오로라 시니스트라 교수가 천문학을 가르치고, 베데스다 베블링 교수가 고대 룬문자 연구 수업을 가르치고, 채러티 벌베이지 교수가 머글학을 가르치고, 마지막으로 커스버트 빈스 교수가 마법의 역사를 가르친단다.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" ... 리무스 루핀 교수가 어둠의 마법 방어술을 가르치고, 루비우스 해그리드가 마법 생명체 돌보기를 가르치고, 시빌 트릴로니 교수가 점술을 가르치고, 오로라 시니스트라 교수가 천문학을 가르치고, 베데스다 베블링 교수가 고대 룬문자 연구 수업을 가르치고, 채러티 벌베이지 교수가 머글학을 가르치고, 마지막으로 커스버트 빈스 교수가 마법의 역사를 가르친단다.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1210,7 +1210,7 @@ tag @s[scores={convState=33},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아르만 디핏이 돌아가시기 전에 교장직을 넘겨받았어. 그전에는 변형 마법 교수로 일하고 있었지. 내 후임으로는 미네르바 맥고나걸 교수가 교장직을 이어받았어.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아만도 디핏의 후임으로 교장이 되었고, 그전에는 변형 마법 교수로 일하고 있었어. 내 후임으로는 미네르바 맥고나걸 교수가 교장직을 이어받았어.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1242,7 +1242,7 @@ tag @s[scores={convState=34},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지금 그 말이 사실이라면, 볼드모트의 추종자들이 다시 모이고 있다는 거구나. 우리도 빠르게 움직여야겠어. 호그와트에 지내면서 네 능력을 충분히 증명해냈구나. 나이가 들면 어리석게도 젊은이들을 과소평가하게 되지. 이제 네가 해낼 거라 믿어:\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그게 사실이라면, 볼드모트의 추종자들이 다시 모인 것이군. 우리도 빠르게 움직여야겠어. 호그와트에서 많이 성장했구나. 나이가 들면 어리석게도 젊은이들을 과소평가하게 되지. 이제 너를 믿을 수 있겠어.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1274,7 +1274,7 @@ tag @s[scores={convState=35},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오래전에 나는 볼드모트와 그의 추종자에 대항하기 위해 '불사조 기사단'이라는 비밀 결사단을 설립했어. 어서 그곳으로 가보도록 해. 런던에 그리몰드가 12번지로 가서 앨리스터 무디와 대화하렴. 나에게 말한 내용을 그에게도 알려줘. 지금 바로 출발해! 날 실망시키지 않을 거라 믿는다.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오래전에 나는 볼드모트와 그의 추종자에 대항하기 위해 '불사조 기사단'이라는 비밀 결사단을 설립했단다. 네가 거기로 가봐. 런던에 그리몰드가 12번지로 가서 앨리스터 무디와 대화해. 나에게 말한 내용을 그에게도 전해줘. 지금 바로 출발하고! 날 실망하게 하지 않을 거라 믿는다.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1307,7 +1307,7 @@ tag @s[scores={convState=36},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리는 즉시 행동해야 해요!\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 빠르게 움직여야 해!\\n\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1343,7 +1343,7 @@ tag @s[scores={convState=37},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안타깝지만 내 걱정이 현실이 되는 것 같구나. 어두운 시대가 다가오고 있어. 하지만 오직 한 사람이라도 빛을 밝히는 것을 기억한다면 가장 어두운 시기에도 행복이 찾아올 거란다. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안타깝지만 내 걱정이 현실이 되는 것 같구나. 어두운 시대가 다가오고 있어. 하지만 오직 한 사람이라도 빛을 밝힌다면 가장 어두운 시기에도 행복이 찾아올 거란다. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1376,10 +1376,10 @@ tag @s[scores={convState=38},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use,scores={house=1}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\"아아... 완전히 물리칠 수는 없어도 악을 막을 수 있으려면 계속 싸우고, 또 싸워야 해. \\n 네가 상황을 정리하는 데 큰 일을 해주었구나. 그러한 행동은 보상을 받아야지. 그리핀도르에게 60점. \\n\"}"}
-execute if entity @s[tag=use,scores={house=2}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아... 완전히 물리칠 수는 없어도 악을 막을 수 있으려면 계속 싸우고, 또 싸워야 해. \\n 네가 상황을 정리하는 데 큰 일을 해주었구나. 그러한 행동은 보상을 받아야지. 래번클로에게 50점. \\n\"}"}
-execute if entity @s[tag=use,scores={house=3}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아... 완전히 물리칠 수는 없어도 악을 막을 수 있으려면 계속 싸우고, 또 싸워야 해. \\n 네가 상황을 정리하는 데 큰 일을 해주었구나. 그러한 행동은 보상을 받아야지. 후플푸프에게 50점. \\n\"}"}
-execute if entity @s[tag=use,scores={house=4}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아... 완전히 물리칠 수는 없어도 악을 막을 수 있으려면 계속 싸우고, 또 싸워야 해. \\n 네가 상황을 정리하는 데 큰 일을 해주었구나. 그러한 행동은 보상을 받아야지. 슬리데린에게 50점. \\n\"}"}
+execute if entity @s[tag=use,scores={house=1}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\"아아... 완전히 물리칠 수 없어도 악을 막으려면 계속 싸우고, 또 싸워야 하지. \\n 상황이 더 나빠지지 않도록 열심히 노력했구나. 그러한 행동은 보상을 받아야지. 그리핀도르에게 60점. \\n\"}"}
+execute if entity @s[tag=use,scores={house=2}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아... 완전히 물리칠 수 없어도 악을 막으려면 계속 싸우고, 또 싸워야 하지. \\n 상황이 더 나빠지지 않도록 열심히 노력했구나. 그러한 행동은 보상을 받아야지. 래번클로에게 50점. \\n\"}"}
+execute if entity @s[tag=use,scores={house=3}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아... 완전히 물리칠 수 없어도 악을 막으려면 계속 싸우고, 또 싸워야 하지. \\n 상황이 더 나빠지지 않도록 열심히 노력했구나. 그러한 행동은 보상을 받아야지. 후플푸프에게 50점. \\n\"}"}
+execute if entity @s[tag=use,scores={house=4}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아... 완전히 물리칠 수 없어도 악을 막으려면 계속 싸우고, 또 싸워야 하지. \\n 상황이 더 나빠지지 않도록 열심히 노력했구나. 그러한 행동은 보상을 받아야지. 슬리데린에게 50점. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1414,7 +1414,7 @@ tag @s[scores={convState=39},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 이제 호그와트에서 있는 동안 네가 사용하는 것을 허락 하마. \"},{\"text\":\"펜시브야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 여기 내 사무실에 있단다. \\n\\n 자신의 복잡한 기억을 꺼내 병에 담아두고, 나중에 들여다볼 수 있어. 그럼 기억을 다시 체험할 수 있게 되는 거지. \"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 호그와트에서 있는 동안 언제든지 사용해도 좋아. \"},{\"text\":\"펜시브야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 여기 내 사무실에 있단다. \\n\\n 자신의 복잡한 기억을 꺼내 병에 담아두고, 나중에 들여다볼 수 있어. 기억을 다시 체험하는 거야. \"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -112,7 +112,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래, 님부스 2001. 님부스 레이싱 빗자루 회사에서 생산하는 경주용 빗자루야. 님부스 2000보다 빠르지만, 파이어볼트보다는 못 해. 그래도 여전히 전 세계 대부분의 퀴디치 팀에서 사용하고 있지.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래, 님부스 2001. 님부스 레이싱 빗자루 회사에서 생산하는 경주용 빗자루야. 님부스 2000보다 빠르지만, 파이어볼트보다는 못 해. 그래도 여전히 전 세계에 많은 퀴디치 팀에서 사용하고 있지.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -143,7 +143,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 파이어볼트, 이제 말이 통하는 구만. 이 세계 최고 수준의 최첨단 경주용 빗자루는 현존하는 것 중에 가장 빠른 거야. 파이어볼트의 꼬리 부분은 하나하나 자작나무 가지를 선별해 공기역학적으로 마무리되어있어. 아쉽게도 파이어볼트는 수량이 많지 않아. 그 이유는 만들 자격이 있는 대장장이 고블린들이 사소한 일에도 성내거나 파업하기 때문이라더군.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 파이어볼트, 이제 말이 통하는구만. 이 세계 최고 수준의 최첨단 경주용 빗자루로 현존하는 것 중에 가장 빠른 거야. 파이어볼트의 꼬리 부분은 자작나무 가지를 하나하나 선별해 공기역학적이게 마감 처리되어있어. 근데 아쉽게도 수량이 많지 않아. 파이어볼트를 만드는 대장장이 고블린들이 사소한 일에도 성내거나 파업하기 때문이라더군.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -174,7 +174,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 다이애건 앨리에는 두 개의 퀴디치 관련 상점이 있지. 우리가 다양한 물건을 더 많이 갖고 있지만 더 저렴한 것을 찾고 있다면, 길 아래에 있는 중고 빗자루 상점에 한번 가봐.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 다이애건 앨리에는 퀴디치 관련 상점이 두 군데 있지. 우리가 더 다양한 물건을 가지고 있지만, 더 저렴한 게 필요하면, 조금만 가면 있는 중고 빗자루 상점에 한번 가봐.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -205,7 +205,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트나 호그스미드를 돌아다니려면 빗자루 만한 게 없지. 그리고 멋진 경치도 볼 수 있잖아. 혹시 도전하고 싶다면, 여기저기에 비행 선로가 흩어져 있으니 시도해봐.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트나 호그스미드를 돌아다니려면 빗자루만 한 게 없지. 멋진 경치도 볼 수 있잖아. 혹시 비행 기록에 도전하고 싶다면, 여기저기에 비행 선로가 흩어져 있으니 시도해봐.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

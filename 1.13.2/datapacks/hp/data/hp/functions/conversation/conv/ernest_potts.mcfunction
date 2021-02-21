@@ -120,7 +120,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 항아리는 금지된 숲의 폐허 아래 지하 감옥에 있습니다. 제가 몇 년 전에 가지러 가려했지만 실패했죠. 그곳은 너무 위험하더군요. 겨우 살아서 돌아왔습니다. \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 항아리는 금지된 숲의 폐허 아래 지하 감옥에 있습니다. 제가 몇 년 전에 가지러 가려 했지만 실패했죠. 그곳은 너무 위험하더군요. 겨우 살아서 돌아왔습니다. \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -303,7 +303,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도와주셔서 다시 한번 감사드립니다. 이 항아리는 제 수집품에 훌륭한 보템이 될 겁니다. \",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도와주셔서 다시 한번 감사드립니다. 이 항아리는 제 수집품에 훌륭한 보탬이 될 겁니다. \",\"color\":\"white\",\"bold\":\"false\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -333,7 +333,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법을 조금 더 배우셨을 때 다시 물어봐주세요. \\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법을 조금 더 배우셨을 때 다시 물어봐 주세요. \\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

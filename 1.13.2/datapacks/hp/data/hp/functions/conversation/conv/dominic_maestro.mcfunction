@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내 가게에 들어오다니 예술을 찬미할 줄 아는 젊은이 구만! 환영하네! 내 이름은 도미닉 마에스트로라네. 어떻게 도와줄까? \",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내 가게를 방문하다니 예술을 찬미할 줄 아는 젊은이구만! 환영하네! 내 이름은 도미닉 마에스트로라네. 어떻게 도와줄까? \",\"color\":\"white\",\"bold\":\"false\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -61,7 +61,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐, 나는 영국에서 전 세계 음악을 공부했어. 사람들은 시간과 연습을 통해서만 좋은 음악가가 될 수 있다고 하지만, 나는 나 자신을 천재라고 생각하네. 호그와트 다닐 적에도 상을 받았었지. 그 개구리 합창단 출신이네, 내가. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐, 나는 영국에서 전 세계 음악을 공부했어. 사람들은 시간을 들여서 연습해야만 좋은 음악가가 된다고 하지만, 나는 그게 없어도 되는 천재라고 생각하네. 호그와트 다닐 적에도 상을 받았었다고. 그 개구리 합창단 출신이네, 내가. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -92,7 +92,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 훌륭하시네요! 감사합니다. \\n\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 훌륭해! 고마워. \\n\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

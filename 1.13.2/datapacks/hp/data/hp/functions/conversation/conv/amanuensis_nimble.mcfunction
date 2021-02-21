@@ -96,7 +96,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 예언자 일보는 1743년에 발간되었고, 같은 해 극단적인 반머글주의 수장인 기디언 플랫워디를 '마법사는커녕 종일 냄새 나는 방석 위에 누워서 사람들이 존경하기를 바라는 게으른 바다코끼리에 더 가깝다'라고 서술해서 유명해졌지.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 예언자 일보는 1743년에 발간되었는데 같은 해 극단적인 반머글주의 수장인 기디언 플랫워디를 '마법사는커녕 온종일 냄새나는 방석 위에 누워서 존경받기만을 바라는 게으른 바다코끼리에 더 가깝다'라고 서술해서 유명해졌어.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -127,7 +127,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아 그럼 마법부가 뭘 쓰라고 시킨다는 거야? 그래, 아예 상관없다고 할 수 없지만 그래도 비위 맞춘다고 청렴성을 버리진 않았어.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아 그럼 마법부가 뭘 쓰라고 시킨다는 거야? 그래, 아예 상관없다고 할 순 없지만 그래도 비위 맞춘다고 청렴성을 버리진 않았어.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

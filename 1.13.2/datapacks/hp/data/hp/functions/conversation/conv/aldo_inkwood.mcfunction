@@ -228,7 +228,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭘 얘기해줘야 하나... 아, 한 가지 더. 1600년도에 이 근처에서 고블린 반란이 일어났을 때 이 마을이 마법사 본부 역할을 했었지. 아쉽게도 그 이후로 흥미로운 일은 없었지만. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭘 얘기해줘야 하나... 아, 한 가지 더. 1600년도에 이 근처에서 고블린 반란이 일어났을 때 이 마을이 마법사 본부 역할을 했었어. 아쉽게도 그 이후로 흥미로운 일은 없었지만. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

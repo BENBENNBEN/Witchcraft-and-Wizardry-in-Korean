@@ -125,7 +125,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 머글 세계에 매료되었단다. 편지통이나 콘센트, 전화기 그리고 이상한 종이돈 말이야. 그런데 머글들은 흥미로운 물건들을 그냥 버린다고 하더구나! 혹시 런던에 가서 그 물건들을 가져다줄 수 있겠니?\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 머글 세계에 관심이 많단다. 편지통이나 콘센트, 전화기 그리고 이상한 종이돈 말이야. 그런데 머글들은 흥미로운 물건들을 그냥 버린다고 하더구나! 혹시 런던에 가서 그 물건들을 가져다줄 수 있겠니?\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

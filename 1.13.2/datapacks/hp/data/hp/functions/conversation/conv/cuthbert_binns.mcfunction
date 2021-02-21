@@ -106,7 +106,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 좋아 그래. 마법의 역사는 이곳 호그와트 마법학교에서 가르치는 핵심 수업 과목이야. 말 그대로 마법의 역사에 관해 탐구하고 배우는 과목이지. 고블린 반란이나 거대한 전쟁과 같은 역사 말이야. 그리고 신화나 전설이 아닌 사실만을 배우게 될 거야. 또한, 마법이 실질적으로 필요하지 않은 수업 중 하나야. 그러니까 지팡이는 필요 없어. 양피지와 깃펜만 필요하지. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 좋아 그래. 마법의 역사는 이곳 호그와트 마법학교에서 가르치는 핵심 수업 과목이야. 말 그대로 마법의 역사에 관해 탐구하고 배우는 과목이지. 고블린 반란이나 거대한 전쟁과 같은 역사적 사실만을 말이야. 신화나 전설 말고. 또한, 수업 특성상, 마법 실습이 필요하지 않아. 그러니 지팡이는 필요 없어. 양피지와 깃펜만 있으면 돼. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -137,7 +137,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 정말 오래되었어. 나는 평생을 가르쳤고, 죽은 이후로도 줄곧 가르치고 있지. 내가 교무실에서 잠을 자다가 죽었거든. 알맞은 자리에서 죽었지. 그러고 나서 유령이 된 채로 일어나 계속 가르쳤어. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 정말 오래됐어. 평생을 가르쳤고, 죽은 이후로도 줄곧 가르치고 있지. 내가 교무실에서 잠을 자다가 죽었거든. 알맞은 자리에서 죽었지. 그러고 나서 유령이 된 채로 일어나 계속 가르쳤어. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -199,7 +199,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 1612년 고블린 반란에 대해 자세히 기록한 것을 읽어본 기억이 있군. 제한 구역에 있었던 것 같아. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 1612년 고블린 반란에 대해 자세히 기록한 걸 읽어본 기억이 있군. 제한 구역에 있었던 것 같아. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
