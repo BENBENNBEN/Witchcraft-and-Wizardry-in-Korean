@@ -899,7 +899,7 @@ execute as @s[scores={cutSceneTimer=520},tag=cutsceneLeader] as @e[tag=sproutCla
 
 # ¤Sprout:¤ which is why you should use ear-muffs for auditory protection!
 execute as @s[scores={cutSceneTimer=570},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=570..670}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 청각 보호를 위해 모두 귀마개를 착용하도록 해!"}]
+execute as @s[scores={cutSceneTimer=570..670}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 청각 보호를 위해 모두 귀마개를 착용해야 해!"}]
 execute as @s[scores={cutSceneTimer=570},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=577},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=581},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1607,7 +1607,7 @@ execute as @s[scores={cutSceneTimer=1201..1300}] run title @s actionbar ["",{"te
 
 # ¤Sprout:¤ That'll make them quiet down for a while.
 execute as @s[scores={cutSceneTimer=1301},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=1301..1370}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 그러면 잠시 동안 조용해질 거야."}]
+execute as @s[scores={cutSceneTimer=1301..1370}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 그러면 잠깐 조용해질 거야."}]
 
 # ¤Sprout:¤ Be careful not to drop the earmuffs though! You'll have to move around gently.
 execute as @s[scores={cutSceneTimer=1371},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1

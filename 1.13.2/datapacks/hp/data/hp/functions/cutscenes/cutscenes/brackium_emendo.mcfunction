@@ -159,7 +159,7 @@ execute as @s[scores={cutSceneTimer=140}] run function hp:cutscenes/fade_in
 
 # ¤Flitwick:¤ Welcome back to my class students!
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=20..160}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 모두 다시 보게 되어 반가워!"}]
+execute as @s[scores={cutSceneTimer=20..160}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 모두 다시 만나 반갑구나!"}]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=27},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=31},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -911,7 +911,7 @@ tp @s[scores={cutSceneTimer=852}] 5994.051 47 17.40947 203.1025 50.5982
 
 # ¤Flitwick:¤ By holding shift and pressing { at the same time you can quickly switch between combat relevant spells.
 execute as @s[scores={cutSceneTimer=630},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=630..740}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 쉬프트 키를 누른 상태에서  {  를 동시에 누르면 전투 중에 빠르게 주문을 바꿀 수 있어."}]
+execute as @s[scores={cutSceneTimer=630..740}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" Shift 키를 누른 상태에서  {  를 동시에 누르면 전투 중에 빠르게 주문을 바꿀 수 있어."}]
 
 # ¤Flitwick:¤ Best of luck!
 execute as @s[scores={cutSceneTimer=741},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0

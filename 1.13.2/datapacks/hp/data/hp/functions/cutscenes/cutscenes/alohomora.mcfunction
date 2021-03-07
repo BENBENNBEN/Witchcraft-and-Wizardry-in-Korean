@@ -458,7 +458,7 @@ execute as @s[scores={cutSceneTimer=301..440}] run title @s actionbar ["",{"text
 
 # ¤Hermione:¤ Other doors are magically protected against the charm, and require a key.
 execute as @s[scores={cutSceneTimer=441},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice2 master @a ~ ~ ~ 1 1 0
-execute as @s[scores={cutSceneTimer=441..590}] run title @s actionbar ["",{"text":""},{"text":"헤르미온느","color":"dark_gray"},{"text":" 마법이 통하지 않는 문은 열쇠가 필요하지."}]
+execute as @s[scores={cutSceneTimer=441..590}] run title @s actionbar ["",{"text":""},{"text":"헤르미온느","color":"dark_gray"},{"text":" 마법이 통하지 않는 문은 열쇠가 필요해."}]
 
 # ¤Hermione:¤ Keys can only be used once, but you can usually find one nearby these doors.
 execute as @s[scores={cutSceneTimer=591},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice2 master @a ~ ~ ~ 1 1 0

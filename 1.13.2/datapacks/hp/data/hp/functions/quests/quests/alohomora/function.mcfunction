@@ -26,7 +26,7 @@ execute as @s[scores={questState=1},tag=isTrackedQuest] run scoreboard players s
 ### Inject conversation ###
 execute as @s[tag=inConversation,scores={questState=4,convState=1,conv=26}] run tag @s add use
 scoreboard players remove @s[tag=use] questConvOffset 1
-execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 플리트윅 교수님께서 말하시길 선배님이 뭔가 가르쳐 줄 수 있을 거라고 하셨어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 플리트윅 교수님께서 너라면 내게 뭔가 가르쳐 줄 수 있을 거라고 하셨어.\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s convState 12
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s questConvOffset 1
 tag @s remove use

@@ -75,7 +75,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if score mirrorOfErised sharedQuests matches 1.. if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 거울은 가져왔어? 아니라고? 그럼 왜 아직도 여기 있는 거냐? 느려 터진 생쥐 놈 같으니라고.\"}"}
+execute if score mirrorOfErised sharedQuests matches 1.. if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 거울은 가져왔어? 아니라고? 아직도 여기서 뭐 해? 느려 터진 생쥐 같으니라고.\"}"}
 execute if score mirrorOfErised sharedQuests matches ..0 if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 원하는 게 뭐냐?\\n\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
@@ -86,7 +86,7 @@ execute if score mirrorOfErised sharedQuests matches ..0 if entity @s[tag=use] a
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트 관리인이세요? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 8
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 고양이가 항상 같이 있네요? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 고양이가 항상 따라다니나요? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 9
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 피브스에 대해 말해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -166,7 +166,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐라고? 말이 되는 소리를 해. 제한 구역에 들어가려면 허가받아야 해.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐? 말이 되는 소리를 해. 제한 구역에 들어가려면 허가받아야 해.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -198,7 +198,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐라고? 여기 내 사무실이야. 어서 꺼지지 못해! 요즘 학생들은 예의라고는 없어. 옛날처럼 본떼를 보여줘야 하는데 그럴 수가 없으니. 정말 옛날 같았으면 지하 감옥에서 엄지 손가락으로 천장에 매달아 놨는데. 비명소리가 그립다니까. 아직도 수갑이랑 사슬도 있고.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐라고? 여기 내 사무실이야. 썩 꺼지지 못해! 요즘 애들은 예의가 없어. 옛날처럼 한번 본때를 보여줘야 하는데. 정말 옛날 같았으면 지하 감옥에 엄지손가락으로 천장에 매달리게 해 놨을 거라고. 그 비명이 그리워. 수갑이랑 사슬도 아직 갖고 있는데.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -230,7 +230,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 멍청한 자식. 교장 선생님과 불과 몇 시간 전에 얘기했다. 그리고 나 부르려고 학생들을 시키지 않아. 내가 너를 싫어한단 것도 알고 계실 거다. 나를 방해하려는 생각인 것 같은데 어서 썩 꺼져!\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 멍청한 자식. 이미 교장 선생님과 불과 몇 시간 전에 얘기했다. 그리고 나 부르려고 학생들을 시키지 않으셔. 내가 너를 싫어한단 것도 알고 계실 거다. 날 방해하지 말고, 어서 썩 꺼져!\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -262,7 +262,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아니 그 빌어먹을 역겨운 놈들이 또! 가봐야겠다!\\n\\n\\n\\n\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아니 그 빌어먹을 놈들이 또! 가봐야겠다!\\n\\n\\n\\n\\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -296,7 +296,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 뭐냐? 이제 거의 30년 동안 관리인으로 일했지. 덤블도어 교장 선생님이 금지할 때까지는 체벌을 담당했었고. '위대한 마법사'라고 칭송하던데. 글쎄, 내 생각에는 학생들에게 너무 물러. 학교 규율 같은 건 다 없어져버렸어! \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 뭐냐? 이제 거의 30년 동안 관리인으로 일했지. 덤블도어 교장 선생님이 금지할 때까지 체벌을 담당했었고. '위대한 마법사'라고 높이 띄우는데. 글쎄, 내 생각에는 학생들에게 너무 물러. 중요한 학교 규칙들이 다 죽어버렸으니까! \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -328,7 +328,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 노리스 부인은 내 분신과 같은 존재야. 호그와트를 돌아다니면서 교칙을 어긴 멍청한 놈들을 내게 알려준다고. 그래서 학생들 사이에서는 인기가 없을 거야. 하! 나랑 닮았다고 하던데. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 노리스 부인은 내 분신과 같은 존재야. 호그와트를 돌아다니면서 교칙을 어긴 멍청한 놈들을 내게 알려준다고. 그래서 학생들 사이에서 인기가 없지. 하! 그것도 나랑 닮았다고 하던데. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -361,7 +361,7 @@ tag @s[scores={convState=10},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 피브스! 호그와트에 있는 심령현상 같은 건데 내 골칫거리야. 구제불능에 끝없이 문제만 일으켜서 나뿐만 아니라 학교에 고통 주는 녀석이지. 이놈을 통제하려면 피투성이 남작이나 덤블도어 교장 선생님밖에 답이 없어. 두 번이나 노리스 부인을 갑옷에 가둬 나서 내가 구해줬어야 했다고.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 피브스! 호그와트에 있는 심령현상 같은 건데 내 골칫거리 중 하나야. 구제불능에 끝없이 문제만 일으켜서 나뿐만 아니라 학교 모두에게 고통 주는 녀석이지. 이놈을 통제하려면 피투성이 남작이나 덤블도어 교장 선생님밖에 답이 없어. 노리스 부인을 갑옷에 가둬나서 내가 두 번이나 구해줬다고.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -395,7 +395,7 @@ tag @s[scores={convState=11},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 위즐리 쌍둥이! 지독하고 역겨운 전염병 같은 놈들! 그놈들은 첫해부터 피브스만큼 짜증 나게 했어. 말썽 부릴 때마다 수없이 벌을 주었지만 아무리 해도 퇴학시킬 수가 없어.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 위즐리 쌍둥이! 지독하고 역겨운 전염병 같은 놈들! 그놈들은 첫해부터 피브스만큼 날 짜증 나게 했어. 말썽부릴 때마다 수없이 벌을 주었지만 아무리 해도 퇴학시킬 수 없었어.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

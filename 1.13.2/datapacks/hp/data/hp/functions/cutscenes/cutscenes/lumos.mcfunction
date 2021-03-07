@@ -331,7 +331,7 @@ execute as @s[scores={cutSceneTimer=300}] run function hp:cutscenes/fade_in
 
 # ¤Flitwick:¤ Welcome students. My name is Professor Flitwick and I teach charms here at Hogwarts.
 execute as @s[scores={cutSceneTimer=30},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
-execute as @s[scores={cutSceneTimer=25..160}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 어서와. 나는 플리트윅 교수야. 호그와트에서 일반 마법을 가르치지."}]
+execute as @s[scores={cutSceneTimer=25..160}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 어서 와. 나는 플리트윅 교수야. 호그와트에서 일반 마법을 가르치지."}]
 execute as @s[scores={cutSceneTimer=33},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=37},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=41},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -873,7 +873,7 @@ execute as @s[scores={cutSceneTimer=630},tag=cutsceneLeader] as @e[tag=flitwickC
 
 # ¤Flitwick:¤ The task is simple:
 execute as @s[scores={cutSceneTimer=701},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
-execute as @s[scores={cutSceneTimer=701..780}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 아주 간단해"}]
+execute as @s[scores={cutSceneTimer=701..780}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 아주 간단해."}]
 execute as @s[scores={cutSceneTimer=701},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=708},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=712},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1357,7 +1357,7 @@ tp @s[scores={cutSceneTimer=1222}] 5097.933 94.18749 39.80437 124.78 4.1
 
 # ¤Flitwick:¤ Only this maze is completely dark. You will need to use your wand to find your way.
 execute as @s[scores={cutSceneTimer=941},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
-execute as @s[scores={cutSceneTimer=941..1100}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 완전히 어두울 때 지팡이를 사용해서 길을 찾는 거 잊지 말고."}]
+execute as @s[scores={cutSceneTimer=941..1100}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 완벽히 어두울 때 지팡이를 사용해서 길을 찾는 거 잊지 말고."}]
 execute as @s[scores={cutSceneTimer=941},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=948},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=952},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] run function hp:npc/update_npc_head_expression

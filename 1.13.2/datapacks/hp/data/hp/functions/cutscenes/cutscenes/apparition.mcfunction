@@ -871,7 +871,7 @@ execute as @s[scores={cutSceneTimer=850}] run function hp:cutscenes/fade_in
 
 # ¤Twycross:¤ Are we ready to begin? Wonderful.
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=20..120}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 이제 준비 되었니? 아주 좋아."}]
+execute as @s[scores={cutSceneTimer=20..120}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 이제 준비되었니? 좋아."}]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=27},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=31},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
@@ -883,7 +883,7 @@ execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=cutsceneTw
 
 # ¤Twycross:¤ Now, as you know, apparition is a magical form of transportation,
 execute as @s[scores={cutSceneTimer=121},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=121..230}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 자, 알다시피 순간이동 마법은 여러 이동수단 중 하나로"}]
+execute as @s[scores={cutSceneTimer=121..230}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 자, 알다시피 순간이동 마법은 이동수단 중 하나로"}]
 execute as @s[scores={cutSceneTimer=121},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=128},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=132},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
@@ -895,7 +895,7 @@ execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=cutsceneT
 
 # ¤Twycross:¤ instantly transporting you from one location to another.
 execute as @s[scores={cutSceneTimer=231},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=231..300}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 한 장소에서 다른 장소로 즉시 이동할 수 있어."}]
+execute as @s[scores={cutSceneTimer=231..300}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 한 장소에서 다른 장소로 순식간에 갈 수 있지."}]
 execute as @s[scores={cutSceneTimer=231},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=238},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=242},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
@@ -909,7 +909,7 @@ execute as @s[scores={cutSceneTimer=271},tag=cutsceneLeader] as @e[tag=cutsceneT
 
 # ¤Twycross:¤ This ability can be very useful
 execute as @s[scores={cutSceneTimer=301},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=301..350}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 이 마법은 매우 유용한데"}]
+execute as @s[scores={cutSceneTimer=301..350}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 이 마법은 여러므로 매우 유용한데"}]
 execute as @s[scores={cutSceneTimer=301},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=308},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=312},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
@@ -921,7 +921,7 @@ execute as @s[scores={cutSceneTimer=341},tag=cutsceneLeader] as @e[tag=cutsceneT
 
 # ¤Twycross:¤ and at times necessary in order to reach areas that are otherwise inaccessible.
 execute as @s[scores={cutSceneTimer=351},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=351..420}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 특히 다른 방법으로 접근할 수 없는 지역에 도달할 때 필요하지."}]
+execute as @s[scores={cutSceneTimer=351..420}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 특히 다른 방법으로는 접근할 수 없는 지역에 가야할 때 좋아."}]
 execute as @s[scores={cutSceneTimer=351},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=358},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=362},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
@@ -979,7 +979,7 @@ execute as @s[scores={cutSceneTimer=610..650}] run title @s actionbar ""
 
 # ¤Twycross:¤ The important things to remember when apparating are the three D's: "Destination, Determination, Deliberation."
 execute as @s[scores={cutSceneTimer=651},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=651..800}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 목적지, 결단, 신중함. 항상 이 세 가지를 명심하도록 해. "}]
+execute as @s[scores={cutSceneTimer=651..800}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 목적지, 결단, 신중함. 항상 이 세 가지를 명심하도록 해."}]
 execute as @s[scores={cutSceneTimer=651},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=658},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=662},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression

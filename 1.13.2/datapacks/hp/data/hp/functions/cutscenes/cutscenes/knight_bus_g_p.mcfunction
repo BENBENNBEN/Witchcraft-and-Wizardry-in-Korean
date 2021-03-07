@@ -1,4 +1,4 @@
-이동 중execute as @s[scores={cutSceneTimer=1}] run function hp:cutscenes/fade_in
+execute as @s[scores={cutSceneTimer=1}] run function hp:cutscenes/fade_in
 execute as @s[scores={cutSceneTimer=1}] run tag @s remove letterbox
 execute as @s[scores={cutSceneTimer=1}] run tag @s add doNotPlayBusAmbience
 execute as @s[scores={cutSceneTimer=1}] run stopsound @s master minecraft:custom.ambient.bus.idle

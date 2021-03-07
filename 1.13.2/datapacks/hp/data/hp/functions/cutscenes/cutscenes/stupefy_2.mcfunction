@@ -1011,7 +1011,7 @@ execute as @s[scores={cutSceneTimer=440},tag=cutsceneLeader] as @e[tag=lupinStup
 
 # ¤Lupin:¤ Shape shifting creatures that dwell in dark places and take on form to scare their target.
 execute as @s[scores={cutSceneTimer=480},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=480..650}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 어두운 곳에 살고, 상대를 겁주기 위해 어떤 모양으로도 변신할 수 있는 괴물이지. "}]
+execute as @s[scores={cutSceneTimer=480..650}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 어두운 곳에 살고, 상대를 겁주기 위해 어떤 모양이든 변신할 수 있는 괴물이지."}]
 execute as @s[scores={cutSceneTimer=480},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=487},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=491},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_expression
@@ -1023,7 +1023,7 @@ execute as @s[scores={cutSceneTimer=520},tag=cutsceneLeader] as @e[tag=lupinStup
 
 # ¤Lupin:¤ I want you to fight them with the Stupefy spell, so you can practice your combat abilities.
 execute as @s[scores={cutSceneTimer=650},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=650..800}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 스투페파이 주문으로 그들을 퇴치하고 전투를 연습해보렴."}]
+execute as @s[scores={cutSceneTimer=650..800}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 스투페파이 주문으로 그들을 물리치고 전투를 연습해보렴."}]
 execute as @s[scores={cutSceneTimer=650},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=657},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=661},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_expression

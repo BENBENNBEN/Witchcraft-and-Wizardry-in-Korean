@@ -603,7 +603,7 @@ execute as @s[scores={cutSceneTimer=-520},tag=cutsceneLeader] as @e[tag=sortingC
 
 # ¤McGonagall:¤ Now in a few moments you will pass through these doors, and join your classmates,
 execute as @s[scores={cutSceneTimer=-450},tag=cutsceneLeader] as @e[tag=sortingCeremonyMcGonagall,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1 1 0
-execute as @s[scores={cutSceneTimer=-450..-330}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 잠시 후에 이 문을 지나서 다른 호그와트 학생들과 만나게 될 거야."}]
+execute as @s[scores={cutSceneTimer=-450..-330}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 잠시 후에 이 문을 지나면 다른 호그와트 학생들과 만나게 될 거야."}]
 execute as @s[scores={cutSceneTimer=-450},tag=cutsceneLeader] as @e[tag=sortingCeremonyMcGonagall,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=-443},tag=cutsceneLeader] as @e[tag=sortingCeremonyMcGonagall,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=-439},tag=cutsceneLeader] as @e[tag=sortingCeremonyMcGonagall,limit=1] run function hp:npc/update_npc_head_expression
@@ -616,7 +616,7 @@ execute as @s[scores={cutSceneTimer=-410},tag=cutsceneLeader] as @e[tag=sortingC
 
 # ¤McGonagall:¤ but before you can take your seats you must be sorted into your houses.
 execute as @s[scores={cutSceneTimer=-330},tag=cutsceneLeader] as @e[tag=sortingCeremonyMcGonagall,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1 1 0
-execute as @s[scores={cutSceneTimer=-330..-220}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 연회장에 자리 잡기 전에 기숙사 배정이 있을 예정이야."}]
+execute as @s[scores={cutSceneTimer=-330..-220}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 먼저 기숙사에 배정받고 나서 연회장에 앉게 될 거란다."}]
 execute as @s[scores={cutSceneTimer=-330},tag=cutsceneLeader] as @e[tag=sortingCeremonyMcGonagall,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=-323},tag=cutsceneLeader] as @e[tag=sortingCeremonyMcGonagall,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=-319},tag=cutsceneLeader] as @e[tag=sortingCeremonyMcGonagall,limit=1] run function hp:npc/update_npc_head_expression

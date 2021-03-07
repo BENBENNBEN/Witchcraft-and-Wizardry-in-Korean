@@ -1096,7 +1096,7 @@ tp @s[scores={cutSceneTimer=1080}] 758.9767 36.55687 188.6976 267.87 6.05
 
 # ¤Snape:¤ There will be no foolish wand waving or silly incantations in this class.
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=20..140}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 이 수업에서 지팡이를 휘두르거나 쓸데없는 주문을 외우지 않을 거다."}]
+execute as @s[scores={cutSceneTimer=20..140}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 이 수업에서는 지팡이를 휘두르거나 쓸데없는 주문을 외우지 않을 거다."}]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=27},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=31},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1108,7 +1108,7 @@ execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=snapeClass
 
 # ¤Snape:¤ As such, I don't expect many of you to appreciate the subtle science and exact art that is potion brewing,
 execute as @s[scores={cutSceneTimer=140},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=140..320}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 따라서 대다수는 마법약이 얼마나 과학적이고 정교한 지 이해하지 못할 거다."}]
+execute as @s[scores={cutSceneTimer=140..320}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 따라서 대다수는 마법약이 얼마나 과학적이고 정교한지 이해하지 못하겠지."}]
 execute as @s[scores={cutSceneTimer=140},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=147},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=151},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1120,7 +1120,7 @@ execute as @s[scores={cutSceneTimer=180},tag=cutsceneLeader] as @e[tag=snapeClas
 
 # ¤Snape:¤ However for those select few who posess the predisposition
 execute as @s[scores={cutSceneTimer=320},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=320..420}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 그렇지만 재능을 선택받은 학생들에게는"}]
+execute as @s[scores={cutSceneTimer=320..420}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 그렇지만 재능이 있는 학생들에게는"}]
 execute as @s[scores={cutSceneTimer=320},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=327},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=331},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1132,7 +1132,7 @@ execute as @s[scores={cutSceneTimer=360},tag=cutsceneLeader] as @e[tag=snapeClas
 
 # ¤Snape:¤ I can teach you how to bewitch the mind, and ensnare the senses.
 execute as @s[scores={cutSceneTimer=420},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=420..600}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 마법약으로 인간의 마음과 감각을 사로잡는 방법을 가르칠 거야."}]
+execute as @s[scores={cutSceneTimer=420..600}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 마법약으로 사람의 마음과 감각을 사로잡는 방법을 가르칠 거다."}]
 execute as @s[scores={cutSceneTimer=420},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=427},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=431},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1144,7 +1144,7 @@ execute as @s[scores={cutSceneTimer=460},tag=cutsceneLeader] as @e[tag=snapeClas
 
 # ¤Snape:¤ I can tell you how to bottle fame, brew glory and even put a stopper in death.
 execute as @s[scores={cutSceneTimer=510},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=510..600}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 부와 명성을 얻고, 나아가 죽음을 막는 법을 배우게 될 거다."}]
+execute as @s[scores={cutSceneTimer=510..600}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 부와 명성을 얻고, 나아가 죽음을 막는 법을 배우게 되겠지."}]
 execute as @s[scores={cutSceneTimer=510},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=517},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=521},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1157,7 +1157,7 @@ execute as @s[scores={cutSceneTimer=550},tag=cutsceneLeader] as @e[tag=snapeClas
 
 # ¤Snape:¤ In this lesson you will be brewing the "Murtlap Essence" potion,
 execute as @s[scores={cutSceneTimer=600},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=600..800}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 오늘은 머트랩 용액을 만들 거야."}]
+execute as @s[scores={cutSceneTimer=600..800}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 오늘 수업에서는 머트랩 용액을 만들 거야."}]
 execute as @s[scores={cutSceneTimer=600},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=607},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=611},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1169,7 +1169,7 @@ execute as @s[scores={cutSceneTimer=640},tag=cutsceneLeader] as @e[tag=snapeClas
 
 # ¤Snape:¤ which when consumed will restore a significant amount of your health.
 execute as @s[scores={cutSceneTimer=700},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=700..800}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 용액을 마시면 상당한 건강 회복 효과가 있어."}]
+execute as @s[scores={cutSceneTimer=700..800}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 용액을 마시면 상당한 체력 회복 효과가 있어."}]
 execute as @s[scores={cutSceneTimer=700},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=707},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=711},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1182,7 +1182,7 @@ execute as @s[scores={cutSceneTimer=740},tag=cutsceneLeader] as @e[tag=snapeClas
 
 # ¤Snape:¤ For this you need to collect a variety of potion supplies that are scattered in and around this room.
 execute as @s[scores={cutSceneTimer=800},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=800..970}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 이 방과 주변에 흩어져 있는 재료를 가져와."}]
+execute as @s[scores={cutSceneTimer=800..970}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 이 방과 주변에 흩어져 있는 재료를 모아오도록."}]
 execute as @s[scores={cutSceneTimer=800},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=807},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=811},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1194,7 +1194,7 @@ execute as @s[scores={cutSceneTimer=840},tag=cutsceneLeader] as @e[tag=snapeClas
 
 # ¤Snape:¤ You may begin.
 execute as @s[scores={cutSceneTimer=970},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=970..1170}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 이제 시작하도록."}]
+execute as @s[scores={cutSceneTimer=970..1170}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 이제 시작해."}]
 execute as @s[scores={cutSceneTimer=970},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=977},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=981},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression

@@ -313,7 +313,7 @@ execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=flitwickCl
 
 # ¤Flitwick:¤ Now, one of a wizard's most rudimentary skills is levitation: The ability to make objects fly.
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=161..350}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 자, 마법사의 가장 기본적인 기술 중 하나는 공중부양이야. 물체를 띄우는 능력이지."}]
+execute as @s[scores={cutSceneTimer=161..350}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 자, 마법사의 가장 기본 기술은 공중부양이야. 물체를 띄우는 능력이지."}]
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=168},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=172},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -365,7 +365,7 @@ execute as @s[scores={cutSceneTimer=1051..1200}] run title @s actionbar ["",{"te
 
 # ¤Flitwick:¤ I've put up an obstacle course that will require you to use the levitation spell.
 execute as @s[scores={cutSceneTimer=1201},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=1201..1350}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 공중 부양 마법을 연습해보도록 장애물 코스를 준비했어."}]
+execute as @s[scores={cutSceneTimer=1201..1350}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 공중 부양 마법을 연습할 수 있도록 장애물 코스를 준비해놨어."}]
 
 
 execute as @s[scores={cutSceneTimer=520},tag=cutsceneLeader] run data merge entity @e[tag=cutsceneWingardiumBlock,limit=1,sort=nearest] {Glowing:1b,NoGravity:1b}

@@ -351,7 +351,7 @@ execute as @s[scores={cutSceneTimer=251},tag=cutsceneLeader] as @e[tag=lupinClas
 
 # ¤Lupin:¤ This will allow you to conjure up powerful explosions,
 execute as @s[scores={cutSceneTimer=300},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=300..400}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 강력한 폭발을 일으킬 수 있고"}]
+execute as @s[scores={cutSceneTimer=300..400}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 강력한 폭발을 일으키고"}]
 execute as @s[scores={cutSceneTimer=300},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=307},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=311},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] run function hp:npc/update_npc_head_expression
@@ -363,7 +363,7 @@ execute as @s[scores={cutSceneTimer=340},tag=cutsceneLeader] as @e[tag=lupinClas
 
 # ¤Lupin:¤ capable of dealing great damage to multiple foes as well as blowing up certain walls and objects.
 execute as @s[scores={cutSceneTimer=400},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=400..550}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 여러 적에게 큰 피해를 줄뿐만 아니라 건물 벽이나 물체를 날려 버릴 수 있어."}]
+execute as @s[scores={cutSceneTimer=400..550}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 여러 적에게 큰 피해를 줄 뿐만 아니라 건물 벽이나 물체를 날려 버릴 수 있어."}]
 execute as @s[scores={cutSceneTimer=400},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=407},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=411},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] run function hp:npc/update_npc_head_expression
@@ -580,7 +580,7 @@ execute as @s[scores={cutSceneTimer=480}] as @s run function hp:cutscenes/fade_i
 
 # ¤Lupin:¤ I have set up an area below the castle where you can practice the spell.
 execute as @s[scores={cutSceneTimer=550},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=550..700}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 성 아래에 주문을 연습할 장소를 마련했어."}]
+execute as @s[scores={cutSceneTimer=550..700}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 성 아래에 주문을 연습할 장소를 마련해놨어."}]
 
 # Add fog effect
 execute as @s[scores={cutSceneTimer=500}] as @s run tag @s add fog

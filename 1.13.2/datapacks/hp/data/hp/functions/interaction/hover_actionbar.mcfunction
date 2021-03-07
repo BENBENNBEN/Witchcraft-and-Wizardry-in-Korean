@@ -119,17 +119,17 @@ execute if score ministryPhoneBoothCutsceneIsGoing global matches 0 if entity @s
 execute if score ministryPhoneBoothCutsceneIsGoing global matches 0 if entity @s[tag=ministryPhoneBooth] as @p[tag=hasCompletedSortingCeremony,tag=activePlayer,tag=hasPressedF,tag=!flyingBroom] run function hp:cutscenes/init_cutscene
 
 # Grimmauld Place exit
-execute if entity @s[tag=grimmauldPlaceExit] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"그리몰드 가 12번지에서 나가려면  ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
+execute if entity @s[tag=grimmauldPlaceExit] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"그리몰드가 12번지에서 나가려면  ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
 execute if entity @s[tag=grimmauldPlaceExit] as @p[tag=activePlayer,tag=hasPressedF,tag=!flyingBroom] run scoreboard players set @s cutSceneID 46
 execute if entity @s[tag=grimmauldPlaceExit] as @p[tag=activePlayer,tag=hasPressedF,tag=!flyingBroom] run function hp:cutscenes/init_cutscene
 
 # Dungeon Entrance
-execute if entity @s[tag=dungeonEntrance] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"지하감옥에 들어가려면  ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
+execute if entity @s[tag=dungeonEntrance] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"지하 던전에 들어가려면  ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
 execute if entity @s[tag=dungeonEntrance] as @p[tag=activePlayer,tag=hasPressedF,tag=!flyingBroom] run scoreboard players set @s cutSceneID 51
 execute if entity @s[tag=dungeonEntrance] as @p[tag=activePlayer,tag=hasPressedF,tag=!flyingBroom] run function hp:cutscenes/init_cutscene
 
 # Dungeon Entrance
-execute if entity @s[tag=dungeonExit] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"지하감옥에서 나가려면  ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
+execute if entity @s[tag=dungeonExit] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"지하 던전에서 나가려면  ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
 execute if entity @s[tag=dungeonExit] as @p[tag=activePlayer,tag=hasPressedF,tag=!flyingBroom] run scoreboard players set @s cutSceneID 52
 execute if entity @s[tag=dungeonExit] as @p[tag=activePlayer,tag=hasPressedF,tag=!flyingBroom] run function hp:cutscenes/init_cutscene
 

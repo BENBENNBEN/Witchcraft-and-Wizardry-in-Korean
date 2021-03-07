@@ -12,10 +12,10 @@ scoreboard players set @s[tag=discovered_road_to_hogwarts,tag=!inProperCutScene]
 execute as @s[tag=!discovered_road_to_hogwarts,tag=!inProperCutScene] run tag @s add discovered_road_to_hogwarts
 
 # Title
-execute as @s[scores={playerID=1},tag=!inProperCutScene] run bossbar set minecraft:player1discover name {"text":"호그와트 길목","color":"white","italic":"false"}
-execute as @s[scores={playerID=2},tag=!inProperCutScene] run bossbar set minecraft:player2discover name {"text":"호그와트 길목","color":"white","italic":"false"}
-execute as @s[scores={playerID=3},tag=!inProperCutScene] run bossbar set minecraft:player3discover name {"text":"호그와트 길목","color":"white","italic":"false"}
-execute as @s[scores={playerID=4},tag=!inProperCutScene] run bossbar set minecraft:player4discover name {"text":"호그와트 길목","color":"white","italic":"false"}
+execute as @s[scores={playerID=1},tag=!inProperCutScene] run bossbar set minecraft:player1discover name {"text":"호그와트 가는 길","color":"white","italic":"false"}
+execute as @s[scores={playerID=2},tag=!inProperCutScene] run bossbar set minecraft:player2discover name {"text":"호그와트 가는 길","color":"white","italic":"false"}
+execute as @s[scores={playerID=3},tag=!inProperCutScene] run bossbar set minecraft:player3discover name {"text":"호그와트 가는 길","color":"white","italic":"false"}
+execute as @s[scores={playerID=4},tag=!inProperCutScene] run bossbar set minecraft:player4discover name {"text":"호그와트 가는 길","color":"white","italic":"false"}
 execute as @s[tag=!inProperCutScene] run function hp:misc/update_bossbars
 
 # Set location

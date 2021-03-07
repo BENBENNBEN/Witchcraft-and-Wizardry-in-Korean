@@ -313,7 +313,7 @@ tp @s[scores={cutSceneTimer=320}] 2848.26 47.74 950.02 1938.66 -8.900038
 execute as @s[scores={cutSceneTimer=301}] run function hp:cutscenes/fade_in
 
 # Here, you can purchase supplies and solve quests for the shop owners.
-title @s[scores={cutSceneTimer=221..620}] actionbar ["",{"text":" 이곳에서 물품을 구입하고, 여러 상점 주인에게 퀘스트를 받을 수 있는 곳이죠."}]
+title @s[scores={cutSceneTimer=221..620}] actionbar ["",{"text":"다양한 물품을 구입하고, 여러 상점 주인에게 퀘스트를 받을 수 있는 곳이죠."}]
 
 execute as @s[scores={cutSceneTimer=322}] run function hp:cutscenes/fade_out	
 tp @s[scores={cutSceneTimer=322}] 2856.13 54.23 862.24 87.75 -8.44

@@ -346,7 +346,7 @@ execute as @s[scores={cutSceneTimer=120},tag=cutsceneLeader] as @e[tag=lupinClas
 
 # ¤Lupin:¤ Please put away your books, this is going to be a practical lesson. You will only need your wand.
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=161..320}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 모두 책은 치우렴. 이 수업에서는 실습을 할 거니까. 마법 지팡이만 있으면 돼."}]
+execute as @s[scores={cutSceneTimer=161..320}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 모두 책은 치우렴. 이 수업에서는 주로 실습을 하니까. 마법 지팡이만 있으면 돼."}]
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=168},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=172},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_expression
