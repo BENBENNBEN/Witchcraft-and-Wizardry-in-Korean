@@ -59,7 +59,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 위즐리 쌍둥이? 도비는 그 사람들 알아요. 해리 포터의 친구들이잖아요! 해리 포터의 친구들은 모두 도비의 친구들이에요! 원하는 만큼 음식을 가져가세요.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 위즐리 쌍둥이? 도비가 그 사람들 알아요. 해리 포터의 친구들이잖아요! 해리 포터의 친구들은 모두 도비의 친구들이에요! 원하는 만큼 음식을 가져가요.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

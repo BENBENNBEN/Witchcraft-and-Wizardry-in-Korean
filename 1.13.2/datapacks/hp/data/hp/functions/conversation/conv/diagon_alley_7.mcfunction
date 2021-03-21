@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그린 리프에 들려야 해. 먹이를 주려고 했더니 날이 내 정원을 다 망가뜨려 놓았어! 노움들을 다 내쫓자마자 또 내 소중한 정원이... \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그린 리프에 들려야 해. 날한테 먹이 주려고 하니까 되려 내 정원을 다 망가뜨려 놨어! 노움들을 다 없애자마자 또 내 소중한 정원이... \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

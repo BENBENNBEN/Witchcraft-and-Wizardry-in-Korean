@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕, 젊은 친구. 뭐가 필요해?\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕, 젊은 친구. 뭘 도와줄까?\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -95,7 +95,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 부엉이에 관해 관심 있어? 아주 좋아. 부엉이는 맹금류이고, 야행성 동물이야. 그리고 매우 똑똑해. 심지어 마녀와 마법사들과 소통할 수도 있어. 그래서 마법 세계에서는 여러모로 유용하다고. 대신 우편배달해 주거나, 머글들은 상상도 못 할 정도로 먼 거리에 떨어진 사람과 부엉이 덕에 소통할 수 있다니까.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 부엉이에 관심 있나 보군? 아주 좋아. 부엉이는 맹금류 중 하나로, 야행성 동물이야. 그리고 매우 똑똑하지. 심지어 마녀와 마법사들과 어느 정도 소통할 수 있어. 덕분에 마법 세계에서 실용적인 동물 중 하나야. 머글들은 상상도 못 할 정도로 먼 거리에 떨어진 사람과 부엉이 덕에 우편물을 주고받을 수 있으니까.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕! 나는 브란웬 스캐먼더야. 편하게 둘러봐. 마법 생물들은 조심하고. 궁금한 거 있으면 알려줘.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕! 나는 브란웬 스캐먼더야. 편하게 둘러봐. 마법 생물들만 조심하고. 궁금한 거 있으면 말해줘.\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -35,7 +35,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 ################################
 
 
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 마법의 생물에 대해 질문이 있어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 마법 생물에 대해 질문이 있어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 스캐맨더? 그 책 작가분과 같은 성인가요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -130,7 +130,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아, 맞아 그런 질문 많이 들어. 마법 생명을 잘 돌보는 것의 중요성을 전 세계에 알린 분이셨지. 나도 그 뜻을 계속 이어가고 싶어. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아, 맞아 그런 질문 많이 들어. 마법 생물을 잘 돌보는 것의 중요성을 전 세계에 알린 분이셨지. 나도 그 뜻을 계속 이어가고 싶어. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -162,7 +162,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 니플러는 새까만 털에 긴 주둥이를 한 마법 생물이야. 무해한 생물이지만 반짝거리는 물건을 좋아하는 특성상 주변을 엉망으로 만들거나 혼란을 일으키곤 해.  \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 니플러는 새까만 털에 긴 주둥이를 한 마법 생물이야. 무해한 생물이지만 반짝거리는 물건을 좋아하는 특성상 주변을 엉망으로 만들거나 혼란을 일으키곤 해. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -288,7 +288,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 보우트러클은 위겐나무처럼 주로 지팡이 재료로 쓰이는 나무에 살아. 나뭇가지 같은 손가락으로 자기가 사는 나무에 기생하는 벌레를 잡아먹거나, 상대의 눈을 겨냥할 때 무기로 사용하곤 하지. 보우트러클 한 무리는 나뭇가지를 부르듯 한 다발 있다고 해. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 보우트러클은 위겐나무처럼 주로 지팡이 재료로 쓰이는 나무에 살아. 나뭇가지 같은 손가락으로 자기가 사는 나무에 기생하는 벌레를 잡아먹거나, 상대의 눈을 겨냥할 때 무기로 사용하곤 하지. 보우트러클 한 무리는 나뭇가지를 부르듯 한 다발이라고 해. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -412,7 +412,7 @@ tag @s[scores={convState=11},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 부엉이는 마법 생물이 아니야. 머글도 마법사도 알고 있는 동물이지. 마법 세계에서는 부엉이가 우편배달을 도와줘. 마법 친화력이 전혀 없는 돼지랑은 다르게 부엉이는 마법 친화력이 있어. 그래서 마법 세계에서 유용하지. 편지나 소포, 하울러를 배달해주니까. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 부엉이는 마법 생물이 아니야. 머글도 마법사도 잘 아는 동물이지. 마법 친화력이 전혀 없는 돼지랑은 다르게 부엉이는 마법 친화력이 있어. 어느 정도 소통도 가능하고. 그래서 마법 세계에서 유용하지. 편지나 소포, 하울러를 배달해주니까. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -473,7 +473,7 @@ tag @s[scores={convState=13},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 토끼는 종종 머글이 생각하는 마법에 등장하지. 갑자기 모자에서 나타난 토끼라든가. 그치만 마법 생물이 아니야. 마녀와 마법사들 사이에서 여전히 인기 있는 반려동물이지. 많은 마녀와 마법사들의 패트로누스이기도 하고. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 토끼는 종종 머글이 생각하는 마법에 등장하지. 갑자기 모자에서 나타난 토끼라든가. 그치만 마법 생물은 아니야. 그래도 마녀와 마법사들 사이에서 인기 있는 반려동물이야. 많은 마녀와 마법사들의 패트로누스이기도 하고. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -504,7 +504,7 @@ tag @s[scores={convState=14},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 쥐도 마법사와 마녀의 반려 동물이야. 몇 년밖에 못 살아서 부엉이나 고양이만큼 인기가 없지만, 쥐꼬리는 물약 만들 때 유용해. 야생 쥐는 다소 공격적일 수도 있으니까 조심해야 해. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 쥐도 마법사와 마녀의 반려 동물이야. 몇 년밖에 못 살아서 부엉이나 고양이만큼 인기는 없지만, 쥐꼬리는 물약 만들 때 유용해. 야생 쥐는 다소 공격적일 수도 있으니까 조심해야 해. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

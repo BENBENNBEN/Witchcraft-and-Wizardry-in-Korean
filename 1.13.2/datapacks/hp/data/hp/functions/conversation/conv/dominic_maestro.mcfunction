@@ -61,7 +61,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐, 나는 영국에서 전 세계 음악을 공부했어. 사람들은 시간을 들여서 연습해야만 좋은 음악가가 된다고 하지만, 나는 그게 없어도 되는 천재라고 생각하네. 호그와트 다닐 적에도 상을 받았었다고. 그 개구리 합창단 출신이네, 내가. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐, 나는 영국에서 전 세계 음악을 공부했어. 사람들은 시간을 들여서 연습해야만 좋은 음악가가 된다고 하지만, 나는 그게 없어도 되는 천재라고 생각해. 호그와트 다닐 적에도 상을 받았었다고. 그 개구리 합창단 출신이네, 내가. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

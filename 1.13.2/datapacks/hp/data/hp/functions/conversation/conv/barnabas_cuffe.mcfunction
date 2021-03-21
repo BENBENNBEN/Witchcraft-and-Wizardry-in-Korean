@@ -136,7 +136,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 장난해? 화물을 못 받았다고? 레타스가 해야 할 일이잖아! 새파란 놈을 고용했더니, 이런 사고나 치고. 케빈 레타스한테 가서 한 번만 더 이런 실수를 저지르면 용서하지 않을 거라고 전해. 이게 마지막 기회라고! \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐라고? 예언자 일보를 못 받았다고? 레타스는 뭘 한 거야? 새파란 놈을 고용했더니, 이런 사고나 치고. 케빈 레타스한테 가서 한 번만 더 이런 실수를 저지르면 가만 안 둔다고 전해. 이게 마지막 기회라고! \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

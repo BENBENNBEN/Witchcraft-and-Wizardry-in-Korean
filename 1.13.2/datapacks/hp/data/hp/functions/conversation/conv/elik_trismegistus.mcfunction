@@ -74,7 +74,7 @@ execute if score elikElixersRats sharedQuests matches -1 if entity @s[tag=use] a
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≡ 판매 중인 상품을 보여주세요\"}",Tags:["_____buy_____","_____Normal_____","_____click_____","convOption","i"]}
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 물약 재료를 어떻게 구하는 게 좋을까요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 물약 재료는 어떻게 구하는 게 좋을까요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 2
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 물약 만드는 법을 어디서 배우셨나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -83,7 +83,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"≤ 물약 제조에 대해 알려주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=4}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 5
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"≤ 다이애건 앨리에 대해 말해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"≤ 다이애건 앨리에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=5}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 6
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=6}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
@@ -110,7 +110,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 직접 물약 제조하시려면 재료는 여러 방법으로 조달하실 수 있습니다. 재료를 파는 상점에 가서 돈으로 사실 수도 있죠.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 재료는 여러 방법으로 조달하실 수 있어요. 재료 상점을 돌아다니다가 원하는 재료를 찾으면 돈으로 구매할 수 있습니다.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -141,7 +141,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 하지만 무료로 구하시려면 직접 돌아다니시면서 구하셔야 합니다. 좋은 재료가 어디 땅에 떨어져 있을지도 모르니까요. 몬스터나 공격적인 생물을 사냥하면서 얻을 수도 있고요.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 무료로 구하시려면 직접 돌아다니면서 구하셔야 합니다. 좋은 재료가 어디 땅에 떨어져 있을지도 모르니까요. 몬스터나 공격적인 생물을 사냥하면서 얻을 수도 있고요.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -172,7 +172,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 저도 호그와트 다닐 적에 배웠습니다. 저 때는 호러스 슬러그혼 교수님이셨죠. 과목은 재밌었는데, 교수님이 별로였습니다. 편애하는 애들은 모아둔 '슬러그 클럽'이란 게 있었는데, 한 번도 초대된 적이 없어요. 아마 제 혈통이 문제였나 봅니다. 전 머글 태생이거든요. 진짜 슬리데린 같으니라고!\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 다닐 적에 배웠습니다. 제가 다닐 때는 호러스 슬러그혼 교수님이셨어요. 과목은 재밌었는데, 교수님이 별로였습니다. 편애하는 애들을 모아둔 '슬러그 클럽'이란 게 있었는데, 한 번도 초대된 적이 없었어요. 아마 제 혈통이 문제였나 봅니다. 전 머글 태생이거든요. 진짜 슬리데린 같으니라고!\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -234,7 +234,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 다이애건 앨리는 물약 제조 장비나 재료를 파는 상점들로 가득합니다. 하지만 이미 제조된 물약이 필요하시면 이 구역에서 저를 찾으십쇼. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 다이애건 앨리는 물약 제조 장비나 재료를 파는 상점들로 가득합니다. 하지만 이미 제조된 물약이 필요하시면 이 구역에서 저를 찾으십시오. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -266,7 +266,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 네. 저주받을 것들이 지하실을 통해 올라와 재료들을 먹어치웁니다. 내려가서 처리하려고 했지만, 제가 영 소질이 없어서요. 지팡이보다 가마솥이랑 더 친하거든요.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 네. 저주받을 것들이 지하실을 통해 올라와 재료들을 먹어치웠습니다. 내려가서 처리하려고 했지만, 제가 영 소질이 없어서요. 지팡이보다 가마솥이랑 더 친하거든요.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -298,7 +298,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아. 정말 친절하시네요. 하지만 마법사 된 지 얼마 안 되신 분께는 어려울 것 같습니다. 좀 더 경험을 쌓고 오시면 해치울 수 있지도 모르죠.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아. 정말 친절하시네요. 하지만 마법사 된 지 얼마 안 되신 분께는 어려울 것 같습니다. 좀 더 경험을 쌓고 오시면 해치울 수 있을지도 모르죠.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -378,7 +378,7 @@ tag @s[scores={convState=10},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 훌륭해요! 이제 상점 재고를 이전처럼 쌓아둘 수 있겠군요. 여기 감사의 표시로 받으십쇼.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 좋습니다! 이제 상점 재고를 이전처럼 쌓아둘 수 있겠군요. 여기 감사의 표시로 받으십쇼.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

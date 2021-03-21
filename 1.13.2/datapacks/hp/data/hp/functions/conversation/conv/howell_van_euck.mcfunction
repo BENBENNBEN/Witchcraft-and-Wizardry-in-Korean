@@ -27,18 +27,18 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Хм? Видишь что-нибудь по вкусу? \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 흠? 마음에 드는 거라도 있니? \\n\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите мне о двигающихся портретах \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 움직이는 초상화에 대해 얘기해주세요. \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 #-------------------------------
 
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≥ До свидания\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
 
@@ -62,7 +62,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Ну. Впервые я заинтересовался этими движущимися портретами во время моего пребывания в Хогвартсе. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트에 있을 때 처음으로 움직이는 초상화에 대해 관심을 두게 되었어. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -93,7 +93,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Как вы знаете, многие портреты в волшебном мире способны говорить и передвигаться. Они ведут себя как их подданные. Однако степень, в которой они могут взаимодействовать с людьми, смотрящими на них, зависит не от мастерства художника, а от силы нарисованной волшебницы или волшебника. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 너도 알다시피 마법 세계의 초상화는 말도 하고 움직이잖아. 마치 살아있는 것처럼. 얼마나 생동적이냐는 초상화를 그린 화가의 능력에 달린 것이 아니라 그려진 인물의 힘에 달려있어. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -124,7 +124,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" При написании магического портрета художник естественным образом использует чары, чтобы убедиться, что картина сможет двигаться. Портрет сможет использовать некоторые из любимых фраз нарисованного и имитировать их общее поведение, как воспринимает художник. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 초상화가 완성되면, 움직이게 하는 주문을 걸어. 그럼 화가가 생각한 모습대로 행동하거나 살아생전에 자주 하던 말을 하지. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -155,7 +155,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Таким образом, ни один из этих портретов не способен провести особенно глубокое обсуждение более сложных аспектов их жизни: они буквально и метафорически двумерны. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그치만 초상화 속 인물은 복잡한 문제에 대해 심도 있는 토론을 나눌 수는 없어. 말 그대로 평면적이니까. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -186,7 +186,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Некоторые магические портреты способны значительно больше взаимодействовать с живым миром. По традиции, директор или директриса рисуется перед смертью. Это дает им время для того, чтобы поделиться своей мудростью, полезными воспоминаниями и знаниями, которыми они могут затем поделиться на протяжении веков со своими преемниками на этом посту. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 예외로 일부 초상화는 실제 세계와 좀 더 상호작용할 수 있어. 모든 호그와트 교장들은 죽기 전에 초상화로 그려지는데, 이는 역대 교장들의 지혜와 경험을 후대 교장들에게 나누기 위해서야. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -218,7 +218,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Глубина знаний и проницательность, содержащиеся в портретах некоторых директоров и директоров школ, неизвестны никому, кроме должностных лиц и, возможно, нескольким студентам, которые на протяжении веков понимали, что видимая сонливость портретов, когда посетители приходят в офис, не обязательно подлинная. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 역대 교장들의 초상화에 담긴 지식과 통찰력은 수 세기 동안 후대 교장들을 비롯하여 방문객이 교장실에 있을 때 초상화들이 가짜로 자는 척한다는 것을 눈치챈 소수 학생들에게만 알려졌어. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
