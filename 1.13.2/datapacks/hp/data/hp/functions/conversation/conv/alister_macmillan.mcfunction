@@ -129,7 +129,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 편지나 신문, 소포랑 하울러까지 배달하니까. 사실 거의 모든 부엉이가 우체국이나 마법사에게 고용된 거라고. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 편지나 신문, 소포랑 하울러까지 배달하니까. 사실 거의 모든 부엉이가 우체국이나 마법사에게 고용되었지. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -159,7 +159,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 머글 우체국 같은 거지만, 대신 부엉이가 배달하는 거야. 가정용 부엉이가 없는 사람들이 많이 오지. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 머글 우체국 같지만, 대신 부엉이가 배달하는 거야. 가정용 부엉이가 없는 사람들이 많이 오지. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

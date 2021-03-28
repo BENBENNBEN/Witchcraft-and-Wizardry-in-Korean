@@ -94,7 +94,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 누가 확인해보긴 해야 하는데. 그 오두막집에서 들리는 비명은 정말 끔찍하니까. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 누가 확인해보긴 해야 하는데. 그 오두막집에서 들리는 비명은 정말 끔찍하거든. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -129,7 +129,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 그러던가. 정작 아무것도 없어서 헛걸음할 수도 있지만, 내가 가라 말라 할 문제는 아니니까. 그래도 그 비명을 멈추면 보답해줄게. 오두막집에서 나는 소리 때문에 손님들이 놀라거든.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 그러던가. 정작 아무것도 없어서 헛걸음할 수도 있지만, 내가 가라 말라 할 문제는 아니지. 그래도 그 비명을 멈추면 보답해줄게. 오두막집에서 나는 소리 때문에 손님들이 놀라거든.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

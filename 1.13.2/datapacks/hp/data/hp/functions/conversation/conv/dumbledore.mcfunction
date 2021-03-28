@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 내가 호그와트 마법학교의 교장, \"},{\"text\":\"알버스 퍼시벌 울프릭 브라이언 덤블도어란다\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 내가 호그와트 마법 학교의 교장, \"},{\"text\":\"알버스 퍼시벌 울프릭 브라이언 덤블도어란다\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -146,7 +146,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=6}] as @s[tag=
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=7}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트에서는 어떤 과목을 가르치나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=7}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 19
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=8}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트 일상은 어떤 가요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=8}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트 일상은 어떤가요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=8}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 20
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=9}] run data merge entity @s {CustomName:"{\"text\":\"또 물어보고 싶은 게 있어요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
@@ -273,7 +273,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트의 기숙사는 생활공간뿐만 아니라 학습 공동체와 다름이 없어. 더 궁금한 게 있니?\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트의 기숙사는 생활공간뿐만 아니라 학습 공동체와 다름이 없지. 더 궁금한 게 있니?\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -328,7 +328,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 호그와트는 창립자들의 성을 딴 4개의 기숙사로 이뤄져 있단다. \"},{\"text\":\"그리핀도르, 후플푸프, 래번클로, 슬리데린\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 호그와트는 창립자들의 성을 딴 4개의 기숙사로 이뤄져 있단다. \"},{\"text\":\"그리핀도르, 후플푸프, 래번클로, 슬리데린.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\"}]"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -765,7 +765,7 @@ tag @s[scores={convState=20},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오전 7시 30분에 연회장에서 아침 식사로 호그와트의 하루가 시작돼. 아침 식사 중에 우편물이 도착하지. 점심시간 전에 두 개의 수업이 있는데 기숙사마다 다르단다. 점심 후에는 휴식시간과 두 개의 오후 수업이 더 있어. 저녁은 연회장에서 하고, 그 이후에 학생들은 공부와 사교를 위해 기숙사 휴게실에서 시간을 보내.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오전 7시 30분에 연회장에서 아침 식사로 호그와트의 하루가 시작돼. 아침 식사 중에 우편물이 도착하지. 점심시간 전에 오전 수업이 두 개 있는데 기숙사마다 다르단다. 점심 후에는 휴식시간과 오후 수업이 두 개 더 있어. 저녁은 연회장에서 하고, 그 이후에 학생들은 공부와 사교를 위해 기숙사 휴게실에서 시간을 보내.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -867,7 +867,7 @@ tag @s[scores={convState=23},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여러 사람이 교장직을 맡았었단다. 5명만 얘기하자면 내 전임자였던 아만도 디펫, 그 전에 피니어스 나이젤러스 블랙, 브루투스 스크림저, 몰디쿠스 에그, 그리고 월터 아르곤이 있었지.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여러 사람이 교장직을 맡았단다. 5명만 얘기하자면 내 전임자였던 아만도 디펫, 그 전에 피니어스 나이젤러스 블랙, 브루투스 스크림저, 몰디쿠스 에그, 그리고 월터 아르곤이 있었지.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1011,7 +1011,7 @@ tag @s[scores={convState=27},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 보바통은 프랑스 남부 피레네 산맥에 있는 마법 학교야. 학생 대부분이 프랑스인이지만, 스페인, 포르투갈, 네덜란드, 룩셈부르크, 벨기에 국적의 학생들도 꽤 된다고 해. 학교 문장은 방패 위에 세 개의 별이 반짝이고 황금빛 마법 지팡이 두 개가 교차된 모양이란다.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 보바통은 프랑스 남부 피레네 산맥에 있는 마법 학교야. 학생 대부분이 프랑스인이지만, 스페인, 포르투갈, 네덜란드, 룩셈부르크, 벨기에 국적의 학생들도 꽤 된다고 해. 학교 문장은 방패 위에 세 개의 별이 반짝이고 황금빛 마법 지팡이 두 개가 교차한 모양이란다.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1242,7 +1242,7 @@ tag @s[scores={convState=34},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그게 사실이라면, 볼드모트의 추종자들이 다시 모였구나. 우리도 빠르게 움직여야 해. 호그와트에서 많이 성장했구나. 나이가 들면 어리석게도 젊은이들을 과소평가하게 되지. 이제서야 너를 믿을 수 있겠어.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그게 사실이라면, 볼드모트의 추종자들이 다시 모였구나. 우리도 빠르게 움직여야 해. 이제 보니 호그와트에서 많이 성장했구나. 나이가 들면 어리석게도 젊은이들을 과소평가하게 되지. 이제서야 너를 믿을 수 있겠어.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1274,14 +1274,14 @@ tag @s[scores={convState=35},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오래전에 나는 볼드모트와 그의 추종자에 대항하기 위해 '불사조 기사단'이라는 비밀 결사단을 설립했단다. 네가 런던의 그리몰드가 12번지로 가서 앨리스터 무디와 대화하렴. 나에게 말한 내용을 그에게도 전해줘. 지금 바로 출발하고! 날 실망하게 하지 않으리라 믿는다.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오래전에 나는 볼드모트와 그의 추종자에 대항하기 위해 '불사조 기사단'이라는 비밀 결사단을 설립했단다. 네가 런던의 그리몰드가 12번지로 가서 앨리스터 무디에게 전해줘. 나에게 말한 내용을 그에게도 얘기하렴. 지금 바로 출발하고! 날 실망시키지 않으리라 믿는다.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 그리몰드 가 12번지로 갈게요 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 그리몰드가 12번지로 갈게요 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] run tag @s add hasSpokenToDumbledoreAboutDeathEaterAttack
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
@@ -1314,7 +1314,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 그리몰드 가 12번지로 갈게요 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 그리몰드가 12번지로 갈게요 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"다른 할 일이 있어요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
@@ -1414,7 +1414,7 @@ tag @s[scores={convState=39},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 호그와트에서 있는 동안 이걸 언제든지 사용해도 좋아. \"},{\"text\":\"이건 펜시브란다.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 여기 내 사무실에 있단다. \\n\\n 자신의 복잡한 기억을 꺼내 병에 담아두고 나중에 들여다볼 수 있어. 기억을 다시 체험하는 거란다. \"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 호그와트에서 있는 동안 이걸 언제든지 사용해도 좋아. \"},{\"text\":\"이건 펜시브란다.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 여기 내 사무실에 있지. \\n\\n 자신의 복잡한 기억을 꺼내 병에 담아두고 나중에 들여다볼 수 있게 하는 거란다. 기억을 다시 체험하는 거야. \"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

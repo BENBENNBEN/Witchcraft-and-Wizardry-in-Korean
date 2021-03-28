@@ -90,7 +90,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 항아리에 관심 있으세요? 저도 말이죠. 제 평생 기다린 아주 특별한 항아리가 있습니다. 오래되고 거의 잊혀진 항아리에요. 저한테는 아니지만요. \\n\\n\\n \",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 항아리에 관심 있으세요? 저도 말이죠. 제 평생을 기다린 항아리가 있어요. 너무 오래되어서 다른 사람들 기억 속에서는 거의 사라졌죠. 저한테는 아니지만요. \\n\\n\\n \",\"color\":\"white\",\"bold\":\"false\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -120,7 +120,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 항아리는 금지된 숲의 폐허 아래 지하 감옥에 있어요. 제가 몇 년 전에 가지러 가려 했지만 실패했죠. 그곳은 너무 위험하더군요. 겨우 살아서 돌아왔습니다. \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 항아리는 금지된 숲의 폐허 아래 지하 감옥에 있어요. 제가 몇 년 전에 가지러 가려 했지만 실패했죠. 그곳은 너무 위험하더군요. 겨우 살아서 돌아왔습니다. \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -188,7 +188,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래도... 저한테 던전 위층 열쇠가 있습니다. 만약 그 항아리 가져다주신다면, 꽤 많은 돈을 드리겠습니다. \\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래도... 제게 던전 열쇠가 있습니다. 만약 그 항아리 가져다주신다면, 꽤 많은 돈을 드리겠습니다. \\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -270,7 +270,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 가져오셨군요! 믿을 수가 없네요! 보통 사람들에게는 평범해 보이겠지만 진짜 장담하건대 이거 완전히 특별한 항아리입니다. \\n 여기, 약속한 보상입니다: \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 가져오셨군요! 믿을 수가 없네요! 보통 사람들에게는 평범해 보이겠지만 저한테는 정말 특별한 항아리거든요. \\n 여기, 약속한 보상입니다: \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -303,7 +303,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도와주셔서 다시 한번 감사드립니다. 이 항아리는 제 수집품에 훌륭한 보탬이 될 겁니다. \",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도와주셔서 다시 한번 감사드립니다. 이 항아리는 제 수집 목록에 훌륭한 보탬이 될 겁니다. \",\"color\":\"white\",\"bold\":\"false\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

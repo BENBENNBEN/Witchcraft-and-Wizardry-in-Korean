@@ -62,7 +62,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기 온 지 얼마 안 됐구만. 예언자 일보는 마법사 신문이야. 영국과 아일랜드 마녀와 마법사를 위한 주요 소식지이지. 프로티안 주문이 걸려있어서 내용이 알아서 변하는 마법 신문이라네.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기 온 지 얼마 안 됐구만. 예언자 일보는 마법사 신문이야. 영국과 아일랜드 마녀와 마법사를 위한 주요 소식지이지. 프로티안 주문이 걸려있어서 뉴스 내용이 바뀌면 알아서 변하는 마법 신문이라네.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -124,7 +124,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아 그럼 마법부가 뭘 쓰라고 시킨다는 거야? 그래, 아예 상관없다고 할 순 없지만 그래도 비위 맞춘다고 청렴성을 버리진 않았어.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아 그럼 당연한 소리를. 그게 아니라면 마법 정부가 쓰라는 대로 기사를 쓴다는 거야? 그래, 아예 상관없다고 할 순 없지만 그래도 비위 맞춘다고 공정성을 버리진 않았어.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

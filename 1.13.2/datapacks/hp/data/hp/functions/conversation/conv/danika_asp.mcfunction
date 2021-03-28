@@ -37,7 +37,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ WWN이 뭐예요? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 뭘 방송하세요? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 무슨 방송하세요? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 2
 
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
@@ -96,7 +96,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" WWN는 글렌다 치톡이 진행하는 '마녀의 시간'과 같은 음악 프로그램이나, 청취자 참여가 가능한 틸든 투츠의 '투츠, 슈츠 앤 루츠'나, 정규 뉴스 프로그램인 '위저딩 무선 네트워크 뉴스'로 이뤄져 있어. 셀레스티나 워벡이나 이상한 자매들 같은 유명한 스타들도 나와. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" WWN는 글렌다 치톡이 진행하는 '마녀의 시간'과 같은 음악 프로그램이나, 청취자 참여가 가능한 틸든 투츠의 '투츠, 슈츠 앤 루츠'나, 정규 뉴스 프로그램인 '위저딩 무선 네트워크 뉴스'로 이뤄져 있어. 셀레스티나 워벡이나 이상한 자매들 같은 유명한 스타들도 나오지. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

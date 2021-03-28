@@ -147,7 +147,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그스미드는 작은 마을이지만 상점은 많아. 그래도 우리처럼 뭐든 기꺼이 구매하는 곳은 없지. 그러니까 우리한테 파는 게 나을 거야. 저 골목 위쪽 상점 주인만 해도 별로니까. \\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그스미드는 작은 마을이지만 상점은 많아. 그래도 우리 가게처럼 뭐든 기꺼이 구매하는 데 없어. 그러니까 우리한테 파는 게 나을 거야. 저 골목 위쪽 상점 주인만 해도 사람이 별로거든. \\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -403,7 +403,7 @@ tag @s[scores={convState=10},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그스미드는 작은 마을이지만 상점은 많아. 그래도 우리처럼 뭐든 기꺼이 구매하는 곳은 없지. 그러니까 우리한테 파는 게 나을 거야. 저 골목 위쪽 상점 주인만 해도 별로니까. \\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그스미드는 작은 마을이지만 상점은 많아. 그래도 우리 가게처럼 뭐든 기꺼이 구매하는 데 없어. 그러니까 우리한테 파는 게 나을 거야. 저 골목 위쪽 상점 주인만 해도 사람이 별로거든. \\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ###############################

@@ -80,7 +80,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 물약 만드는 법을 어디서 배우셨나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 4
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"≤ 물약 제조에 대해 알려주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"≤ 물약 만드는 법을 어디서 배우셨나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=4}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 5
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"≤ 다이애건 앨리에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -110,7 +110,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 재료는 여러 방법으로 조달하실 수 있어요. 재료 상점을 돌아다니다가 원하는 재료를 찾으면 돈으로 구매할 수 있습니다.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 재료는 여러 방법으로 구하실 수 있습니다. 돈이 넉넉하다면 재료 상점을 돌아다니다가 원하는 재료를 구매하시면 됩니다.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -141,7 +141,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 무료로 구하시려면 직접 돌아다니면서 구하셔야 합니다. 좋은 재료가 어디 땅에 떨어져 있을지도 모르니까요. 몬스터나 공격적인 생물을 사냥하면서 얻을 수도 있고요.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 돈을 내기 싫으시다면 직접 돌아다니면서 구하셔야 합니다. 좋은 재료가 어디 땅에 떨어져 있을지도 모르니까요. 몬스터나 공격적인 생물을 사냥하면서 얻으실 수도 있고요.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -172,7 +172,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 다닐 적에 배웠습니다. 제가 다닐 때는 호러스 슬러그혼 교수님이셨어요. 과목은 재밌었는데, 교수님이 별로였습니다. 편애하는 애들을 모아둔 '슬러그 클럽'이란 게 있었는데, 한 번도 초대된 적이 없었어요. 아마 제 혈통이 문제였나 봅니다. 전 머글 태생이거든요. 진짜 슬리데린 같으니라고!\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 다닐 적에 배웠습니다. 제가 다닐 때는 호러스 슬러그혼 교수님이셨지요. 과목은 재밌었는데, 교수님이 별로였습니다. 편애하는 애들을 모아둔 '슬러그 클럽'이란 게 있었는데, 한 번도 초대된 적이 없었어요. 아마 제 혈통이 문제였나 봅니다. 전 머글 태생이거든요. 진짜 슬리데린 같으니라고!\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -336,7 +336,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"ⁿ 도와드릴게요 (보상 150 ≈)\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"ⁿ 도와드릴게요 (보상: 150 ≈)\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 
 # Add quest
 #####

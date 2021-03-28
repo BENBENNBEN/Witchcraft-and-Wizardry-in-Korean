@@ -148,7 +148,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 가게는 여러 종류의 저주받은... 아니 좀 특별한 물건을 팔고 있어. 만약 그... 탐구 목적으로 어둠의 마법에 관심 있는 거라면 이 가게가 마음에 들 거야. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 가게에서는 저주받은... 아니 좀 특별한 물건들을 팔고 있어. 만약 그... 탐구 목적으로 어둠의 마법에 관심 있으면 우리 가게가 마음에 들 거야. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -179,7 +179,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지금 이 시대에 눈살 찌푸리는 일들이 녹턴 앨리에서는 그렇지 않아. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지금 시대에 눈살 찌푸리는 일들을 비난하지 않는 곳이지. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -211,7 +211,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어둠의 마왕? 그분에 대해서는 언급을 조심해야 해. 요즘 말이 많잖아. 추종자들도 흩어져있고. 모두 숨어있지. 물론, 예전에는 그렇지 않았지만. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어둠의 마왕? 그분에 대해서는 언급을 조심해야 해. 아무래도 요즘 말이 많잖아. 추종자들도 흩어져있거나 모두 숨어있고. 물론, 예전에는 그렇지 않았지만. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -242,7 +242,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어둠의 마법... 가장 압도적인 마법이지. 최고야. 짜릿해. 어떤 이는 타락한 마법이라 하고, 또 어떤 이는... 매혹적이라고 하겠지. 어둠의 마법은 자신의 힘 경계를 뛰어넘거든. 요즘에는 너무 많은 어둠의 마법이 불법이라 아쉬워. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어둠의 마법... 가장 압도적인 마법이지. 최고야. 짜릿해. 어떤 이는 타락한 마법이라 하고, 또 어떤 이는... 매혹적이라고 할 테지. 어둠의 마법은 자신의 힘 경계를 뛰어넘거든. 요즘에는 너무 많은 어둠의 마법이 불법이라 아쉬울 따름이야. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -307,7 +307,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 때때로, 어둠의 마법에 관심 있는 사람들이 여기서 일하곤 해. 아직도 기억나는 소년이 하나 있어. 톰 리들이라고. 어느 날 갑자기 사라지기 전까지 여기서 일했었지. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 때때로, 어둠의 마법에 관심 있는 사람들이 여기서 일하곤 해. 아직도 기억나는 한 소년이 있어. 톰 리들이라고. 어느 날 갑자기 사라지기 전까지 여기서 일했었지. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -404,7 +404,7 @@ tag @s[scores={convState=11},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래도 남편마다 막대한 유산을 남겼다는데... 몇몇은 의문스러운 죽음이었지만. 뭐. 그런 문제는 신경 쓰지 않는 것이 좋으니까. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래도 남편마다 막대한 유산을 남겼다는데... 몇몇은 의문스럽게 죽었지만. 뭐, 그런 것까지 생각할 필요는 없겠지. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
