@@ -67,7 +67,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이름을 불러서는 안 되는 그 사람에게 대항하기 위해 세워진 비밀 결사단이야. 1970년도에 어둠의 마왕이 영국 마법 정부를 장악하고 머글 태생을 박해하려는 것을 막기 위해 알버스 덤블도어 교장 선생님이 원조 결사단을 세웠지. 그 당시 마법 정부와 긴밀히 협력해서 어둠의 마왕과 추종자를 저지했었어.  \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이름을 불러서는 안 되는 그 사람에게 대항하기 위해 세워진 비밀 결사단이야. 1970년도에 어둠의 마왕이 영국 마법 정부를 장악하고 머글 태생을 박해하려는 것을 막기 위해 알버스 덤블도어 교장 선생님이 원조 결사단을 세웠지. 그 당시 마법 정부와 긴밀히 협력해서 어둠의 마왕과 추종자를 저지했었어. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

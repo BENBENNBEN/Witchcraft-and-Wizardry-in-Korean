@@ -27,26 +27,26 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Пивз так меня расстроил, что я пришла сюда и пыталась покончить с собой. потом, конечно, я вспомнила, что я... что я... \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 피브스가 너무 괴롭혀서 여기 와서 죽으려고 했는데, 갑자기 기억난 거야. 내가... 내가... \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ Почему тебя называют 'Плаксой Миртл'? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 왜 사람들이 울보 머틀이라고 불러? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ Ты призрак \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 넌 유령이지 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 4
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ Как ты умерла? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 어떻게 죽었어? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 2
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"≤ Это твой туалет? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"≤ 여기가 네 화장실이야? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=4}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 5
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"≥ До свидания\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=5}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
 
@@ -70,7 +70,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Плакса Миртл? Это ещё цветочки! Ты думаешь, что я не знаю, что люди говорят за моей спиной - толстая Миртл, прыщавая уродливая Миртл, жалкая, жалкая Миртл?! \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 울보 머틀? 그것뿐만이 아니야! 사람들이 내 뒤에서 뭐라고 부르는지 모를 것 같아? 뚱뚱한 머틀, 여드름투성이, 비참하고 불쌍한 머틀?! \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -102,7 +102,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" O-о-о! Это был кошмар! Как сейчас помню, спряталась я в кабинке, потому что Оливия Хорнби смеялась над моими очками. Я заперлась на задвижку и стала плакать. Потом услышала, что в туалет вошли и стали говорить. Я не поняла что, наверно на другом языке. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우우우, 아주 끔찍했어. 바로 여기서 죽었지. 올리브 혼비가 내 안경을 갖고 계속 놀려서 숨어있었어. 화장실에서 울고 있는데 어떤 남자 목소리가 들리는 거야. 이상한 말을 하면서. 그것 때문이었나 봐 \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -134,7 +134,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Один из говоривших был мальчикю Я, естественно, отперла дверь и сказала ему, чтобы он шел в свой туалет. Тут-то это и произошло... Я умерла. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어쨌든, 여자 화장실에 남자애가 들어왔길래 남자 화장실로 가버리라고 하면서 문을 열었는데... 죽었어. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -166,7 +166,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Ты хочешь сказать, что я мертва? Ты здесь, чтобы дразнить меня...! Мне очень грустно говорить об этом, и на днях я кружила по водостоку, думая о смерти, так что я уже в настроении! Моя жизнь была ничем иным, как несчастьем в этом месте, а теперь ты приходишь и разрушаешь мою смерть этими дурацкими вопросами! \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내가 죽었냐고? 그걸로 날 괴롭히려고 온 거구나..! 그 생각만 해도 비참하다고. 며칠 전에 하수구를 맴돌며 죽음에 대해 생각하느라 이미 우울한 상태야! 여기에 갇혀 있고 이미 비참한 나에게 일부러 그런 질문을 하면서 괴롭히려는 거지? \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -199,7 +199,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" ... Я умерла здесь! Никто не скучал по мне, даже когда я был жива. Я знаю, я сидела здесь и ждала их. Теперь сюда почти никто не приходит... Ну... если ты умрешь, то Добро пожаловать в мой туалет. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" ... 여기서 죽었어! 내가 살아있었을 때도 아무도 찾질 않더니 내 시체를 찾는 데도 몇 시간이나 걸리더라. 있지, 그때 여기 앉아서 누가 찾아주기를 기다렸는데 이제는 거의 아무도 안 와. 뭐... 네가 죽으면 여기 화장실에 같이 있어도 좋아. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

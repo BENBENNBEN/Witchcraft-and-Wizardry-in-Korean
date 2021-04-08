@@ -63,7 +63,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 상점에서 마법약을 팔긴 하는데 주로 재료를 더 많이 팔아. 직접 만들기 싫다면 다이애건 앨리에 있는 엘릭의 엘릭서로 가봐. 아마 네가 찾고 있는 마법약을 팔고 있을 테니까. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 상점에서 마법약을 팔긴 하는데 사실은 재료를 더 많이 팔고 있어. 직접 만들기 싫으면 다이애건 앨리에 있는 엘릭의 엘릭서로 가봐. 아마 네가 찾고 있는 마법약을 팔고 있을 테니까. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

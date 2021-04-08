@@ -97,7 +97,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 경고하는데 도서관 책을 찢거나 꾸기거나 분리하거나 낙서하거나 뭘 흘리거나 던지거나 떨어뜨리거나 어떻게든 훼손하면 끔찍한 결과를 부를 거란다!\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 경고하는데 도서관 책을 찢거나 꾸기거나 분리하거나 낙서하거나 뭘 흘리거나 던지거나 떨어뜨리거나 어떻게든 훼손하면 내가 가능한 한 끔찍한 벌을 줄 거란다!\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -132,7 +132,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도서관 자체가 말해주지 않니? 수천 개의 선반, 수천 권의 책들. 이 소중한 컬렉션에 대한 존경심이라고 하나 없는 웃고 떠들고 재채기하기 바쁜 학생들로부터 소중히 지켜야 하는 게 내 일이야. 내가 아니었더라면 이 도서관은 훼손된 책만 덩그러니 있는 휑한 책 선반만 있었을 거라고. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도서관 자체가 말해주지 않니? 수천 개의 선반, 수천 권의 책들. 이 소중한 컬렉션에 대한 존경심이라고 하나 없는 웃고 떠들고 재채기하기 바쁜 학생들로부터 소중히 지키는 게 내 일이야. 내가 아니었더라면 이 도서관은 하나같이 망가진 책만 있고 휑한 책 선반만 남았을 거라고. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -203,7 +203,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그러면... 이번만 예외로 할게. 이번 한 번만. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그러면... 이번만 봐주는 거야. 이번 한 번만. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

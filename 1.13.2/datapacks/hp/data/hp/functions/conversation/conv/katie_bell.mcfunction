@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 거기, 너...! 그리핀도르 퀴디치 팀에 대한 지지를 보여주고 싶지 않아? 퀴디치에 별 관심 없으면 보상이 달린 일이라고. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 거기, 너...! 그리핀도르 퀴디치 팀을 위한 응원을 보여주고 싶지 않아? 퀴디치에 별 관심 없으면 보상이 달린 일이라고. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -94,7 +94,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음. 상대 팀인 슬리데린을 골탕먹이면 어떨까 싶어서... 짜증 나게 하는 거야. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음. 상대 팀인 슬리데린을 골탕먹이면 어떨까 싶어서... 짜증 나게 말이야. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -127,7 +127,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 저기 관중 탑에 슬리데린 배너가 잔뜩 걸려있잖아. 그걸 그리핀도르 배너로 바꿔줘. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 저기 관중 탑에 슬리데린 배너가 잔뜩 걸려있잖아. 그걸 그리핀도르 배너로 바꿔줬으면 해. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -160,7 +160,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 솔직히 네가 어디를 응원하든 상관없어. 하기만 하면 보상해 줄게. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 솔직히 네가 어디를 응원하든 상관없어. 하기만 하면 보답해 줄게. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -213,7 +213,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그리핀도르 배너로 바꿨니? 그냥 장난이라고.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그리핀도르 배너로 바꿨니? 그냥 장난치는 거니까 부담 갖지 마.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -247,7 +247,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아! 그리핀도르 배너로 바꿔놨구나? 짱이다. 슬리데린 녀석들 반응이 기대되는걸. 여기, 약속한 보상이야. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오! 그리핀도르 배너로 바꿔놨구나? 짱이다. 슬리데린 녀석들 반응이 기대되는걸. 여기, 약속한 보상이야. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

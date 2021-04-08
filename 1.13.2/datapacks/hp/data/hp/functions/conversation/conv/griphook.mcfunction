@@ -36,7 +36,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"저 좀 도와주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"저 좀 도와주시겠어요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0,playerID=1}] run scoreboard players set griphook p1convOverride 1
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0,playerID=2}] run scoreboard players set griphook p2convOverride 1
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0,playerID=3}] run scoreboard players set griphook p3convOverride 1
@@ -145,7 +145,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 흥미로운 질문이군요. 아마 말해줘도 괜찮을 거요. 그린고트에서 다양한 보안 시스템을 사용하고 있소. 낮은 보안 금고 대부분은 열쇠가 필요하거나, 고블린의 손 지문이 필요하오. 그에 반해 높은 보안 금고는 여러 마법이 부여되어 있소. 용이나 스핑크스가 레스트레인지 가문 금고 같은 높은 보안 금고를 지키고 있는 거요.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 흥미로운 질문이군. 답한다 한들 괜찮을 거요. 그린고트에서는 다양한 보안 시스템을 사용하고 있소. 낮은 보안 금고들은 열쇠나 고블린의 손 지문이 필요하오. 그에 반해 높은 보안 금고는 여러 마법이 부여되어 있소. 그리고 레스트레인지 가문의 금고처럼 가장 높은 보안 금고는 용이나 스핑크스가 지키고 있소.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -176,7 +176,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 당신의 무지에서 비롯된 말이니 불쾌하게 받아들이지 않겠소. 고블린은 마법 세계에서 당신과 같은 종족과 공존하는 매우 지능적인 휴머노이드 종족이오. 고블디국 언어로 대화하며 은세공과 같은 금속 세공에 재능이 있소. 마법 화폐인 동전도 주조하지요. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 무지에서 비롯된 말이니 불쾌하게 받아들이지 않겠소. 고블린은 마법 세계에서 당신과 같은 종족과 공존하는 매우 지능적인 휴머노이드 종족이오. 고블디국 언어로 대화하며 은세공과 같은 금속 세공에 재능이 있소. 마법 화폐인 동전도 주조하고 있소. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -208,7 +208,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그린고트는 마법사들의 유일무이한 은행으로 고블린들이 운영하오. 마법사들과 마녀들의 돈과 귀중품을 보관하고, 머글 돈을 마법사 화폐로 환전할 수도 있소. 그린고트 은행의 모토는 '포티우스 쿠오 피델리우스' 라틴어로 '충성의 힘'이란 뜻을 가지고 있소.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그린고트는 마법사들의 유일무이한 은행으로 고블린들이 운영하고 있소. 마법사들과 마녀들의 돈과 귀중품을 보관하고, 머글 돈을 마법사 화폐로 환전할 수도 있소. 그린고트 은행의 신조는 '포티우스 쿠오 피델리우스' 라틴어로 '충성의 힘'이란 뜻이 있소.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -241,7 +241,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그린고트 은행은 1474년에 그린고트이라는 고블린에 의해 설립되었소. 그 후 얼마 지나지 않아 마법부 손에 들어갔고, 어느 정도 마법사들에 영향을 받았소. 1865년 마법부가 그린고트의 모든 권한을 다시 고블린에게 넘겨주었소.\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그린고트 은행은 1474년에 그린고트이라는 고블린에 의해 설립되었소. 그 후 얼마 지나지 않아 마법부 손에 들어갔고, 어느 정도 마법사들에게 영향을 받았소. 1865년 마법부가 그린고트의 모든 권한을 다시 고블린에게 넘겨주었소.\\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -343,7 +343,7 @@ execute if entity @s[tag=use] run tag @s add longHeader
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"마법사 화폐로 환전하고 싶어요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"머글 돈을 마법사 화폐로 환전하고 싶어요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] run tag @s add completeQuestGringotts
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 14
 #-------------------------------
@@ -368,7 +368,7 @@ tag @s[scores={convState=14},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그렇군요. 여기 250 ≈ 받으시오. 학교 물품을 사기에는 충분할 거요. 이제 가보시오.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 알겠소. 여기 250 ≈ 받으시오. 학교 물품을 사기에는 충분할 거요. 이제 가보시오.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

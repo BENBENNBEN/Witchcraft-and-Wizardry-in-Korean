@@ -35,7 +35,7 @@ execute if entity @s[tag=use] run tag @s add longHeader
 ################################
 
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"√ 금고 밖으로 이동\"}",Tags:["_____Normal_____","_____click_____","fastTravel","_____destinationGringottsTrack_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"√ 금고 밖으로 이동하기\"}",Tags:["_____Normal_____","_____click_____","fastTravel","_____destinationGringottsTrack_____","convOption","i"]}
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] if entity @p[tag=activePlayer,tag=confirmConvOption] run data merge entity @s {CustomName:"{\"text\":\"그린고트 트랙\"}",Tags:["_____Normal_____","_____click_____","fastTravel","_____destinationGringottsTrack_____","convOption","i"]}
 #-------------------------------
 

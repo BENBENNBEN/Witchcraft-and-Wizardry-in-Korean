@@ -59,7 +59,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내 편지라고? 아, 다멜자가 보낸 거구나! 기숙 학교인가 부엉이 훈련 학교인가 어디에서 잘하고 있었으면 좋겠다. 요즘에 편지를 부엉이 통해 보내더라고. 누가 편지를 그렇게 보내.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내 편지라고? 아, 다멜자가 보낸 거구나! 기숙 학교인가 부엉이 훈련 학교인가 거기서 잘하고 있었으면 좋겠다. 요즘에 편지를 부엉이를 통해 보내더라고. 누가 편지를 그렇게 보내.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

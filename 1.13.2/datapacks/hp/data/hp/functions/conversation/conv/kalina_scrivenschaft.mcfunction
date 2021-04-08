@@ -37,7 +37,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≡ 판매 중인 상품을 보여주세요\"}",Tags:["_____buy_____","_____Normal_____","_____click_____","convOption","i"]}
 
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 상점에 대해 말해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 상점에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그스미드에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -68,7 +68,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기는 문구점이야. 호그스미드에서는 유일한 문구점이지. 깃펜이라던가 양피지, 호그와트 학생들에게 필요한 문구 용품을 팔고 있어. 종코의 장난감 가게나 허니듀크만큼 인기는 없지만, 숙제하려면 우리 가게에서 잉크나 양피지를 사야 한다고. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기는 문구점이야. 호그스미드에서는 유일한 문구점이지. 깃펜이라던가 양피지, 호그와트 학생들에게 필요한 문구 용품을 팔고 있어. 종코의 장난감 가게나 허니듀크만큼 인기는 없지만, 숙제하려면 우리 가게로 잉크나 양피지를 사러 와야 하지. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -99,7 +99,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 조용한 마을이야. 나랑 우리 남편 둘 다 오러였다가 은퇴하고 나서 이 마을에서 조용히 살고 있어. 호그스미드가 작아서 그런가 사건이라고는 없더라. 아무 일 없이 평화롭게 살기 딱 맞지. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 조용한 마을이야. 나랑 우리 남편 둘 다 오러였다가 은퇴하고 나서 이 마을에서 조용히 살고 있어. 호그스미드가 작아서 그런가 사건이라고는 없더라. 아무 일 없이 평화롭게 살기 딱 좋아. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

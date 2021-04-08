@@ -135,7 +135,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이거 말이야? 어떤 사람들은 그린델왈드의 상징이라고 잘못 알고 있지만. 이건 사실 죽음의 성물의 상징이야. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이거 말이야? 어떤 사람들은 그린델왈드의 상징이라고 잘못 알고 있지만, 이건 사실 죽음의 성물의 상징이야. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -517,7 +517,7 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나글스? 나글스는 어디에나 있어. 나글스를 더 많은 사람이 못 찾은 게 이상할 정도라고. 낡은 풍차 옆에서 나글스를 본 것 같은데. 자네가 거길 조사해보는 건 어때. 조사해 온 정보를 이러쿵 저러쿵의 다음 호에 담고 싶군. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나글스? 나글스는 어디에나 있어. 나글스를 더 많은 사람이 못 찾은 게 이상할 정도라고. 낡은 풍차 옆에서 나글스를 본 것 같은데. 자네가 거길 조사하는 걸 도와주는 건 어때. 조사해 온 정보를 이러쿵 저러쿵의 다음 호에 담고 싶군. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -551,7 +551,7 @@ tag @s[scores={convState=16},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Тебе 나글스를 보려면 심령 안경을 써야 할 거야. 이 안경은 맨눈으로 볼 수 없는 것들을 보여주거든. 우리가 그냥 보는 것과 볼 수 없지만, 존재하는 것들은 다르니까. 많은 사람이 깨닫지 못하고 있지만. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나글스를 보려면 심령 안경을 써야 할 거야. 이 안경은 맨눈으로 볼 수 없는 것들을 보여주거든. 우리가 그냥 보는 것과 볼 수 없지만, 존재하는 것들은 다르니까. 많은 사람이 깨닫지 못하고 있지만. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -584,7 +584,7 @@ tag @s[scores={convState=17},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 심령 안경이 혹시 없으면 내가 주겠네. \\n 여기, 이거 받아 \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 심령 안경이 혹시 없으면 내가 주겠네. \\n 여기, 이거 받아. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -717,7 +717,7 @@ tag @s[scores={convState=21},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 언젠가는 찾을 거야. 도와줘서 고맙네. 이거 받아. 감사의 표시니까.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 언젠가는 찾을 수 있겠지. 어쨌든 도와줘서 고맙네. 이거 받아. 감사의 표시니까.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

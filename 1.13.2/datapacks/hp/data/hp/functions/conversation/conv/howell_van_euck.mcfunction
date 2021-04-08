@@ -62,7 +62,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트에 있을 때 처음으로 움직이는 초상화에 대해 관심을 두게 되었어. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트에 있을 때 처음으로 움직이는 초상화에 관해 관심을 두게 되었어. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -93,7 +93,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 너도 알다시피 마법 세계의 초상화는 말도 하고 움직이잖아. 마치 살아있는 것처럼. 얼마나 생동적이냐는 초상화를 그린 화가의 능력에 달린 것이 아니라 그려진 인물의 힘에 달려있어. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 너도 알다시피 마법 세계의 초상화는 말도 하고 움직이잖아. 마치 살아있는 것처럼. 얼마나 생동적이냐는 초상화를 그린 화가의 능력에 달린 것이 아니라 그려진 인물의 힘에 달려있거든. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -124,7 +124,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 초상화가 완성되면, 움직이게 하는 주문을 걸어. 그럼 화가가 생각한 모습대로 행동하거나 살아생전에 자주 하던 말을 하지. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 너도 알다시피 마법 세계의 초상화는 말도 하고 움직이잖아. 마치 살아있는 것처럼. 얼마나 생동적이냐는 초상화를 그린 화가의 능력에 달린 것이 아니라 그려진 인물의 힘에 달려있거든. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -218,7 +218,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 역대 교장들의 초상화에 담긴 지식과 통찰력은 수 세기 동안 후대 교장들을 비롯하여 방문객이 교장실에 있을 때 초상화들이 가짜로 자는 척한다는 것을 눈치챈 소수 학생들에게만 알려졌어. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 역대 교장들의 초상화에 담긴 지식과 통찰력은 수 세기 동안 후대 교장들을 비롯하여 방문객이 교장실에 있을 때 초상화들이 가짜로 자는 척한다는 것을 눈치챈 소수 학생에게만 알려졌어. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -70,7 +70,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 네 말처럼 어떤 사람들은 나를 래번클로 유령이라고 부르고, 다른 사람들은 나를 회색 숙녀라고 부른단다. 뭐라고 부르든 상관하지 않아. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어떤 사람들은 나를 래번클로 유령이라고 부르고, 어떤 사람들은 나를 회색 숙녀라고 부른단다. 뭐라고 부르든 상관없어. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -102,7 +102,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 죽었어... 나를 아끼던 사람한테 죽었지. 나를 짝사랑하던 사람, 죽은 지 오래되었는데도 복도를 돌아다니더구나. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 죽었어... 나를 아끼던 사람한테 죽임을 당했지. 나를 짝사랑하던 사람, 죽은 지 오래되었는데도 복도를 돌아다니더구나. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -134,7 +134,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 보관을 탐낸 학생이 네가 처음은 아니야. 이미 몇 세대 학생들이 날 귀찮게 했어. 그래도 알려줄 생각이 없단다. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 보관을 탐낸 학생이 네가 처음은 아니야. 이미 몇 세대 걸쳐 날 귀찮게 했지. 그래도 알려줄 생각이 없단다. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
