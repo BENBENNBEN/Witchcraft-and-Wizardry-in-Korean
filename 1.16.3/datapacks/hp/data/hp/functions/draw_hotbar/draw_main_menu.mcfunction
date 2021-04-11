@@ -71,7 +71,7 @@ execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:player4inf
 execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:player4quest visible false
 
 execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:mainmenu1 name {"translate":"Oh dear! The resource pack hasn't loaded properly","color":"gold"}
-execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:mainmenu2 name {"translate":"If you are in Multiplayer download the resource pack from Discord","color":"gray"}
+execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:mainmenu2 name {"translate":"멀티플레이어 경우, 디스코드에서 리소스 팩을 다운로드하세요.","color":"gray"}
 execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:mainmenu3 name {"translate":"If you are in Singleplayer try setting mip-map levels to 0","color":"gray"}
 execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:mainmenu1 players @a[tag=mainMenu]
 execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:mainmenu2 players @a[tag=mainMenu]
