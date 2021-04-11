@@ -9,7 +9,7 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Speak to Молли Уизли
+# Speak to Molly Weasley
 
 execute as @s[scores={questState=1..3,lastRegion=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
 execute as @s[scores={questState=1..3,lastRegion=1},tag=isTrackedQuest] run tag @s remove questHasNoDirection
@@ -18,17 +18,17 @@ execute as @s[scores={questState=1..3,lastRegion=1},tag=isTrackedQuest] at @s as
 
 # Title
 execute as @s[scores={questState=1..3,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4992,dx=819,y=0,dy=255,z=3968,dz=819] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=1..3,playerID=1,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4992,dx=819,y=0,dy=255,z=3968,dz=819] run bossbar set minecraft:player1quest name ["",{"text":"Поговорите с Роном Уизли, чтобы отправиться в Нору","color":"gold"}]
-execute as @s[scores={questState=1..3,playerID=2,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4992,dx=819,y=0,dy=255,z=3968,dz=819] run bossbar set minecraft:player2quest name ["",{"text":"Поговорите с Роном Уизли, чтобы отправиться в Нору","color":"gold"}]
-execute as @s[scores={questState=1..3,playerID=3,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4992,dx=819,y=0,dy=255,z=3968,dz=819] run bossbar set minecraft:player3quest name ["",{"text":"Поговорите с Роном Уизли, чтобы отправиться в Нору","color":"gold"}]
-execute as @s[scores={questState=1..3,playerID=4,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4992,dx=819,y=0,dy=255,z=3968,dz=819] run bossbar set minecraft:player4quest name ["",{"text":"Поговорите с Роном Уизли, чтобы отправиться в Нору","color":"gold"}]
+execute as @s[scores={questState=1..3,playerID=1,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4992,dx=819,y=0,dy=255,z=3968,dz=819] run bossbar set minecraft:player1quest name ["",{"text":"론 위즐리와 대화하고 버로우로 이동하세요","color":"gold"}]
+execute as @s[scores={questState=1..3,playerID=2,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4992,dx=819,y=0,dy=255,z=3968,dz=819] run bossbar set minecraft:player2quest name ["",{"text":"론 위즐리와 대화하고 버로우로 이동하세요","color":"gold"}]
+execute as @s[scores={questState=1..3,playerID=3,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4992,dx=819,y=0,dy=255,z=3968,dz=819] run bossbar set minecraft:player3quest name ["",{"text":"론 위즐리와 대화하고 버로우로 이동하세요","color":"gold"}]
+execute as @s[scores={questState=1..3,playerID=4,lastRegion=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] unless entity @s[x=4992,dx=819,y=0,dy=255,z=3968,dz=819] run bossbar set minecraft:player4quest name ["",{"text":"론 위즐리와 대화하고 버로우로 이동하세요","color":"gold"}]
 
 
 
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1,lastRegion=10},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1427,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1427,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=1,lastRegion=10},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=1,lastRegion=10},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 5396 16 4516
 execute as @s[scores={questState=1,lastRegion=10,npcQuestIcon=1},tag=!inProperCutScene,tag=!inResetPoint,tag=!isFastTravelling] at @e[scores={conv=32},tag=npc,tag=!inConversationNPC] run particle minecraft:angry_villager ~ ~1.7 ~ 0 0 0 100 1 force @s
@@ -40,7 +40,7 @@ execute as @s[scores={questState=1,lastRegion=10},tag=isTrackedQuest] run scoreb
 execute as @s[tag=inConversation,scores={questState=1,convState=1,conv=32}] run tag @s add use
 scoreboard players remove @s[tag=use] questConvOffset 1
 
-execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ Рон рассказал мне о лягушках\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 론이 두꺼비에 대해 말해줬어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s convState 5
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s questConvOffset 1
 tag @s remove use
@@ -70,7 +70,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2,lastRegion=10},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1426,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1426,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=2,lastRegion=10},tag=isTrackedQuest] positioned 5393 16 4552 if entity @s[distance=..50] run tag @s add questHasNoDirection
 execute as @s[scores={questState=2,lastRegion=10},tag=isTrackedQuest] positioned 5393 16 4552 unless entity @s[distance=..50] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=2,lastRegion=10},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 5393 16 4552
@@ -78,10 +78,10 @@ execute as @s[scores={questState=2,lastRegion=10},tag=isTrackedQuest] run scoreb
 
 
 execute as @s[scores={questState=2,lastRegion=10},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=2,lastRegion=10,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Уничтожьте 20 лягушек (","color":"gold"},{"score":{"name":"burrowInfestationKills","objective":"sharedQuests"},"color":"gold"},{"text":" из 20)","color":"gold"}]
-execute as @s[scores={questState=2,lastRegion=10,playerID=2},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Уничтожьте 20 лягушек (","color":"gold"},{"score":{"name":"burrowInfestationKills","objective":"sharedQuests"},"color":"gold"},{"text":" из 20)","color":"gold"}]
-execute as @s[scores={questState=2,lastRegion=10,playerID=3},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Уничтожьте 20 лягушек (","color":"gold"},{"score":{"name":"burrowInfestationKills","objective":"sharedQuests"},"color":"gold"},{"text":" из 20)","color":"gold"}]
-execute as @s[scores={questState=2,lastRegion=10,playerID=4},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Уничтожьте 20 лягушек (","color":"gold"},{"score":{"name":"burrowInfestationKills","objective":"sharedQuests"},"color":"gold"},{"text":" из 20)","color":"gold"}]
+execute as @s[scores={questState=2,lastRegion=10,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"두꺼비 20마리 처치하세요 (","color":"gold"},{"score":{"name":"burrowInfestationKills","objective":"sharedQuests"},"color":"gold"},{"text":" / 20)","color":"gold"}]
+execute as @s[scores={questState=2,lastRegion=10,playerID=2},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"두꺼비 20마리 처치하세요 (","color":"gold"},{"score":{"name":"burrowInfestationKills","objective":"sharedQuests"},"color":"gold"},{"text":" / 20)","color":"gold"}]
+execute as @s[scores={questState=2,lastRegion=10,playerID=3},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"두꺼비 20마리 처치하세요 (","color":"gold"},{"score":{"name":"burrowInfestationKills","objective":"sharedQuests"},"color":"gold"},{"text":" / 20)","color":"gold"}]
+execute as @s[scores={questState=2,lastRegion=10,playerID=4},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"두꺼비 20마리 처치하세요 (","color":"gold"},{"score":{"name":"burrowInfestationKills","objective":"sharedQuests"},"color":"gold"},{"text":" / 20)","color":"gold"}]
 
 
 
@@ -109,11 +109,11 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 3 ###########################################################################################
 #############
-# Speak to Молли Уизли
+# Speak to Molly Weasley
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3,lastRegion=10},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1425,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1425,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=3,lastRegion=10},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=3,lastRegion=10},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 5396 16 4516
 execute as @s[scores={questState=3,lastRegion=10,npcQuestIcon=1},tag=!inProperCutScene,tag=!inResetPoint,tag=!isFastTravelling] at @e[scores={conv=32},tag=npc,tag=!inConversationNPC] run particle minecraft:angry_villager ~ ~1.7 ~ 0 0 0 100 1 force @s
@@ -124,7 +124,7 @@ execute as @s[scores={questState=3,lastRegion=10},tag=isTrackedQuest] run scoreb
 execute as @s[tag=inConversation,scores={questState=3,convState=1,conv=32}] run tag @s add use
 scoreboard players remove @s[tag=use] questConvOffset 1
 
-execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ Я разберусь с ними\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 두꺼비를 다 처리했어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s convState 6
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s questConvOffset 1
 tag @s remove use
@@ -161,5 +161,3 @@ execute as @s[tag=completeTrackedQuest] run tag @s remove completeTrackedQuest
 
 # reset quest tracking boolean
 tag @s remove isTrackedQuest
-
-# Used to detect when another player advances the quest

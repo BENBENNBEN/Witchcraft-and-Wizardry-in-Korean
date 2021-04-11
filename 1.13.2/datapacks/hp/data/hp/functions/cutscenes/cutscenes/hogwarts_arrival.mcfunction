@@ -22,6 +22,7 @@ execute as @s[scores={cutSceneTImer=35},tag=cutsceneLeader] as aef7fe88-f0f1-497
 
 
 #Welcome to Hogwarts!
+
 title @s[scores={cutSceneTimer=200..400}] actionbar ["",{"text":"호그와트에 온 걸 환영합니다!"}]
 
 # 1268.11 32.80 -1626.96 -90.86 90.00

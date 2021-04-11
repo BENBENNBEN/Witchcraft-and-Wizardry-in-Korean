@@ -24,14 +24,15 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run scoreboard player
 execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run scoreboard players set @s clothesSlot3ID 27
 execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tp @s 2855.18 48.06 927.75 -32.52 2.86
 execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove completeTrackedQuest
+
 #############
 ## State 1 ###########################################################################################
 #############
-# Locate Мадам Малкинs
+# Locate Madam Malkins
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1502,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1502,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=1},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 2857.35 48.00 931.37
 execute as @s[scores={questState=1},tag=isTrackedQuest] run scoreboard players set @s questRegion 2
@@ -49,11 +50,11 @@ execute as @s[tag=newState] run tag @s remove newState
 #############
 ## State 2 ###########################################################################################
 #############
-# Speak to Мадам Малкинs
+# Speak to Madam Malkins
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2..5},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=2..5},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1501,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=2..5},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1501,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=2..5},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=2..5},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 2857.35 48.00 931.37
 execute as @s[scores={questState=2..5},tag=isTrackedQuest] run scoreboard players set @s questRegion 2
@@ -62,18 +63,18 @@ execute as @s[scores={questState=2..5,npcQuestIcon=1},tag=!inProperCutScene,tag=
 
 ### Guidance titles ###
 execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2..4,conv=28},tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=1,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Купите Мантию","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=1,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Купите Головной Убор","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=1,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Купите Штаны","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=2,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Купите Мантию","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=2,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Купите Головной Убор","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=2,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Купите Штаны","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=3,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Купите Мантию","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=3,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Купите Головной Убор","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=3,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Купите Штаны","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=4,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Купите Мантию","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=4,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Купите Головной Убор","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=4,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Купите Штаны","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=1,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"기숙사 망토 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=1,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"모자나 목도리 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=1,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"바지 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=2,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"기숙사 망토 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=2,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"모자나 목도리 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=2,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"바지 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=3,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"기숙사 망토 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=3,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"모자나 목도리 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=3,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"바지 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=4,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"기숙사 망토 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=4,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"모자나 목도리 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=4,conv=28},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"바지 구입하기","color":"gold"}]
 
 # check what items the player has bought and what they are allowed to purchase
 execute as @s[tag=isTrackedQuest,scores={questState=2}] run scoreboard players set @s tmp 0
@@ -113,7 +114,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=6},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=6},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1500,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=6},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1500,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=6},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=6},tag=isTrackedQuest] run scoreboard players set @s questRegion 2
 

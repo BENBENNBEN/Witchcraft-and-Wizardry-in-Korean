@@ -25,7 +25,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Впереди опасность, то же позади,\\n Но две из нас помогут, ты только их найди.\\n Одна вперед отправит, ещё одна - назад,\\n В двух - вино всего лишь, а ещё в трех - яд.\\n Ты хочешь здесь остаться на долгие века?\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 위험은 당신 앞에, 안전은 뒤에 있다.\\n 우리 중 둘은 당신이 찾는 것을 도울 것이고,\\n 우리 일곱 중 하나는 앞으로 나아가도록 하고,\\n 또 다른 하나는 뒤로 가게 할 것이다.\\n 우리 중 둘은 쐐기풀 와인이고,\\n 우리 중 셋은 숨어있는 독약이다.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -57,7 +57,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Тогда ищи - к тому же подсказка тебе дана.\\n Во-первых, как бы ловко не скрывался яд,\\n Найти его несложно - от вина левый ряд. \\n Второе - в крайних бутылях налито не одно и то ж,\\n Но если вперёд тебе надо, помощи зря ты ждешь.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 영원히 여기에 머물기를 원하지 않는다면 하나를 선택해라.\\n 여기 4가지 단서이다.\\n 첫째, 독약이 아무리 숨어있어도 \\n 쐐기풀 와인 왼쪽에서 항상 찾을 수 있다.\\n 둘째, 양쪽 끝의 둘은 서로 다르지만,\\n 둘 다 앞으로 나아가지 못할 것이다.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -89,7 +89,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Затем ни в большой, ни в малой смерти ты не найдёшь,\\n А если из второй слева и второй справа глотнешь,\\n Сам убедишься - налито одно и то же в них, \\n Хотя на взгляд они разные, но это уже в-четвёртых.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 셋째, 보는 것처럼 모두 크기가 다르다.\\n 제일 작은 병이나 제일 큰 병에는 독이 들어있지 않다.\\n 넷째, 양쪽 끝의 두 번째는 \\n 보기에는 달라도 그 맛은 똑같다.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -27,14 +27,15 @@ execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run scoreboard player
 execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run function hp:inventory/give_player_item
 execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tp @s 2839.99 55.00 866.10 846.97 2.54
 execute as @s[tag=isTrackedQuest,tag=completeTrackedQuest] run tag @s remove completeTrackedQuest
+
 #############
 ## State 1 ###########################################################################################
 #############
-# Locate Флориш и Блоттс
+# Locate Flourish and Blotts
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1504,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1504,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=1},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 2842.30 55.00 866.55
 execute as @s[scores={questState=1},tag=isTrackedQuest] run scoreboard players set @s questRegion 2
@@ -56,7 +57,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=2..4},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=2..4},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1503,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=2..4},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1503,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=2..4},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=2..4},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 2836.63 55.00 863.67
 execute as @s[scores={questState=2..4},tag=isTrackedQuest] run scoreboard players set @s questRegion 2
@@ -65,29 +66,29 @@ execute as @s[scores={questState=2..4,npcQuestIcon=1},tag=!inProperCutScene,tag=
 
 ### Guidance titles ###
 execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2..6,conv=29},tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Купите 'Фантастические звери: места обитания'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Купите 'Стандартная книга Заклинаний'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Купите 'Расширенный курс зельеварения'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Купите 'Тёмные силы: пособие по самозащите'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Купите 'Руководство по трансфигурации для начинающих'","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"신비한 동물 사전을 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"마법 주문에 관한 표준 교과서를 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"마법과 마법의 약을 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"어둠의 힘: 자기 방어를 위한 안내서를 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"입문자를 위한 변환 마법을 구입하기","color":"gold"}]
 
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Купите 'Фантастические звери: места обитания'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Купите 'Стандартная книга Заклинаний'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Купите 'Расширенный курс зельеварения'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Купите 'Тёмные силы: пособие по самозащите'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Купите 'Руководство по трансфигурации для начинающих'","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"신비한 동물 사전을 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"마법 주문에 관한 표준 교과서를 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"마법과 마법의 약을 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"어둠의 힘: 자기 방어를 위한 안내서를 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"입문자를 위한 변환 마법을 구입하기","color":"gold"}]
 
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Купите 'Фантастические звери: места обитания'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Купите 'Стандартная книга Заклинаний'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Купите 'Расширенный курс зельеварения'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Купите 'Тёмные силы: пособие по самозащите'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Купите 'Руководство по трансфигурации для начинающих'","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"신비한 동물 사전을 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"마법 주문에 관한 표준 교과서를 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"마법과 마법의 약을 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"어둠의 힘: 자기 방어를 위한 안내서를 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"입문자를 위한 변환 마법을 구입하기","color":"gold"}]
 
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Купите 'Фантастические звери: места обитания'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Купите 'Стандартная книга Заклинаний'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Купите 'Расширенный курс зельеварения'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Купите 'Тёмные силы: пособие по самозащите'","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Купите 'Руководство по трансфигурации для начинающих'","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"신비한 동물 사전을 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"마법 주문에 관한 표준 교과서를 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"마법과 마법의 약을 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"어둠의 힘: 자기 방어를 위한 안내서를 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"입문자를 위한 변환 마법을 구입하기","color":"gold"}]
 
 
 # check what items the player has bought and what they are allowed to purchase

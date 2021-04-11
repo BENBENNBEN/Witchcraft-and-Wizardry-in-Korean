@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Первая подсказка найдена, четыре ещё предстоит; \\n Следуй за ними, каждая тебе путь прояснит; \\n\\n как добраться к бесценному кладу; \\n Но помни, что это под силу лишь сильному магу. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 첫 단서를 찾았지만, 아직 네 개 남았다.; \\n 각 단서를 따라서 가다가 보면; \\n\\n 숨겨진 보물에 한 걸음 가까워질 것이다.; \\n 보물이 간절한 마법사와 마녀여. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -60,7 +60,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" \\n Для первой из этих подсказок Вам нужно место найти; \\n Где мудрость и остроумие всегда впереди. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" \\n 첫 번째 장소는; \\n 지혜와 재치가 잠드는 곳이다. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -9,11 +9,11 @@ execute if score @s questID = @s trackedQuestID run tag @s add isTrackedQuest
 #############
 ## State 1 ###########################################################################################
 #############
-# Отправиться в Визжащая Хижина
+# Travel to the Shrieking Shack
 
 ### Tracked Quest ###
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1405,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=1},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1405,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=1},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=1},tag=isTrackedQuest] run scoreboard players set @s questRegion 4
 execute as @s[scores={questState=1},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 5429 65 2787
@@ -40,21 +40,21 @@ execute as @s[tag=newState] run tag @s remove newState
 # Fight off the poltergeists 
 ### Tracked Quest ###
 execute as @s[scores={questState=2},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1404,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=2},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1404,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=2},tag=isTrackedQuest] positioned 5429 65 2787 if entity @s[distance=..50] run tag @s add questHasNoDirection
 execute as @s[scores={questState=2},tag=isTrackedQuest] positioned 5429 65 2787 unless entity @s[distance=..50] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=2},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 5429 65 2787
 execute as @s[scores={questState=2},tag=isTrackedQuest] run scoreboard players set @s questRegion 4
 
 execute as @s[scores={questState=2},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=2,playerID=1},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Защититесь от 10 Полтергейстов (","color":"gold"},{"score":{"name":"shriekingShackPoltergeistKills","objective":"sharedQuests"},"color":"gold"},{"text":" из 10)","color":"gold"}]
-execute as @s[scores={questState=2,playerID=2},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Защититесь от 10 Полтергейстов (","color":"gold"},{"score":{"name":"shriekingShackPoltergeistKills","objective":"sharedQuests"},"color":"gold"},{"text":" из 10)","color":"gold"}]
-execute as @s[scores={questState=2,playerID=3},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Защититесь от 10 Полтергейстов (","color":"gold"},{"score":{"name":"shriekingShackPoltergeistKills","objective":"sharedQuests"},"color":"gold"},{"text":" из 10)","color":"gold"}]
-execute as @s[scores={questState=2,playerID=4},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Защититесь от 10 Полтергейстов (","color":"gold"},{"score":{"name":"shriekingShackPoltergeistKills","objective":"sharedQuests"},"color":"gold"},{"text":" из 10)","color":"gold"}]
+execute as @s[scores={questState=2,playerID=1},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"폴터가이스트 10마리를 처치하세요 (","color":"gold"},{"score":{"name":"shriekingShackPoltergeistKills","objective":"sharedQuests"},"color":"gold"},{"text":" / 10)","color":"gold"}]
+execute as @s[scores={questState=2,playerID=2},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"폴터가이스트 10마리를 처치하세요 (","color":"gold"},{"score":{"name":"shriekingShackPoltergeistKills","objective":"sharedQuests"},"color":"gold"},{"text":" / 10)","color":"gold"}]
+execute as @s[scores={questState=2,playerID=3},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"폴터가이스트 10마리를 처치하세요 (","color":"gold"},{"score":{"name":"shriekingShackPoltergeistKills","objective":"sharedQuests"},"color":"gold"},{"text":" / 10)","color":"gold"}]
+execute as @s[scores={questState=2,playerID=4},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"폴터가이스트 10마리를 처치하세요 (","color":"gold"},{"score":{"name":"shriekingShackPoltergeistKills","objective":"sharedQuests"},"color":"gold"},{"text":" / 10)","color":"gold"}]
 
 
 ### Trigger ###
-execute positioned 5429 65 2787 as @s[distance=..70,scores={questState=2},tag=isTrackedQuest] run scoreboard players operation shriekingShackPoltergeistKills sharedQuests += @s poltergeistsK
+execute positioned 5429 65 2787 as @s[distance=..200,scores={questState=2},tag=isTrackedQuest] run scoreboard players operation shriekingShackPoltergeistKills sharedQuests += @s poltergeistsK
 
 execute as @s[scores={questState=2},tag=isTrackedQuest] if score shriekingShackPoltergeistKills sharedQuests matches 10.. run scoreboard players set theMostHauntedPlaceInBritain sharedQuests 3
 execute as @s[scores={playerID=1}] unless score theMostHauntedPlaceInBritain p1Quests = theMostHauntedPlaceInBritain sharedQuests if score theMostHauntedPlaceInBritain sharedQuests matches 3 run tag @s add newState
@@ -78,7 +78,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1403,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1403,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=3},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 5391 107 2665
 execute as @s[scores={questState=3,npcQuestIcon=1},tag=!inProperCutScene,tag=!inResetPoint,tag=!isFastTravelling] at @e[scores={conv=388},tag=npc,tag=!inConversationNPC] run particle minecraft:angry_villager ~ ~1.7 ~ 0 0 0 100 1 force @s
@@ -89,7 +89,7 @@ execute as @s[scores={questState=3},tag=isTrackedQuest] run scoreboard players s
 execute as @s[tag=inConversation,scores={conv=388,convState=0,questState=3}] run tag @s add use
 scoreboard players remove @s[tag=use] questConvOffset 1
 
-execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ Я разберусь с этим шумом\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 다 처리했습니다\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s convState 4
 execute as @s[tag=qtr] as @e[tag=convOption] if score @s con = @p[tag=activePlayer] questConvOffset if score @s con = @p[tag=activePlayer] selectCurrent as @p[tag=activePlayer] run scoreboard players set @s questConvOffset 1
 tag @s remove use

@@ -47,7 +47,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1519,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=3},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1519,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=3},tag=isTrackedQuest] run tag @s add questHasNoDirection
 execute as @s[scores={questState=3},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing -213.47 57.00 -707.57
 execute as @s[scores={questState=3},tag=isTrackedQuest] run scoreboard players set @s questRegion 8
@@ -65,10 +65,10 @@ execute if entity @s[tag=hasPressedF,scores={questState=3}] as @e[tag=questHover
 
 # Title
 execute as @s[scores={questState=3},tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=3,playerID=1},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player1quest name ["",{"text":"Найдите все 5 звёзд в тёмном лабиринте (","color":"gold"},{"score":{"name":"collectedLumosStars","objective":"sharedQuests"},"color":"gold"},{"text":" / 5)","color":"gold"}]
-execute as @s[scores={questState=3,playerID=2},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player2quest name ["",{"text":"Найдите все 5 звёзд в тёмном лабиринте (","color":"gold"},{"score":{"name":"collectedLumosStars","objective":"sharedQuests"},"color":"gold"},{"text":" / 5)","color":"gold"}]
-execute as @s[scores={questState=3,playerID=3},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player3quest name ["",{"text":"Найдите все 5 звёзд в тёмном лабиринте (","color":"gold"},{"score":{"name":"collectedLumosStars","objective":"sharedQuests"},"color":"gold"},{"text":" / 5)","color":"gold"}]
-execute as @s[scores={questState=3,playerID=4},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player4quest name ["",{"text":"Найдите все 5 звёзд в тёмном лабиринте (","color":"gold"},{"score":{"name":"collectedLumosStars","objective":"sharedQuests"},"color":"gold"},{"text":" / 5)","color":"gold"}]
+execute as @s[scores={questState=3,playerID=1},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player1quest name ["",{"text":"어두운 미로에서 별 5개를 모두 찾으세요 (","color":"gold"},{"score":{"name":"collectedLumosStars","objective":"sharedQuests"},"color":"gold"},{"text":" / 5)","color":"gold"}]
+execute as @s[scores={questState=3,playerID=2},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player2quest name ["",{"text":"어두운 미로에서 별 5개를 모두 찾으세요 (","color":"gold"},{"score":{"name":"collectedLumosStars","objective":"sharedQuests"},"color":"gold"},{"text":" / 5)","color":"gold"}]
+execute as @s[scores={questState=3,playerID=3},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player3quest name ["",{"text":"어두운 미로에서 별 5개를 모두 찾으세요 (","color":"gold"},{"score":{"name":"collectedLumosStars","objective":"sharedQuests"},"color":"gold"},{"text":" / 5)","color":"gold"}]
+execute as @s[scores={questState=3,playerID=4},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player4quest name ["",{"text":"어두운 미로에서 별 5개를 모두 찾으세요 (","color":"gold"},{"score":{"name":"collectedLumosStars","objective":"sharedQuests"},"color":"gold"},{"text":" / 5)","color":"gold"}]
 
 
 
@@ -87,17 +87,17 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=4},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1518,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=4},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1518,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=4},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=4},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 5097.50 94.00 32.51
 execute as @s[scores={questState=4},tag=isTrackedQuest] run scoreboard players set @s questRegion 8
 
 
 execute as @s[scores={questState=4},tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=4,playerID=1},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player1quest name ["",{"text":"Выйдите из темного лабиринта","color":"gold"}]
-execute as @s[scores={questState=4,playerID=2},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player2quest name ["",{"text":"Выйдите из темного лабиринта","color":"gold"}]
-execute as @s[scores={questState=4,playerID=3},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player3quest name ["",{"text":"Выйдите из темного лабиринта","color":"gold"}]
-execute as @s[scores={questState=4,playerID=4},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player4quest name ["",{"text":"Выйдите из темного лабиринта","color":"gold"}]
+execute as @s[scores={questState=4,playerID=1},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player1quest name ["",{"text":"어두운 미로에서 빠져나가세요","color":"gold"}]
+execute as @s[scores={questState=4,playerID=2},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player2quest name ["",{"text":"어두운 미로에서 빠져나가세요","color":"gold"}]
+execute as @s[scores={questState=4,playerID=3},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player3quest name ["",{"text":"어두운 미로에서 빠져나가세요","color":"gold"}]
+execute as @s[scores={questState=4,playerID=4},tag=!inConversation,tag=isTrackedQuest,tag=!inProperCutScene,tag=!inResetPoint] run bossbar set minecraft:player4quest name ["",{"text":"어두운 미로에서 빠져나가세요","color":"gold"}]
 
 
 
@@ -119,7 +119,7 @@ execute as @s[tag=newState] run tag @s remove newState
 
 ### Tracked Quest ###
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove hideQuestTracking
-execute as @s[scores={questState=5},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"Карта Мародёров\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1517,Unbreakable:1b,qDetect:1b}
+execute as @s[scores={questState=5},tag=isTrackedQuest] if entity @s[tag=showingTrackedQuest,tag=!playingQuestAnim,tag=drawingNormalHotbar,tag=takeOverInventory] if score @s questID = @s trackedQuestID run replaceitem entity @s hotbar.1 minecraft:diamond_axe{display:{Name:"{\"text\":\"호그와트 비밀지도\",\"color\":\"gold\",\"bold\":true}"},HideFlags:63,Damage:1517,Unbreakable:1b,qDetect:1b}
 execute as @s[scores={questState=5},tag=isTrackedQuest] run tag @s remove questHasNoDirection
 execute as @s[scores={questState=5},tag=isTrackedQuest] at @s as @e[tag=questDirectionTester,limit=1] positioned ~ ~ ~ run tp @s ~ ~ ~ facing 5095.44 94.00 35.42
 execute as @s[scores={questState=5,npcQuestIcon=1},tag=!inProperCutScene,tag=!inResetPoint,tag=!isFastTravelling,tag=isTrackedQuest] at @e[scores={conv=6},tag=npc,tag=!inConversationNPC] run particle minecraft:angry_villager ~ ~1.7 ~ 0 0 0 100 1 force @s

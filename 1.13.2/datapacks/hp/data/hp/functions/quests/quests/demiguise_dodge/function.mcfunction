@@ -203,5 +203,6 @@ execute as @s[tag=completeQuest] run tag @s remove completeQuest
 execute as @s[tag=completeTrackedQuest] run scoreboard players set demiguiseDodge sharedQuests -1
 execute as @s[tag=completeTrackedQuest] run tag @s remove completeTrackedQuest
 
+
 # reset quest tracking boolean
 tag @s remove isTrackedQuest

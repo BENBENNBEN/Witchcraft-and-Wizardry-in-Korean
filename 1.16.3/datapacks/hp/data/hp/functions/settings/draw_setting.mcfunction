@@ -66,7 +66,7 @@ execute if entity @s[scores={InvItemID=6}] as @e[tag=focusInventoryOption,limit=
 # 7
 execute if entity @s[scores={InvItemID=7}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"Wednesday Frog\",\"color\":\"gray\"}]"}
 # 8
-execute if entity @s[scores={InvItemID=8}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"그리고 감사드립니다:\",\"color\":\"white\"}]"}
+execute if entity @s[scores={InvItemID=8}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"\",\"color\":\"white\"}]"}
 # 9
 execute if entity @s[scores={InvItemID=9}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"                    \",\"color\":\"gray\"},{\"text\":\"Elsweyr\",\"color\":\"gray\"}]"}
 # 10
@@ -90,7 +90,7 @@ execute if entity @s[scores={InvItemID=18}] as @e[tag=focusInventoryOption,limit
 # 19
 execute if entity @s[scores={InvItemID=19}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"                    \",\"color\":\"gray\"},{\"text\":\"Aendrel\",\"color\":\"gray\"}]"}
 # 20
-execute if entity @s[scores={InvItemID=20}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"그리고 감사드립니다:\",\"color\":\"white\"}]"}
+execute if entity @s[scores={InvItemID=20}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"\",\"color\":\"white\"}]"}
 # 21
 execute if entity @s[scores={InvItemID=21}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"                    \",\"color\":\"gray\"},{\"text\":\"Dark_Knight_2013\",\"color\":\"gray\"}]"}
 # 22
@@ -148,7 +148,7 @@ execute if entity @s[scores={InvItemID=47}] as @e[tag=focusInventoryOption,limit
 # 48
 execute if entity @s[scores={InvItemID=48}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"}]"}
 # 49
-execute if entity @s[scores={InvItemID=49}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          \",\"color\":\"gray\"},{\"text\":\"던전을 수정 및 사용할 수 있도록 허락해주신\",\"color\":\"white\"}]"}
+execute if entity @s[scores={InvItemID=49}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          \",\"color\":\"gray\"},{\"text\":\"던전을 사용할 수 있도록 허락해주신\",\"color\":\"white\"}]"}
 # 50
 execute if entity @s[scores={InvItemID=50}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          \",\"color\":\"gray\"},{\"text\":\"TamrielCraft 께 감사드립니다. 그들의 다른 프로젝트도 확인해보세요!\",\"color\":\"white\"}]"}
 # 51

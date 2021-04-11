@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Здравствуй. Книги 'Из рук в руки'. Если тебе нужны не самые лучшие, но дешёвые, то они у нас есть. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 중고 서점에 어서 와. 새 책이 아니라 저렴한 책이 필요해서 왔다면 잘 왔어. 우리 서점에 많아. 싼 책! \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -58,7 +58,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Не стесняйся осмотреться. Шипы уже изогнуты, а страницы уже разорваны или вырваны. Но это не имеет значения - мы оба знаем, что знания важны в любом случае. И ты сможешь их получить, по крайней мере большую часть.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 천천히 둘러봐. 책이 좀 휘어지고 종이가 찢어져서 조금 너덜너덜해도 괜찮지? 너도 알다시피 내용이 중요하잖아. 뭐라고 쓰였는지 글자는 읽을 수 있으니까. 음, 대부분은 말이야.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -93,19 +93,19 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Чем могу быть полезен?\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭘 도와줄까?\\n \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≡ Покажите книги, которые вы продаёте\"}",Tags:["_____buy_____","_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≡ 판매 중인 책을 보여주세요\"}",Tags:["_____buy_____","_____Normal_____","_____click_____","convOption","i"]}
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ Я хочу задать вопрос\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 질문이 있어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 11
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≥ До свидания\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
 
@@ -129,7 +129,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Ну, я скажу тебе. Веришь или нет, но наша коллекция видела дни и получше. Эти проклятые книги Монстров обосновались внизу. Умудрились прогрызть половину инвентаря, прежде чем я запер их внизу. \\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐가 있냐고? 뭐 알려줄게. 믿을지는 모르겠지만, 우리 서점 책들 상태가 이보다는 나았어. 이게 다 저 밑에 있는 빌어먹을 괴물들에 관한 괴물책 때문이라고. 우리 서점에 쌓여있는 책들의 거의 반을 뜯어먹는 바람에 내가 밑에 가둬 놓을 수밖에 없었어. \\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -161,7 +161,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Флориш и Блоттс больше не продают книгу Монстров, после случая, когда одна из них напала на персонал. Итак, я заметил возможность для получения прибыли. Какой молодой и наивный я был. Это оказалось хуже, чем когда исчезли все запасы 'Невидимой Книги Невидимости', честное слово. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 플러리시 앤 블러트 서점에서 괴물책이 서점 직원을 물어뜯은 사건 이후로 그 책을 안 팔더라고. 그래서 기회다 싶었지. 인제 보니 참 멍청한 생각이었지만. 투명에 관한 투명책들이 보이지 않아 고생한 것보다 더 끔찍하니까. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -192,18 +192,18 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Я оставил внизу кое-какие важные бумаги, а теперь не могу до них добраться. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 중요한 서류가 아래층에 있는데 그것도 못 가지러 가겠어. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"ⁿ Я могу помочь вернуть их вам\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"ⁿ 제가 서류를 가져다 드릴게요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0},tag=!hasLearnedAlohomora] store success score @s tmp run scoreboard players set @s convState 6
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0},tag=hasLearnedAlohomora] store success score @s tmp run scoreboard players set @s convState 7
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\" Очень жаль\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\" 그것참 안됐네요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 2
 #-------------------------------
 
@@ -227,14 +227,14 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Спасибо за предложение, но эти книги довольно жесткие. Я не уверен, что ты готов к этому. Возможно, тебе следует вернуться позже, когда будет больше опыта.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 제안은 고맙지만, 저 괴물책들은 꽤 사나워. 자네가 해낼 수 있을지 모르겠어. 좀 더 경험을 쌓고 나서 다시 오라고.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\" Ну ладно \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\" 알겠습니다 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 2
 #-------------------------------
 
@@ -258,7 +258,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Правда? Отлично! Подвал заперт, так что тебе придется использовать заклинание 'Алохомора' чтобы открыть дверь. Как только ты окажешься там, найди четыре цепи на цветных колоннах, которые ты сможете потянуть.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 정말? 잘됐군! 지하실은 잠겨있으니까 '알로호모라'라는 주문을 사용해야 해. 아래로 내려가 보면 색깔 기둥에 당길 수 있는 네 개의 사슬이 있을 거야.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -289,14 +289,14 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Я тебя вознагражу, если вернешь мои бумаги.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 서류를 가져다주면 꼭 보상해 줄게.\\n\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"ⁿ Я помогу вам (Награда: 50 ≈)\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"ⁿ 도와드리겠습니다 (보상: 50 ≈)\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 
 # Conversation
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0,playerID=1}] run scoreboard players set broderickBryce p1convOverride 9
@@ -319,7 +319,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless ent
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless entity @p[tag=queingQuest] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] as @a[tag=play] at @s run playsound minecraft:custom.ui.quest.accept_quest master @s ~ ~ ~ 1 1 1
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless entity @p[tag=queingQuest] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≥ На самом деле мне надо сделать что-то другое\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≥ 다른 할 일이 있습니다\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 2
 #-------------------------------
 
@@ -344,19 +344,19 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Ах, это ты. Разве ты не пытаешься вернуть эти бумаги? Помнишь? Я оставил их в подвале. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아 너구나. 서류를 가져왔어? 까먹은 거야? 서류는 지하실에 있다고. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≡ Покажите книги, которые вы продаёте\"}",Tags:["_____buy_____","_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≡ 판매 중인 책을 보여주세요\"}",Tags:["_____buy_____","_____Normal_____","_____click_____","convOption","i"]}
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ Я хочу задать вопрос\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 질문이 있어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 11
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≥ До свидания\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
 
@@ -380,14 +380,14 @@ tag @s[scores={convState=10},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Супер! Вот твоя награда \\n\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 굉장해! 여기 보상이니까 받아. \\n\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≥ Спасибо! (Награда: 150 ≈)\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≥ 감사합니다 (보상: 150 ≈)\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] run scoreboard players set @s trackedQuestID 31
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] run tag @s add hasCompletedbroderickMonsterBooks
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0,playerID=1}] run scoreboard players set broderickBryce p1convOverride 2
@@ -418,20 +418,20 @@ tag @s[scores={convState=11},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Что ты хочешь узнать?\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭘 물어보고 싶은데?\\n \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите мне о Косом Переулке\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 다이애건 앨리에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 12
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ Кто покупает у вас книги?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 어떤 손님들이 자주 오나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 13
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"На самом деле что-то другое\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"다른 용무가 있어요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 2
 #-------------------------------
 
@@ -455,7 +455,7 @@ tag @s[scores={convState=12},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Ну, если тебе нравятся книги, это хорошее место. Наш магазин гордится самыми дешёвыми ценами, но если у нас нет того, что ты ищешь, всегда можешь обратиться в Флориш и Блоттс, книги Обскура или Тома и Свитки ниже по улице.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 책을 좋아하면 이 거리가 최고지. 우리 서점은 제일 싼 가격을 자랑해. 원하는 책이 없으면 플러러시 앤 블러츠 서점이나 옵스큐러스 서점도 있고 길 따라가면 톰스 앤 스크롤 서점도 있어.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -486,7 +486,7 @@ tag @s[scores={convState=13},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Ну, разные люди. Мы не часто видим здесь богатых людей, таких, как Малфои или Скримджеры, но зато много хороших и честных людей, таких как Уизли или Абботы, регулярно здесь делающих покупки.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 다양하게 와. 그래도 말포이나 스크림저 같은 사람들처럼 돈 꽤나 있는 집안사람들은 많이 못 보지만. 주로 위즐리나 아보트처럼 착하고 정직한 사람들이 정기적으로 책을 사러 오지.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -517,7 +517,7 @@ tag @s[scores={convState=14},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" Есть код, чтобы открыть скрытую комнату, где я храню документы: \\n\\n Это \"},{\"text\":\"синий\",\"color\":\"blue\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"красный\",\"color\":\"red\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"оранжевый\",\"color\":\"gold\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"красный\",\"color\":\"red\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"зелёный\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"оранжевый\",\"color\":\"gold\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"красный\",\"color\":\"red\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"синий\",\"color\":\"blue\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"зелёный\",\"color\":\"green\"},{\"text\":\".\\n\\n Постарайся запомнить.\",\"color\":\"white\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 코드에 맞춰 당기면 내가 서류를 보관해둔 방이 나올 거야. \\n\\n 코드는 \"},{\"text\":\"파랑\",\"color\":\"blue\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"빨강\",\"color\":\"red\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"주황\",\"color\":\"gold\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"빨강\",\"color\":\"red\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"초록\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"주황\",\"color\":\"gold\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"빨강\",\"color\":\"red\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"파랑\",\"color\":\"blue\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"초록\",\"color\":\"green\"},{\"text\":\".\\n\\n 한 번 외워봐.\",\"color\":\"white\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -548,14 +548,14 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" Разумеется! \\n\\n\\n Код \"},{\"text\":\"синий\",\"color\":\"blue\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"красный\",\"color\":\"red\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"оранжевый\",\"color\":\"gold\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"красный\",\"color\":\"red\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"зелёный\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"оранжевый\",\"color\":\"gold\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"красный\",\"color\":\"red\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"синий\",\"color\":\"blue\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"зелёный\",\"color\":\"green\"},{\"text\":\".\\n\\n\",\"color\":\"white\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 알겠습니다! \\n\\n\\n 코드는 \"},{\"text\":\"파랑\",\"color\":\"blue\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"빨강\",\"color\":\"red\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"주황\",\"color\":\"gold\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"빨강\",\"color\":\"red\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"초록\",\"color\":\"green\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"주황\",\"color\":\"gold\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"빨강\",\"color\":\"red\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"파랑\",\"color\":\"blue\"},{\"text\":\", \",\"color\":\"white\"},{\"text\":\"초록\",\"color\":\"green\"},{\"text\":\".\\n\\n\",\"color\":\"white\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≥ Спасибо \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≥ 고마워 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
 

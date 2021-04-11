@@ -27,7 +27,7 @@ execute as @s[scores={cutSceneTimer=24}] run tp @e[tag=openingOwl,limit=1] 2326.
 execute as @s[scores={cutSceneTimer=24}] run data merge entity @e[tag=openingOwl,limit=1] {Pose:{Head:[1.0722f,0f,0.0000f]},ArmorItems:[{},{},{},{id:"minecraft:wooden_shovel",Count:1b,tag:{Unbreakable:1b,Damage:29}}]}
 execute as @s[scores={cutSceneTimer=30}] run title @a[tag=cutsceneSlave] times 10 40 15
 execute as @s[scores={cutSceneTimer=30}] run title @a[tag=cutsceneSlave] subtitle {"text":"플루 네트워크 제작","color":"gold"}
-execute as @s[scores={cutSceneTimer=30}] run title @a[tag=cutsceneSlave] title {"text":" 플루 네트워크 제작"}
+execute as @s[scores={cutSceneTimer=30}] run title @a[tag=cutsceneSlave] title {"text":"마인크래프트 해리포터 모드"}
 execute as @s[scores={cutSceneTimer=31}] run tp @a[tag=cutsceneSlave] 2322.95 64.48 -796.4 288.0623 -13.04568
 execute as @s[scores={cutSceneTimer=32}] run tp @a[tag=cutsceneSlave] 2322.95 64.48 -796.4 288.0779 -13.05777
 execute as @s[scores={cutSceneTimer=33}] run tp @a[tag=cutsceneSlave] 2322.95 64.48 -796.4 288.0856 -13.06372

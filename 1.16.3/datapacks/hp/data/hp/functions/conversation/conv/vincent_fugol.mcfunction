@@ -27,31 +27,31 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Добро пожаловать в  'Спортивные принадлежности для квиддича'. У нас есть всё для Квиддича. Ты хочешь приобрести метлу? \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 스핀트위치 스포츠용품 가게에 어서 와. 퀴디치에 관련된 모든 물품을 팔고 있지. 빗자루를 찾고 있니?\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≡ Покажите что у вас можно купить\"}",Tags:["_____buy_____","_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≡ 판매 중인 상품을 보여주세요\"}",Tags:["_____buy_____","_____Normal_____","_____click_____","convOption","i"]}
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ У меня есть вопрос об одной из ваших мётел. \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 빗자루에 대해 질문이 있어요 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 20
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите о вашем магазине\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 상점에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите мне о Квиддиче\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"≤ 퀴디치에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=4}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 3
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"≤ У меня есть вопрос о ролях игроков\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"≤ 퀴디치 선수 포지션에 대해 설명해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=5}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 4
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=6}] run data merge entity @s {CustomName:"{\"text\":\"≤ Я хочу узнать о мячах, используемых в Квиддиче\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=6}] run data merge entity @s {CustomName:"{\"text\":\"≤ 퀴디치 경기에 무슨 공이 사용되나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=6}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 11
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=7}] run data merge entity @s {CustomName:"{\"text\":\"≥ До свидания\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=7}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=7}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
 
@@ -76,7 +76,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Ну, это небольшая деревня, но тут много магазинов. Наш выбор метл очень высокий, но если ищешь что-то подешевле, попробуй поискать другой магазин квиддича по деревне. Просто идите вверх по улице и сверните налево. Дальше увидишь его справа. На фасаде будет баннеры Хогвартса. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 여긴 작은 마을이지만 퀴디치 관련 상점이 많아. 우리 가게는 주로 고급 빗자루를 팔고 있어. 좀 더 저렴한 걸 사고 싶다면 다른 상점에 가보는 게 나을 거야. 하이스트리트 따라가다가 왼쪽 거리로 가다 보면 오른쪽에 다른 퀴디치 상점이 있어. 외관에 호그와트 기숙사 배너가 걸려 있을 거야. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -107,7 +107,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Можешь так же посетить 'Мётлы из рук в руки' в Косом Переулке в Лондоне. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아니면 다이애건 앨리에 브룸스틱스나 중고 빗자루 전문점도 있고. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -138,7 +138,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Квиддич - самая популярная спортивная игра в мире  магов по всему миру. Игроки летают на мётлах. 2 команды по семь человек. Один Ловец, один Вратарь, два Загонщика и три Охотника. У каждого свои роли. Так же есть четыре мяча: два Бладжера, Квофл и Снитч.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 퀴디치는 마법 세계에서 가장 인기 있는 스포츠야. 두 팀이 빗자루를 타고 공중에서 대결을 펼쳐. 각 7명의 선수가 한 팀으로 수색꾼 1명, 파수꾼 1명, 몰이꾼 2명, 추격꾼 3명이 있어. 사용하는 공은 총 4개로 블러저 2개, 골든 스니치 1개, 쿼플 1개야.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -169,26 +169,26 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Есть четыре роли: Ловец, Вратарь, Загонщик и Охотник. О ком ты хотел спросить? \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 4가지 선수 포지션이 있어. 수색꾼, 파수꾼, 몰이꾼, 그리고 추격꾼. 무슨 포지션이 궁금해? \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите мне о Ловце\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 수색꾼에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 5
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите мне о Охотнике\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 추격꾼에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 7
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите мне о Загонщике\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 몰이꾼에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 9
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите мне о Вратаре\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"≤ 파수꾼에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=4}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 10
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"На самом деле что-то другое\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"다른 거요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=5}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 0
 #-------------------------------
 
@@ -212,7 +212,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" В каждой команде по одному Ловцу. Их цель - поймать Золотой Снитч. Они играют ключевую роль в квиддиче, так как игра не заканчивается, пока Ловец не поймает Снитч. Команда, чей Ловец ловит Снитч, получает 150 очков, что почти всегда приводит к победе. Это делает всех остальных немного бесполезными. Странно, да?\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 각 팀당 한 명의 수색꾼이 있어. 수색꾼은 골든 스니치를 잡아야 하지. 스니치를 잡을 때까지 게임이 끝나지 않기 때문에 매우 중요한 포지션이야. 스니치를 잡으면 150점을 얻게 되니까 잡는 쪽이 거의 우승한다고 보면 돼.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -243,7 +243,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Раньше в Квиддиче, до тех пор, пока Снитч не заменил Золотого Сниджета, ловца называли Охотником.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 골든 스니치 공이 있기 전에는 골든 스니젯이라는 새를 풀어놓고 경기를 했어. 그때는 수색꾼이 아니라 사냥꾼이라고 불렸지.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -275,7 +275,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" И так. Три Охотника в каждой команде. Охотники контролируют Квофл и стараются закинуть его в одно из трёх колец комманды противника. Каждый гол проносит 10 очков.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 각 팀에는 세 명의 추격꾼이 있어. 추격꾼은 파수꾼을 피해 골대에 쿼플을 넣는 역할이야. 한 골당 10점이고.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -306,7 +306,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Квиддич сильно изменился за века, и роль охотника одна из самых старых и важных, да и целью игры раньше было исключительно забить как можно больше голов. Раньше они были известны как Ловцы.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 퀴디치는 오랜 세월에 걸쳐 많은 발전을 해왔지. 추격꾼은 가장 오래된 포지션이고 예전에는 포수라고 불렸었어.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -338,7 +338,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" В каждой команде есть по два Загонщика, и они единственные игроки на поле, у которых есть биты. Их работа заключается в том, чтобы держать Бладжер подальше от их команды и в то же время пытаться нацелить его на противоположную команду. Эти биты, вероятно, не так уж и плохи, чтобы использовать их против атакующих существ.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 몰이꾼은 각 팀에 두 명씩 있어. 나무로 된 방망이를 들고 블러저를 쳐내야 하지. 상대 팀을 조준하여 블러저를 날리면 수비뿐만 아니라 공격할 수도 있어. 그 방망이는 그냥 무기로 써도 나쁘지 않을걸.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -369,7 +369,7 @@ tag @s[scores={convState=10},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" На каждую команду приходится по одному Вратарю. Его работа - охранять три кольца, в которые пытаются забросить Квофл игроки второй команды. Кроме того, Вратарь имеет наибольшую степень защиты, чем другие игроки, которая включает в себя шлем, накладки на плечи/грудь и колени. Это защищает их и естественно делает их тяжелее, чем большинство их товарищей по команде.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 모든 팀에는 한 명의 파수꾼이 있어. 다른 팀의 추격꾼을 막고 골대 앞을 수비해야 하지. 다른 포지션보다 보호구를 많이 착용해. 헬멧, 어깨 보호구, 가슴 보호구, 무릎 패드. 보호도 하면서 잘 막아낼 수 있도록 말이야.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -400,23 +400,23 @@ tag @s[scores={convState=11},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" В Квиддиче используется три типа мячей: Золотой Снитч, Бладжер и Квоффл.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 퀴디치 경기에서는 3가지 공을 사용해. 골든 스니치, 블러저, 그리고 쿼플.\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите мне о Золотом Снитче\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 골든 스니치에 대해 설명해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 12
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите мне о Бладжере\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 블러저에 대해 설명해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 16
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите мне о the Квоффле\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 쿼플에 대해 설명해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 18
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"На самом деле что-то другое\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"다른 거요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=4}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 0
 #-------------------------------
 
@@ -440,7 +440,7 @@ tag @s[scores={convState=12},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Золотой Снитч самый важный. Ловец всеми силами старается поймать его, а это не так просто как кажеться. Когда Синтч пойман, игра заканчивается и поймавшая его команда получает 150 очков.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아무래도 골든 스니치가 제일 중요해. 수색꾼이 골든 스니치를 찾아다니다가 잡으면 150점을 얻고 게임이 끝나게 되거든.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -471,7 +471,7 @@ tag @s[scores={convState=13},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Квиддич менялся на протяжении веков, и идея Снитча появилась от Золотого Сниджета, благодаря Магическому Конгрессу в 1260-ых годах, по сути просто заменив 'охоту на сниджетов' - популярную в то время игру.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 퀴디치는 오랜 세월에 걸쳐 많은 발전을 해왔어. 1260년대 마법사 위원회장이었던 바르바루스 브라지가 퀴디치에 스니젯 사냥을 추가했는데, 그 당시에는 스니젯을 풀어놓고 사냥하는 것이 유행이었거든.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -502,7 +502,7 @@ tag @s[scores={convState=14},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Брагге пришёл с этой птицей на игру и выпустил её из клетки. Он сказал игрокам, что сто пятьдесят галлеонов - большая сумма денег, особенно в те времена, будут вручены игроку, который поймает и убьет птицу.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 골든 스니젯을 경기장에 풀고 나서 이 새를 먼저 잡는 선수에게 150 갤리온을 준다고 내기를 걸곤 했어. 그때는 아주 많은 돈이었지.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -533,7 +533,7 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Сниджеты использовались в Квиддиче до 14 века. В то время Квиддич стал настолько популярен, что сниджеты стали вымирающим видом. Люди начали искать альтернативных птиц, когда Боумен Райт, волшебник, работающий с металлом из Годриковой Впадины, придумал и создал Золотой Снитч, который используется до сих пор.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 14세기까지 스니젯을 사용했었는데 퀴디치가 인기 스포츠가 되면서 멸종 위기까지 간 거야. 이후 많은 사람이 스니젯을 대신할 새를 찾고 있었는데 바우먼 라이트가 골든 스니치를 발명하고 그것이 공식 공이 되었어.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -565,7 +565,7 @@ tag @s[scores={convState=16},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Два Бладжера присутствуют в каждом матче по Квиддичу, которые носятся по полю и пытаются выбить игроков с их мётел.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 경기마다 블러저 2개를 사용해. 스스로 날아다니면서 선수를 빗자루에서 떨어뜨리려고 하지.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -597,7 +597,7 @@ tag @s[scores={convState=17},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Задача Загонщиков следить за Бладжерами и отбивать их в игроков второй команды, защищая своих сокомандников. Давным -давно, Бладжерами были заколдованные камни, но они слишком сильно крошаться, так что после пары ударов Загонщиков по полю за игроками летали тучи маленьких камушков.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 몰이꾼은 팀의 선수들을 보호하면서 상대 팀을 견제해야 해. 블러저를 처음에는 돌로 만들었는데 경기 시간이 지나면 몰이꾼 방망이에 맞고 박살 나서 생긴 파편들도 선수들을 쫓아다니는 거야. 그래서 게임 내내 파편들을 피해 정신없이 날아다니는 사태가 종종 발생했었어.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -628,7 +628,7 @@ tag @s[scores={convState=18},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Квоффл красный, покрытый кожей мяч, который используется, чтобы забивать голы через три кольца на каждом конце поля для Квиддича. Это единственный мяч в игре, который не летает по собственной воле, так что его бросают и носят игроки.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 쿼플은 붉은색 가죽으로 된 공이야. 경기장 양쪽에 있는 골대에 넣어야 해. 쿼플은 유일하게 스스로 날지 못하는 공이고 무조건 선수가 손에 든 채로 던져서 넣어야 해.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -659,7 +659,7 @@ tag @s[scores={convState=19},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" В ранних версиях Квиддича у Квоффла были отверстия для пальцев или ремни, которые позволяли игрокам ловить его одной рукой. Позже это было заменено парой заклинанием, одно из которых позволяло Квоффлу падать на землю медленнее, чем обычно.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 처음에는 한 손으로도 잡기 쉽도록 구멍이나 손잡이가 달려있었지. 나중에는 그 대신 공에다가 움켜쥐기 마법 주문을 걸었어. 그래서 다른 공보다 더 천천히 떨어져.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -690,20 +690,20 @@ tag @s[scores={convState=20},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Продолжать? \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭔데? \\n\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите мне о Нимбусе 2001 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 님부스 2001에 대해 얘기해주세요 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 21
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ Расскажите о Молнии \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 파이어볼트에 대해 얘기해주세요 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 22
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≥ На самом деле что-то другое \"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≥ 다른 거요 \"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 0
 #-------------------------------
 
@@ -727,7 +727,7 @@ tag @s[scores={convState=21},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" О, Нимбус 2001. Это гоночная метла, произведённая кампанией 'Скоростные метлы Нимбус'. Быстрее легендарной Нимбус 2000, но немного медленне Молнии. До сих пор пользуется большой популярностью среди игроков Квиддича по всему миру.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래, 님부스 2001는 님부스 경주 빗자루 회사에서 생산하는 경주용 빗자루야. 님부스 2000보다 빠르지만, 파이어볼트보다는 못 해. 그래도 여전히 전 세계 대부분의 퀴디치 팀에서 사용하고 있지.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -758,7 +758,7 @@ tag @s[scores={convState=22},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Молния, она за той витриной. Эта самая современная гоночная метла мирового класса,  к тому же самая быстрая в мире. Каждая выстругана вручную из полированного черного дерева, а прутья из ветви берёзы, доведена до аэродинамического совершенства. Их не так много существует. Я слышал, это потому что рабочие-гоблины, участвующие в запатентованном производстве, склонны к забастовкам и прогулам даже при малейшей провокации.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 파이어볼트, 이제 말이 통하는구만. 이 세계 최고 수준의 최첨단 경주용 빗자루야. 현존하는 것 중에 가장 빠르지. 파이어볼트의 꼬리 부분은 하나하나 자작나무 가지를 선별해 공기역학적으로 마무리되어있어. 아쉽게도 파이어볼트는 수량이 많지 않아. 그 이유는 만들 자격이 있는 대장장이 고블린들이 사소한 일에도 성내거나 파업하기 때문이라더군.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -789,14 +789,14 @@ tag @s[scores={convState=23},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" Спасибо! \\n\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 감사합니다! \\n\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≥ До свидания\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] run scoreboard players set @s trackedQuestID 52
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] run tag @s add hasDeliveredLetter
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
