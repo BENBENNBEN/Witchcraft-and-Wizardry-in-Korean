@@ -71,7 +71,7 @@ execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:player4inf
 execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:player4quest visible false
 
 execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:mainmenu1 name {"translate":"Oh dear! The resource pack hasn't loaded properly","color":"gold"}
-execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:mainmenu2 name {"translate":"If you are in Multiplayer download and apply the resource pack manually","color":"gray"}
+execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:mainmenu2 name {"translate":"멀티플레이어 경우, 디스코드에서 리소스 팩을 다운로드하세요.","color":"gray"}
 execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:mainmenu3 name {"translate":"If you are in Singleplayer try setting mip-map levels to 0","color":"gray"}
 execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:mainmenu1 players @a[tag=mainMenu]
 execute as @s[tag=mainMenu,tag=!inMainMenu] run bossbar set minecraft:mainmenu2 players @a[tag=mainMenu]
@@ -698,6 +698,7 @@ execute as @s[scores={animTest=30,mainMenuState=1000}] run replaceitem entity @s
 execute as @s[scores={animTest=30,mainMenuState=1000}] run replaceitem entity @s hotbar.6 minecraft:golden_axe{display:{Name:"{\"text\":\" \"}"},Damage:4,Unbreakable:1b,qDetect:1b,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-99999,Operation:0,UUID:[I;1997641946,856640959,-1199930564,-1073699668]}],HideFlags:63}
 execute as @s[scores={animTest=30,mainMenuState=1000}] run replaceitem entity @s hotbar.7 minecraft:golden_axe{display:{Name:"{\"text\":\" \"}"},Damage:4,Unbreakable:1b,qDetect:1b,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-99999,Operation:0,UUID:[I;1997641946,856640959,-1199930564,-1073699668]}],HideFlags:63}
 execute as @s[scores={animTest=30,mainMenuState=1000}] run replaceitem entity @s hotbar.8 minecraft:golden_axe{display:{Name:"{\"text\":\" \"}"},Damage:4,Unbreakable:1b,qDetect:1b,AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-99999,Operation:0,UUID:[I;1997641946,856640959,-1199930564,-1073699668]}],HideFlags:63}
+
 
 
 # Spectate
