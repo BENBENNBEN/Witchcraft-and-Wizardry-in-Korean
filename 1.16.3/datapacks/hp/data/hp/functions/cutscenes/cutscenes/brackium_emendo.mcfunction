@@ -158,9 +158,8 @@ tp @s[scores={cutSceneTimer=160}] 6006.608 85.50183 5.937125 263.75 5.95
 execute as @s[scores={cutSceneTimer=140}] run function hp:cutscenes/fade_in
 
 # ¤Flitwick:¤ Welcome back to my class students!
-# ¤Флитвик;¤ Рад вас снова видеть на занятии!
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=20..160}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Рад вас снова видеть на занятии! "}]
+execute as @s[scores={cutSceneTimer=20..160}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 모두 다시 만나 반갑구나!"}]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=27},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=31},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -171,9 +170,8 @@ execute as @s[scores={cutSceneTimer=53},tag=cutsceneLeader] as @e[tag=flitwickCl
 execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Flitwick:¤ You've already learned that you can heal yourself using potions.
-# ¤Flitwick:¤ Вы уже узнали как можно исцелить себя с помощью зелий.
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=161..300}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Вы уже узнали как можно исцелить себя с помощью зелий."}]
+execute as @s[scores={cutSceneTimer=161..300}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 아마 전 수업에서 물약을 사용하여 치유하는 법을 배웠을 텐데"}]
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=168},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=172},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -184,10 +182,9 @@ execute as @s[scores={cutSceneTimer=194},tag=cutsceneLeader] as @e[tag=flitwickC
 execute as @s[scores={cutSceneTimer=201},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 
-# ¤Flitwick:¤ In this lesson you will learn the spell 'Брахиам Эмендо' as another way to restore your health after a fight.
-# ¤Flitwick:¤ На этом занятии вы научитесь заклинанию 'Брахиам Эмендо', другой способ восстановления здоровья.
+# ¤Flitwick:¤ In this lesson you will learn the spell 'Brackium Emendo' as another way to restore your health after a fight.
 execute as @s[scores={cutSceneTimer=301},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=301..450}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" На этом занятии вы научитесь заклинанию 'Брахиам Эмендо', другой способ восстановления здоровья."}]
+execute as @s[scores={cutSceneTimer=301..450}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 이번 수업에서는 다른 회복 방법으로 '브라키움 엠멘도' 주문을 배울 거야."}]
 execute as @s[scores={cutSceneTimer=301},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=308},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=312},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -492,21 +489,19 @@ tp @s[scores={cutSceneTimer=449}] 5996.133 86.33252 8.166067 -963.44 45.36
 tp @s[scores={cutSceneTimer=450}] 5996.13 86.32896 8.164496 -963.44 45.36
 execute as @s[scores={cutSceneTimer=430}] run function hp:cutscenes/fade_in
 
-execute as @s[scores={cutSceneTimer=220},tag=cutsceneLeader] positioned 5991.22 83.00 5.75 run summon armor_stand ~ ~ ~ {Small:1b,Invisible:1b,Tags:["spellEntity","BrackiumArea","BrackiumInit"],CustomName:"{\"text\":\"BrackiumArea\"}"}
+execute as @s[scores={cutSceneTimer=220},tag=cutsceneLeader] positioned 5991.22 83.00 5.75 run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["spellEntity","BrackiumArea","BrackiumInit"],CustomName:"{\"text\":\"BrackiumArea\"}"}
 execute as @s[scores={cutSceneTimer=220},tag=cutsceneLeader] positioned 5991.22 83.00 5.75 run scoreboard players set @e[tag=BrackiumInit] idle 300
 execute as @s[scores={cutSceneTimer=220},tag=cutsceneLeader] positioned 5991.22 83.00 5.75 run scoreboard players set @e[tag=BrackiumInit] tmp 0
 execute as @s[scores={cutSceneTimer=220},tag=cutsceneLeader] positioned 5991.22 83.00 5.75 run tag @e[tag=BrackiumInit] remove BrackiumInit
 
 # ¤Flitwick:¤ I've set up an arena for you to test out the spell!
-# ¤Flitwick:¤ Я создал область где вы можете попрактиковаться!
 execute as @s[scores={cutSceneTimer=450},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=450..520}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Я создал область где вы можете попрактиковаться!"}]
+execute as @s[scores={cutSceneTimer=450..520}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 주문을 연습할 수 있도록 공간을 마련해뒀어!"}]
 
 
 # ¤Flitwick:¤ Fight off the enemies, and use the spell to heal yourself if you take damage.
-# ¤Flitwick:¤ Сразитесь с врагами и используйте заклинание, чтобы исцелять себя.
 execute as @s[scores={cutSceneTimer=521},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=521..630}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Сразитесь с врагами и используйте заклинание, чтобы исцелять себя."}]
+execute as @s[scores={cutSceneTimer=521..630}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 적과 싸우다가 피해를 받으면 마법 주문을 사용하여 자신을 치유해봐."}]
 
 
 execute as @s[scores={cutSceneTimer=452}] run function hp:cutscenes/fade_out
@@ -915,13 +910,12 @@ tp @s[scores={cutSceneTimer=852}] 5994.051 47 17.40947 203.1025 50.5982
 
 
 # ¤Flitwick:¤ By holding shift and pressing { at the same time you can quickly switch between combat relevant spells.
-# ¤Flitwick:¤ Удерживая shift и нажимая 'Q' вы можете быстро переключаться между самыми важными заклинаниями.
 execute as @s[scores={cutSceneTimer=630},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=630..740}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Удерживая shift и нажимая 'Q' вы можете быстро переключаться между самыми важными заклинаниями."}]
+execute as @s[scores={cutSceneTimer=630..740}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" Shift 키를 누른 상태에서  {  를 동시에 누르면 전투 중에 빠르게 주문을 바꿀 수 있어."}]
 
 # ¤Flitwick:¤ Best of luck!
 execute as @s[scores={cutSceneTimer=741},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=741..862}] run title @s actionbar ["",{"text":""},{"text":"Флитвик;","color":"dark_gray"},{"text":" Желаю Удачи!"}]
+execute as @s[scores={cutSceneTimer=741..862}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 그럼 행운을 빌어!"}]
 
 # Clear subtitles instantly rather than a slow fade I can't control
 execute as @s[scores={cutSceneTimer=863..}] run title @s actionbar ""

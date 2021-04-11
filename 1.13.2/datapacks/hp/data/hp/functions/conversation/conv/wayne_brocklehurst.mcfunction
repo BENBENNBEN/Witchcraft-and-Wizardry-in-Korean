@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어떻게 이럴 수 있지. 아직도 예언자 일보가 오지 않았다니. 일보면 매일 아침에 와야 하는 거 아니냐?! \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어떻게 이럴 수 있지. 아직도 예언자 일보가 오지 않았다니. 일보면 매일 아침에 와야 하는 거 아니야?! \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -94,7 +94,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 돕는다고? 그럼 다이애건 앨리에 있는 예언자 일보 사무실에 가서 왜 아직도 보내지 않았는지 물어봐. 웨인 브로클허스트가 보냈다고 바나바 커프에게 말해. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 돕는다고? 그럼 다이애건 앨리에 있는 예언자 일보 사무실에 가서 왜 아직도 안 보냈는지 물어봐. 웨인 브로클허스트가 보내서 온 거라고 바나바 커프에게 말해. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -140,7 +140,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 왜 예언자 일보를 보내지 않았는지 알아왔어? 아직이라고? 그럼 여기서 뭐 해? \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 왜 예언자 일보를 배달 안 했는지 알아왔어? 아직이라고? 그럼 여기서 뭐 해? \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -174,7 +174,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래 알겠다. 화가 풀리는걸. 자, 이거 받아. 내 성의니까.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래 알겠다. 벌써 화가 풀리는걸. 자, 이거 받아. 내 성의니까.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

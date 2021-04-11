@@ -14,7 +14,7 @@ execute as @s[scores={cutSceneTimer=22}] run function hp:cutscenes/fade_out
 execute as @s[scores={cutSceneTimer=..20}] run title @s actionbar ["",{"text":" "}]
 
 execute as @s[scores={cutSceneTimer=100},tag=cutsceneLeader] run kill @e[tag=cutsceneWingardiumBlock]
-execute as @s[scores={cutSceneTimer=100},tag=cutsceneLeader] positioned 7029.5 67.10 -16.01 run summon armor_stand ~ ~ ~ {Small:1b, Team:"wingardium",NoBasePlate:1b,Pose:{LeftLeg:[180f,0f,0f],RightLeg:[180f,0f,0f],Head:[180f,0f,0f]},Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["cutsceneWingardiumBlock"],DisabledSlots:2039583,ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:49}}],CustomName:"{\"text\":\"WingardiumMoveBlock\"}"}
+execute as @s[scores={cutSceneTimer=100},tag=cutsceneLeader] positioned 7029.5 67.10 -16.01 run summon armor_stand ~ ~ ~ {Small:1b, Team:"wingardium",NoBasePlate:1b,Pose:{LeftLeg:[180f,0f,0f],RightLeg:[180f,0f,0f],Head:[180f,0f,0f]},Invulnerable:1b,Small:1b,Invisible:1b,Tags:["cutsceneWingardiumBlock"],DisabledSlots:2039583,ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:49}}],CustomName:"{\"text\":\"WingardiumMoveBlock\"}"}
 
 execute as @s[scores={cutSceneTimer=22},tag=gameLeader] run time set day
 execute as @s[scores={cutSceneTimer=22},tag=gameLeader] run gamerule doDaylightCycle false

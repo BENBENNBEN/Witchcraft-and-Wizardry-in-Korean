@@ -62,8 +62,8 @@ execute as @s[scores={cutSceneTimer=-100},tag=cutsceneLeader] run time set midni
 
 # Title
 execute as @s[scores={cutSceneTimer=-130}] run title @s times 15 35 1
-execute as @s[scores={cutSceneTimer=-130}] run title @s subtitle ["",{"text":"Азкабан","bold":true,"color":"gold"}]
-execute as @s[scores={cutSceneTimer=-130}] run title @s title {"text":"Путешествие в","color":"gray"}
+execute as @s[scores={cutSceneTimer=-130}] run title @s subtitle ["",{"text":"아즈카반","bold":true,"color":"gold"}]
+execute as @s[scores={cutSceneTimer=-130}] run title @s title {"text":"이동 중","color":"gray"}
 
 
 
@@ -1072,10 +1072,9 @@ execute as @s[scores={cutSceneTimer=842},tag=cutsceneLeader] as @e[tag=phoenixOr
 execute as @s[scores={cutSceneTimer=842},tag=cutsceneLeader] as @e[tag=phoenixOrder5,limit=1] run tag @s add npcLookAtPlayer
 
 
-# ¤Аластор Грюм:¤ These villains are everywhere. Hunt them down. Fight them. They must not escape!
-# ¤Аластор Грюм:¤ Эти злодеи повсюду! Уничтожьте их! Сражайтесь с ними! Они не должны сбежать!
+# ¤Alastor Moody:¤ These villains are everywhere. Hunt them down. Fight them. They must not escape!
 execute as @s[scores={cutSceneTimer=800},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=800..940}] run title @s actionbar ["",{"text":""},{"text":"Аластор Грюм:","color":"dark_gray"},{"text":" Эти злодеи повсюду! Уничтожьте их! Сражайтесь с ними! Они не должны сбежать!"}]
+execute as @s[scores={cutSceneTimer=800..940}] run title @s actionbar ["",{"text":""},{"text":"앨러스터 무디","color":"dark_gray"},{"text":" 사방에서 적이 온다. 전부 맞서 싸워! 도망치게 두면 안돼!"}]
 
 
 execute as @s[scores={cutSceneTimer=941..}] run title @s actionbar ""

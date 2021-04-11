@@ -849,10 +849,9 @@ execute as @s[scores={cutSceneTimer=860}] run tp @s 738.1948 53.8912 60.94871 27
 execute as @s[scores={cutSceneTimer=840}] run function hp:cutscenes/fade_in
 
 
-# ¤Sprout:¤ Welcome everyone! Добро пожаловать в  Greenhouse 1.
-# ¤Стебель;¤ Здравствуйте! Добро пожаловать в  теплицу номер 1.
+# ¤Sprout:¤ Welcome everyone! Welcome to Greenhouse 1.
 execute as @s[scores={cutSceneTimer=70},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=70..200}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" Добро пожаловать в  теплицу номер 1."}]
+execute as @s[scores={cutSceneTimer=70..200}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 반가워! 모두 온실에 온 걸 환영해."}]
 execute as @s[scores={cutSceneTimer=70},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=77},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=81},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -863,9 +862,8 @@ execute as @s[scores={cutSceneTimer=103},tag=cutsceneLeader] as @e[tag=sproutCla
 execute as @s[scores={cutSceneTimer=110},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Sprout:¤ Now gather around everyone, today we are going to learn how to handle mandrakes.
-# ¤Sprout:¤ И так, подходите, сегодня мы научимся обращаться с Мандрагорами.
 execute as @s[scores={cutSceneTimer=200},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=200..360}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" И так, подходите, сегодня мы научимся обращаться с Мандрагорами."}]
+execute as @s[scores={cutSceneTimer=200..360}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 자, 가까이 모이렴. 오늘은 맨드레이크를 다루는 법에 대해 배울 거야."}]
 execute as @s[scores={cutSceneTimer=200},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=207},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=211},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -876,9 +874,8 @@ execute as @s[scores={cutSceneTimer=233},tag=cutsceneLeader] as @e[tag=sproutCla
 execute as @s[scores={cutSceneTimer=240},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Sprout:¤ The Mandrake, or mandragora is quite a dangerous plant!
-# ¤Sprout:¤ Мандрагора, или Мандрагорум, очень опасное растение!
 execute as @s[scores={cutSceneTimer=360},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=360..480}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" Мандрагора, или Мандрагорум, очень опасное растение!"}]
+execute as @s[scores={cutSceneTimer=360..480}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 맨드레이크 혹은 만드라고라는 위험한 식물이란다!"}]
 execute as @s[scores={cutSceneTimer=360},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=367},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=371},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -889,9 +886,8 @@ execute as @s[scores={cutSceneTimer=393},tag=cutsceneLeader] as @e[tag=sproutCla
 execute as @s[scores={cutSceneTimer=400},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Sprout:¤ Its cry is fatal to anyone who hears it,
-# ¤Sprout :¤ Её плачь смертелен для любого, кто его услышит,
 execute as @s[scores={cutSceneTimer=480},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=480..570}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" Её плачь смертелен для любого, кто его услышит,"}]
+execute as @s[scores={cutSceneTimer=480..570}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 맨드레이크의 울음소리는 치명적이라서"}]
 execute as @s[scores={cutSceneTimer=480},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=487},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=491},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -902,9 +898,8 @@ execute as @s[scores={cutSceneTimer=513},tag=cutsceneLeader] as @e[tag=sproutCla
 execute as @s[scores={cutSceneTimer=520},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Sprout:¤ which is why you should use ear-muffs for auditory protection!
-# ¤Sprou t:¤ так что вы должны использовать наушники для защиты!
 execute as @s[scores={cutSceneTimer=570},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=570..670}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" так что вы должны использовать наушники для защиты!"}]
+execute as @s[scores={cutSceneTimer=570..670}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 청각 보호를 위해 모두 귀마개를 착용해야 해!"}]
 execute as @s[scores={cutSceneTimer=570},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=577},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=581},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -915,9 +910,8 @@ execute as @s[scores={cutSceneTimer=603},tag=cutsceneLeader] as @e[tag=sproutCla
 execute as @s[scores={cutSceneTimer=610},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Sprout:¤ Our mandrakes are still only seedlings, so their cries probably won't kill you just yet,
-# ¤Sprout:¤ Наши Мандрагоры ещё очень молоды, так что их крик, вероятно, не убьёт вас,
 execute as @s[scores={cutSceneTimer=670},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=670..760}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" Наши Мандрагоры ещё очень молоды, так что их крик, вероятно, не убьёт вас,"}]
+execute as @s[scores={cutSceneTimer=670..760}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 이 맨드레이크는 아직 어려서 울음소리가 누굴 죽일 정도는 아니지만,"}]
 execute as @s[scores={cutSceneTimer=670},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=677},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=681},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -928,9 +922,8 @@ execute as @s[scores={cutSceneTimer=703},tag=cutsceneLeader] as @e[tag=sproutCla
 execute as @s[scores={cutSceneTimer=710},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 
 # ¤Sprout:¤ but be careful, they could certainly knock you out for several hours.
-# ¤Sprout:¤ но будьте осторожны, они могут оглушить вас на несколько часов.
 execute as @s[scores={cutSceneTimer=760},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=760..860}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" но будьте осторожны, они могут оглушить вас на несколько часов."}]
+execute as @s[scores={cutSceneTimer=760..860}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 그래도 조심하렴. 몇 시간 동안 기절할 수 있으니까."}]
 execute as @s[scores={cutSceneTimer=760},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=767},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=771},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1597,39 +1590,32 @@ tp @s[scores={cutSceneTimer=1510}] 739.6635 53.38016 45.132 402.19 16.61
 execute as @s[scores={cutSceneTimer=1490}] as @s run function hp:cutscenes/fade_in
 
 # ¤Sprout:¤ If you ever stumble upon one in the wild, be careful!
-# ¤Sprou t:¤ Если встретитесь с ней в дикой природе, будьте осторожны!
 execute as @s[scores={cutSceneTimer=860},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=860..1000}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" Если встретитесь с ней в дикой природе, будьте осторожны!"}]
+execute as @s[scores={cutSceneTimer=860..1000}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 혹시 나중에 탐험하다가 야생의 맨드레이크가 나타나면 조심해!"}]
 
 # ¤Sprout:¤ Keep out of range and try to avoid disturbing it if you can.
-# ¤Sprout:¤ Держитесь подальше и постарайтесь не беспокоить её, если сможете.
 execute as @s[scores={cutSceneTimer=1001},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=1001..1100}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" Держитесь подальше и постарайтесь не беспокоить её, если сможете."}]
+execute as @s[scores={cutSceneTimer=1001..1100}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 그 자리를 조심히 벗어나고 가능하면 건들지 마."}]
 
 # ¤Sprout:¤ If you must go near it make sure you have some ear-muffs equipped.
-# ¤Sprout:¤ Если вам нужно подойти к ней, убедитесь, что у вас есть наушники.
 execute as @s[scores={cutSceneTimer=1101},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=1101..1200}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" Если вам нужно подойти к ней, убедитесь, что у вас есть наушники."}]
+execute as @s[scores={cutSceneTimer=1101..1200}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 맨드레이크 근처로 갈 때는 귀마개를 쓰고 있는지 꼭 확인하고."}]
 
 # ¤Sprout:¤ When wearing earmuffs you can push the mandrakes into the soil beneath them.
-# ¤Sprout:¤ Когда вы носите наушники, вы можете вернуть Мандрагору в почву.
 execute as @s[scores={cutSceneTimer=1201},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=1201..1300}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" Когда вы носите наушники, вы можете вернуть Мандрагору в почву."}]
+execute as @s[scores={cutSceneTimer=1201..1300}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 귀마개를 잘 착용한 상태로 맨드레이크를 흙에 밀어 넣도록 해."}]
 
 # ¤Sprout:¤ That'll make them quiet down for a while.
-# ¤Sprout :¤ Это ненадолго остановит их плач.
 execute as @s[scores={cutSceneTimer=1301},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=1301..1370}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" Это ненадолго остановит их плач."}]
+execute as @s[scores={cutSceneTimer=1301..1370}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 그러면 잠깐 조용해질 거야."}]
 
 # ¤Sprout:¤ Be careful not to drop the earmuffs though! You'll have to move around gently.
-# ¤Sprout:¤ Будьте осторожны, не уроните наушники! Вам придется передвигаться аккуратно.
 execute as @s[scores={cutSceneTimer=1371},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=1371..1510}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" Будьте осторожны, не уроните наушники! Вам придется передвигаться аккуратно."}]
+execute as @s[scores={cutSceneTimer=1371..1510}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 항상 귀마개를 주의해! 조심히 움직이고."}]
 
 # ¤Sprout:¤ To practice you will have to enter the four greenhouses outside to collect four stars and then return to me.
-# ¤Sprout:¤ Чтобы попрактиковаться, вам нужно зайти в теплицы и собрать четыре звезды и затем вернуться ко мне.
 execute as @s[scores={cutSceneTimer=1511},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=1511..1700}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" Чтобы попрактиковаться, вам нужно зайти в теплицы и собрать четыре звезды и затем вернуться ко мне."}]
+execute as @s[scores={cutSceneTimer=1511..1700}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 이제 연습을 해보도록 하자. 바깥에 있는 온실에 들어가 별 4개를 모아 오렴."}]
 
 execute as @s[scores={cutSceneTimer=1510}] as @s run function hp:cutscenes/fade_out
 tp @s[scores={cutSceneTimer=1510}] 779.42 88.51 13.63 406.78 43.43
@@ -1946,9 +1932,9 @@ tp @s[scores={cutSceneTimer=1820}] 776.317 88.51 13.63 313.7838 43.43
 tp @s[scores={cutSceneTimer=1821}] 776.3069 88.51 13.63 313.4838 43.43
 tp @s[scores={cutSceneTimer=1822}] 776.2969 88.51 13.63 313.1838 43.43
 
-# ¤Sprout:¤ Удачи!
+# ¤Sprout:¤ Good luck!
 execute as @s[scores={cutSceneTimer=1700},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=1700..1800}] run title @s actionbar ["",{"text":""},{"text":"Стебель;","color":"dark_gray"},{"text":" Удачи!"}]
+execute as @s[scores={cutSceneTimer=1700..1800}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 행운을 빌어!"}]
 
 execute as @s[scores={cutSceneTimer=1801..}] run title @s actionbar ["",{"text":" "}]
 

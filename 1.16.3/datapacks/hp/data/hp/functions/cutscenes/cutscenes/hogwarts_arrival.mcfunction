@@ -22,8 +22,8 @@ execute as @s[scores={cutSceneTImer=35},tag=cutsceneLeader] as aef7fe88-f0f1-497
 
 
 #Welcome to Hogwarts!
-#Добро Пожаловать в Хогвартс!
-title @s[scores={cutSceneTimer=200..400}] actionbar ["",{"text":"Добро Пожаловать в Хогвартс!"}]
+
+title @s[scores={cutSceneTimer=200..400}] actionbar ["",{"text":"호그와트에 온 걸 환영합니다!"}]
 
 # 1268.11 32.80 -1626.96 -90.86 90.00
 
@@ -543,11 +543,9 @@ tp @s[scores={cutSceneTimer=522}] 771.2571 132.55 257.685 -604.2281 -3.72
 
 execute as @s[scores={cutSceneTimer=400}] run function hp:cutscenes/fade_out
 # Explore the turrets and towers, get lost in the forbidden forest,
-# Исследуйте здания и помещения, заблудитесь в запретном лесу,
-title @s[scores={cutSceneTimer=400..600}] actionbar ["",{"text":"Исследуйте здания и помещения, заблудитесь в запретном лесу,"}]
+title @s[scores={cutSceneTimer=400..600}] actionbar ["",{"text":"성의 내부와 외부를 탐험하고, 금지된 숲에서 길을 잃으면서"}]
 # uncover the mysteries and uncover the mysteries of the castle and its grounds.
-# раскройте загадки и тайны замка на его территории.
-title @s[scores={cutSceneTimer=600..800}] actionbar ["",{"text":" раскройте загадки и тайны замка на его территории."}]
+title @s[scores={cutSceneTimer=600..800}] actionbar ["",{"text":" 호그와트의 수많은 수수께끼와 숨겨진 신비를 밝혀 내세요"}]
 
 title @s[scores={cutSceneTimer=801..}] actionbar ""
 

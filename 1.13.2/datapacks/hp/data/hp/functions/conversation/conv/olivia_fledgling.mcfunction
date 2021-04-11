@@ -339,7 +339,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 몰이꾼은 각 팀에 두 명씩 있어. 나무로 된 방망이를 들고 블러저를 쳐내야 하지. 상대팀을 조준하여 블러저를 날리면 수비뿐만 아니라 공격할 수도 있어. 그 방망이는 그냥 무기로 써도 나쁘지 않을 걸.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 몰이꾼은 각 팀에 두 명씩 있어. 나무로 된 방망이를 들고 블러저를 쳐내야 하지. 상대 팀을 조준하여 블러저를 날리면 수비뿐만 아니라 공격할 수도 있어. 그 방망이는 그냥 무기로 써도 나쁘지 않을걸.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -441,7 +441,7 @@ tag @s[scores={convState=12},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아무래도 골든 스니치가 제일 중요해. 수색꾼이 골든 스니치를 찾아다니다가 잡으면 150점을 얻고 게임이 끝나게 되는 거든.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아무래도 골든 스니치가 제일 중요해. 수색꾼이 골든 스니치를 찾아다니다가 잡으면 150점을 얻고 게임이 끝나게 되거든.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -472,7 +472,7 @@ tag @s[scores={convState=13},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 퀴디치는 오랜 세월에 걸쳐 많은 발전을 해왔어. 1260년대 마법사 위원회장이었던 바르바루스 브라지가 퀴디치에 스니젯 사냥을 추가했는데, 그당시에는 스니젯을 풀어놓고 사냥하는 것이 유행이었거든.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 퀴디치는 오랜 세월에 걸쳐 많은 발전을 해왔어. 1260년대 마법사 위원회장이었던 바르바루스 브라지가 퀴디치에 스니젯 사냥을 추가했는데, 그 당시에는 스니젯을 풀어놓고 사냥하는 것이 유행이었거든.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -503,7 +503,7 @@ tag @s[scores={convState=14},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 골든 스니젯을 경기장에 풀고나서 이 새를 먼저 잡는 선수에게 150갤리온을 준다고 내기를 걸곤 했어. 그때는 아주 큰돈이었지.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 골든 스니젯을 경기장에 풀고 나서 이 새를 먼저 잡는 선수에게 150 갤리온을 준다고 내기를 걸곤 했어. 그때는 아주 많은 돈이었지.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -534,7 +534,7 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 14세기까지 스니젯을 사용했었는데 퀴디치가 인기 스포츠가 되면서 멸종 위기까지 간 거야. 이후 많은 사람들이 스니젯을 대신할 새를 찾고 있었는데 바우먼 라이트가 골든 스니치를 발명하고 그것이 공식 공이 되었어.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 14세기까지 스니젯을 사용했었는데 퀴디치가 인기 스포츠가 되면서 멸종 위기까지 간 거야. 이후 많은 사람이 스니젯을 대신할 새를 찾고 있었는데 바우먼 라이트가 골든 스니치를 발명하고 그것이 공식 공이 되었어.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -566,7 +566,7 @@ tag @s[scores={convState=16},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 매 경기마다 블러저 2개를 사용해. 스스로 날아다니면서 선수를 빗자루에서 떨어뜨려고 하지.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 경기마다 블러저 2개를 사용해. 스스로 날아다니면서 선수를 빗자루에서 떨어뜨리려고 하지.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -598,7 +598,7 @@ tag @s[scores={convState=17},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 몰이꾼은 팀의 선수들을 보호하면서 상대팀을 견제해야 해. 블러저를 처음에는 돌로 만들었는데 경기 시간이 지나면 몰이꾼 방망이에 맞고 박살나서 생긴 파편들도 선수들을 쫓아다니는 거야. 그래서 게임 내내 파편들을 피해 정신없이 날아다니는 사태가 종종 발생했었어.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 몰이꾼은 팀의 선수들을 보호하면서 상대 팀을 견제해야 해. 블러저를 처음에는 돌로 만들었는데 경기 시간이 지나면 몰이꾼 방망이에 맞고 박살 나서 생긴 파편들도 선수들을 쫓아다니는 거야. 그래서 게임 내내 파편들을 피해 정신없이 날아다니는 사태가 종종 발생했었어.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

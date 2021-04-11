@@ -1,83 +1,83 @@
-execute if entity @s[scores={fastTravelID=1}] run title @s subtitle {"text":"Большой Зал","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=2}] run title @s subtitle {"text":"Библиотека","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=3}] run title @s subtitle {"text":"Лестничная Башня","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=4}] run title @s subtitle {"text":"Класс Зельеварения","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=5}] run title @s subtitle {"text":"Класс Защиты от темных искусств","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=6}] run title @s subtitle {"text":"Класс Заклинаний","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=7}] run title @s subtitle {"text":"Класс Трансфигурации","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=8}] run title @s subtitle {"text":"Гостиная Гриффиндора","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=9}] run title @s subtitle {"text":"Гостиная Пуффендуя","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=10}] run title @s subtitle {"text":"Гостиная Когтеврана","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=11}] run title @s subtitle {"text":"Гостиная Слизерина","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=12}] run title @s subtitle {"text":"Астрономическая башня","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=13}] run title @s subtitle {"text":"Двор Трансфигурации","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=14}] run title @s subtitle {"text":"Больничное Крыло","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=15}] run title @s subtitle {"text":"Деревянный мост","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=16}] run title @s subtitle {"text":"Теплицы","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=17}] run title @s subtitle {"text":"Совятня","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=18}] run title @s subtitle {"text":"Причал","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=19}] run title @s subtitle {"text":"Хижина Хагрида","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=20}] run title @s subtitle {"text":"Въездные Ворота","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=21}] run title @s subtitle {"text":"Запретный Лес","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=22}] run title @s subtitle {"text":"Логово Пауков","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=23}] run title @s subtitle {"text":"Стадион для Квиддича","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=24}] run title @s subtitle {"text":"Чердак","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=25}] run title @s subtitle {"text":"Туалет Плаксы Миртл","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=26}] run title @s subtitle {"text":"Гремучая Ива","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=27}] run title @s subtitle {"text":"Дорога в Хогвартс","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=28}] run title @s subtitle {"text":"Тренировочные Поля","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=29}] run title @s subtitle {"text":"Двор Часовой Башни","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=30}] run title @s subtitle {"text":"Часовая Башня","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=31}] run title @s subtitle {"text":"Винный Погреб","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=32}] run title @s subtitle {"text":"Класс Истории Магии","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=33}] run title @s subtitle {"text":"Класс Прорицаний","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=34}] run title @s subtitle {"text":"Кабинет Аргуса Филча","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=35}] run title @s subtitle {"text":"Кухня Хогвартса","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=36}] run title @s subtitle {"text":"Прачечная Хогвартса","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=37}] run title @s subtitle {"text":"Коридор на Третьем Этаже","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=38}] run title @s subtitle {"text":"Устье Реки","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=39}] run title @s subtitle {"text":"Подземелье","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=40}] run title @s subtitle {"text":"Трофейная Комната","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=1}] run title @s subtitle {"text":"대연회장","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=2}] run title @s subtitle {"text":"도서관","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=3}] run title @s subtitle {"text":"움직이는 계단","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=4}] run title @s subtitle {"text":"마법약 교실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=5}] run title @s subtitle {"text":"어둠의 마법 방어법 교실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=6}] run title @s subtitle {"text":"일반 마법 교실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=7}] run title @s subtitle {"text":"변환 마법 교실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=8}] run title @s subtitle {"text":"그리핀도르 휴게실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=9}] run title @s subtitle {"text":"후플푸프 휴게실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=10}] run title @s subtitle {"text":"래번클로 휴게실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=11}] run title @s subtitle {"text":"슬리데린 휴게실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=12}] run title @s subtitle {"text":"천문탑","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=13}] run title @s subtitle {"text":"중앙 안뜰","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=14}] run title @s subtitle {"text":"병동","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=15}] run title @s subtitle {"text":"나무 다리","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=16}] run title @s subtitle {"text":"온실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=17}] run title @s subtitle {"text":"부엉이장","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=18}] run title @s subtitle {"text":"호그와트 선착장","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=19}] run title @s subtitle {"text":"해그리드 오두막","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=20}] run title @s subtitle {"text":"호그와트 정문","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=21}] run title @s subtitle {"text":"금지된 숲","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=22}] run title @s subtitle {"text":"거미 은신처","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=23}] run title @s subtitle {"text":"퀴디치 경기장","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=24}] run title @s subtitle {"text":"꼭대기 층","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=25}] run title @s subtitle {"text":"울보 머틀 화장실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=26}] run title @s subtitle {"text":"후려치는 버드나무","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=27}] run title @s subtitle {"text":"호그와트 길목","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=28}] run title @s subtitle {"text":"훈련장","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=29}] run title @s subtitle {"text":"시계탑 안뜰","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=30}] run title @s subtitle {"text":"시계탑","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=31}] run title @s subtitle {"text":"와인 저장고","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=32}] run title @s subtitle {"text":"마법의 역사 교실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=33}] run title @s subtitle {"text":"점술 교실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=34}] run title @s subtitle {"text":"관리인 사무실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=35}] run title @s subtitle {"text":"호그와트 주방","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=36}] run title @s subtitle {"text":"호그와트 세탁실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=37}] run title @s subtitle {"text":"3층 복도","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=38}] run title @s subtitle {"text":"두꺼비 늪","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=39}] run title @s subtitle {"text":"하수구","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=40}] run title @s subtitle {"text":"트로피 방","bold":true,"color":"gold"}
 
-execute if entity @s[scores={fastTravelID=41}] run title @s subtitle {"text":"Тисовая улица","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=42}] run title @s subtitle {"text":"Кингс-Кросс","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=43}] run title @s subtitle {"text":"Сент-Панкрас","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=44}] run title @s subtitle {"text":"Биг-Бен","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=45}] run title @s subtitle {"text":"Лондонский Глаз","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=46}] run title @s subtitle {"text":"Площадь Гриммо","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=47}] run title @s subtitle {"text":"Годрикова Впадина","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=41}] run title @s subtitle {"text":"프리빗가","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=42}] run title @s subtitle {"text":"킹스 크로스 역","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=43}] run title @s subtitle {"text":"세인트 판크라스 역","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=44}] run title @s subtitle {"text":"빅 벤","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=45}] run title @s subtitle {"text":"런던 아이","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=46}] run title @s subtitle {"text":"그리몰드 광장","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=47}] run title @s subtitle {"text":"고드릭 골짜기","bold":true,"color":"gold"}
 
-execute if entity @s[scores={fastTravelID=48}] run title @s subtitle {"text":"Платформа Девять и Три Четверти","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=49}] run title @s subtitle {"text":"Косой Переулок","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=50}] run title @s subtitle {"text":"Дырявый котёл","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=51}] run title @s subtitle {"text":"Гринготтс","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=52}] run title @s subtitle {"text":"Лавка Оливандера","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=53}] run title @s subtitle {"text":"Мадам Малкин","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=54}] run title @s subtitle {"text":"Лютный переулок","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=55}] run title @s subtitle {"text":"Горбин и Беркес","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=48}] run title @s subtitle {"text":"9와 4분의 3 승강장","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=49}] run title @s subtitle {"text":"다이애건 앨리","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=50}] run title @s subtitle {"text":"리키 콜드런","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=51}] run title @s subtitle {"text":"그린고트 마법사 은행","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=52}] run title @s subtitle {"text":"올리밴더의 지팡이 가게","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=53}] run title @s subtitle {"text":"말킨 부인의 로브 전문점","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=54}] run title @s subtitle {"text":"녹턴 앨리","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=55}] run title @s subtitle {"text":"보긴 앤 버크","bold":true,"color":"gold"}
 
-execute if entity @s[scores={fastTravelID=56}] run title @s subtitle {"text":"Министерство","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=57}] run title @s subtitle {"text":"Нора","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=58}] run title @s subtitle {"text":"Поместье Малфоев","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=59}] run title @s subtitle {"text":"Дом Лавгудов","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=60}] run title @s subtitle {"text":"Флориш и Блоттс","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=56}] run title @s subtitle {"text":"마법 정부","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=57}] run title @s subtitle {"text":"버로우","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=58}] run title @s subtitle {"text":"말포이 저택","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=59}] run title @s subtitle {"text":"러브굿 가택","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=60}] run title @s subtitle {"text":"플러리시 앤 블러츠 서점","bold":true,"color":"gold"}
 
-execute if entity @s[scores={fastTravelID=61}] run title @s subtitle {"text":"Платформа Хогсмид","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=62}] run title @s subtitle {"text":"Дорога в Хогсмид","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=63}] run title @s subtitle {"text":"Вход в Хогсмид","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=64}] run title @s subtitle {"text":"Сладкое Королевство","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=65}] run title @s subtitle {"text":"Паб Три Метлы","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=66}] run title @s subtitle {"text":"Кабанья Голова","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=67}] run title @s subtitle {"text":"Визжащая Хижина","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=61}] run title @s subtitle {"text":"호그스미드 역","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=62}] run title @s subtitle {"text":"호그스미드 길목","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=63}] run title @s subtitle {"text":"호그스미드 입구","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=64}] run title @s subtitle {"text":"허니듀크스","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=65}] run title @s subtitle {"text":"스리 브룸스틱스 여관","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=66}] run title @s subtitle {"text":"호그스 헤드 여관","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=67}] run title @s subtitle {"text":"비명을 지르는 오두막집","bold":true,"color":"gold"}
 
-execute if entity @s[scores={fastTravelID=68}] run title @s subtitle {"text":"Зеркало Еиналеж","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=69}] run title @s subtitle {"text":"Тайная Комната","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=70}] run title @s subtitle {"text":"Проход в Сладком Королевстве","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=71}] run title @s subtitle {"text":"Лаз Гремучей Ивы","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=72}] run title @s subtitle {"text":"Выручай-комната","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=68}] run title @s subtitle {"text":"소망의 거울","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=69}] run title @s subtitle {"text":"비밀의 방","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=70}] run title @s subtitle {"text":"허니듀크 비밀통로","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=71}] run title @s subtitle {"text":"후려치는 버드나무 비밀통로","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=72}] run title @s subtitle {"text":"필요의 방","bold":true,"color":"gold"}
 
-execute if entity @s[scores={fastTravelID=73}] run title @s subtitle {"text":"Кабинет Дамблдора","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=74}] run title @s subtitle {"text":"Азкабан","bold":true,"color":"gold"}
-execute if entity @s[scores={fastTravelID=75}] run title @s subtitle {"text":"Пл. Гриммо 12","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=73}] run title @s subtitle {"text":"덤블도어 교장실","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=74}] run title @s subtitle {"text":"아즈카반","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=75}] run title @s subtitle {"text":"그리몰드가 12번지","bold":true,"color":"gold"}
 
-execute if entity @s[scores={fastTravelID=76}] run title @s subtitle {"text":"Подземелья Гринготса","bold":true,"color":"gold"}
+execute if entity @s[scores={fastTravelID=76}] run title @s subtitle {"text":"그린고트 지하","bold":true,"color":"gold"}

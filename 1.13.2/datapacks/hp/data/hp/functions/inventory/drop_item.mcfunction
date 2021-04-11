@@ -2,7 +2,7 @@
 
 # Drop item
 execute as @s[tag=!editAddItems] as @e[tag=isDroppedItem,distance=..1,limit=1] run tag @s add itemBeingDropped
-execute as @s[tag=!editAddItems] unless entity @e[tag=isDroppedItem,distance=..1] run summon armor_stand ~ ~ ~ {CustomName:"{\"text\":\"버려진 가방ˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈ\",\"color\":\"dark_gray\"}",Team:"NPC",Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["interactable","glowable","chest","itemBeingDropped","removeContainerIfEmpty","isDroppedItem","doNotCheckHover"],ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:59},qDetect:1b}]}
+execute as @s[tag=!editAddItems] unless entity @e[tag=isDroppedItem,distance=..1] run summon armor_stand ~ ~ ~ {CustomName:"{\"text\":\"버려진 가방ˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈˈ\",\"color\":\"dark_gray\"}",Team:"NPC",Invulnerable:1b,Small:1b,Invisible:1b,Tags:["interactable","glowable","chest","itemBeingDropped","removeContainerIfEmpty","isDroppedItem"],ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:59},qDetect:1b}]}
 execute as @s[tag=editAddItems] as @e[tag=editAddItemsTarget,limit=1] run tag @s add itemBeingDropped
 
 execute as @s[tag=editAddItems] unless entity @e[tag=editAddItemsTarget,limit=1] run title @s times 20 100 20

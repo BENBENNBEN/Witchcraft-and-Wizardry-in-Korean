@@ -7,7 +7,7 @@ execute as @s[scores={cutSceneTimer=22}] run tag @s add cutsceneZoom
 execute as @s[scores={cutSceneTimer=22}] run function hp:cutscenes/fade_out
 
 # Fix cutscene start location
-# If the player is in the last cart move them because the train at Станция «Хогсмид» is one cart shorter shhh no one will notice
+# If the player is in the last cart move them because the train at hogsmeade station is one cart shorter shhh no one will notice
 execute as @s[scores={cutSceneTimer=1},x=2908,dx=20,y=60,dy=3,z=-444,dz=3] run scoreboard players add @s posX 26
 execute as @s[scores={cutSceneTimer=1}] run scoreboard players remove @s posX 21860
 execute as @s[scores={cutSceneTimer=1}] run scoreboard players remove @s posY 100
@@ -124,8 +124,8 @@ execute as @s[scores={cutSceneTimer=50..110,playerID=1},tag=cutsceneLeader] run 
 execute as @s[scores={cutSceneTimer=65..110,playerID=1},tag=cutsceneLeader] run particle minecraft:poof 3061.60 58.00 -445.66 5 .2 .2 .05 2 normal
 execute as @s[scores={cutSceneTimer=80..110,playerID=1},tag=cutsceneLeader] run particle minecraft:poof 3061.60 58.00 -439.33 5 .2 .2 .05 2 normal
 
-# All aboard! Все на борт!
-title @s[scores={cutSceneTimer=50..100}] actionbar ["",{"text":"Все на борт!"}]
+# All aboard!
+title @s[scores={cutSceneTimer=50..100}] actionbar ["",{"text":"모두 탑승하세요!"}]
 
 execute as @s[scores={cutSceneTimer=101}] run function hp:cutscenes/fade_in
 

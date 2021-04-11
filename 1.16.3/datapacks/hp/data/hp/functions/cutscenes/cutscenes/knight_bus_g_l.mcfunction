@@ -15,8 +15,8 @@ execute as @s[scores={cutSceneTimer=21..95}] run tp @s 6832.40 47.97 3106.60 236
 execute as @s[scores={cutSceneTimer=75}] run function hp:cutscenes/fade_in
 
 execute as @s[scores={cutSceneTimer=85}] run title @s times 15 35 15
-execute as @s[scores={cutSceneTimer=85}] run title @s subtitle ["",{"text":"Дырявый Котёл","bold":true,"color":"gold"}]
-execute as @s[scores={cutSceneTimer=85}] run title @s title {"text":"Путешествие в","color":"gray"}
+execute as @s[scores={cutSceneTimer=85}] run title @s subtitle ["",{"text":"리키 콜드런","bold":true,"color":"gold"}]
+execute as @s[scores={cutSceneTimer=85}] run title @s title {"text":"이동 중","color":"gray"}
 execute as @s[scores={cutSceneTimer=96..250}] run tp @s 2860.32 66.34 732.19 -47.26 27.5
 
 execute as @s[scores={cutSceneTimer=180}] run function hp:cutscenes/fade_out
