@@ -102,7 +102,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우우우, 아주 끔찍했어. 바로 여기서 죽었지. 올리브 혼비가 내 안경을 갖고 계속 놀려서 숨어있었어. 화장실에서 울고 있는데 어떤 남자 목소리가 들리는 거야. 이상한 말을 하면서. 그것 때문이었나 봐 \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우우우, 아주 끔찍했어. 바로 여기서 죽었지. 올리브 혼비가 내 안경을 갖고 계속 놀려서 숨어있었어. 화장실에서 울고 있는데 어떤 남자 목소리가 들리는 거야. 이상한 말을 하면서. 그것 때문이었나 봐. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

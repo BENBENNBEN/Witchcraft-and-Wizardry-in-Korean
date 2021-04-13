@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지금은 골든 스니치 공을 써서 다행이야. 옛날에는 골든 스니젯이라는 작은 새를 가지고 했다잖아. 너무 잔인해.  \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지금은 골든 스니치 공을 써서 다행이야. 옛날에는 골든 스니젯이라는 작은 새를 가지고 했다잖아. 너무 잔인해. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

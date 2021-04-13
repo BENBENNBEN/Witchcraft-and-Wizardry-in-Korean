@@ -128,7 +128,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=5}] as @s[tag=
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=6}] run data merge entity @s {CustomName:"{\"text\":\"≤ 무슨 동물로 변신하실 수 있나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=6}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 9
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=7}] run data merge entity @s {CustomName:"{\"text\":\"다른 게 있어요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=7}] run data merge entity @s {CustomName:"{\"text\":\"다른 거요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=7}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 #-------------------------------
 
@@ -476,8 +476,8 @@ tag @s[scores={convState=13},tag=triggerOption,tag=!drawOptions] add trg
 ##### Conversation Header ######
 ################################
 execute if entity @s[tag=use,scores={house=1}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 훌륭해! 그리핀도르에게 20점.\\n\\n 베라 베르토 주문을 배웠구나. 이제 여러 물체를 변형시킬 수 있을 거야. 다음 수업은 루핀 교수가 가르치는 어둠의 마법 방어법 수업이다.\\n\"}"}
-execute if entity @s[tag=use,scores={house=2}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 훌륭해! 래번클로에게 20점\\n\\n 베라 베르토 주문을 배웠구나. 이제 여러 물체를 변형시킬 수 있을 거야. 다음 수업은 루핀 교수가 가르치는 어둠의 마법 방어법 수업이다.\\n\"}"}
-execute if entity @s[tag=use,scores={house=4}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 훌륭해! 슬리데린에게 20점\\n\\n 베라 베르토 주문을 배웠구나. 이제 여러 물체를 변형시킬 수 있을 거야. 다음 수업은 루핀 교수가 가르치는 어둠의 마법 방어법 수업이다.\\n\"}"}
+execute if entity @s[tag=use,scores={house=2}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 훌륭해! 래번클로에게 20점.\\n\\n 베라 베르토 주문을 배웠구나. 이제 여러 물체를 변형시킬 수 있을 거야. 다음 수업은 루핀 교수가 가르치는 어둠의 마법 방어법 수업이다.\\n\"}"}
+execute if entity @s[tag=use,scores={house=4}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 훌륭해! 슬리데린에게 20점.\\n\\n 베라 베르토 주문을 배웠구나. 이제 여러 물체를 변형시킬 수 있을 거야. 다음 수업은 루핀 교수가 가르치는 어둠의 마법 방어법 수업이다.\\n\"}"}
 execute if entity @s[tag=use,scores={house=3}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 훌륭해! 후플푸프에게 20점.\\n\\n 베라 베르토 주문을 배웠구나. 이제 여러 물체를 변형시킬 수 있을 거야. 다음 수업은 루핀 교수가 가르치는 어둠의 마법 방어법 수업이다.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 

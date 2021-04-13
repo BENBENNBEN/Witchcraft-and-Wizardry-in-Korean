@@ -171,7 +171,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 네가 지팡이를 사기에 가장 좋은 곳일 거다! 그냥 하는 말이 아니라 내 평생을 지팡이를 제작해왔거든. 그리고 우리 올리밴더 가문이 기원전 382년부터 지팡이를 제작해왔지.  \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 네가 지팡이를 사기에 가장 좋은 곳일 거다! 그냥 하는 말이 아니라 내 평생을 지팡이를 제작해왔거든. 그리고 우리 올리밴더 가문이 기원전 382년부터 지팡이를 제작해왔지. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -203,7 +203,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래 그랬단다. 내가 너처럼 어렸을 때는 호그와트를 다녔었지. 나는 래번클로 출신이란다.  \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래 그랬단다. 내가 너처럼 어렸을 때는 호그와트를 다녔었지. 나는 래번클로 출신이란다. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

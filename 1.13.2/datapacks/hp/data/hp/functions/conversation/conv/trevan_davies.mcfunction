@@ -38,7 +38,7 @@ execute if entity @s[tag=use] run tag @s add longHeader
 
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
-execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
+execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
 
 #===============================
@@ -64,7 +64,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 엔트위슬이 뭘 했다고? 이제서야 말하는데 나도 그 자식 마음에 안 들었어. 그놈이 억지 부린 것처럼 거짓말하지 않고 사실대로 말해줘서 고마워 \\n 여기 이거 받아. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 엔트위슬이 뭘 했다고? 이제서야 말하는데 나도 그 자식 마음에 안 들었어. 그놈이 억지 부린 것처럼 거짓말하지 않고 사실대로 말해줘서 고마워. \\n 여기 이거 받아. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

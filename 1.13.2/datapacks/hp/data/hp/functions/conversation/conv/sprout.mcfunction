@@ -141,7 +141,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 execute if entity @s[tag=use,scores={house=1}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 훌륭해! 그리핀도르 10점.\\n\\n 이제 야생의 맨드레이크를 잘 다루겠구나. 준비되면 맥고나걸 교수님이 가르치는 다음 수업으로 가도록 하렴.\\n\"}"}
 execute if entity @s[tag=use,scores={house=2}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 훌륭해! 래번클로 10점.\\n\\n 이제 야생의 맨드레이크를 잘 다루겠구나. 준비되면 맥고나걸 교수님이 가르치는 다음 수업으로 가도록 하렴.\\n\"}"}
 execute if entity @s[tag=use,scores={house=3}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 훌륭해! 후플푸프10점.\\n\\n 이제 야생의 맨드레이크를 잘 다루겠구나. 준비되면 맥고나걸 교수님이 가르치는 다음 수업으로 가도록 하렴.\\n\"}"}
-execute if entity @s[tag=use,scores={house=4}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 감사합니다!\\n\\n 이제 야생의 맨드레이크를 잘 다루겠구나. 준비되면 맥고나걸 교수님이 가르치는 다음 수업으로 가도록 하렴.\\n\"}"}
+execute if entity @s[tag=use,scores={house=4}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 훌륭해! 슬리데린 10점.\\n\\n 이제 야생의 맨드레이크를 잘 다루겠구나. 준비되면 맥고나걸 교수님이 가르치는 다음 수업으로 가도록 하렴.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

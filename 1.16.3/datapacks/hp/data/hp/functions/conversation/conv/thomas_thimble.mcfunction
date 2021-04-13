@@ -166,7 +166,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 학생들이 마을을 방문할 시기가 오면 장사가 잘돼. 최근에는 특히 더 잘되고 있어. 학생 세 명이 양말을 끊임없이 찾거든. 집요정한테 선물한다나 뭐라나. 어쨌든 덕분에 수익이 괜찮아.  \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 학생들이 마을을 방문할 시기가 오면 장사가 잘돼. 최근에는 특히 더 잘되고 있어. 학생 세 명이 양말을 끊임없이 찾거든. 집요정한테 선물한다나 뭐라나. 어쨌든 덕분에 수익이 괜찮아. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

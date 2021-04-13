@@ -163,7 +163,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 7학년에 N.E.W.T.를 마친 후, 호그와트를 졸업해서 마법사 결투의 길을 걸었지. '챔피언 칭호'를 얻고 나서는 호그와트로 돌아와 일반 마법을 가르치고 기숙사 사감을 맡았단다. \\n\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 7학년에 N.E.W.T.를 마친 후, 호그와트를 졸업해서 마법사 결투의 길을 걸었지. '챔피언 칭호'를 얻고 나서는 호그와트로 돌아와 일반 마법을 가르치고 기숙사 사감을 맡았단다.\\n\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -259,7 +259,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" '\"},{\"text\":\"루모스\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\"' 주문을 사용하면 지팡이 끝에서 빛을 낼 수 있어. 어두워서 접근하기 어려운 통로에 빛을 밝힐 수 있단다.\\n\\n\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\"\"},{\"text\":\"루모스\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\"주문을 사용하면 지팡이 끝에서 빛을 낼 수 있어. 어두워서 접근하기 어려운 통로에 빛을 밝힐 수 있단다.\\n\\n\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -605,10 +605,10 @@ tag @s[scores={convState=18},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use,scores={house=1}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 완벽해! 이제 '브라키움 엠멘도'를 쓸 수 있게 되었구나! 그리핀도르에게 15점!\\n\\n 너는 정말 소질 있고 잘 따라오는구나!\\n\\n\"}"}
-execute if entity @s[tag=use,scores={house=2}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 완벽해! 이제 '브라키움 엠멘도'를 쓸 수 있게 되었구나! 래번클로에게 15점!\\n\\n 너는 정말 소질 있고 잘 따라오는구나!\\n\\n\"}"}
-execute if entity @s[tag=use,scores={house=3}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 완벽해! 이제 '브라키움 엠멘도'를 쓸 수 있게 되었구나! 후플푸프에게 15점!\\n\\n 너는 정말 소질 있고 잘 따라오는구나!\\n\\n\"}"}
-execute if entity @s[tag=use,scores={house=4}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 완벽해! 이제 '브라키움 엠멘도'를 쓸 수 있게 되었구나! 슬리데린에게 15점!\\n\\n 너는 정말 소질 있고 잘 따라오는구나!\\n\\n\"}"}
+execute if entity @s[tag=use,scores={house=1}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 완벽해! 이제 '브라키움 엠멘도'를 쓸 수 있게 되었구나! 그리핀도르에게 15점!\\n\\n 곧잘 잘 따라오는 걸 보니 정말 소질 있는 걸!\\n\\n\"}"}
+execute if entity @s[tag=use,scores={house=2}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 완벽해! 이제 '브라키움 엠멘도'를 쓸 수 있게 되었구나! 래번클로에게 15점!\\n\\n 곧잘 잘 따라오는 걸 보니 정말 소질 있는 걸!\\n\\n\"}"}
+execute if entity @s[tag=use,scores={house=3}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 완벽해! 이제 '브라키움 엠멘도'를 쓸 수 있게 되었구나! 후플푸프에게 15점!\\n\\n 곧잘 잘 따라오는 걸 보니 정말 소질 있는 걸!\\n\\n\"}"}
+execute if entity @s[tag=use,scores={house=4}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 완벽해! 이제 '브라키움 엠멘도'를 쓸 수 있게 되었구나! 슬리데린에게 15점!\\n\\n 곧잘 잘 따라오는 걸 보니 정말 소질 있는 걸!\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -710,7 +710,7 @@ tag @s[scores={convState=21},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 곧 시작할 거야. 모두가 도착할 때까지 기다리렴.\\n\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 곧 시작할 거야. 모두 도착할 때까지 기다리렴.\\n\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -140,7 +140,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=4}] as @s[tag=
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트 성에 대해 알려주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=5}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 22
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=6}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트 교수님들은 누구인가요?"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=6}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트 교수님들은 누구인가요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=6}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 5
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=7}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트에서는 어떤 과목을 가르치나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -1376,7 +1376,7 @@ tag @s[scores={convState=38},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use,scores={house=1}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\"아아... 싸우고, 또 싸우고, 계속 싸워야 할 거다. 그래야만 악을 뿌리째 없애지는 못하더라도 궁지에 몰아넣을 수 있을 테니.\\n 이번에 막으려고 열심히 노력했더구나. 그러한 행동은 보상을 받아야지. 그리핀도르에게 60점. \\n\"}"}
+execute if entity @s[tag=use,scores={house=1}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아... 싸우고, 또 싸우고, 계속 싸워야 할 거다. 그래야만 악을 뿌리째 없애지는 못하더라도 궁지에 몰아넣을 수 있을 테니.\\n 이번에 막으려고 열심히 노력했더구나. 그러한 행동은 보상을 받아야지. 그리핀도르에게 60점. \\n\"}"}
 execute if entity @s[tag=use,scores={house=2}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아... 싸우고, 또 싸우고, 계속 싸워야 할 거다. 그래야만 악을 뿌리째 없애지는 못하더라도 궁지에 몰아넣을 수 있을 테니.\\n 이번에 막으려고 열심히 노력했더구나. 그러한 행동은 보상을 받아야지. 래번클로에게 60점. \\n\"}"}
 execute if entity @s[tag=use,scores={house=3}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아... 싸우고, 또 싸우고, 계속 싸워야 할 거다. 그래야만 악을 뿌리째 없애지는 못하더라도 궁지에 몰아넣을 수 있을 테니.\\n 이번에 막으려고 열심히 노력했더구나. 그러한 행동은 보상을 받아야지. 후플푸프에게 60점. \\n\"}"}
 execute if entity @s[tag=use,scores={house=4}] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아... 싸우고, 또 싸우고, 계속 싸워야 할 거다. 그래야만 악을 뿌리째 없애지는 못하더라도 궁지에 몰아넣을 수 있을 테니.\\n 이번에 막으려고 열심히 노력했더구나. 그러한 행동은 보상을 받아야지. 슬리데린에게 60점. \\n\"}"}

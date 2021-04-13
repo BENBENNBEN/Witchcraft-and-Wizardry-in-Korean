@@ -66,7 +66,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그그래...?! 아, 이런! 오늘 자 예언자 일보를 마법 정부에 배달했어야 하는데. 완전히 까먹고 있었네. 난 정말 기억력이 나쁘다니까. 이런 중요한 걸 까먹다니. 정말 이런 실수는 안 했으면 좋겠는데... 또 실수하겠지. 리멤브럴 같은 거라도 있었으면. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래...?! 아, 이런! 오늘 자 예언자 일보를 마법 정부에 배달했어야 하는데. 완전히 까먹고 있었네. 난 정말 기억력이 나쁘다니까. 이런 중요한 걸 까먹다니. 정말 이런 실수는 안 했으면 좋겠는데... 또 실수하겠지. 리멤브럴 같은 거라도 있었으면. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
