@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" \\n ¶¥ ¹Ø¿¡ ÀÖÀ¸´Ï, ¼­´ÃÇÒ °ÍÀÌ´Ù.; \\n ÀÌÁ¦ µû¶æÇÏ°Ô Àáµå´Â °÷À¸·Î °¡¶ó. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" \\n ë•… ë°‘ì— ìˆìœ¼ë‹ˆ, ì„œëŠ˜í•  ê²ƒì´ë‹¤.; \\n ì´ì œ ë”°ëœ»í•˜ê²Œ ì ë“œëŠ” ê³³ìœ¼ë¡œ ê°€ë¼. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
