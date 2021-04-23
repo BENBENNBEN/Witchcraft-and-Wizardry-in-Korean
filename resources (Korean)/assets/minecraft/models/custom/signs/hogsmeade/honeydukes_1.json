@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/hogsmeade/honeydukes_block",
+		"texture": "custom/signs/hogsmeade/honey_dukes"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ -15.875, 0, 15.5 ],
+			"to": [ 31.78125, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 0.2222223 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 0, 16, 0.2222223 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 0, 0, 16, 5.333334 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 5.333334 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 0, 0.2222222, 5.333334 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 0.2222222, 5.333334 ], "texture": "#texture" }
+			}
+		}
+	]
+}

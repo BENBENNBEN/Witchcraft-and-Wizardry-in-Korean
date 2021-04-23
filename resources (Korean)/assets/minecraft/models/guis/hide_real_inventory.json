@@ -1,0 +1,1 @@
+{"gui_light": "front","textures":{"texture":"guis/screenfade/screenfade0"},"elements":[{"from":[-15.976,-15.976,-15.4765],"to":[31.976,31.976,-15.4755],"faces":{"north":{"uv":[0,0,16,16],"texture":"#texture"},"south":{"uv":[0,0,16,16],"texture":"#texture"}}}],"display":{"gui":{"translation":[0,0,79],"scale":[4,4,4]}}}

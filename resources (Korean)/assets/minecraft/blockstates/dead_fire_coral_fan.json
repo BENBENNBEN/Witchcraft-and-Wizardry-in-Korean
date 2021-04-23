@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": [{ "model": "custom/ground_moss", "y": 270 },{ "model": "custom/ground_moss", "y": 180 },{ "model": "custom/ground_moss", "y": 90 },{ "model": "custom/ground_moss" }]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "block/road_alt_4",
+        "top": "block/road_alt_4",
+        "side": "block/road_alt_4"
+    }
+}

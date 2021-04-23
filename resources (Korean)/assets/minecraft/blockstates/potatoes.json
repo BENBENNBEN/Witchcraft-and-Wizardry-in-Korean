@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "custom/human_skull" },
+        "age=1": { "model": "custom/human_skull", "y": 90 },
+        "age=2": { "model": "custom/human_skull", "y": 180 },
+        "age=3": { "model": "custom/human_skull", "y": 270 },
+        "age=4": { "model": "custom/cracked_human_skull"},
+        "age=5": { "model": "custom/cracked_human_skull", "y": 90 },
+        "age=6": { "model": "custom/cracked_human_skull", "y": 180 },
+        "age=7": { "model": "custom/cracked_human_skull", "y": 270 }
+    }
+}

@@ -1,0 +1,59 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"texture1": "npc/ghosts/professor_binns_body"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box5",
+			"from": [ 1.6667, -9.3333, 3.3333 ],
+			"to": [ 12.33337, 20.00003, 9.999967 ],
+			"faces": {
+				"down": { "uv": [ 5.5, 0.5, 5.666666, 0.666667 ], "texture": "#texture1" },
+				"up": { "uv": [ 0, 0, 4, 2.5 ], "texture": "#texture1" },
+				"north": { "uv": [ 6.5, 2.5, 10.5, 13.33333 ], "texture": "#texture1" },
+				"south": { "uv": [ 0, 2.5, 4, 13.33333 ], "texture": "#texture1" },
+				"west": { "uv": [ 6.333334, 2.5, 4, 13.33333 ], "texture": "#texture1" },
+				"east": { "uv": [ 6.333334, 2.5, 4, 13.33333 ], "texture": "#texture1" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 12.3333, 5.3333, 4.6667 ],
+			"to": [ 16.3333, 19.3333, 8.6667 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 0.5, 14.5, 2.5 ], "texture": "#texture1" },
+				"up": { "uv": [ 10.5, 0.5, 12.5, 2.5 ], "texture": "#texture1" },
+				"north": { "uv": [ 10.5, 2.5, 12.5, 8.5 ], "texture": "#texture1" },
+				"south": { "uv": [ 10.5, 2.5, 12.5, 8.5 ], "texture": "#texture1" },
+				"west": { "uv": [ 10.5, 2.5, 12.5, 8.5 ], "texture": "#texture1" },
+				"east": { "uv": [ 14.5, 2.5, 12.5, 8.5 ], "texture": "#texture1" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ -2.3333, 5.3333, 4.6667 ],
+			"to": [ 1.6667, 19.3333, 8.6667 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 0.5, 14.5, 2.5 ], "texture": "#texture1" },
+				"up": { "uv": [ 10.5, 0.5, 12.5, 2.5 ], "texture": "#texture1" },
+				"north": { "uv": [ 10.5, 2.5, 12.5, 8.5 ], "texture": "#texture1" },
+				"south": { "uv": [ 12.5, 2.5, 10.5, 8.5 ], "texture": "#texture1" },
+				"west": { "uv": [ 12.5, 2.5, 14.5, 8.5 ], "texture": "#texture1" },
+				"east": { "uv": [ 10.5, 2.5, 12.5, 8.5 ], "texture": "#texture1" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 9, 180, 3 ],
+			"translation":  [ -6.915, -8.492, 7.707 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 9, 180, 0 ],
+			"translation":  [ -4.615, -1.492, 0.707 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"texture": "painting/frame9",
+		"gallery_000000": "painting/moving_paintings/woman_sitting_portrait52"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ -4.5, 0, 15 ],
+			"to": [ 20.16667, 2.666667, 15.66667 ],
+			"faces": {
+				"down": { "uv": [ 14.8, 11.8, 0, 12.2 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 10.6, 14.8, 11 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 10.6, 14.8, 12.2 ], "texture": "#texture" },
+				"south": { "uv": [ 14.8, 10.6, 0, 12.2 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 12.2, 0.4, 10.6 ], "texture": "#texture" },
+				"east": { "uv": [ 0.4, 12.2, 0, 10.6 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ -4.5, 2.6667, 15 ],
+			"to": [ -1.833333, 17.6667, 15.66667 ],
+			"faces": {
+				"north": { "uv": [ 13.2, 1.6, 14.8, 10.8 ], "texture": "#texture" },
+				"south": { "uv": [ 14.8, 1.6, 13.2, 10.8 ], "texture": "#texture" },
+				"west": { "uv": [ 14.4, 1.6, 14.8, 10.6 ], "texture": "#texture" },
+				"east": { "uv": [ 13.8, 1.2, 13.4, 11 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 17.5, 2.6667, 15 ],
+			"to": [ 20.16667, 17.6667, 15.66667 ],
+			"faces": {
+				"north": { "uv": [ 0, 1.6, 1.6, 10.6 ], "texture": "#texture" },
+				"south": { "uv": [ 1.6, 1.6, 0, 10.6 ], "texture": "#texture" },
+				"west": { "uv": [ 1, 1.200001, 1.4, 11 ], "texture": "#texture" },
+				"east": { "uv": [ 0.4000001, 1.599998, 0.00000003, 10.4 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ -4.5, 17.6667, 15 ],
+			"to": [ 20.16667, 20.33337, 15.66667 ],
+			"faces": {
+				"down": { "uv": [ 14.8, 10.8, 0, 11.2 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 11.8, 14.8, 12.2 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 0, 14.8, 1.6 ], "texture": "#texture" },
+				"south": { "uv": [ 14.8, 0, 0, 1.6 ], "texture": "#texture" },
+				"west": { "uv": [ 14.4, 12.2, 14.8, 11 ], "texture": "#texture" },
+				"east": { "uv": [ 0.4, 12.2, 0, 11 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ -2.8334, 1.6667, 15.6667 ],
+			"to": [ 18.1666, 19.00003, 15.6677 ],
+			"faces": {
+				"north": { "uv": [ 1.125, 0, 14.875, 16 ], "texture": "#gallery_000000", "rotation": 270 },
+				"south": { "uv": [ 1.125, 0, 14.875, 16 ], "texture": "#gallery_000000", "rotation": 270 }
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation":  [ -1, 0, -2 ],
+			"translation":  [ -4, 0, 8 ],
+			"scale":  [ 2, 2, 2 ]
+		}
+	}
+}

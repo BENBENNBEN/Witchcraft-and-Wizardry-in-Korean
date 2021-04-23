@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "custom/diagon_alley/wall_2x_flat" },
+        "axis=z":   { "model": "block/jungle_log", "x": 90 },
+        "axis=x":   { "model": "block/jungle_log", "x": 90, "y": 90 }
+    }
+}

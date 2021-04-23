@@ -1,0 +1,28 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/hats/weasley_mask",
+		"texture": "custom/hats/weasley_mask"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 0, 0, 0 ],
+			"to": [ 12, 16.66667, 12 ],
+			"faces": {
+				"down": { "uv": [ 8, 0, 12, 4 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 4, 0, 8, 4 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 4, 4, 8, 9.555555 ], "texture": "#texture" },
+				"south": { "uv": [ 12, 4, 16, 9.555555 ], "texture": "#texture" },
+				"west": { "uv": [ 8, 4, 12, 9.555555 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 4, 4, 9.555555 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation":  [ 2.2, 2.4, 2.2 ],
+			"scale":  [ 1.15, 1.15, 1.15 ]
+		}
+	}
+}

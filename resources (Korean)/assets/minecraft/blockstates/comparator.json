@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=south,mode=compare,powered=false": { "model": "custom/signs/privet_drive" },
+        "facing=west,mode=compare,powered=false": { "model": "custom/signs/privet_drive", "y": 90 },
+        "facing=north,mode=compare,powered=false": { "model": "custom/signs/privet_drive", "y": 180 },
+        "facing=east,mode=compare,powered=false": { "model": "custom/signs/privet_drive", "y": 270 },
+        "facing=south,mode=subtract,powered=false": { "model": "custom/offset_gringotts" },
+        "facing=west,mode=subtract,powered=false": { "model": "custom/offset_gringotts", "y": 180 },
+        "facing=north,mode=subtract,powered=false": { "model": "block/comparator_subtract", "y": 180 },
+        "facing=east,mode=subtract,powered=false": { "model": "block/comparator_subtract", "y": 270 },
+        "facing=south,mode=compare,powered=true": { "model": "custom/lamp/gringotts_lamp" },
+        "facing=west,mode=compare,powered=true": { "model": "custom/lamp/gringotts_lamp", "y": 90 },
+        "facing=north,mode=compare,powered=true": { "model": "custom/lamp/gringotts_lamp", "y": 180 },
+        "facing=east,mode=compare,powered=true": { "model": "custom/lamp/gringotts_lamp", "y": 270 },
+        "facing=west,mode=subtract,powered=true": { "model": "custom/snow_man/snow_man_1" },
+        "facing=north,mode=subtract,powered=true": { "model": "custom/snow_man/snow_man_2" },
+        "facing=east,mode=subtract,powered=true": { "model": "custom/snow_man/snow_man_3", "y": 180 }
+    }
+}
+

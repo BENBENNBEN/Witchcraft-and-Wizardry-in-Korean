@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "age=0": [{ "model": "custom/a_ladder", "y": 90 }, { "model": "custom/a_ladder" , "y": 270 }],
+        "age=1": [{ "model": "custom/a_ladder", "y": 180 }, { "model": "custom/a_ladder"}],
+        "age=2": { "model": "custom/lamp_post_top"},
+        "age=3": { "model": "custom/lamp_post_top" , "y": 90 },
+        "age=4": { "model": "custom/lamp_post_bottom"},
+        "age=5": { "model": "custom/lamp_post_bottom" , "y": 90 }
+    }
+}

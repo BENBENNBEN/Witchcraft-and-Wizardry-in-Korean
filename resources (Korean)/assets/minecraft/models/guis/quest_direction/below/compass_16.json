@@ -1,0 +1,7 @@
+{
+    "gui_light":"front",
+    "parent": "guis/quest_direction/quest_direction_below",
+    "textures": {
+        "layer0": "guis/quest_direction/compass_16"
+    }
+}

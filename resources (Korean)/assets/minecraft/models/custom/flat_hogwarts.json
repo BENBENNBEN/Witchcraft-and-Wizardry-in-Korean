@@ -1,0 +1,24 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "guis/misc/letter_flat_hogwarts"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 5.5, -0.75, -16 ],
+			"to": [ 5.501, 16.25, 32 ],
+			"shade": false,
+			"faces": {
+				"west": { "uv": [ 0, 10.3125, 16, 16 ], "texture": "#1" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation":  [ 0, -90, 0 ],
+			"scale":  [ 1.3565, 4, 4 ]
+		}
+	}
+}

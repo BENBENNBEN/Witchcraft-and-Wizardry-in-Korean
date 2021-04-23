@@ -1,0 +1,9 @@
+﻿{
+    "variants": {
+        "half=lower": [{ "model": "custom/vegetation/tall_bush" , "weight": 20 },
+							{ "model": "custom/vegetation/tall_bush",  "y": 90 , "weight": 20},
+							{ "model": "custom/vegetation/tall_bush", "y": 180 , "weight": 20 },
+							{ "model": "custom/vegetation/tall_bush", "y": 270 , "weight": 20 }],
+        "half=upper":    { "model": "custom/vegetation/tall_bush_top" }
+    }
+}

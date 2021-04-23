@@ -1,0 +1,35 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/fence/spruce_fence",
+		"texture": "block/fence/spruce_fence"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Center post",
+			"from": [ 6, 0, 6 ],
+			"to": [ 10, 16, 10 ],
+			"faces": {
+				"down": { "uv": [ 4, 0, 8, 4 ], "texture": "#texture", "cullface": "down" },
+				"up": { "uv": [ 4, 0, 8, 4 ], "texture": "#texture", "cullface": "up" },
+				"north": { "uv": [ 4, 16, 0, 0 ], "texture": "#texture" },
+				"south": { "uv": [ 4, 16, 0, 0 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 0, 4, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 4, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Center post",
+			"from": [ 6, 0, 6 ],
+			"to": [ 10, 16, 10 ],
+			"faces": {
+				"down": { "uv": [ 4, 0, 8, 4 ], "texture": "#texture", "cullface": "down" },
+				"up": { "uv": [ 4, 0, 8, 4 ], "texture": "#texture", "cullface": "up" },
+				"north": { "uv": [ 4, 0, 0, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 4, 0, 0, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 0, 4, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 4, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

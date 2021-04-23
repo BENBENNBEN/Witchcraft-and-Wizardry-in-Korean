@@ -1,0 +1,19 @@
+{
+    "variants": {
+		"age=0": [  { "model": "custom/candy/beans1" },
+					{ "model": "custom/candy/beans1", "y": 90 },
+					{ "model": "custom/candy/beans1", "y": 180 },
+					{ "model": "custom/candy/beans1", "y": 270 },
+					{ "model": "custom/candy/beans2" },
+					{ "model": "custom/candy/beans2", "y": 90 },
+					{ "model": "custom/candy/beans2", "y": 180 },
+					{ "model": "custom/candy/beans2", "y": 270 }],
+		"age=1": { "model": "custom/mirror_of_erised" },
+        "age=2": { "model": "custom/mirror_of_erised" },
+        "age=3": { "model": "custom/mirror_of_erised", "y": 90 },
+        "age=4": { "model": "custom/sink" },
+        "age=5": { "model": "custom/sink", "y": 90 },
+        "age=6": { "model": "custom/sink", "y": 180 },
+        "age=7": { "model": "custom/sink", "y": 270 }
+    }
+}

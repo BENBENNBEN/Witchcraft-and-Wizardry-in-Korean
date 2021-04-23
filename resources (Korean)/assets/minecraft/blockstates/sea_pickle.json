@@ -1,0 +1,92 @@
+{
+    "variants": {
+        "pickles=1,waterlogged=false": [
+			{ "model": "custom/bucket" },
+			{ "model": "custom/bucket" , "y": 90 },
+			{ "model": "custom/bucket", "y": 180 },
+			{ "model": "custom/bucket", "y": 270 }
+        ],
+        "pickles=2,waterlogged=false": [
+            { "model": "custom/gold_weight/gold_weight_1" },
+            { "model": "custom/gold_weight/gold_weight_1", "y": 90 },
+            { "model": "custom/gold_weight/gold_weight_1", "y": 180 },
+            { "model": "custom/gold_weight/gold_weight_1", "y": 270 },
+			{ "model": "custom/gold_weight/gold_weight_2" },
+            { "model": "custom/gold_weight/gold_weight_2", "y": 90 },
+            { "model": "custom/gold_weight/gold_weight_2", "y": 180 },
+            { "model": "custom/gold_weight/gold_weight_2", "y": 270 },
+			{ "model": "custom/gold_weight/gold_weight_3" },
+            { "model": "custom/gold_weight/gold_weight_3", "y": 90 },
+            { "model": "custom/gold_weight/gold_weight_3", "y": 180 },
+            { "model": "custom/gold_weight/gold_weight_3", "y": 270 },
+			{ "model": "custom/gold_weight/gold_weight_4" },
+            { "model": "custom/gold_weight/gold_weight_4", "y": 90 },
+            { "model": "custom/gold_weight/gold_weight_4", "y": 180 },
+            { "model": "custom/gold_weight/gold_weight_4", "y": 270 },
+			{ "model": "custom/gold_weight/gold_weight_5" },
+            { "model": "custom/gold_weight/gold_weight_5", "y": 90 },
+            { "model": "custom/gold_weight/gold_weight_5", "y": 180 },
+            { "model": "custom/gold_weight/gold_weight_5", "y": 270 },
+			{ "model": "custom/gold_weight/gold_weight_6" },
+            { "model": "custom/gold_weight/gold_weight_6", "y": 90 },
+            { "model": "custom/gold_weight/gold_weight_6", "y": 180 },
+            { "model": "custom/gold_weight/gold_weight_6", "y": 270 },
+			{ "model": "custom/gold_weight/gold_weight_7" },
+            { "model": "custom/gold_weight/gold_weight_7", "y": 90 },
+            { "model": "custom/gold_weight/gold_weight_7", "y": 180 },
+            { "model": "custom/gold_weight/gold_weight_7", "y": 270 }
+        ],
+        "pickles=3,waterlogged=false": [
+			{ "model": "custom/paper/papers1" },
+            { "model": "custom/paper/papers1", "y": 90 },
+            { "model": "custom/paper/papers1", "y": 180 },
+            { "model": "custom/paper/papers1", "y": 270 },
+			{ "model": "custom/paper/papers2" },
+            { "model": "custom/paper/papers2", "y": 90 },
+            { "model": "custom/paper/papers2", "y": 180 },
+            { "model": "custom/paper/papers2", "y": 270 },
+			{ "model": "custom/paper/papers3" },
+            { "model": "custom/paper/papers3", "y": 90 },
+            { "model": "custom/paper/papers3", "y": 180 },
+            { "model": "custom/paper/papers3", "y": 270 },
+			{ "model": "custom/paper/papers4" },
+            { "model": "custom/paper/papers4", "y": 90 },
+            { "model": "custom/paper/papers4", "y": 180 },
+            { "model": "custom/paper/papers4", "y": 270 },
+			{ "model": "custom/paper/papers5" },
+            { "model": "custom/paper/papers5", "y": 90 },
+            { "model": "custom/paper/papers5", "y": 180 },
+            { "model": "custom/paper/papers5", "y": 270 }
+		],
+        "pickles=4,waterlogged=false": [
+            { "model": "custom/stool" },
+            { "model": "custom/stool", "y": 90 },
+            { "model": "custom/stool", "y": 180 },
+            { "model": "custom/stool", "y": 270 }
+        ],
+        "pickles=1,waterlogged=true": [
+            { "model": "block/sea_pickle" },
+            { "model": "block/sea_pickle", "y": 90 },
+            { "model": "block/sea_pickle", "y": 180 },
+            { "model": "block/sea_pickle", "y": 270 }
+        ],
+        "pickles=2,waterlogged=true": [
+            { "model": "block/two_sea_pickles" },
+            { "model": "block/two_sea_pickles", "y": 90 },
+            { "model": "block/two_sea_pickles", "y": 180 },
+            { "model": "block/two_sea_pickles", "y": 270 }
+        ],
+        "pickles=3,waterlogged=true": [
+            { "model": "block/three_sea_pickles" },
+            { "model": "block/three_sea_pickles", "y": 90 },
+            { "model": "block/three_sea_pickles", "y": 180 },
+            { "model": "block/three_sea_pickles", "y": 270 }
+        ],
+        "pickles=4,waterlogged=true": [
+            { "model": "block/four_sea_pickles" },
+            { "model": "block/four_sea_pickles", "y": 90 },
+            { "model": "block/four_sea_pickles", "y": 180 },
+            { "model": "block/four_sea_pickles", "y": 270 }
+        ]
+  }
+}

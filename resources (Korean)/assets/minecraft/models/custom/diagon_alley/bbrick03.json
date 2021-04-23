@@ -1,0 +1,41 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/brick_alt_6"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ -4, -0.3333, 12 ],
+			"to": [ 8, 2.6667, 16 ],
+			"faces": {
+				"down": { "uv": [ 2, 6.333334, 14, 9.333334 ], "texture": "#1" },
+				"up": { "uv": [ 2, 6.333334, 14, 9.333334 ], "texture": "#1" },
+				"north": { "uv": [ 2, 6.333334, 14, 9.333334 ], "texture": "#1" },
+				"south": { "uv": [ 2, 6.333334, 14, 9.333334 ], "texture": "#1" },
+				"west": { "uv": [ 10, 6.333334, 14, 9.333334 ], "texture": "#1" },
+				"east": { "uv": [ 10, 6.333334, 14, 9.333334 ], "texture": "#1" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ -3, 2.6667, 12 ],
+			"to": [ 6, 6.000033, 16 ],
+			"faces": {
+				"down": { "uv": [ 3, 3, 12, 6.333334 ], "texture": "#1" },
+				"up": { "uv": [ 3, 3, 12, 6.333334 ], "texture": "#1" },
+				"north": { "uv": [ 3, 3, 12, 6.333334 ], "texture": "#1" },
+				"south": { "uv": [ 3, 3, 12, 6.333334 ], "texture": "#1" },
+				"west": { "uv": [ 8, 3, 12, 6.333334 ], "texture": "#1" },
+				"east": { "uv": [ 8, 3, 12, 6.333334 ], "texture": "#1" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation":  [ 0, -30.43, -12.8 ],
+			"scale":  [ 1.6, 1.6, 1.6 ]
+		}
+	}
+}

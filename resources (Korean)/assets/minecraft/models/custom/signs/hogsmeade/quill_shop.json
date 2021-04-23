@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/hogsmeade/scrivenschaft_quill_shop",
+		"scrivenschaft_quill_shop": "custom/signs/hogsmeade/scrivenschaft_quill_shop"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ -7.5, -8.45, 15.5 ],
+			"to": [ 23.3, 22, 16.2 ],
+			"faces": {
+				"down": { "uv": [ 0, 13.83333, 14.66667, 14.33333 ], "texture": "#scrivenschaft_quill_shop" },
+				"up": { "uv": [ 0, 13.83333, 14.66667, 14.33333 ], "texture": "#scrivenschaft_quill_shop" },
+				"north": { "uv": [ 0, 0, 14.66667, 13.83333 ], "texture": "#scrivenschaft_quill_shop" },
+				"south": { "uv": [ 0, 0, 14.66667, 13.83333 ], "texture": "#scrivenschaft_quill_shop" },
+				"west": { "uv": [ 0, 13.83333, 14.66667, 14.33333 ], "texture": "#scrivenschaft_quill_shop", "rotation": 270 },
+				"east": { "uv": [ 0, 13.83333, 14.66667, 14.33333 ], "texture": "#scrivenschaft_quill_shop", "rotation": 90 }
+			}
+		}
+	]
+}

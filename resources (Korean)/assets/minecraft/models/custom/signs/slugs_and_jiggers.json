@@ -1,0 +1,48 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/slugs_and_jiggers",
+		"slugs_and_jiggers": "custom/signs/slugs_and_jiggers"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ -1.3333, -12.6667, 7.6667 ],
+			"to": [ 31.6667, 28.66664, 8.333366 ],
+			"faces": {
+				"down": { "uv": [ 3, 14.77778, 14, 14.88889 ], "texture": "#slugs_and_jiggers" },
+				"up": { "uv": [ 3, 1.222221, 14, 1.111111 ], "texture": "#slugs_and_jiggers" },
+				"north": { "uv": [ 3, 1.111111, 14, 14.88889 ], "texture": "#slugs_and_jiggers" },
+				"south": { "uv": [ 3, 1.111111, 14, 14.88889 ], "texture": "#slugs_and_jiggers" },
+				"west": { "uv": [ 3, 1.111111, 3.111111, 14.88889 ], "texture": "#slugs_and_jiggers" },
+				"east": { "uv": [ 14, 14.88889, 13.88889, 1.111111 ], "texture": "#slugs_and_jiggers", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box2",
+			"from": [ 3, -15.9967, 7.6667 ],
+			"to": [ 27, -12.6667, 8.333366 ],
+			"faces": {
+				"down": { "uv": [ 4.444445, 15.88889, 12.44444, 16 ], "texture": "#slugs_and_jiggers" },
+				"up": { "uv": [ 4.444445, 0.1111107, 12.44444, 0 ], "texture": "#slugs_and_jiggers" },
+				"north": { "uv": [ 4.444445, 14.88889, 12.44444, 16 ], "texture": "#slugs_and_jiggers" },
+				"south": { "uv": [ 4.444445, 14.88889, 12.44444, 16 ], "texture": "#slugs_and_jiggers" },
+				"west": { "uv": [ 12.33333, 14.88889, 12.44444, 16 ], "texture": "#slugs_and_jiggers" },
+				"east": { "uv": [ 4.444445, 14.88889, 4.555556, 16 ], "texture": "#slugs_and_jiggers" }
+			}
+		},
+		{
+			"__comment": "Box2",
+			"from": [ 3, 28.66, 7.6667 ],
+			"to": [ 27, 31.99333, 8.333366 ],
+			"faces": {
+				"down": { "uv": [ 4.444445, 15.88889, 12.44444, 16 ], "texture": "#slugs_and_jiggers" },
+				"up": { "uv": [ 4.444445, 0.1111107, 12.44444, 0 ], "texture": "#slugs_and_jiggers" },
+				"north": { "uv": [ 4.444445, 0, 12.44444, 1.111111 ], "texture": "#slugs_and_jiggers" },
+				"south": { "uv": [ 4.444445, 0, 12.44444, 1.111111 ], "texture": "#slugs_and_jiggers" },
+				"west": { "uv": [ 4.444445, 0, 4.555556, 1.111111 ], "texture": "#slugs_and_jiggers" },
+				"east": { "uv": [ 12.33333, 0, 12.44444, 1.111111 ], "texture": "#slugs_and_jiggers" }
+			}
+		}
+	]
+}

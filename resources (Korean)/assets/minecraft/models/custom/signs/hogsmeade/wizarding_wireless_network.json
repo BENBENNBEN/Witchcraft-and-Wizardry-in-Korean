@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/hogsmeade/wireless_network",
+		"texture": "custom/signs/hogsmeade/wireless_network"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 0.5, -15.9999, 15.5 ],
+			"to": [ 15.5, 31.5001, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 16, 5.333333, 15.77778 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 16, 5.333333, 15.77778 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 0, 5, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 5, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 0.1111111, 0, 0.3333333, 16 ], "texture": "#texture", "rotation": 180 },
+				"east": { "uv": [ 0.1111111, 0, 0.3333333, 16 ], "texture": "#texture", "rotation": 180 }
+			}
+		}
+	]
+}

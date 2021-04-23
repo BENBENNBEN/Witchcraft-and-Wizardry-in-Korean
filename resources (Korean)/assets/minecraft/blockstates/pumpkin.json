@@ -1,0 +1,29 @@
+﻿{
+		"variants":{
+			"":[
+			
+			
+            { "model": "block/pumpkin" , "weight": 20 },
+            { "model": "block/pumpkin", "y": 90 , "weight": 20},
+            { "model": "block/pumpkin", "y": 180 , "weight": 20 },
+            { "model": "block/pumpkin", "y": 270 , "weight": 20 },
+		
+			{ "model": "block/pumpkin_alt_1" , "weight": 20 },
+            { "model": "block/pumpkin_alt_1", "y": 90 , "weight": 20 },
+            { "model": "block/pumpkin_alt_1", "y": 180 , "weight": 20 },
+            { "model": "block/pumpkin_alt_1", "y": 270 , "weight": 20 },
+			
+			{ "model": "block/pumpkin_alt_2" , "weight": 20 },
+            { "model": "block/pumpkin_alt_2", "y": 90 , "weight": 20 },
+            { "model": "block/pumpkin_alt_2", "y": 180 , "weight": 20 },
+            { "model": "block/pumpkin_alt_2", "y": 270 , "weight": 20 },
+			
+			{ "model": "block/pumpkin_alt_3" , "weight": 20 },
+            { "model": "block/pumpkin_alt_3", "y": 90 , "weight": 20 },
+            { "model": "block/pumpkin_alt_3", "y": 180 , "weight": 20 },
+            { "model": "block/pumpkin_alt_3", "y": 270 , "weight": 20 }
+			
+	
+        ]
+    }
+}

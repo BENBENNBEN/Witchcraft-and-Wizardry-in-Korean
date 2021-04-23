@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "": [
+			{ "model": "custom/beer/mug1" }, { "model": "custom/beer/mug1","y": 90}, { "model": "custom/beer/mug1","y": 180}, { "model": "custom/beer/mug1","y": 270}, { "model": "custom/beer/mug2" }, { "model": "custom/beer/mug2","y": 90}, { "model": "custom/beer/mug2","y": 180}, { "model": "custom/beer/mug2","y": 270}
+		]
+    }
+}
+

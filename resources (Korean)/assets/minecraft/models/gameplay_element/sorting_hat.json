@@ -1,0 +1,139 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/hats/sorting_hat",
+		"texture": "custom/hats/sorting_hat"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneY1",
+			"from": [ 1, 0, -1.6667 ],
+			"to": [ 14.74333, 0.00133, 18.2833 ],
+			"faces": {
+				"down": { "uv": [ 6.375, 0, 1.875, 7.5 ], "texture": "#texture" },
+				"up": { "uv": [ 6.375, 7.5, 1.875, 0 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneY1",
+			"from": [ 14.7433, 0, -1.6667 ],
+			"to": [ 18.7333, 0.00133, 18.2833 ],
+			"rotation": { "origin": [ 14.7433, 0, -1.6667 ], "axis": "z", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 1.625, 0, 0, 7.375 ], "texture": "#texture" },
+				"up": { "uv": [ 1.625, 7.375, 0, 0 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneY1",
+			"from": [ -1.9652, 0.0897, -1.6563 ],
+			"to": [ 1.581467, 0.09102997, 18.2937 ],
+			"rotation": { "origin": [ 1.0625, 1.34375, -1.65625 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 7.75, 0, 6.25, 7.5 ], "texture": "#texture" },
+				"up": { "uv": [ 7.75, 7.5, 6.25, 0 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 2, 0, 2.3333 ],
+			"to": [ 13.66667, 1.333333, 14.3333 ],
+			"faces": {
+				"up": { "uv": [ 11.875, 0, 16, 4.625 ], "texture": "#texture" },
+				"north": { "uv": [ 0.625, 1.25, 1.125, 5.5 ], "texture": "#texture", "rotation": 90 },
+				"south": { "uv": [ 0.625, 1.25, 1.125, 5.5 ], "texture": "#texture", "rotation": 90 },
+				"west": { "uv": [ 15.5, 5.375, 16, 10.125 ], "texture": "#texture", "rotation": 270 },
+				"east": { "uv": [ 15.5, 10.125, 16, 5.375 ], "texture": "#texture", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 3.2167, 1.33, 3.21 ],
+			"to": [ 12.5267, 3.546667, 13.40667 ],
+			"faces": {
+				"down": { "uv": [ 9.75, 5.375, 13.125, 9.125 ], "texture": "#texture" },
+				"up": { "uv": [ 9.75, 5.375, 13.125, 9.125 ], "texture": "#texture", "rotation": 270 },
+				"north": { "uv": [ 13.25, 5.375, 14.125, 9.125 ], "texture": "#texture", "rotation": 270 },
+				"south": { "uv": [ 8.999999, 5.375, 9.874998, 9.125 ], "texture": "#texture", "rotation": 270 },
+				"west": { "uv": [ 14.125, 5.375, 15, 9 ], "texture": "#texture", "rotation": 90 },
+				"east": { "uv": [ 14.125, 5.375, 15, 9 ], "texture": "#texture", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 4, 3.3333, 5 ],
+			"to": [ 11.53667, 8.209967, 12.53667 ],
+			"faces": {
+				"down": { "uv": [ 10.25, 9.125, 13.125, 12 ], "texture": "#texture" },
+				"up": { "uv": [ 13.125, 9.125, 15, 12 ], "texture": "#texture", "rotation": 270 },
+				"north": { "uv": [ 13, 9.125, 15, 12 ], "texture": "#texture", "rotation": 270 },
+				"south": { "uv": [ 10, 5.625, 12.125, 8.75 ], "texture": "#texture", "rotation": 270 },
+				"west": { "uv": [ 10.25, 13.875, 13.125, 15.75 ], "texture": "#texture", "rotation": 180 },
+				"east": { "uv": [ 10.25, 13.875, 13.125, 12 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 4.8867, 8.099999, 5.4433 ],
+			"to": [ 10.65003, 14.30667, 12.0933 ],
+			"rotation": { "origin": [ 4.886666, 8.1, 5.443333 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 6.333333, 6, 11, 11 ], "texture": "#texture" },
+				"up": { "uv": [ 8.125, 11.5, 10.25, 14 ], "texture": "#texture" },
+				"north": { "uv": [ 8.125, 9.125, 10.25, 11.5 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 11, 2.125, 13.375 ], "texture": "#texture" },
+				"west": { "uv": [ 5.625, 11.5, 8.125, 14 ], "texture": "#texture" },
+				"east": { "uv": [ 5.625, 11.5, 8.125, 14 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 5.7733, 12.5333, 7.66 ],
+			"to": [ 9.7633, 16.96663, 12.09333 ],
+			"rotation": { "origin": [ 5.773333, 12.53333, 7.660001 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 4.875, 9.75, 6.375, 11.5 ], "texture": "#texture" },
+				"up": { "uv": [ 4.875, 9.75, 6.375, 11.5 ], "texture": "#texture" },
+				"north": { "uv": [ 4.875, 8, 6.375, 9.75 ], "texture": "#texture" },
+				"south": { "uv": [ 4.875, 8, 6.375, 9.75 ], "texture": "#texture", "rotation": 270 },
+				"west": { "uv": [ 6.375, 9.75, 8.125, 11.5 ], "texture": "#texture", "rotation": 270 },
+				"east": { "uv": [ 6.375, 9.75, 8.125, 11.5 ], "texture": "#texture", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 6.66, 13.305, 10.9379 ],
+			"to": [ 8.876667, 15.07833, 16.2579 ],
+			"rotation": { "origin": [ 6.660001, 15.63667, 12.09334 ], "axis": "y", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 4.75, 12.125, 5.625, 14.125 ], "texture": "#texture" },
+				"up": { "uv": [ 4.75, 12.125, 5.625, 14.125 ], "texture": "#texture" },
+				"north": { "uv": [ 4.75, 11.5, 5.625, 12.125 ], "texture": "#texture" },
+				"south": { "uv": [ 4.75, 11.5, 5.625, 12.125 ], "texture": "#texture" },
+				"west": { "uv": [ 2.75, 11.5, 4.75, 12.125 ], "texture": "#texture" },
+				"east": { "uv": [ 2.75, 11.5, 4.75, 12.125 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box4",
+			"from": [ 8.876699, 13.6591, 14.091 ],
+			"to": [ 9.763366, 14.54577, 16.751 ],
+			"rotation": { "origin": [ 8.876669, 13.86333, 14.75334 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 4, 12.125, 4.375, 13.125 ], "texture": "#texture", "rotation": 270 },
+				"up": { "uv": [ 4, 12.125, 4.375, 13.125 ], "texture": "#texture", "rotation": 270 },
+				"north": { "uv": [ 4.375, 13.125, 4.75, 13.5 ], "texture": "#texture", "rotation": 270 },
+				"south": { "uv": [ 4.375, 13.125, 4.75, 13.5 ], "texture": "#texture", "rotation": 270 },
+				"west": { "uv": [ 4, 12.125, 4.375, 13.125 ], "texture": "#texture", "rotation": 270 },
+				"east": { "uv": [ 4, 12.125, 4.375, 13.125 ], "texture": "#texture", "rotation": 270 }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation":  [ 0, -135, 0 ],
+			"translation":  [ 0, -41, 0 ],
+			"scale":  [ 1.2, 1.2, 1.2 ]
+		}
+	}
+}

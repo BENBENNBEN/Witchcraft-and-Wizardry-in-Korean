@@ -1,0 +1,58 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/flasks",
+		"texture1": "custom/flasks"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box7",
+			"from": [ 10.0548, 0.3409, 3.7885 ],
+			"to": [ 15.72147, 7.3409, 9.455167 ],
+			"rotation": { "origin": [ 10.16667, 0.333333, 3.833333 ], "axis": "y", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 3.25, 9.375, 5.25, 11.25 ], "texture": "#texture1", "rotation": 270 },
+				"up": { "uv": [ 3.25, 9.375, 5.25, 11.25 ], "texture": "#texture1", "rotation": 270 },
+				"north": { "uv": [ 3.25, 8.875, 5.25, 11.5 ], "texture": "#texture1", "rotation": 270 },
+				"south": { "uv": [ 3.25, 8.875, 5.25, 11.5 ], "texture": "#texture1", "rotation": 270 },
+				"west": { "uv": [ 3.25, 8.875, 5.25, 11.5 ], "texture": "#texture1", "rotation": 270 },
+				"east": { "uv": [ 3.25, 8.875, 5.25, 11.5 ], "texture": "#texture1", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Box7",
+			"from": [ 11.3685, 12.9306, 5.0351 ],
+			"to": [ 14.37302, 15.03015, 8.039625 ],
+			"rotation": { "origin": [ 10.16667, 0.333333, 3.833333 ], "axis": "y", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 9.875, 1.25, 11.125 ], "texture": "#texture1", "rotation": 180 },
+				"up": { "uv": [ 0, 9.875, 1.25, 11.125 ], "texture": "#texture1" },
+				"north": { "uv": [ 0, 8.875, 1.25, 9.75 ], "texture": "#texture1" },
+				"south": { "uv": [ 0, 8.875, 1.25, 9.75 ], "texture": "#texture1" },
+				"west": { "uv": [ 0, 8.875, 1.25, 9.75 ], "texture": "#texture1" },
+				"east": { "uv": [ 0, 8.875, 1.25, 9.75 ], "texture": "#texture1" }
+			}
+		},
+		{
+			"__comment": "Box7",
+			"from": [ 0.6343, 1.5687, 2.7724 ],
+			"to": [ 3.638825, 4.573225, 4.871947 ],
+			"rotation": { "origin": [ -6, 0.3333333, 6.666667 ], "axis": "y", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 1.25, 9.75, 0, 8.875 ], "texture": "#texture1" },
+				"up": { "uv": [ 0, 8.875, 1.25, 9.75 ], "texture": "#texture1" },
+				"north": { "uv": [ 1.25, 11.125, 0, 9.875 ], "texture": "#texture1", "rotation": 180 },
+				"south": { "uv": [ 0, 9.875, 1.25, 11.125 ], "texture": "#texture1" },
+				"west": { "uv": [ 1.25, 9.75, 0, 8.875 ], "texture": "#texture1", "rotation": 90 },
+				"east": { "uv": [ 1.25, 9.75, 0, 8.875 ], "texture": "#texture1", "rotation": 270 }
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation":  [ -90, 0, 0 ],
+			"translation":  [ 0, 0, 18 ],
+			"scale":  [ 2, 2, 2 ]
+		}
+	}
+}

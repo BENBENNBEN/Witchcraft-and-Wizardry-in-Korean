@@ -1,0 +1,42 @@
+{
+	"gui_light":"front",
+	"textures": {
+		"texture": "guis/quest_icon/quest_icon_exclamation0",
+		"damage": "guis/damage_overlay/damage_2"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneY2",
+			"from": [ -5.5, -8, 12 ],
+			"to": [ 26.5, 26, 12.001 ],
+			"faces": {
+				"north": { "uv": [ 16, 16, 0, 0 ], "texture": "#damage" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale":  [ 0.0001, 0.0001, 0.0001 ]
+		},
+		"thirdperson_lefthand": {
+			"scale":  [ 0.0001, 0.0001, 0.0001 ]
+		},
+		"firstperson_righthand": {
+			"scale":  [ 0.0001, 0.0001, 0.0001 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, -180, 0 ],
+			"translation":  [ -11.82, 13.217, 12 ]
+		},
+		"gui": {
+			"translation":  [ -65, 70, -80 ],
+			"scale":  [ 4, 4, 4 ]
+		},
+		"head": {
+			"scale":  [ 0.0001, 0.0001, 0.0001 ]
+		},
+		"ground": {
+			"scale":  [ 0.0001, 0.0001, 0.0001 ]
+		}
+	}
+}

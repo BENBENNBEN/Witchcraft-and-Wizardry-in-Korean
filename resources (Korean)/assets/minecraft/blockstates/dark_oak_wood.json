@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "custom/pipe/furnace_pipe_extension", "y": 270  },
+        "axis=z": { "model": "custom/pipe/furnace_pipe_extension", "y": 90},
+        "axis=x": { "model": "custom/pipe/furnace_pipe_extension" }
+    }
+}

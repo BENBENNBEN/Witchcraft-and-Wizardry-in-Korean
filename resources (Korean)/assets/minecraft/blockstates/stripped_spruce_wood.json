@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "block/stripped_spruce_wood" },
+        "axis=z": { "model": "block/door_right" },
+        "axis=x": { "model": "block/door_left" }
+    }
+}

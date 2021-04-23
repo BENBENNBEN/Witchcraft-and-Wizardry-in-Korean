@@ -1,0 +1,83 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"texture": "painting/moving_paintings/vertical_dining268",
+		"texture1": "painting/dutch_man_frame",
+		"particle": "painting/dutch_man_frame"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ -1.5, 1, 15.5 ],
+			"to": [ 17.83333, 25.33333, 15.501 ],
+			"faces": {
+				"down": { "uv": [ 0, 6.66567, 16, 6.66667 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 9.33333, 16, 9.33433 ], "texture": "#texture" },
+				"north": { "uv": [ 2.75, 0, 13.375, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 2.75, 0, 13.375, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 9.33333, 0, 9.33433, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 6.66567, 0, 6.66667, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ -2.5001, 1, 14.8334 ],
+			"to": [ -0.8334301, 25.33333, 15.50007 ],
+			"faces": {
+				"down": { "uv": [ 1.4, 1.4, 2.4, 15.4 ], "texture": "#texture1" },
+				"up": { "uv": [ 1.4, 1.4, 2.4, 15.4 ], "texture": "#texture1" },
+				"north": { "uv": [ 1.4, 1.4, 2.4, 15.4 ], "texture": "#texture1" },
+				"south": { "uv": [ 1.4, 1.4, 2.4, 15.4 ], "texture": "#texture1" },
+				"west": { "uv": [ 0.4, 0, 0, 14 ], "texture": "#texture1" },
+				"east": { "uv": [ 0, 0, 0.4, 14 ], "texture": "#texture1" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 17.1666, 1, 14.8333 ],
+			"to": [ 18.83327, 25.33333, 15.49997 ],
+			"faces": {
+				"down": { "uv": [ 1, 6.66667, 2.66667, 7.33333 ], "texture": "#texture1" },
+				"up": { "uv": [ 0.4, 1.2, 1.4, 15.4 ], "texture": "#texture1" },
+				"north": { "uv": [ 0.4, 1.2, 1.4, 15.4 ], "texture": "#texture1" },
+				"south": { "uv": [ 0.4, 1.2, 1.4, 15.4 ], "texture": "#texture1" },
+				"west": { "uv": [ 0.4, 0, 0, 14 ], "texture": "#texture1" },
+				"east": { "uv": [ 0, 0, 0.4, 14 ], "texture": "#texture1" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ -2.5, -1.3333, 14.8333 ],
+			"to": [ 18.83333, 1.00003, 15.49997 ],
+			"faces": {
+				"down": { "uv": [ 2.4, 2.4, 15, 2.8 ], "texture": "#texture1" },
+				"up": { "uv": [ 2.4, 2.4, 15, 2.8 ], "texture": "#texture1" },
+				"north": { "uv": [ 2.4, 1.4, 15, 2.8 ], "texture": "#texture1" },
+				"south": { "uv": [ 2.4, 1.4, 15, 2.8 ], "texture": "#texture1" },
+				"west": { "uv": [ 0.4, 12.6, 0, 14 ], "texture": "#texture1" },
+				"east": { "uv": [ 0, 12.6, 0.4, 14 ], "texture": "#texture1" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ -2.5, 25.3334, 14.8333 ],
+			"to": [ 18.83333, 27.66673, 15.49997 ],
+			"faces": {
+				"down": { "uv": [ 0.4, 0, 13, 0.3999996 ], "texture": "#texture1", "rotation": 180 },
+				"up": { "uv": [ 13, 0, 0.3999996, 0.3999996 ], "texture": "#texture1" },
+				"north": { "uv": [ 0.4, 0, 13, 1.4 ], "texture": "#texture1" },
+				"south": { "uv": [ 0.4, 0, 13, 1.4 ], "texture": "#texture1" },
+				"west": { "uv": [ 0.4, 0, 0, 1.4 ], "texture": "#texture1" },
+				"east": { "uv": [ 0, 0, 0.4, 1.4 ], "texture": "#texture1" }
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation":  [ 0, 180, 1 ],
+			"translation":  [ 0, 0, -14.1 ],
+			"scale":  [ 2, 2, 2 ]
+		}
+	}
+}

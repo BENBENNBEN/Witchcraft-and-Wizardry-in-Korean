@@ -1,0 +1,7 @@
+	{
+		"variants": {
+			"axis=y": { "model": "custom/signs/hogsmeade/hogsmeade_standing_sign", "y": 270  },
+			"axis=z": { "model": "custom/cabinet/green_cabinet", "y": 90},
+			"axis=x": { "model": "custom/cabinet/green_cabinet" }
+		}
+	}

@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/daily_prophet",
+		"daily_prophet": "custom/signs/daily_prophet"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box10",
+			"from": [ -15.9, -0.0002, 14.9998 ],
+			"to": [ 16.1, 15.9998, 15.66647 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 0.1666698 ], "texture": "#daily_prophet" },
+				"up": { "uv": [ 0, 0.166667, 16, 0 ], "texture": "#daily_prophet" },
+				"north": { "uv": [ 0, 0, 16, 8 ], "texture": "#daily_prophet" },
+				"south": { "uv": [ 0, 0, 16, 8 ], "texture": "#daily_prophet" },
+				"west": { "uv": [ 16, 8, 15.83333, 0 ], "texture": "#daily_prophet", "rotation": 180 },
+				"east": { "uv": [ 16, 8, 15.83333, 0 ], "texture": "#daily_prophet", "rotation": 180 }
+			}
+		}
+	]
+}

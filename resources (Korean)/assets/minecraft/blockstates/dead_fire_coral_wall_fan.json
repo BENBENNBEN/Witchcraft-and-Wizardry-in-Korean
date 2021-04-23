@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=east": [{ "model": "custom/quill", "y": 180 },{ "model": "custom/quill_green", "y": 180 },{ "model": "custom/quill_red", "y": 180 }],
+        "facing=south": [{ "model": "custom/quill", "y": 270 },{ "model": "custom/quill_green", "y": 270 },{ "model": "custom/quill_red", "y": 270 }],
+        "facing=west": [{ "model": "custom/quill" },{ "model": "custom/quill_green" },{ "model": "custom/quill_red" }],
+        "facing=north": [{ "model": "custom/quill", "y": 90 },{ "model": "custom/quill_green", "y": 90 },{ "model": "custom/quill_red", "y": 90 }]
+    }
+}

@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/quidditch",
+		"quidditch": "custom/signs/quidditch"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box2",
+			"from": [ 7, -16, 7.3333 ],
+			"to": [ 25.33333, 32, 8.3333 ],
+			"faces": {
+				"down": { "uv": [ 0, 15.88889, 6.111111, 16 ], "texture": "#quidditch" },
+				"up": { "uv": [ 0, 0.1111107, 6.111111, 0 ], "texture": "#quidditch" },
+				"north": { "uv": [ 0, 0, 6.111111, 16 ], "texture": "#quidditch" },
+				"south": { "uv": [ 0, 0, 6.111111, 16 ], "texture": "#quidditch" },
+				"west": { "uv": [ 0, 0, 0.1111111, 16 ], "texture": "#quidditch" },
+				"east": { "uv": [ 6.111111, 16, 6, 0 ], "texture": "#quidditch", "rotation": 180 }
+			}
+		}
+	]
+}

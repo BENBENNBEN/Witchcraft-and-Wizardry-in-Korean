@@ -1,0 +1,13 @@
+﻿{
+		"variants":{
+			"":[
+			
+            { "model": "custom/vegetation/ugly_bush" , "weight": 20 },
+            { "model": "custom/vegetation/ugly_bush",  "y": 90 , "weight": 20},
+            { "model": "custom/vegetation/ugly_bush", "y": 180 , "weight": 20 },
+            { "model": "custom/vegetation/ugly_bush", "y": 270 , "weight": 20 }
+		
+	
+        ]
+    }
+}

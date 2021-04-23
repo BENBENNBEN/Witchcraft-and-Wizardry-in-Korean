@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "stage=0": [
+					{ "model": "custom/food/breakfast"},
+					{ "model": "custom/food/breakfast", "y": 90},
+					{ "model": "custom/food/breakfast", "y": 180},
+					{ "model": "custom/food/breakfast", "y": 270}
+					],
+        "stage=1": { "model": "custom/trollsumbrellaholder" , "y": 90 }
+    }
+}
+

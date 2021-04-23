@@ -1,0 +1,43 @@
+{
+	"textures": {
+		"3": "custom/bus/glass3"
+	},
+	"elements": [
+		{
+			"from": [-8.995, -12.00001, 6.66667],
+			"to": [-8.66167, 1.66666, 32],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-16, -18.66667, 50]},
+			"faces": {
+				"east": {"uv": [0, 11.445, 8.444, 16], "texture": "#3"},
+				"west": {"uv": [8.444, 11.445, 0, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [-8.995, -12.00001, -16],
+			"to": [-8.66167, 1.66666, 4.33333],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-16, -18.66667, 50]},
+			"faces": {
+				"east": {"uv": [0, 11.445, 6.778, 16], "texture": "#3"},
+				"west": {"uv": [6.778, 11.445, 0, 16], "texture": "#3"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"children": [0, 1]
+		},
+		{
+			"name": "chunk20s",
+			"origin": [8, 8, 8],
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"children": []
+				}
+			]
+		}
+	]
+}

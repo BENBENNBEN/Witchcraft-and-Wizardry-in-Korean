@@ -1,0 +1,39 @@
+{
+	"gui_light":"front",
+	"textures": {
+		"texture1": "guis/misc/letter_flat_hogwarts"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ -2, 0, 2.3438 ],
+			"to": [ -1.999, 15.9375, 13.6563 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 13.9375, 9.8125 ], "texture": "#texture1", "rotation": 270 },
+				"east": { "uv": [ 0, 0, 13.9375, 9.8125 ], "texture": "#texture1", "rotation": 270 }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 3, -114, -19 ],
+			"translation":  [ -2.086, 1.3919, 6.9565 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 36, 77, -8 ],
+			"translation":  [ -1.391, 1.3919, 6.9565 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 90, 0 ],
+			"translation":  [ -9, 17.9, -0.391 ],
+			"scale":  [ 1, 0.15, 0.15 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 90, 0 ],
+			"translation":  [ -9.25, 8.347, -6.6 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=east": [{ "model": "custom/tea_cups" },{ "model": "custom/tea_cups", "y": 90 },{ "model": "custom/tea_cups", "y": 180 },{ "model": "custom/tea_cups", "y": 270 }],
+        "facing=south": [{ "model": "custom/tea_can" },{ "model": "custom/tea_can", "y": 90 },{ "model": "custom/tea_can", "y": 180 },{ "model": "custom/tea_can", "y": 270 }],
+        "facing=west": { "model": "custom/signs/standing_sign", "y": 270 },
+        "facing=north": { "model": "custom/signs/standing_sign", "y": 0 }
+    }
+}

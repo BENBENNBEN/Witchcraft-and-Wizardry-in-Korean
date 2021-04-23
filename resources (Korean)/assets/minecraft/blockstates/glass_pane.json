@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "east=false,north=false,south=false,west=false": { "model": "custom/fence/pillar" },
+		"east=false,north=false,south=false,west=true": { "model": "custom/fence/north_stop", "y": 270 },
+		"east=false,north=false,south=true,west=false": { "model": "custom/fence/south_stop", "y": 180 },
+		"east=false,north=false,south=true,west=true": { "model": "custom/fence/corner3", "y": 180 },
+		"east=false,north=true,south=false,west=false": { "model": "custom/fence/north_stop" },
+		"east=false,north=true,south=false,west=true": { "model": "custom/fence/corner1" },
+		"east=false,north=true,south=true,west=false": [{ "model": "custom/fence/north1" },{ "model": "custom/fence/north2" },{ "model": "custom/fence/north3" },{ "model": "custom/fence/north4" },{ "model": "custom/fence/north5" }],
+		"east=false,north=true,south=true,west=true": { "model": "custom/fence/t1", "y": 90 },
+		"east=true,north=false,south=false,west=false": { "model": "custom/fence/south_stop", "y": 90 },
+		"east=true,north=false,south=false,west=true": [{ "model": "custom/fence/north1", "y": 270 },{ "model": "custom/fence/north2", "y": 270 },{ "model": "custom/fence/north3", "y": 270 },{ "model": "custom/fence/north4", "y": 270 },{ "model": "custom/fence/north5", "y": 270 }],
+		"east=true,north=false,south=true,west=false": { "model": "custom/fence/corner4", "y": 90 },
+		"east=true,north=false,south=true,west=true": { "model": "custom/fence/t4" },
+		"east=true,north=true,south=false,west=false": { "model": "custom/fence/corner2" },
+		"east=true,north=true,south=false,west=true": { "model": "custom/fence/t3", "y": 180 },
+		"east=true,north=true,south=true,west=false": { "model": "custom/fence/t2", "y": 90 },
+		"east=true,north=true,south=true,west=true": { "model": "custom/fence/cross" }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "block/bookshelf" },
+        "axis=z": { "model": "block/bookshelf_alt_3" },
+        "axis=x": { "model": "custom/pipe/rusty_pipe_cracked", "x": 90 }
+    }
+}

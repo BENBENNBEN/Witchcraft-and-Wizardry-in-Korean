@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "stage=0": { "model": "custom/piano" },
+        "stage=1": { "model": "custom/piano" , "y": 90}
+    }
+}

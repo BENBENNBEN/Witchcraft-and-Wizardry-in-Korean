@@ -1,0 +1,87 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/vegetation/tall_bush",
+		"texture": "block/vegetation/tall_bush"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneX1",
+			"from": [ 8, 0, -7.5 ],
+			"to": [ 8.001, 32, 24.5 ],
+			"faces": {
+				"west": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneX1",
+			"from": [ -8.5, 0, 8.5 ],
+			"to": [ 23.5, 32, 8.501 ],
+			"faces": {
+				"north": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneX1",
+			"from": [ 19, 0, -2.5 ],
+			"to": [ 19.001, 32, 29.5 ],
+			"rotation": { "origin": [ 19, 0, -2.5 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"west": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneX1",
+			"from": [ 18.999, 0, -12 ],
+			"to": [ 19, 32, 20 ],
+			"rotation": { "origin": [ 19, 0, 20 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"west": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneX1",
+			"from": [ 3.5, 0, -7.5 ],
+			"to": [ 3.501, 32, 24.5 ],
+			"rotation": { "origin": [ 3.5, 0, -7.5 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneX1",
+			"from": [ 12.5, 0, -7.5 ],
+			"to": [ 12.501, 32, 24.5 ],
+			"rotation": { "origin": [ 12.5, 0, -7.5 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"west": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneX1",
+			"from": [ -8.5, 0, 12.5 ],
+			"to": [ 23.5, 32, 12.501 ],
+			"rotation": { "origin": [ 23.5, 0, 12.5 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneX1",
+			"from": [ -8.5, 0, 5.5 ],
+			"to": [ 23.5, 32, 5.501 ],
+			"rotation": { "origin": [ 23.5, 0, 5.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

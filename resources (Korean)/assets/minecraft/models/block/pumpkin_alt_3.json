@@ -1,0 +1,38 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/pumpkin_side",
+		"side": "block/pumpkin_side_alt_3",
+		"top": "block/pumpkin_top_alt_3",
+		"stem": "rr/pumpkin1"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#top" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#top" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#side" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#side" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#side" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#side" }
+			}
+		},
+		{
+			"__comment": "Box2",
+			"from": [ 6.5, 15.5, 6.5 ],
+			"to": [ 8.5, 18, 9 ],
+			"rotation": { "origin": [ 6.5, 15.5, 6.5 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 6, 1.666667, 8 ], "texture": "#stem" },
+				"up": { "uv": [ 0, 6, 1.666667, 8 ], "texture": "#stem" },
+				"north": { "uv": [ 0.3333334, 5, 2, 7.333333 ], "texture": "#stem" },
+				"south": { "uv": [ 0.3333334, 5, 2, 7.333333 ], "texture": "#stem" },
+				"west": { "uv": [ 0, 6, 2, 8 ], "texture": "#stem" },
+				"east": { "uv": [ 0, 6, 2, 8 ], "texture": "#stem" }
+			}
+		}
+	]
+}

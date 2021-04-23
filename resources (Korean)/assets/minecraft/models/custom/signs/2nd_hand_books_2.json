@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/2nd_hand_books2",
+		"2nd_hand_books2": "custom/signs/2nd_hand_books2"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box10",
+			"from": [ -15.6667, 0, 7.6667 ],
+			"to": [ 16.3333, 16, 8.333366 ],
+			"faces": {
+				"down": { "uv": [ 0, 15.83333, 16, 16 ], "texture": "#2nd_hand_books2" },
+				"up": { "uv": [ 0, 0.166667, 16, 0 ], "texture": "#2nd_hand_books2" },
+				"north": { "uv": [ 0, 0, 16, 8 ], "texture": "#2nd_hand_books2" },
+				"south": { "uv": [ 0, 0, 16, 8 ], "texture": "#2nd_hand_books2" },
+				"west": { "uv": [ 16, 8, 15.83333, 0 ], "texture": "#2nd_hand_books2", "rotation": 180 },
+				"east": { "uv": [ 16, 8, 15.83333, 0 ], "texture": "#2nd_hand_books2", "rotation": 180 }
+			}
+		}
+	]
+}

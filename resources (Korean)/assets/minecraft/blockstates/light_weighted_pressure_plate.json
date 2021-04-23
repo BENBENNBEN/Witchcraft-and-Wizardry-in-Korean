@@ -1,0 +1,32 @@
+{
+    "variants": {
+		"power=0": { "model": "block/light_weighted_pressure_plate_down" },
+        "power=1": { "model": "custom/banner/banner4", "y": 270 },
+        "power=2": { "model": "custom/instrument1" },
+        "power=3": { "model": "custom/instrument2" },
+        "power=4": { "model": "custom/signs/hogsmeade/honeydukes_4", "y": 270  },
+        "power=5": { "model": "custom/signs/obscurus_books", "y": 90  },
+        "power=6": { "model": "custom/signs/hogsmeade/wizarding_wireless_network", "y": 180  },
+        "power=7": { "model": "custom/signs/hogsmeade/magic_neep", "y": 180  },
+        "power=8": { "model": "custom/signs/hogsmeade/slugs_and_jiggers_hogsmeade" },
+        "power=9": { "model": "custom/signs/magical_menagery", "y": 270  },
+        "power=10": { "model": "custom/signs/hogsmeade/flying_apron", "y": 180  },
+        "power=11": { "model": "custom/signs/hogsmeade/ceridwens_cauldrons", "y": 180  },
+        "power=12": [ { "model": "custom/candy/lollipops" },
+					  { "model": "custom/candy/lollipops", "y": 90 },
+					  { "model": "custom/candy/lollipops", "y": 180 },
+					  { "model": "custom/candy/lollipops", "y": 270 }],
+        "power=13": [ { "model": "custom/food/potatoes_meat_corn_plate" },
+					  { "model": "custom/food/potatoes_meat_corn_plate", "y": 90 },
+					  { "model": "custom/food/potatoes_meat_corn_plate", "y": 180 },
+					  { "model": "custom/food/potatoes_meat_corn_plate", "y": 270 },
+					  { "model": "custom/food/wine_cheese"},
+					  { "model": "custom/food/wine_cheese", "y": 90 },
+					  { "model": "custom/food/wine_cheese", "y": 180 },
+					  { "model": "custom/food/wine_cheese", "y": 270 }],
+        "power=14": [{ "model": "custom/food/ice_cream" },
+					 { "model": "custom/food/ice_cream", "y": 90 },
+					 { "model": "custom/food/ice_cream", "y": 180 },
+					 { "model": "custom/food/ice_cream", "y": 270 }]
+    }
+}

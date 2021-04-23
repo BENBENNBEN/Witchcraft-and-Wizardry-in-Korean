@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "axis=y":  [{ "model": "block/shelf1", "weight": 10 },
+					{ "model": "block/shelf2", "weight": 10 },
+					{ "model": "block/shelf3", "weight": 10 },
+					{ "model": "block/shelf4", "weight": 10 },
+					{ "model": "block/shelf5", "weight": 10 },
+					{ "model": "block/shelf6", "weight": 10 }],
+        "axis=z":   { "model": "block/blackboard_block_1"},
+        "axis=x":   { "model": "block/blackboard_block_2"}
+    }
+}

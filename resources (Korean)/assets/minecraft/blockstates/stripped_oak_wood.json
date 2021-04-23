@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "custom/pipe/rusty_pipe", "x": 90 },
+        "axis=z": { "model": "custom/pipe/rusty_pipe"},
+        "axis=x": { "model": "custom/pipe/rusty_pipe", "y": 90 }
+    }
+}

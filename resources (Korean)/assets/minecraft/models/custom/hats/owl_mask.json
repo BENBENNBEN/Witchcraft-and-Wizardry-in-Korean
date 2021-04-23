@@ -1,0 +1,53 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/hats/owl_mask",
+		"texture": "custom/hats/owl_mask"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 3, 3, 3 ],
+			"to": [ 13, 13, 13 ],
+			"faces": {
+				"down": { "uv": [ 6.5, 0, 13.33333, 6.666667 ], "texture": "#texture" },
+				"up": { "uv": [ 6.5, 0, 13.33333, 6.666667 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 0, 0, 6.666667, 6.666667 ], "texture": "#texture" },
+				"south": { "uv": [ 6.5, 0, 13.33333, 6.666667 ], "texture": "#texture" },
+				"west": { "uv": [ 6.5, 0, 13.33333, 6.666667 ], "texture": "#texture" },
+				"east": { "uv": [ 6.5, 0, 13.33333, 6.666667 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ 1.5, 11.3438, 3.0625 ],
+			"to": [ 14.5, 14.3438, 3.0635 ],
+			"rotation": { "origin": [ 1.5, 11.34375, 3.0625 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"north": { "uv": [ 14, 0, 16, 8.666667 ], "texture": "#texture", "rotation": 270 },
+				"south": { "uv": [ 14, 0, 16, 8.666667 ], "texture": "#texture", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Box3",
+			"from": [ 7.7188, 6.7812, 2.4688 ],
+			"to": [ 8.2813, 8.49995, 2.9688 ],
+			"faces": {
+				"down": { "uv": [ 0, 7.666667, 0.3333333, 8 ], "texture": "#texture" },
+				"up": { "uv": [ 0.1666667, 6.666667, 0.5, 7 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 0.1666667, 6.833332, 0.5, 7.999999 ], "texture": "#texture" },
+				"south": { "uv": [ 0.1666667, 6.833332, 0.5, 7.999999 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 6.833333, 0.3333333, 8 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 6.833333, 0.3333333, 8 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale":  [ 1.5, 1.5, 1.5 ]
+		},
+         "gui": {
+             "scale":        [ 0, 0, 0 ]
+         }
+	}
+}

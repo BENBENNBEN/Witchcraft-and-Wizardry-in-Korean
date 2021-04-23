@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/hogsmeade/musical_shop",
+		"texture": "custom/signs/hogsmeade/musical_shop"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ -15.875, 0, 15.5 ],
+			"to": [ 15.96875, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 0.333333 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 0, 0, 16, 0.333333 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 0, 0, 16, 6.833333 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 6.833333 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 0, 0.3333333, 6.833333 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 0.3333333, 6.833333 ], "texture": "#texture" }
+			}
+		}
+	]
+}

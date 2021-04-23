@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/locksmith2",
+		"locksmith2": "custom/signs/locksmith2"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box10",
+			"from": [ 7.6667, 0, -0.3333 ],
+			"to": [ 8.333366, 16, 31.6667 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 0.1666698 ], "texture": "#locksmith2", "rotation": 90 },
+				"up": { "uv": [ 0, 0.166667, 16, 0 ], "texture": "#locksmith2", "rotation": 270 },
+				"north": { "uv": [ 16, 8, 15.83333, 0 ], "texture": "#locksmith2", "rotation": 180 },
+				"south": { "uv": [ 16, 8, 15.83333, 0 ], "texture": "#locksmith2", "rotation": 180 },
+				"west": { "uv": [ 0, 0, 16, 8 ], "texture": "#locksmith2" },
+				"east": { "uv": [ 0, 0, 16, 8 ], "texture": "#locksmith2" }
+			}
+		}
+	]
+}

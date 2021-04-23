@@ -1,0 +1,19 @@
+﻿{
+    "variants": {
+        "": [
+			{ "model": "block/cobblestone", "weight": 10 },
+			{ "model": "block/cobblestone_alt_1", "weight": 10 },
+			{ "model": "block/cobblestone_alt_2", "weight": 10 },
+			{ "model": "block/cobblestone_alt_3", "weight": 10 },
+			{ "model": "block/cobblestone_alt_4", "weight": 10 },
+			{ "model": "block/cobblestone_alt_5", "weight": 10 },
+			{ "model": "block/cobblestone_alt_6", "weight": 10 },
+			{ "model": "block/cobblestone_alt_7", "weight": 10 },
+			{ "model": "block/cobblestone_alt_8", "weight": 10 },
+			{ "model": "block/cobblestone_alt_9", "weight": 10 },
+			{ "model": "block/cobblestone_alt_10", "weight": 10 }	
+		]
+    }
+}
+
+

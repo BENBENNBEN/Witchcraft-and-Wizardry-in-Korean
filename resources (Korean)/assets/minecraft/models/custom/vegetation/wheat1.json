@@ -1,0 +1,76 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/vegetation/wheat1",
+		"texture": "block/vegetation/wheat1"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneY1",
+			"from": [ 2.5, 0, -1.5 ],
+			"to": [ 2.501, 25, 18.5 ],
+			"faces": {
+				"west": { "uv": [ 13.5, 0, 1.5, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 1.5, 0, 13.5, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneY1",
+			"from": [ 13.5, 0, -1.5 ],
+			"to": [ 13.501, 25, 18.5 ],
+			"faces": {
+				"west": { "uv": [ 1.5, 0, 13.5, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 13.5, 0, 1.5, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneY1",
+			"from": [ -2, -4, 13.5 ],
+			"to": [ 18, 21, 13.501 ],
+			"faces": {
+				"north": { "uv": [ 13.5, 0, 1.5, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 1.5, 0, 13.5, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneY1",
+			"from": [ -2, -1.5, 2.5 ],
+			"to": [ 18, 23.5, 2.501 ],
+			"faces": {
+				"north": { "uv": [ 1.5, 0, 13.5, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 13.5, 0, 1.5, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneY1",
+			"from": [ -5.5, -4, 15 ],
+			"to": [ 14.5, 21, 15.001 ],
+			"rotation": { "origin": [ 14.5, -4, 15 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"north": { "uv": [ 1.5, 0, 13.5, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 13.5, 0, 1.5, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneY1",
+			"from": [ 2, 1.5, 14.4989 ],
+			"to": [ 22, 26.5, 14.4999 ],
+			"rotation": { "origin": [ 2, 1.5, 14.5 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 13.5, 0, 1.5, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 1.5, 0, 13.5, 16 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation":  [ -15, 0, 0 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"gui": {
+			"translation":  [ 0, -1, 0 ],
+			"scale":  [ 0.6, 0.6, 0.6 ]
+		}
+	}
+}

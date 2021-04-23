@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "custom/compass" },
+        "age=1": { "model": "custom/compass", "y": 90 },
+        "age=2": { "model": "custom/compass", "y": 180 },
+        "age=3": { "model": "custom/compass", "y": 270 },
+        "age=4": { "model": "custom/birdcage" },
+        "age=5": { "model": "custom/birdcage", "y": 90 },
+        "age=6": { "model": "custom/trumpet" },
+        "age=7": { "model": "custom/trumpet", "y": 90 }
+    }
+}

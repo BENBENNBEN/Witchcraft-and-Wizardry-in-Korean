@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=up": { "model": "custom/standing_chandelier" },
+        "facing=down": { "model": "custom/lamp" },
+        "facing=east": { "model": "custom/iron_torch", "y": 270, "x": 0 },
+        "facing=south": { "model": "custom/iron_torch", "y": 0, "x": 0 },
+        "facing=west": { "model": "custom/iron_torch", "y": 90, "x": 0 },
+        "facing=north": { "model": "custom/iron_torch", "y": 180, "x": 0 }
+    }
+}

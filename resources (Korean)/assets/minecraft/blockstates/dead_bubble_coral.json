@@ -1,0 +1,9 @@
+﻿{
+    "variants": {
+        "": [
+			{ "model": "custom/packages/packages_stacked_1" },{ "model": "custom/packages/packages_stacked_1", "y": 90 },{ "model": "custom/packages/packages_stacked_1", "y": 180 },{ "model": "custom/packages/packages_stacked_1", "y": 270 },
+			{ "model": "custom/packages/packages_stacked_2" },{ "model": "custom/packages/packages_stacked_2", "y": 90 },{ "model": "custom/packages/packages_stacked_2", "y": 180 },{ "model": "custom/packages/packages_stacked_2", "y": 270 }
+		]
+    }
+}
+

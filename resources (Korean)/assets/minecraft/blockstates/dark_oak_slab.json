@@ -1,0 +1,28 @@
+{
+    "variants": {
+        "type=bottom": [
+			{ "model": "block/road/road_slab1" },{ "model": "block/road/road_slab1", "y": 90 },{ "model": "block/road/road_slab1", "y": 180 },{ "model": "block/road/road_slab1", "y": 270 },
+			{ "model": "block/road/road_slab2" },{ "model": "block/road/road_slab2", "y": 90 },{ "model": "block/road/road_slab2", "y": 180 },{ "model": "block/road/road_slab2", "y": 270 },
+			{ "model": "block/road/road_slab3" },{ "model": "block/road/road_slab3", "y": 90 },{ "model": "block/road/road_slab3", "y": 180 },{ "model": "block/road/road_slab3", "y": 270 },
+			{ "model": "block/road/road_slab4" },{ "model": "block/road/road_slab4", "y": 90 },{ "model": "block/road/road_slab4", "y": 180 },{ "model": "block/road/road_slab4", "y": 270 },
+			{ "model": "block/road/road_slab5" },{ "model": "block/road/road_slab5", "y": 90 },{ "model": "block/road/road_slab5", "y": 180 },{ "model": "block/road/road_slab5", "y": 270 },
+			{ "model": "block/road/road_slab6" },{ "model": "block/road/road_slab6", "y": 90 },{ "model": "block/road/road_slab6", "y": 180 },{ "model": "block/road/road_slab6", "y": 270 }
+		],
+        "type=top": [
+			{ "model": "block/road/road_slab_top1" },{ "model": "block/road/road_slab_top1", "y": 90 },{ "model": "block/road/road_slab_top1", "y": 180 },{ "model": "block/road/road_slab_top1", "y": 270 },
+			{ "model": "block/road/road_slab_top2" },{ "model": "block/road/road_slab_top2", "y": 90 },{ "model": "block/road/road_slab_top2", "y": 180 },{ "model": "block/road/road_slab_top2", "y": 270 },
+			{ "model": "block/road/road_slab_top3" },{ "model": "block/road/road_slab_top3", "y": 90 },{ "model": "block/road/road_slab_top3", "y": 180 },{ "model": "block/road/road_slab_top3", "y": 270 },
+			{ "model": "block/road/road_slab_top4" },{ "model": "block/road/road_slab_top4", "y": 90 },{ "model": "block/road/road_slab_top4", "y": 180 },{ "model": "block/road/road_slab_top4", "y": 270 },
+			{ "model": "block/road/road_slab_top5" },{ "model": "block/road/road_slab_top5", "y": 90 },{ "model": "block/road/road_slab_top5", "y": 180 },{ "model": "block/road/road_slab_top5", "y": 270 },
+			{ "model": "block/road/road_slab_top6" },{ "model": "block/road/road_slab_top6", "y": 90 },{ "model": "block/road/road_slab_top6", "y": 180 },{ "model": "block/road/road_slab_top6", "y": 270 }
+		],
+        "type=double": [
+			{ "model": "block/road/road1" },{ "model": "block/road/road1", "y": 90 },{ "model": "block/road/road1", "y": 180 },{ "model": "block/road/road1", "y": 270 },
+			{ "model": "block/road/road2" },{ "model": "block/road/road2", "y": 90 },{ "model": "block/road/road2", "y": 180 },{ "model": "block/road/road2", "y": 270 },
+			{ "model": "block/road/road3" },{ "model": "block/road/road3", "y": 90 },{ "model": "block/road/road3", "y": 180 },{ "model": "block/road/road3", "y": 270 },
+			{ "model": "block/road/road4" },{ "model": "block/road/road4", "y": 90 },{ "model": "block/road/road4", "y": 180 },{ "model": "block/road/road4", "y": 270 },
+			{ "model": "block/road/road5" },{ "model": "block/road/road5", "y": 90 },{ "model": "block/road/road5", "y": 180 },{ "model": "block/road/road5", "y": 270 },
+			{ "model": "block/road/road6" },{ "model": "block/road/road6", "y": 90 },{ "model": "block/road/road6", "y": 180 },{ "model": "block/road/road6", "y": 270 }
+		]
+    }
+}

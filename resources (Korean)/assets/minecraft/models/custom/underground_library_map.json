@@ -1,0 +1,74 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/underground_library_map",
+		"texture": "custom/underground_library_map"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneX2",
+			"from": [ 2.6875, 1.4275, 0.1795 ],
+			"to": [ 13.35417, 1.4285, 1.1795 ],
+			"rotation": { "origin": [ 13.34375, 1.4375, 1.15625 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 10.66667, 0, 0, 1 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 0, 0, 10.66667, 1 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneX2",
+			"from": [ 2.6771, 1.4375, 1.1562 ],
+			"to": [ 13.34377, 1.4385, 3.1562 ],
+			"rotation": { "origin": [ 13.34375, 1.4375, 1.15625 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 3.333334, 10.66667, 1 ], "texture": "#texture" },
+				"up": { "uv": [ 10.66667, 3, 0, 1 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "PlaneX2",
+			"from": [ 2.6667, 0.6667, 3 ],
+			"to": [ 13.33337, 0.6677, 6.666667 ],
+			"rotation": { "origin": [ 13.3333, 0.6667, 3 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 6.666667, 10.66667, 3.000001 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 3.000001, 10.66667, 6.666667 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneX2",
+			"from": [ 2.6771, 3.4687, 6.6667 ],
+			"to": [ 13.34377, 3.4697, 10.33337 ],
+			"rotation": { "origin": [ 13.34375, 3.46875, 3 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 10.33333, 10.66667, 6.666667 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 6.666667, 10.66667, 10.33333 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneX2",
+			"from": [ 2.6771, 0.6562, 9.7708 ],
+			"to": [ 13.34377, 0.6572, 12.7708 ],
+			"faces": {
+				"down": { "uv": [ 0, 13.33333, 10.66667, 10.33333 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 10.33333, 10.66667, 13.33333 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneX2",
+			"from": [ 2.6771, -3.3438, 13.5521 ],
+			"to": [ 13.34377, -3.3428, 14.5521 ],
+			"rotation": { "origin": [ 13.34375, -3.34375, 3.21875 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 14.33333, 10.66667, 13.33333 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 13.33333, 10.66667, 14.33333 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation":  [ 0, -31.5, 0 ],
+			"scale":  [ 1.5, 1.5, 1.5 ]
+		}
+	}
+}

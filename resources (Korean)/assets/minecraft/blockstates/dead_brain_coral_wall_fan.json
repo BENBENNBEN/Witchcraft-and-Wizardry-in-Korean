@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "facing=east": { "model": "custom/signs/holder/lamp_holder", "y": 90 },
+		"facing=south": { "model": "custom/signs/holder/lamp_holder", "y": 180 },
+        "facing=west": { "model": "custom/signs/holder/lamp_holder", "y": 270 },
+        "facing=north": { "model": "custom/signs/holder/lamp_holder" }
+    }
+}

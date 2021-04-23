@@ -1,0 +1,417 @@
+{
+    "variants": {
+        "age=0,facing=south": [
+			{ "model": "custom/pottery/pelike/dark_pelike" },
+			{ "model": "custom/pottery/pelike/dark_pelike", "y": 90  },
+			{ "model": "custom/pottery/pelike/dark_pelike", "y": 180  },
+			{ "model": "custom/pottery/pelike/dark_pelike", "y": 270  },
+			
+			{ "model": "custom/pottery/pelike/pattern_pelike" },
+			{ "model": "custom/pottery/pelike/pattern_pelike", "y": 90  },
+			{ "model": "custom/pottery/pelike/pattern_pelike", "y": 180  },
+			{ "model": "custom/pottery/pelike/pattern_pelike", "y": 270  },
+			
+			{ "model": "custom/pottery/pelike/plain_pelike" },
+			{ "model": "custom/pottery/pelike/plain_pelike", "y": 90  },
+			{ "model": "custom/pottery/pelike/plain_pelike", "y": 180  },
+			{ "model": "custom/pottery/pelike/plain_pelike", "y": 270  },
+			
+			{ "model": "custom/pottery/pelike/red_pelike" },
+			{ "model": "custom/pottery/pelike/red_pelike", "y": 90  },
+			{ "model": "custom/pottery/pelike/red_pelike", "y": 180  },
+			{ "model": "custom/pottery/pelike/red_pelike", "y": 270  },
+			
+			
+			{ "model": "custom/pottery/stamnos/stamnos_broken" },
+			{ "model": "custom/pottery/stamnos/stamnos_broken", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_broken", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_broken", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_blue" },
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_blue", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_blue", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_blue", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_dark" },
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_dark", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_dark", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_dark", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_pattern" },
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_pattern", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_pattern", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_pattern", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_pattern_green" },
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_pattern_green", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_pattern_green", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_pattern_pattern_green", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_plain" },
+			{ "model": "custom/pottery/stamnos/stamnos_plain", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_plain", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_plain", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_plain_dirt" },
+			{ "model": "custom/pottery/stamnos/stamnos_plain_dirt", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_plain_dirt", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_plain_dirt", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern" },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_blue" },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_blue", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_blue", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_blue", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_broken" },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_broken", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_broken", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_broken", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_dark" },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_dark", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_dark", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_dark", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_green" },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_green", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_green", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_pattern_green", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_plain" },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_plain", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_plain", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_plain", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_plain_dirt" },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_plain_dirt", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_plain_dirt", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_no_handles_plain_dirt", "y": 270  },
+		
+			
+			{ "model": "custom/pottery/urn/urn_lid" },
+			{ "model": "custom/pottery/urn/urn_lid", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_lid", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_lid", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_lid_blue" },
+			{ "model": "custom/pottery/urn/urn_lid_blue", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_lid_blue", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_lid_blue", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_lid_bright" },
+			{ "model": "custom/pottery/urn/urn_lid_bright", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_lid_bright", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_lid_bright", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_lid_dirt" },
+			{ "model": "custom/pottery/urn/urn_lid_dirt", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_lid_dirt", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_lid_dirt", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_lid_green" },
+			{ "model": "custom/pottery/urn/urn_lid_green", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_lid_green", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_lid_green", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_lid_red" },
+			{ "model": "custom/pottery/urn/urn_lid_red", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_lid_red", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_lid_red", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_lid_resting" },
+			{ "model": "custom/pottery/urn/urn_lid_resting", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_lid_resting", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_lid_resting", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_lid_resting_blue" },
+			{ "model": "custom/pottery/urn/urn_lid_resting_blue", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_lid_resting_blue", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_lid_resting_blue", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_lid_resting_bright" },
+			{ "model": "custom/pottery/urn/urn_lid_resting_bright", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_lid_resting_bright", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_lid_resting_bright", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_lid_resting_dirt" },
+			{ "model": "custom/pottery/urn/urn_lid_resting_dirt", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_lid_resting_dirt", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_lid_resting_dirt", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_lid_resting_green" },
+			{ "model": "custom/pottery/urn/urn_lid_resting_green", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_lid_resting_green", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_lid_resting_green", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_lid_resting_red" },
+			{ "model": "custom/pottery/urn/urn_lid_resting_red", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_lid_resting_red", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_lid_resting_red", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_no_lid" },
+			{ "model": "custom/pottery/urn/urn_no_lid", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_no_lid", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_no_lid", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_no_lid_blue" },
+			{ "model": "custom/pottery/urn/urn_no_lid_blue", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_no_lid_blue", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_no_lid_blue", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_no_lid_bright" },
+			{ "model": "custom/pottery/urn/urn_no_lid_bright", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_no_lid_bright", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_no_lid_bright", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_no_lid_dirt" },
+			{ "model": "custom/pottery/urn/urn_no_lid_dirt", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_no_lid_dirt", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_no_lid_dirt", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_no_lid_green" },
+			{ "model": "custom/pottery/urn/urn_no_lid_green", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_no_lid_green", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_no_lid_green", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_no_lid_red" },
+			{ "model": "custom/pottery/urn/urn_no_lid_red", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_no_lid_red", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_no_lid_red", "y": 270  },
+			
+
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_blue" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_blue", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_blue", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_blue", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_dark" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_dark", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_dark", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_dark", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_green" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_green", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_green", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_green", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_handle" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_handle", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_handle", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_handle", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_pattern" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_pattern", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_pattern", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_pattern", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_plain" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_plain", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_plain", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_plain", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_red" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_red", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_red", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_red", "y": 270  }
+			
+		],
+		
+        "age=0,facing=west": 
+		[			
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_broken" },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_broken", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_broken", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_broken", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern" },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern_blue" },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern_blue", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern_blue", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern_blue", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern_dark" },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern_dark", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern_dark", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern_dark", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern_green" },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern_green", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern_green", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_pattern_green", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_plain" },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_plain", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_plain", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_plain", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_plain_dirt" },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_plain_dirt", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_plain_dirt", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_fallen_over_plain_dirt", "y": 270  },
+			
+			
+			{ "model": "custom/pottery/urn/urn_fallen_over" },
+			{ "model": "custom/pottery/urn/urn_fallen_over", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_fallen_over", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_fallen_over", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_fallen_over_blue" },
+			{ "model": "custom/pottery/urn/urn_fallen_over_blue", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_fallen_over_blue", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_fallen_over_blue", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_fallen_over_bright" },
+			{ "model": "custom/pottery/urn/urn_fallen_over_bright", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_fallen_over_bright", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_fallen_over_bright", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_fallen_over_dirt" },
+			{ "model": "custom/pottery/urn/urn_fallen_over_dirt", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_fallen_over_dirt", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_fallen_over_dirt", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_fallen_over_green" },
+			{ "model": "custom/pottery/urn/urn_fallen_over_green", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_fallen_over_green", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_fallen_over_green", "y": 270  },
+			
+			{ "model": "custom/pottery/urn/urn_fallen_over_red" },
+			{ "model": "custom/pottery/urn/urn_fallen_over_red", "y": 90  },
+			{ "model": "custom/pottery/urn/urn_fallen_over_red", "y": 180  },
+			{ "model": "custom/pottery/urn/urn_fallen_over_red", "y": 270  },
+			
+			
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_blue" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_blue", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_blue", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_blue", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_dark" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_dark", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_dark", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_dark", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_green" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_green", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_green", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_green", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_pattern" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_pattern", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_pattern", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_pattern", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_plain" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_plain", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_plain", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_plain", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_red" },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_red", "y": 90  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_red", "y": 180  },
+			{ "model": "custom/pottery/vase_long_neck/vase_long_neck_fallen_over_red", "y": 270  }
+			
+			
+		],
+        "age=0,facing=north": 
+		[
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern" },
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern_blue" },
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern_blue", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern_blue", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern_blue", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern_dark" },
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern_dark", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern_dark", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern_dark", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern_green" },
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern_green", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern_green", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_short_pattern_green", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_short_plain" },
+			{ "model": "custom/pottery/stamnos/stamnos_short_plain", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_short_plain", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_short_plain", "y": 270  },
+			
+			{ "model": "custom/pottery/stamnos/stamnos_short_plain_dirt" },
+			{ "model": "custom/pottery/stamnos/stamnos_short_plain_dirt", "y": 90  },
+			{ "model": "custom/pottery/stamnos/stamnos_short_plain_dirt", "y": 180  },
+			{ "model": "custom/pottery/stamnos/stamnos_short_plain_dirt", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_blue" },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_blue", "y": 90  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_blue", "y": 180  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_blue", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_dirt" },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_dirt", "y": 90  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_dirt", "y": 180  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_dirt", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_gray" },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_gray", "y": 90  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_gray", "y": 180  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_gray", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_green" },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_green", "y": 90  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_green", "y": 180  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_green", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_blue" },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_blue", "y": 90  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_blue", "y": 180  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_blue", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_dirt" },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_dirt", "y": 90  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_dirt", "y": 180  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_dirt", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_gray" },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_gray", "y": 90  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_gray", "y": 180  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_gray", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_green" },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_green", "y": 90  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_green", "y": 180  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_green", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_plain" },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_plain", "y": 90  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_plain", "y": 180  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_handles_plain", "y": 270  },
+			
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_plain" },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_plain", "y": 90  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_plain", "y": 180  },
+			{ "model": "custom/pottery/vase_short_neck/vase_short_neck_plain", "y": 270  }
+		],
+        "age=0,facing=east": [{ "model": "rr/pumpkin_large"}, { "model": "rr/pumpkin_small"}],
+        "age=1,facing=south": { "model": "custom/couch/couch1" },
+        "age=1,facing=west": { "model": "custom/couch/couch1", "y": 90 },
+        "age=1,facing=north": { "model": "custom/couch/couch1", "y": 180 },
+        "age=1,facing=east": { "model": "custom/couch/couch1", "y": 270 },
+        "age=2,facing=south": { "model": "custom/couch/couch2" },
+        "age=2,facing=west": { "model": "custom/couch/couch2", "y": 90 },
+        "age=2,facing=north": { "model": "custom/couch/couch2", "y": 180 },
+        "age=2,facing=east": { "model": "custom/couch/couch2", "y": 270 }
+    }
+}

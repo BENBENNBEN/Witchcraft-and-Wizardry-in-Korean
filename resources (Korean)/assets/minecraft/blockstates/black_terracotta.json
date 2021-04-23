@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/black_terracotta", "weight": 10 },
+			{ "model": "block/black_terracotta_alt1", "weight": 6 },
+			{ "model": "block/black_terracotta_alt2", "weight": 4 },
+			{ "model": "block/black_terracotta_alt3", "weight": 3 },
+			{ "model": "block/black_terracotta_alt4", "weight": 2 }
+		]
+    }
+}
+
+

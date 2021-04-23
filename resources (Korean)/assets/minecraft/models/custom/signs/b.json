@@ -1,0 +1,23 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "custom/signs/b",
+		"b": "custom/signs/b"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box11",
+			"from": [ -9, -5, 7.6667 ],
+			"to": [ 9.333334, 15.66667, 8.333366 ],
+			"faces": {
+				"down": { "uv": [ 3.25, 15.5, 15.5, 15.75 ], "texture": "#b" },
+				"up": { "uv": [ 3.25, 2.25, 15.5, 2 ], "texture": "#b" },
+				"north": { "uv": [ 3.25, 2, 15.5, 15.75 ], "texture": "#b" },
+				"south": { "uv": [ 3.25, 2, 15.5, 15.75 ], "texture": "#b" },
+				"west": { "uv": [ 3.25, 2, 3.5, 15.75 ], "texture": "#b" },
+				"east": { "uv": [ 15.5, 15.75, 15.25, 2 ], "texture": "#b", "rotation": 180 }
+			}
+		}
+	]
+}

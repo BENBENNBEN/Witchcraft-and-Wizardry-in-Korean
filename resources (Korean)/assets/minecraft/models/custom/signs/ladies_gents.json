@@ -1,0 +1,35 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/toilets",
+		"texture": "custom/signs/toilets"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ -15.8438, 9.875, 0.6562 ],
+			"to": [ -15.51047, 15.20833, 15.32287 ],
+			"faces": {
+				"down": { "uv": [ 0, 5.833333, 7.333333, 5.666667 ], "texture": "#texture", "rotation": 270 },
+				"up": { "uv": [ 0, 5.833333, 7.333333, 5.666667 ], "texture": "#texture", "rotation": 270 },
+				"north": { "uv": [ 0, 5.333334, 2.833333, 5.5 ], "texture": "#texture", "rotation": 270 },
+				"south": { "uv": [ 0.1666667, 5.666667, 3, 5.833333 ], "texture": "#texture", "rotation": 270 },
+				"west": { "uv": [ 0, 11.16667, 7.333333, 14 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 11.16667, 7.333333, 14 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 31.5, 9.875, 0.6562 ],
+			"to": [ 31.83333, 15.20833, 15.32287 ],
+			"faces": {
+				"down": { "uv": [ 0, 5.833333, 7.333333, 5.666667 ], "texture": "#texture", "rotation": 270 },
+				"up": { "uv": [ 0, 5.833333, 7.333333, 5.666667 ], "texture": "#texture", "rotation": 270 },
+				"north": { "uv": [ 0, 5.333334, 2.833333, 5.5 ], "texture": "#texture", "rotation": 270 },
+				"south": { "uv": [ 0.1666667, 5.666667, 3, 5.833333 ], "texture": "#texture", "rotation": 270 },
+				"west": { "uv": [ 7.333334, 11.16667, 14.66667, 14 ], "texture": "#texture" },
+				"east": { "uv": [ 7.333334, 11.16667, 14.66667, 14 ], "texture": "#texture" }
+			}
+		}
+	]
+}

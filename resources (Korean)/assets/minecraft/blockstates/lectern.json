@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "facing=east,powered=true": {
+      "model": "custom/diagon_alley/wall_2x_flat",
+      "y": 90
+    },
+    "facing=north,powered=true": {
+      "model": "custom/diagon_alley/wall_2x_flat"
+    },
+    "facing=south,powered=true": {
+      "model": "custom/diagon_alley/wall_2x_flat",
+      "y": 180
+    },
+    "facing=west,powered=true": {
+      "model": "custom/diagon_alley/wall_2x_flat",
+      "y": 270
+    },
+	"facing=east,powered=false": {
+      "model": "custom/bus/bigger_version/chunk15",
+      "y": 90
+    },
+    "facing=north,powered=false": {
+      "model": "custom/bus/bigger_version/chunk13",
+	  "y": 90
+    },
+    "facing=south,powered=false": {
+      "model": "custom/bus/bigger_version/chunk14",
+      "y": 90
+    },
+    "facing=west,powered=false": {
+      "model": "custom/bus/bigger_version/chunk16",
+      "y": 90
+    }
+  }
+}

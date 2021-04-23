@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=north,half=bottom,open=false": { "model": "custom/doors/trapdoor_door_right" },
+        "facing=south,half=bottom,open=false": { "model": "custom/doors/trapdoor_door_right", "y": 180 },
+        "facing=east,half=bottom,open=false": { "model": "custom/doors/trapdoor_door_right" , "y": 90 },
+        "facing=west,half=bottom,open=false": { "model": "custom/doors/trapdoor_door_right" , "y": 270},
+        "facing=north,half=top,open=false": { "model": "custom/doors/trapdoor_door_right" },
+        "facing=south,half=top,open=false": { "model": "custom/doors/trapdoor_door_right", "y": 180 },
+        "facing=east,half=top,open=false": { "model": "custom/doors/trapdoor_door_right" , "y": 90},
+        "facing=west,half=top,open=false": { "model": "custom/doors/trapdoor_door_right" , "y": 270},
+        "facing=north,half=bottom,open=true": { "model": "custom/doors/trapdoor_door_right" },
+        "facing=south,half=bottom,open=true": { "model": "custom/doors/trapdoor_door_right", "y": 180 },
+        "facing=east,half=bottom,open=true": { "model": "custom/doors/trapdoor_door_right", "y": 90 },
+        "facing=west,half=bottom,open=true": { "model": "custom/doors/trapdoor_door_right", "y": 270 },
+        "facing=north,half=top,open=true": { "model": "custom/doors/trapdoor_door_right" },
+        "facing=south,half=top,open=true": { "model": "custom/doors/trapdoor_door_right", "y": 180 },
+        "facing=east,half=top,open=true": { "model": "custom/doors/trapdoor_door_right", "y": 90 },
+        "facing=west,half=top,open=true": { "model": "custom/doors/trapdoor_door_right", "y": 270 }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": 
+	{
+        "": 
+		[
+			{ "model": "block/potted_fern", "weight": 10 },
+			{ "model": "block/potted_fern_alt_1", "weight": 10 }
+		]
+    }
+}

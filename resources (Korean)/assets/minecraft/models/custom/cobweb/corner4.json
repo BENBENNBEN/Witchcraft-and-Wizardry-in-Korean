@@ -1,0 +1,67 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/cobweb_glass_pane",
+		"texture": "block/cobweb_glass_pane"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneZ3",
+			"from": [ 7.999, 0, 0 ],
+			"to": [ 8, 16, 8 ],
+			"rotation": { "origin": [ 8, 0, 0 ], "axis": "y", "angle": 22.5 },
+			"faces": {
+				"west": { "uv": [ 3, 0, 11, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 8, 0, 0, 16 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "PlaneZ3",
+			"from": [ 8.999, 0, -0.3587 ],
+			"to": [ 9, 16, 4.6413 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 6.5, 16 ], "texture": "#texture", "rotation": 180 },
+				"east": { "uv": [ 10.5, 0, 16, 16 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "PlaneZ3",
+			"from": [ 7.426, 0, 1.3858 ],
+			"to": [ 15.426, 16, 1.3868 ],
+			"rotation": { "origin": [ 8, 0, 0 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"north": { "uv": [ 8, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 8, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneZ3",
+			"from": [ 12.021, 0, 7.4999 ],
+			"to": [ 16.521, 16, 7.5009 ],
+			"faces": {
+				"north": { "uv": [ 3, 0, 8, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 4.5, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "PlaneZ3",
+			"from": [ 12.0222, 0, 1.0891 ],
+			"to": [ 20.0222, 16, 1.090099 ],
+			"rotation": { "origin": [ 8, 0, 0 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"north": { "uv": [ 1.5, 0, 9.5, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 6, 0, 14, 16 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "PlaneZ3",
+			"from": [ 11.4905, 0, 4.5073 ],
+			"to": [ 19.4905, 16, 4.5083 ],
+			"rotation": { "origin": [ 8, 0, 0 ], "axis": "y", "angle": -22.5 },
+			"faces": {
+				"north": { "uv": [ 11.5, 0, 3.5, 16 ], "texture": "#texture", "rotation": 180 },
+				"south": { "uv": [ 3, 0, 11, 16 ], "texture": "#texture", "rotation": 180 }
+			}
+		}
+	]
+}

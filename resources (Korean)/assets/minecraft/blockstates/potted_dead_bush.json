@@ -1,0 +1,20 @@
+{
+    "variants": 
+	{
+        "": 
+		[
+			{ "model": "custom/book_stack_1" },
+			{ "model": "custom/book_stack_1", "y": 90 },
+			{ "model": "custom/book_stack_1", "y": 180 },
+			{ "model": "custom/book_stack_1", "y": 270 },
+			{ "model": "custom/book_stack_2" },
+			{ "model": "custom/book_stack_2", "y": 90 },
+			{ "model": "custom/book_stack_2", "y": 180 },
+			{ "model": "custom/book_stack_2", "y": 270 },
+			{ "model": "custom/book_stack_3" },
+			{ "model": "custom/book_stack_3", "y": 90 },
+			{ "model": "custom/book_stack_3", "y": 180 },
+			{ "model": "custom/book_stack_3", "y": 270 }
+		]
+    }
+}

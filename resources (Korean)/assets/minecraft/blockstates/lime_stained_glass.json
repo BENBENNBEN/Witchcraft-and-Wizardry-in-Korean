@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": [{ "model": "block/mirror_floor" },{ "model": "block/mirror_floor", "y": 90 },{ "model": "block/mirror_floor", "y": 180 },{ "model": "block/mirror_floor", "y": 270 }]
+    }
+}

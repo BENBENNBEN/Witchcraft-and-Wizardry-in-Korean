@@ -1,0 +1,78 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"texture": "painting/dusty_painting",
+		"texture1": "painting/moving_paintings/man_portrait_red105"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 13.5, 0, 14.8333 ],
+			"to": [ 14.5, 19.33333, 15.49997 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 0.6, 0.3999996 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 0, 0.4210501, 0.6, 0 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 0, 0, 0.6, 11.6 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 11.6, 0.4, 0 ], "texture": "#texture" },
+				"east": { "uv": [ 0.4, 11.6, 0, 0 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 1.8333, 0, 14.8333 ],
+			"to": [ 3.166629, 19.33333, 15.49997 ],
+			"faces": {
+				"down": { "uv": [ 7, 0, 7.6, 0.3999996 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 7, 0.4210501, 7.6, 0 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 7, 0, 7.6, 11.6 ], "texture": "#texture" },
+				"west": { "uv": [ 7.6, 0, 7.2, 11.6 ], "texture": "#texture" },
+				"east": { "uv": [ 7.2, 0, 7.6, 11.6 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 3.1667, 0, 14.8333 ],
+			"to": [ 13.50003, 1.66667, 15.49997 ],
+			"faces": {
+				"down": { "uv": [ 0.63158, 0, 7, 0.3999996 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 0.6, 0.3999996, 7, 0 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 0.6, 10.6, 7, 11.6 ], "texture": "#texture" },
+				"west": { "uv": [ 7, 0, 7.4, 0.6000004 ], "texture": "#texture" },
+				"east": { "uv": [ 7, 0, 7.4, 0.6000004 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 3.1667, 18.3333, 14.8333 ],
+			"to": [ 13.50003, 19.3333, 15.49997 ],
+			"faces": {
+				"down": { "uv": [ 0.6, 0, 7, 0.3999996 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 0.6, 0.4210501, 7, 0 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 0.6, 0, 7, 0.6000004 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 0, 0.4, 0.6000004 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 0.4, 0.6000004 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 1.8333, 0, 15.499 ],
+			"to": [ 14.49997, 19.33333, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 2, 9.33333, 14.33333, 10 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 2, 6, 14.33333, 6.66667 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 0, 12.5, 15.75, 3.375 ], "texture": "#texture1", "rotation": 270 },
+				"south": { "uv": [ 8, 0, 16, 12.21053 ], "texture": "#texture1" },
+				"west": { "uv": [ 9.33333, 0, 10, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 6, 0, 6.66667, 16 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation":  [ 0, -180, 0 ],
+			"translation":  [ 1, 0, -18 ],
+			"scale":  [ 2.5, 2.5, 2.5 ]
+		}
+	}
+}

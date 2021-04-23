@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=west": { "model": "custom/toilet" },
+        "facing=east": { "model": "custom/toilet", "y": 180 },
+        "facing=north": { "model": "custom/toilet", "y": 90 },
+        "facing=south": { "model": "custom/toilet", "y": 270 }
+    }
+}

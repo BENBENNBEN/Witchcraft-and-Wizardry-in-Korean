@@ -1,0 +1,41 @@
+﻿{
+    "variants": 
+	{
+        "": 
+		[
+			{ "model": "custom/cloth/cloth_pile1" },
+			{ "model": "custom/cloth/cloth_pile1" , "y": 90 },
+			{ "model": "custom/cloth/cloth_pile1" , "y": 180 },
+			{ "model": "custom/cloth/cloth_pile1" , "y": 270 },
+			{ "model": "custom/cloth/cloth_pile2" },
+			{ "model": "custom/cloth/cloth_pile2" , "y": 90 },
+			{ "model": "custom/cloth/cloth_pile2" , "y": 180 },
+			{ "model": "custom/cloth/cloth_pile2" , "y": 270 },
+			{ "model": "custom/cloth/cloth_pile3" },
+			{ "model": "custom/cloth/cloth_pile3" , "y": 90 },
+			{ "model": "custom/cloth/cloth_pile3" , "y": 180 },
+			{ "model": "custom/cloth/cloth_pile3" , "y": 270 },
+			{ "model": "custom/cloth/cloth_pile4" },
+			{ "model": "custom/cloth/cloth_pile4" , "y": 90 },
+			{ "model": "custom/cloth/cloth_pile4" , "y": 180 },
+			{ "model": "custom/cloth/cloth_pile4" , "y": 270 },
+			{ "model": "custom/cloth/cloth_pile5" },
+			{ "model": "custom/cloth/cloth_pile5" , "y": 90 },
+			{ "model": "custom/cloth/cloth_pile5" , "y": 180 },
+			{ "model": "custom/cloth/cloth_pile5" , "y": 270 },
+			{ "model": "custom/cloth/cloth_stack1" },
+			{ "model": "custom/cloth/cloth_stack1" , "y": 90 },
+			{ "model": "custom/cloth/cloth_stack1" , "y": 180 },
+			{ "model": "custom/cloth/cloth_stack1" , "y": 270 },
+			{ "model": "custom/cloth/cloth_stack2" },
+			{ "model": "custom/cloth/cloth_stack2" , "y": 90 },
+			{ "model": "custom/cloth/cloth_stack2" , "y": 180 },
+			{ "model": "custom/cloth/cloth_stack2" , "y": 270 },
+			{ "model": "custom/cloth/cloth_stack3" },
+			{ "model": "custom/cloth/cloth_stack3" , "y": 90 },
+			{ "model": "custom/cloth/cloth_stack3" , "y": 180 },
+			{ "model": "custom/cloth/cloth_stack3" , "y": 270 }
+		]
+    }
+}
+

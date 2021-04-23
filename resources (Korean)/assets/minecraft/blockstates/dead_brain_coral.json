@@ -1,0 +1,9 @@
+﻿{
+    "variants": {
+        "": [
+			{ "model": "custom/apple_basket_green" },{ "model": "custom/apple_basket_green", "y": 90 },{ "model": "custom/apple_basket_green", "y": 180 },{ "model": "custom/apple_basket_green", "y": 270 },
+			{ "model": "custom/apple_basket_red" },{ "model": "custom/apple_basket_red", "y": 90 },{ "model": "custom/apple_basket_red", "y": 180 },{ "model": "custom/apple_basket_red", "y": 270 }
+		]
+    }
+}
+

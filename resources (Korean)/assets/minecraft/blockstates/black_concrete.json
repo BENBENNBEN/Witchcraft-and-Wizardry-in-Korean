@@ -1,0 +1,9 @@
+﻿{
+    "variants": {
+        "": [
+			{ "model": "block/concrete_black", "weight": 10 },					
+			{ "model": "block/concrete_black_alt_1", "weight": 10 }
+        ]
+    }
+}
+

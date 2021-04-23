@@ -1,0 +1,43 @@
+﻿{
+    "variants": {
+        "stage=0":
+        [{
+                "model": "custom/vegetation/bush1"
+            }, {
+                "model": "custom/vegetation/bush1",
+                "y": 90
+            }, {
+                "model": "custom/vegetation/bush1",
+                "y": 180
+            }, {
+                "model": "custom/vegetation/bush1",
+                "y": 270
+            }, {
+                "model": "custom/vegetation/bush2"
+            }, {
+                "model": "custom/vegetation/bush2",
+                "y": 90
+            }, {
+                "model": "custom/vegetation/bush2",
+                "y": 180
+            }, {
+                "model": "custom/vegetation/bush2",
+                "y": 270
+            }, {
+                "model": "custom/vegetation/bush3"
+            }, {
+                "model": "custom/vegetation/bush3",
+                "y": 90
+            }, {
+                "model": "custom/vegetation/bush3",
+                "y": 180
+            }, {
+                "model": "custom/vegetation/bush3",
+                "y": 270
+            }
+        ],
+        "stage=1": {
+            "model": "creatures/beehive"
+        }
+    }
+}

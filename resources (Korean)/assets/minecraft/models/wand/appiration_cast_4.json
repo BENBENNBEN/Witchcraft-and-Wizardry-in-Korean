@@ -1,0 +1,46 @@
+{
+    "parent": "wand/wand",
+	
+   "display": {
+		"firstperson_righthand": {
+            "rotation": 	[ -6.85324, -67.1803, 148.04 ],
+            "translation": 	[ 7.2681, 4.44124, -10.1139],
+            "scale": 		[ 4, 4, 4 ]
+        },
+        "gui": {
+            "rotation": 	[ 0, 0, 0 ],
+            "translation": 	[ 0, 0, 0],
+            "scale":		[ 0, 0, 0 ]
+        },
+        "ground": {
+			"rotation": 	[ 0, 0, 0 ],
+			"translation": 	[ 0, 0, 0 ],
+			"scale": 	[ 0, 0, 0 ]
+        },
+        "fixed": {
+			"rotation": 	[ 0, 0, 0 ],
+			"translation": 	[ 0, 0, 0 ],
+			"scale": 	[ 0, 0, 0 ]
+        },
+		"head": {
+            "rotation": 	[ 0, 0, 0 ],
+            "translation": 	[ 0, 0, 0],
+            "scale":		[ 0, 0, 0]
+        },
+        "thirdperson_righthand": {
+            "rotation": 	[ 90, 90, 0 ],
+            "translation": 	[ 0, 0, 0 ],
+            "scale": 		[ 1, 1, 1 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": 	[ -90, 0, 0 ],
+            "translation": 	[ 0, 0, 0 ],
+            "scale": 		[ 1, 1, 1 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": 	[ 0, 0, 0 ],
+            "translation": 	[ 0, 0, 0],
+            "scale": 		[ 0, 0, 0 ]
+        }
+    }
+}

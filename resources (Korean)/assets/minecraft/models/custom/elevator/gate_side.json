@@ -1,0 +1,54 @@
+{
+	"textures": {
+		"1": "custom/elevator/iron_plate",
+		"2": "custom/elevator/purpur_block"
+	},
+	"elements": [
+		{
+			"from": [-4.6, -16, 13.9],
+			"to": [-3.6, 31, 17],
+			"rotation": {"angle": 0, "axis": "z", "origin": [-4, 8, 15.55]},
+			"faces": {
+				"north": {"uv": [16, 2, 0, 2.33333], "texture": "#1", "rotation": 270},
+				"east": {"uv": [16, 6, 0, 6.99922], "texture": "#1", "rotation": 90},
+				"south": {"uv": [16, 2, 0, 2.33333], "texture": "#1", "rotation": 270},
+				"west": {"uv": [16, 2, 0, 2.99922], "texture": "#1", "rotation": 270},
+				"up": {"uv": [0.33333, 2, 0, 2.33333], "texture": "#1", "rotation": 180},
+				"down": {"uv": [0.33333, 2, 0, 2.33333], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-3.6, -16, 13.9],
+			"to": [1.4, 31, 15],
+			"rotation": {"angle": 0, "axis": "z", "origin": [1, 8, 14.55]},
+			"faces": {
+				"north": {"uv": [16, 10.99922, 0, 12.66406], "texture": "#1", "rotation": 270},
+				"east": {"uv": [16, 11.33281, 0, 11.66562], "texture": "#1", "rotation": 90},
+				"south": {"uv": [16, 11.33281, 0, 11.66562], "texture": "#1", "rotation": 270},
+				"west": {"uv": [16, 11.33281, 0, 11.66562], "texture": "#1", "rotation": 270},
+				"up": {"uv": [0.66641, 10.99922, 0, 11.66484], "texture": "#2", "rotation": 180},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#2"}
+			}
+		},
+		{
+			"from": [-3.6, -16, 15.9],
+			"to": [1.4, 31, 17],
+			"rotation": {"angle": 0, "axis": "z", "origin": [1, 8, 16.55]},
+			"faces": {
+				"north": {"uv": [16, 11.33281, 0, 11.66484], "texture": "#1", "rotation": 270},
+				"east": {"uv": [16, 11.33281, 0, 11.66484], "texture": "#1", "rotation": 90},
+				"south": {"uv": [16, 11, 0, 12.66484], "texture": "#1", "rotation": 90},
+				"west": {"uv": [16, 11.33281, 0, 11.66484], "texture": "#1", "rotation": 90},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#2", "rotation": 90},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#2", "rotation": 90}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale": [1.6, 1.6, 1.6],
+			"translation": [-1, -18.4, 0],
+			"rotation": [0, 90, 0]
+		}
+	}
+}

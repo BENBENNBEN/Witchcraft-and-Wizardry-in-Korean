@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "bites=0": [{ "model": "custom/food/cake" },{ "model": "custom/food/cake", "y": 90 },{ "model": "custom/food/cake", "y": 180 },{ "model": "custom/food/cake", "y": 270 }],
+        "bites=1": [{ "model": "custom/food/bread1" },{ "model": "custom/food/bread1", "y": 90 },{ "model": "custom/food/bread1", "y": 180 },{ "model": "custom/food/bread1", "y": 270 }],
+        "bites=2": [{ "model": "custom/food/cheese1" },{ "model": "custom/food/cheese1", "y": 90 },{ "model": "custom/food/cheese1", "y": 180 },{ "model": "custom/food/cheese1", "y": 270 }],
+        "bites=3": [{ "model": "custom/food/pancake1" },{ "model": "custom/food/pancake1", "y": 90 },{ "model": "custom/food/pancake1", "y": 180 },{ "model": "custom/food/pancake1", "y": 270 }],
+        "bites=4": [{ "model": "custom/food/roastedchicken" },{ "model": "custom/food/roastedchicken", "y": 90 },{ "model": "custom/food/roastedchicken", "y": 180 },{ "model": "custom/food/roastedchicken", "y": 270 }],
+        "bites=5": [{ "model": "custom/plate/plate1" },{ "model": "custom/plate/plate1", "y": 90 },{ "model": "custom/plate/plate1", "y": 180 },{ "model": "custom/plate/plate1", "y": 270 },
+                    { "model": "custom/plate/plate2" },{ "model": "custom/plate/plate2", "y": 90 },{ "model": "custom/plate/plate2", "y": 180 },{ "model": "custom/plate/plate2", "y": 270 }],
+        "bites=6": [{ "model": "custom/food/pie" },{ "model": "custom/food/pie", "y": 90 },{ "model": "custom/food/pie", "y": 180 },{ "model": "custom/food/pie", "y": 270 }]
+    }
+}

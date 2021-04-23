@@ -1,0 +1,107 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"texture": "custom/lamp_post",
+		"particle": "custom/lamp_post"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 6.3333, -16, 6.3333 ],
+			"to": [ 9.66663, 2.33333, 9.66663 ],
+			"faces": {
+				"down": { "uv": [ 4, 3.5, 5, 4.5 ], "texture": "#texture" },
+				"up": { "uv": [ 4, 3.5, 5, 4.5 ], "texture": "#texture" },
+				"north": { "uv": [ 1.5, 6.125, 2.625, 13 ], "texture": "#texture" },
+				"south": { "uv": [ 1.5, 6.125, 2.625, 13 ], "texture": "#texture" },
+				"west": { "uv": [ 1.5, 6.125, 2.625, 13 ], "texture": "#texture" },
+				"east": { "uv": [ 1.5, 6.125, 2.625, 13 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 5.3333, -16, 5.3333 ],
+			"to": [ 10.66663, -13.33333, 10.66663 ],
+			"faces": {
+				"down": { "uv": [ 1.5, 3, 3, 4.5 ], "texture": "#texture" },
+				"up": { "uv": [ 1.5, 3, 3, 4.5 ], "texture": "#texture" },
+				"north": { "uv": [ 3.125, 7.5, 5.125, 8.5 ], "texture": "#texture" },
+				"south": { "uv": [ 3.125, 7.5, 5.125, 8.5 ], "texture": "#texture" },
+				"west": { "uv": [ 3.125, 7.5, 5.125, 8.5 ], "texture": "#texture" },
+				"east": { "uv": [ 3.125, 7.5, 5.125, 8.5 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 4.6562, -15.9167, 4.6562 ],
+			"to": [ 11.32287, -14.58337, 11.32287 ],
+			"faces": {
+				"down": { "uv": [ 0, 0.5, 2.5, 3 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 0.5, 2.5, 3 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 0, 2.5, 0.5 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 2.5, 0.5 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 0, 2.5, 0.5 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 2.5, 0.5 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 5.6562, -10.2083, 5.6562 ],
+			"to": [ 10.32287, -9.2083, 10.32287 ],
+			"faces": {
+				"down": { "uv": [ 2.5, 0.375, 4.25, 2 ], "texture": "#texture" },
+				"up": { "uv": [ 2.5, 0.375, 4.25, 2 ], "texture": "#texture" },
+				"north": { "uv": [ 2.5, 0, 4.25, 0.375 ], "texture": "#texture" },
+				"south": { "uv": [ 2.5, 0, 4.25, 0.375 ], "texture": "#texture" },
+				"west": { "uv": [ 2.5, 0, 4.25, 0.375 ], "texture": "#texture" },
+				"east": { "uv": [ 2.5, 0, 4.25, 0.375 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 5.3228, -9.541699, 5.3228 ],
+			"to": [ 10.65613, -8.20837, 10.65613 ],
+			"faces": {
+				"down": { "uv": [ 0, 0.5, 2.5, 3 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 0.5, 2.5, 3 ], "texture": "#texture" },
+				"north": { "uv": [ 0.25, 0, 2.25, 0.5 ], "texture": "#texture" },
+				"south": { "uv": [ 0.25, 0, 2.25, 0.5 ], "texture": "#texture" },
+				"west": { "uv": [ 0.25, 0, 2.25, 0.5 ], "texture": "#texture" },
+				"east": { "uv": [ 0.25, 0, 2.25, 0.5 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 5.6562, -8.2083, 5.6562 ],
+			"to": [ 10.32287, -7.208299, 10.32287 ],
+			"faces": {
+				"down": { "uv": [ 2.5, 0.375, 4.25, 2 ], "texture": "#texture" },
+				"up": { "uv": [ 2.5, 0.375, 4.25, 2 ], "texture": "#texture" },
+				"north": { "uv": [ 2.5, 0, 4.25, 0.375 ], "texture": "#texture" },
+				"south": { "uv": [ 2.5, 0, 4.25, 0.375 ], "texture": "#texture" },
+				"west": { "uv": [ 2.5, 0, 4.25, 0.375 ], "texture": "#texture" },
+				"east": { "uv": [ 2.5, 0, 4.25, 0.375 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 6, -16, 6 ],
+			"to": [ 10, -5.333333, 10 ],
+			"faces": {
+				"down": { "uv": [ 1.5, 3, 3, 4.5 ], "texture": "#texture" },
+				"up": { "uv": [ 1.5, 3, 3, 4.5 ], "texture": "#texture" },
+				"north": { "uv": [ 0.125, 10.125, 1.5, 13.875 ], "texture": "#texture" },
+				"south": { "uv": [ 0.125, 10.125, 1.5, 13.875 ], "texture": "#texture" },
+				"west": { "uv": [ 0.125, 10.125, 1.5, 13.875 ], "texture": "#texture" },
+				"east": { "uv": [ 0.125, 10.125, 1.5, 13.875 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation":  [ -30, 0, 0 ],
+			"translation":  [ 0, -30.75, -7.25 ],
+			"scale":  [ 3.0173, 3.0173, 3.0173 ]
+		}
+	}
+}

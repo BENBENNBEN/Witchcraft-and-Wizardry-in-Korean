@@ -1,0 +1,53 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/holder/sign_holder_1",
+		"texture": "custom/signs/holder/sign_holder_1"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box16",
+			"from": [ 7.3125, 0.0312, -15.9688 ],
+			"to": [ 8.645833, 0.6978669, 0.03120041 ],
+			"faces": {
+				"down": { "uv": [ 0.1111107, 15.55556, 5.59375, 16 ], "texture": "#texture", "rotation": 90 },
+				"up": { "uv": [ 0.1111107, 15.55556, 5.59375, 16 ], "texture": "#texture", "rotation": 90 },
+				"north": { "uv": [ 0.4444445, 15.77778, 0, 15.55556 ], "texture": "#texture", "rotation": 180 },
+				"south": { "uv": [ 0, 15.88889, 5.5, 15.65625 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 15.88889, 5.5, 15.65625 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 15.88889, 5.5, 15.65625 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box16",
+			"from": [ 6.9792, -0.6354, -0.6354 ],
+			"to": [ 8.979198, 1.3646, 0.6979334 ],
+			"faces": {
+				"down": { "uv": [ 4.555555, 14.55556, 4.888889, 15 ], "texture": "#texture", "rotation": 270 },
+				"up": { "uv": [ 4.555555, 14.55556, 4.888889, 15 ], "texture": "#texture", "rotation": 90 },
+				"north": { "uv": [ 4.555555, 12.11111, 4.999999, 12.55555 ], "texture": "#texture", "rotation": 90 },
+				"south": { "uv": [ 4.555555, 11.66667, 4.999999, 12.11111 ], "texture": "#texture", "rotation": 90 },
+				"west": { "uv": [ 4.555555, 14.55556, 4.888889, 15 ], "texture": "#texture", "rotation": 180 },
+				"east": { "uv": [ 4.555555, 14.55556, 4.888889, 15 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "PlaneZ9",
+			"from": [ 7.9792, -0.6354, 0.3646 ],
+			"to": [ 7.9802, 1.3646, 7.031267 ],
+			"faces": {
+				"west": { "uv": [ 10.11111, 15, 12.11111, 15.55556 ], "texture": "#texture" },
+				"east": { "uv": [ 10.11111, 15.55556, 12.11111, 15 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "PlaneZ9",
+			"from": [ 6.9792, 0.3646, 0.3646 ],
+			"to": [ 8.979198, 0.3656, 7.031267 ],
+			"faces": {
+				"down": { "uv": [ 12.11111, 15.55556, 10.11111, 15 ], "texture": "#texture", "rotation": 90 },
+				"up": { "uv": [ 10.11111, 15.55556, 12.11111, 15 ], "texture": "#texture", "rotation": 90 }
+			}
+		}
+	]
+}

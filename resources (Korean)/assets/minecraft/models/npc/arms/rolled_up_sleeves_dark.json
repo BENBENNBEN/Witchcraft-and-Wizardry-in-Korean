@@ -1,0 +1,31 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"texture": "npc/arms/rolled_up_sleeves_dark"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 7.3333, 1, 7.6667 ],
+			"to": [ 10.99997, 13, 11.00003 ],
+			"faces": {
+				"down": { "uv": [ 8, 0, 12, 4 ], "texture": "#texture" },
+				"up": { "uv": [ 4, 0, 8, 4 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 4, 4, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 8, 4, 12, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 12, 4, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 4, 4, 8, 16 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 9, 175, 0 ],
+			"translation":  [ 1, -5.15, 11.35 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 9, -5, 0 ],
+			"translation":  [ 1, -4.8, 8.6813 ]
+		}
+	}
+}

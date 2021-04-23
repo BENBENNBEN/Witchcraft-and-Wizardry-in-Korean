@@ -1,0 +1,23 @@
+﻿{
+		"variants":{
+			"":[
+			
+            { "model": "custom/vegetation/grass1" , "weight": 20 },
+            { "model": "custom/vegetation/grass1",  "y": 90 , "weight": 20},
+            { "model": "custom/vegetation/grass1", "y": 180 , "weight": 20 },
+            { "model": "custom/vegetation/grass1", "y": 270 , "weight": 20 },
+			
+			{ "model": "custom/vegetation/grass2" , "weight": 20 },
+            { "model": "custom/vegetation/grass2",  "y": 90 , "weight": 20},
+            { "model": "custom/vegetation/grass2", "y": 180 , "weight": 20 },
+            { "model": "custom/vegetation/grass2", "y": 270 , "weight": 20 },
+			
+			{ "model": "custom/vegetation/grass3" , "weight": 20 },
+            { "model": "custom/vegetation/grass3",  "y": 90 , "weight": 20},
+            { "model": "custom/vegetation/grass3", "y": 180 , "weight": 20 },
+            { "model": "custom/vegetation/grass3", "y": 270 , "weight": 20 }
+		
+	
+        ]
+    }
+}

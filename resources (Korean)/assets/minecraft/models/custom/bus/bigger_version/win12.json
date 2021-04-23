@@ -1,0 +1,54 @@
+{
+	"textures": {
+		"1": "custom/bus/glass4",
+		"3": "custom/bus/glass3",
+		"particle": "custom/bus/glass4"
+	},
+	"elements": [
+		{
+			"from": [24.66167, -12.00001, 26.66667],
+			"to": [24.995, 1.66666, 32],
+			"rotation": {"angle": 0, "axis": "y", "origin": [32, -18.66667, 50]},
+			"faces": {
+				"east": {"uv": [6.667, 11.445, 8.445, 16], "texture": "#3"},
+				"west": {"uv": [8.445, 11.445, 6.667, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [24.66167, -12.00001, -9.33333],
+			"to": [24.995, 1.66666, 24.33333],
+			"rotation": {"angle": 0, "axis": "y", "origin": [32, -18.66667, 50]},
+			"faces": {
+				"east": {"uv": [0, 11.444, 11.223, 16], "texture": "#1"},
+				"west": {"uv": [11.223, 11.444, 0, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-0.005, -12.00001, -13.66666],
+			"to": [14.32833, -0.00001, -13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [24.33333, -18.66667, 45.66667]},
+			"faces": {
+				"north": {"uv": [0, 11.778, 4.77778, 15.778], "texture": "#1"},
+				"south": {"uv": [0, 11.445, 4.778, 16], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "hexadecagon",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2]
+		},
+		{
+			"name": "chunk20s",
+			"origin": [8, 8, 8],
+			"children": [
+				{
+					"name": "hexadecagon",
+					"origin": [8, 8, 8],
+					"children": []
+				}
+			]
+		}
+	]
+}

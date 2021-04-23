@@ -1,0 +1,1 @@
+{"textures":{"texture":"spells/appiration_indicator_bottom"},"elements":[{"from":[-2.6667,0.3333,-2.6667],"to":[18.66663,0.3343,18.66663],"faces":{"up":{"uv":[0,0,16,16],"texture":"#texture"},"down":{"uv":[0,0,16,16],"texture":"#texture"}}}],"display":{"thirdperson_righthand":{"rotation":[90,0,0],"translation":[-6,-2,-4]}}}

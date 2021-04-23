@@ -1,0 +1,52 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "pattern": "block/cyan_glazed_terracotta",
+        "smooth": "block/purpur_block",
+        "top": "block/clay"
+    },
+    "elements": [{
+            "from": [0, 0, 0],
+            "to": [16, 16, 16],
+            "faces": {
+                "north": {
+                    "uv": [0, 0, 16, 16],
+                    "texture": "#pattern",
+                    "cullface": "north"
+                },
+                "east": {
+                    "uv": [0, 16, 16, 0],
+                    "rotation": 180,
+                    "texture": "#smooth",
+                    "cullface": "east"
+                },
+                "south": {
+                    "uv": [16, 0, 0, 16],
+                    "texture": "#pattern",
+                    "cullface": "south"
+                },
+                "west": {
+                    "uv": [0, 0, 16, 16],
+                    "texture": "#top",
+                    "cullface": "west"
+                },
+                "up": {
+                    "uv": [0, 0, 16, 16],
+                    "texture": "#top",
+                    "cullface": "up"
+                },
+                "down": {
+                    "uv": [0, 0, 16, 16],
+                    "texture": "#smooth",
+                    "cullface": "down"
+                }
+            }
+        }
+    ],
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [0, 135, 0],
+            "scale": [0.4, 0.4, 0.4]
+        }
+    }
+}

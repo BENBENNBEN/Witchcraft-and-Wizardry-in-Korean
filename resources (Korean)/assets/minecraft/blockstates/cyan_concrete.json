@@ -1,0 +1,11 @@
+﻿{
+    "variants": {
+        "": [
+			{ "model": "block/concrete_cyan", "weight": 10 },
+			{ "model": "block/concrete_cyan_alt_1", "weight": 10 },
+			{ "model": "block/concrete_cyan_alt_2", "weight": 10 },
+			{ "model": "block/concrete_cyan_alt_3", "weight": 10 }	
+		]
+    }
+}
+

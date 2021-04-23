@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/todds_parlour",
+		"todds_parlour": "custom/signs/todds_parlour"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ -8, 0, 8 ],
+			"to": [ 8, 16, 8.666667 ],
+			"faces": {
+				"down": { "uv": [ 0, 15.66667, 16, 16 ], "texture": "#todds_parlour" },
+				"up": { "uv": [ 0, 0.333333, 16, 0 ], "texture": "#todds_parlour" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#todds_parlour" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#todds_parlour" },
+				"west": { "uv": [ 0, 0, 0.3333333, 16 ], "texture": "#todds_parlour" },
+				"east": { "uv": [ 16, 16, 15.66667, 0 ], "texture": "#todds_parlour", "rotation": 180 }
+			}
+		}
+	]
+}

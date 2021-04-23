@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "custom/table/45_no_bench_wooden_floor" },
+        "facing=west": { "model": "custom/table/45_no_bench", "y": 90 },
+        "facing=north": { "model": "custom/table/45_no_bench_wooden_floor", "y": 180 },
+        "facing=east": { "model": "custom/table/45_no_bench", "y": 270 }
+    }
+}

@@ -1,0 +1,10 @@
+﻿{
+    "variants": {
+        "": [
+			{ "model": "block/hardened_clay_pink", "weight": 10 },
+			{ "model": "block/hardened_clay_pink_alt_1", "weight": 5 },
+			{ "model": "block/hardened_clay_pink_alt_2", "weight": 10 }
+		]
+    }
+}
+

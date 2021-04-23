@@ -1,0 +1,1 @@
+{"textures":{"texture":"custom/leaves","particle":"custom/leaves"},"elements":[{"from":[-14.5,0.5,-7.5],"to":[17.5,0.501,24.5],"faces":{"up":{"uv":[0,0,16,16],"texture":"#texture"}}},{"from":[0,1,-7.5],"to":[15.5,1.001,24.5],"faces":{"up":{"uv":[0,16,7.75,0],"texture":"#texture"}}}]}

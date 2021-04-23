@@ -1,0 +1,22 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/signs/offices",
+		"offices": "custom/signs/offices"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box68",
+			"from": [ -2.5, 0, 0 ],
+			"to": [ 18.83333, 16, 0.6666665 ],
+			"faces": {
+				"down": { "uv": [ 0, 7.833333, 10.66667, 8 ], "texture": "#offices" },
+				"up": { "uv": [ 0, 0.166667, 10.66667, 0 ], "texture": "#offices" },
+				"north": { "uv": [ 0, 0, 10.66667, 8 ], "texture": "#offices" },
+				"south": { "uv": [ 0, 0, 10.66667, 8 ], "texture": "#offices" },
+				"west": { "uv": [ 0, 0, 0.1666667, 8 ], "texture": "#offices" },
+				"east": { "uv": [ 10.66667, 8, 10.5, 0 ], "texture": "#offices", "rotation": 180 }
+			}
+		}
+	]
+}

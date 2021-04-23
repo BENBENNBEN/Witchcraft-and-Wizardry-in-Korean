@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "block/gold",
+        "top": "block/gold",
+        "side": "block/gold"
+    }
+}

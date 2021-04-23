@@ -1,0 +1,89 @@
+{
+	"__comment": "Designed by Tacocat with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "custom/long_table",
+		"texture": "custom/long_table",
+		"texture1": "custom/ground_dark_prismarine_table"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 8, 13.9999, -8 ],
+			"to": [ 30.66667, 15.9999, 11.66667 ],
+			"rotation": { "origin": [ 8, 14, -8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 0, 0, 10.33333, 10 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 0, 10.33333, 10 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 10, 10, 11.16667 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 10, 10, 11.16667 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 10, 10, 11.16667 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 10, 10, 11.16667 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 7.9688, 0, 5.5938 ],
+			"to": [ 11.30213, 13, 8.927134 ],
+			"rotation": { "origin": [ 7.96875, 0, 5.59375 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 14, 11.33333, 15, 12.33333 ], "texture": "#texture" },
+				"up": { "uv": [ 14, 3.666667, 15, 4.666667 ], "texture": "#texture" },
+				"north": { "uv": [ 2.333333, 14, 11.5, 11.16667 ], "texture": "#texture", "rotation": 270 },
+				"south": { "uv": [ 2.333333, 14, 11.5, 11.16667 ], "texture": "#texture", "rotation": 270 },
+				"west": { "uv": [ 11.5, 11.16667, 2.333334, 14 ], "texture": "#texture", "rotation": 270 },
+				"east": { "uv": [ 2.333333, 11.16667, 11.5, 14 ], "texture": "#texture", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 7.9583, 0, 5.1354 ],
+			"to": [ 11.9583, 3.34375, 9.1354 ],
+			"rotation": { "origin": [ 7.958333, 0, 5.135417 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 4.833333, 11.33333, 7.833333, 14 ], "texture": "#texture" },
+				"up": { "uv": [ 4.833333, 11.33333, 7.833333, 14 ], "texture": "#texture" },
+				"north": { "uv": [ 10.16667, 5.666667, 13.16667, 8.333334 ], "texture": "#texture", "rotation": 270 },
+				"south": { "uv": [ 10.16667, 5.666667, 13.16667, 8.333334 ], "texture": "#texture", "rotation": 270 },
+				"west": { "uv": [ 10.16667, 5.666667, 13.16667, 8.333334 ], "texture": "#texture", "rotation": 270 },
+				"east": { "uv": [ 10.16667, 5.666667, 13.16667, 8.333334 ], "texture": "#texture", "rotation": 270 }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 7.9688, 12.75, 3.9375 ],
+			"to": [ 13.62505, 14.15625, 9.59375 ],
+			"rotation": { "origin": [ 7.96875, 12.75, 3.9375 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 0, 4.833334, 3.833333, 8.333334 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 0, 4.833334, 3.833333, 8.333334 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 0, 10.16667, 3.666667, 11.16667 ], "texture": "#texture", "rotation": 180 },
+				"south": { "uv": [ 0, 10.16667, 3.666667, 11.16667 ], "texture": "#texture", "rotation": 180 },
+				"west": { "uv": [ 0, 10.16667, 3.666667, 11.16667 ], "texture": "#texture", "rotation": 180 },
+				"east": { "uv": [ 0, 10.16667, 3.666667, 11.16667 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "PlaneY19",
+			"from": [ -0.005, 0, -0.005 ],
+			"to": [ 16.005, 0.001, 16.005 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture1" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture1", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 7.9688, 0.0625, 3.9375 ],
+			"to": [ 13.62505, 1, 9.59375 ],
+			"rotation": { "origin": [ 7.96875, 0.0625, 3.9375 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 0, 4.833334, 3.833333, 8.333334 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 3, 11.16667, 6.833333, 14.66667 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 0, 10, 3.666667, 10.83333 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 10, 3.666667, 10.83333 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 10, 3.666667, 10.83333 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 10, 3.666667, 10.83333 ], "texture": "#texture" }
+			}
+		}
+	]
+}

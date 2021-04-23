@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "": [
+			{ "model": "custom/candles/red_candles_1" },
+			{ "model": "custom/candles/red_candles_2" },
+			{ "model": "custom/candles/red_candles_3" }	
+		]
+    }
+}
+
+
+
