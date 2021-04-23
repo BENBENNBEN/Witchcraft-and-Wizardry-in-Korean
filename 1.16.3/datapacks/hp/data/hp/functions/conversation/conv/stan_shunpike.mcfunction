@@ -34,7 +34,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 나이트 버스에 어서 와! 갈 곳 없는 마녀와 마법사를 태우는 운송 수단이지. 내 이름은 \"},{\"text\":\"스탠 션파이크야\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 오늘 나이트 버스의 차장이지.\\n\\n\\n\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 갈 곳 없는 마녀와 마법사를 운송하는 나이트 버스에 탄 걸 환영해. 내 이름은 \"},{\"text\":\"스탠 션파이크\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\", 이 나이트 버스의 차장이야.\\n\\n\\n\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -101,7 +101,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 들었어? 런던 다이애건 앨리래. 그냥 리키 콜드런 앞에 내려줄게. 유명한 마법 주점이야. 다이애건 앨리 입구는 리키 콜드런 뒤에 있지.\\n\\n\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 들었어? 런던 다이애건 앨리래. 그냥 리키 콜드런 앞에 내려줄게. 그 마법사 주점 바로 뒤에 다이애건 앨리로 들어가는 입구가 있으니까.\\n\\n\\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -180,7 +180,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 왜 그런 게 궁금해? 자 봐봐. 이건 버스잖아. 주로 밤에 운행하는. 그리고 어떻게 보면 위험에 빠진 사람들을 구해주는 기사 같잖아. 아, 됐어. 내가 이름 지은 거 아니라고. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그런 게 왜 궁금한데? 자 봐봐. 이건 버스잖아. 주로 밤에 운행하는. 그리고 어떻게 보면 위험에 빠진 사람들을 구해주는 기사잖아. 그러니까 나이트 버스인 거지. 아, 됐어. 내가 이름 지은 거 아니야. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -210,7 +210,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 눈을 뜨고 잘 봐봐, 젊은 친구. 이건 AEC 사에서 만든 리젠트 III RT 모델 보라색 3층 버스라고. 길을 잃은 사람들을 태우는 유일한 운송 수단이지. 멋지지 않니? \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 눈을 뜨고 잘 봐봐, 친구. 이건 AEC 사에서 만든 리젠트 III RT 모델 보라색 3층 버스야. 길을 잃은 사람들을 태우는 유일한 운송 수단이지. 멋지지 않니? \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -289,7 +289,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 머글들? 아무것도 못 듣지. 아무것도 못 봐. 눈치를 못 채지. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 머글들? 아무것도 듣지 못하고, 아무것도 보지 못해. 눈치도 못 채지. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -322,7 +322,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 눈을 뜨고 잘 봐봐, 젊은 친구. 이건 AEC 사에서 만든 리젠트 III RT 모델 보라색 3층 버스라고. 길을 잃은 사람들을 태우는 유일한 운송 수단이지. 멋지지 않니? \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 눈을 뜨고 잘 봐봐, 친구. 이건 AEC 사에서 만든 리젠트 III RT 모델 보라색 3층 버스야. 길을 잃은 사람들을 태우는 유일한 운송 수단이지. 멋지지 않니? \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -356,7 +356,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 왜 그런 게 궁금해? 자 봐봐. 이건 버스잖아. 주로 밤에 운행하는. 그리고 어떻게 보면 위험에 빠진 사람들을 구해주는 기사 같잖아. 아, 됐어. 내가 이름 지은 거 아니라고. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그런 게 왜 궁금한데? 자 봐봐. 이건 버스잖아. 주로 밤에 운행하는. 그리고 어떻게 보면 위험에 빠진 사람들을 구해주는 기사잖아. 그러니까 나이트 버스인 거지. 아, 됐어. 내가 이름 지은 거 아니야. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -449,7 +449,7 @@ tag @s[scores={convState=12},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐 하고 있어? 호그와트 가려면 급행열차를 타러 가야지! 이 근처 킹스 크로스 역의 9와 4분의 3 승강장으로 가면 돼. 시간 좀 있으니까 런던이라도 구경하던가. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐 하고 있어? 이제 호그와트 급행열차를 타러 가봐! 이 근처 킹스 크로스 역의 9와 4분의 3 승강장으로 가면 돼. 시간 좀 있으니까 런던이라도 구경하던가. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

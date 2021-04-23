@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 양피지, 잉크, 깃펜. 뭐가 더 편리할까요? 머글들은 글을 쓸 때 종이에 펜으로 쓴다고 들었는데 말도 안 되는 얘기잖아요. 그럼 다 날아갈 텐데. 깃펜이랑 송아지 가죽이 낫지. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 양피지, 잉크, 깃펜. 뭐가 더 좋으냐고? 머글들은 글을 쓸 때 종이에 펜으로 쓴다고 하더라고. 그럼 글씨가 다 날아갈 텐데. 깃펜이랑 송아지 가죽이 낫지. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

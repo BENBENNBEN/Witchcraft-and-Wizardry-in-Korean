@@ -110,7 +110,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 재료는 여러 방법으로 구하실 수 있습니다. 돈이 넉넉하다면 재료 상점을 돌아다니다가 원하는 재료를 구매하시면 됩니다.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 재료는 여러 방법으로 구하실 수 있습니다. 재료를 돈으로 구매하고 싶으시다면, 재료 상점에서 원하는 재료를 사시면 됩니다.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -141,7 +141,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 돈을 내기 싫으시다면 직접 돌아다니면서 구하셔야 합니다. 좋은 재료가 어디 땅에 떨어져 있을지도 모르니까요. 몬스터나 공격적인 생물을 사냥하면서 얻으실 수도 있고요.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 돈으로 사는 게 부담스러우시다면 직접 돌아다니면서 구하셔야 합니다. 좋은 재료가 어디 땅에 떨어져 있을지도 모르니까요. 몬스터나 공격적인 생물을 사냥하면서 얻으실 수도 있고요.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -203,7 +203,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 물약 제조 아시는구나? 겁나 세심한 작업이죠. 물약만 있으면 누구나 사용할 수 있다는 점에서 물약이 마법 주문보다 훨씬 좋습니다. 물약으로만 가능한 특정 마법 효과도 있고요.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 물약 제조요? 매우 세심한 작업이죠. 물약만 있으면 누구나 사용할 수 있다는 점에서 물약이 마법 주문보다 훨씬 좋습니다. 물약으로만 가능한 마법 효과도 있고요.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

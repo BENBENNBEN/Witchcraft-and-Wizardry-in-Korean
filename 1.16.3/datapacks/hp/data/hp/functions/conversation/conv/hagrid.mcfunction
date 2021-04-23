@@ -552,7 +552,7 @@ tag @s[scores={convState=16},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 아! 호그와트 신입생이구나? 그렇담 내 소개를 할 게. 나는\\n\"},{\"text\":\" 루비우스 해그리드야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 호그와트의 열쇠 지킴이이자 숲지기란다.\\n\\n\\n\\n\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 아! 호그와트 신입생이구나? 그렇담 내 소개를 할게. 나는\\n\"},{\"text\":\" 루비우스 해그리드야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 호그와트의 열쇠 지킴이이자 숲지기란다.\\n\\n\\n\\n\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -617,7 +617,7 @@ tag @s[scores={convState=18},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 다이애건 앨리에 들어가면 \"},{\"text\":\"그린고트 은행부터 가렴.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 네가 가진 머글 돈을 마법 세계의 화폐로 환전해야 될 거야. 그린고트처럼 안전한 곳이 없단다. 물론 호그와트를 제외하고서 말이야. 가서 그립훅을 찾으면 널 도와줄 거야. \\n 그럼 행운을 빌어! 호그와트에서 보자.\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 다이애건 앨리에 들어가면 \"},{\"text\":\"그린고트 은행부터 가렴.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 네가 가진 머글 돈을 마법 세계의 화폐로 환전해야 될 거야. 그린고트처럼 안전한 곳은 없단다. 물론 호그와트를 제외하고서 말이야. 가서 그립훅을 찾으면 널 도와줄 거야. \\n 그럼 행운을 빌어! 호그와트에서 보자.\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕! 나는 브란웬 스캐먼더야. 편하게 둘러봐. 마법 생물들만 조심하고. 궁금한 거 있으면 말해줘.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕! 나는 브란웬 스캐먼더야. 편하게 둘러봐. 마법 생물들만 조심하고. 질문이 있으면 말해줘.\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -130,7 +130,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아, 맞아 그런 질문 많이 들어. 마법 생물을 잘 돌보는 것의 중요성을 전 세계에 알린 분이셨지. 나도 그 뜻을 계속 이어가고 싶어. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아아, 맞아 그런 얘기 많이 들어. 마법 생물을 잘 돌보는 것의 중요성을 전 세계에 널리 알린 분이셨지. 나도 그 뜻을 계속 이어가고 싶어. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 중고 빗자루 전문점에 온 걸 환영해. 비행 초보들에게 좋은 가격의 빗자루를 팔고 있지.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 중고 빗자루 전문점에 온 걸 환영해. 비행 초보들에게 좋은 가격의 빗자루를 팔고 있단다.\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -139,7 +139,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 퀴디치는 마법 세계에서 가장 인기 있는 스포츠야. 두 팀이 빗자루를 타고 공중에서 대결을 펼쳐. 각 7명의 선수가 한 팀으로 수색꾼 1명, 파수꾼 1명, 몰이꾼 2명, 추격꾼 3명이 있어. 사용하는 공은 총 4개로 블러저 2개, 골든 스니치 1개, 쿼플 1개야.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 퀴디치는 마법 세계에서 가장 인기 있는 스포츠야. 두 팀이 빗자루를 타고 공중에서 대결을 펼치는 스포츠지. 각 7명의 선수가 한 팀으로 수색꾼 1명, 파수꾼 1명, 몰이꾼 2명, 추격꾼 3명이 있어. 공은 블러저 2개, 골든 스니치 1개, 쿼플 1개로 총 4개를 사용해.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -370,7 +370,7 @@ tag @s[scores={convState=10},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 모든 팀에는 한 명의 파수꾼이 있어. 다른 팀의 추격꾼을 막고 골대 앞을 수비해야 하지. 다른 포지션보다 보호구를 많이 착용해. 헬멧, 어깨 보호구, 가슴 보호구, 무릎 패드. 보호도 하면서 잘 막아낼 수 있도록 말이야.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 모든 팀에는 한 명의 파수꾼이 있어. 다른 팀의 추격꾼을 막고 골대 앞을 수비해야 하지. 다른 포지션보다 보호구를 많이 착용해. 헬멧, 어깨 보호구, 가슴 보호구, 무릎 패드. 선수 보호도 하면서 잘 막아낼 수 있도록 말이야.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -534,7 +534,7 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 14세기까지 스니젯을 사용했었는데 퀴디치가 인기 스포츠가 되면서 멸종 위기까지 간 거야. 이후 많은 사람이 스니젯을 대신할 새를 찾고 있었는데 바우먼 라이트가 골든 스니치를 발명하고 그것이 공식 공이 되었어.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 14세기까지 스니젯을 사용했었는데 퀴디치가 인기 스포츠가 되면서 멸종 위기까지 간 거야. 이후 많은 사람이 스니젯을 대신할 새를 찾다가 나중에 바우먼 라이트가 발명한 골든 스니치가 공식 공이 되었어.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

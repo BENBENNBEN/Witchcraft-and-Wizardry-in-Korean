@@ -144,7 +144,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 주점은 1500년대 초반에 리키 콜드런의 첫 주인장이었던 데이지 도드리지가 지었어. 그 때부터 머글 세계와 다이애건 앨리를 잇는 관문이 되었지. 어떤 사람은 런던에서 가장 오래된 주점이 두루리 레인의 화이트 하트라고 주장하고, 또 어떤 사람은 버몬지의 엔젤이나 로즈 스트리트에 램 앤 플레그라고 주장해. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 주점은 1500년대 초반에 리키 콜드런의 첫 주인장이었던 데이지 도드리지가 지었어. 그때부터 머글 세계와 다이애건 앨리를 잇는 관문이 되었지. 런던에서 가장 오래된 주점이 두루리 레인의 화이트 하트라고 하는 사람도 있고,  버몬지의 엔젤이나 로즈 스트리트에 램 앤 플레그라고 하는 사람도 있어. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -207,7 +207,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 리키 콜드런은 런던에 위치한 유명한 마법사 주점이자 여관이야. 그리고 다이애건 앨리로 통하는 입구이기도 하지. 녹턴 앨리도 갈 수 있고. 주점 뒷편으로 가면 두 골목길을 갈 수 있는 입구가 나와.  \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 리키 콜드런은 런던에 있는 유명한 마법사 주점이자 여관이야. 그리고 다이애건 앨리나 녹턴 앨리로 통하는 입구이기도 하지. 주점 뒤편으로 가면 다이애건 앨리로 가는 입구가 나와. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -281,7 +281,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 사람들은 다 머글들이야. 다 틀렸어. 아무 마법사한테 물어보라고. 런던에서 가장 오래된 주점은 리키 콜드런이라고 할 테니까. \\n\\n\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 다 틀린 소리야. 그 사람들은 다 머글이라서 그래. 아무 마법사한테 물어보라고 런던에서 가장 오래된 주점은 여기 리키 콜드런이라고 할 테니까. \\n\\n\\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

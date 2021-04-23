@@ -129,7 +129,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 가게에서는 마법약 양조에 필요한 식물이나 여러 재료를 팔아. 그럭저럭 괜찮았는데, 요즘에 가게 운영하는 게 아주 힘들어졌어. 멀페퍼 씨가 이 거리에 가게를 낸 이후로 수익이 엄청나게 줄었거든. 나뿐만이 아니야. 이 거리에 모든 마법약 가게들을 몰아내고 있어. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 가게에서는 마법약 양조에 필요한 식물이나 여러 재료를 팔아. 근데 요즘 들어 가게 운영하는 게 힘들어졌어. 멀페퍼 씨가 이 거리에 가게를 낸 이후로 수익이 엄청나게 줄었거든. 나뿐만이 아니라 이 거리에 모든 마법약 가게들을 몰아내고 있어. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

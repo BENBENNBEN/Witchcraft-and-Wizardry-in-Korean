@@ -65,7 +65,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 양피지도 팔고, 깃펜이나 잉크를 같은 것도 팔지. 뭐든 쓰는 데 필요한 것들 말이야. 여기는 너처럼 많은 학생들이 호그와트 가기 전에 물건을 사러 와.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 양피지도 팔고, 깃펜이나 잉크도 팔지. 뭐든 쓰는 데 필요한 것들 말이야. 우리 상점은 주로 너처럼 학생들이 호그와트 가기 전에 물건을 사러 와.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

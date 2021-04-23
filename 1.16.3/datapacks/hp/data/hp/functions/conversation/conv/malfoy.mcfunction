@@ -279,7 +279,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 걔네들은 왜 입학 허가해줬는지 모르겠어. 머글 태생 말이야. 마법을 쓸 수 있다고 다 같은 게 아닌데. 편지를 받기 전까지 호그와트를 들어본 적도 없었을 애들이 태반일 거라고. 그러니까 오래된 마법사 가문만 허용해야 해.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 근데 걔네들도 왜 호그와트에 다니게 해줬는지 모르겠어. 머글 태생 애들 말이야. 마법을 쓸 수 있다고 다 같은 게 아닌데. 편지를 받기 전까지 호그와트를 들어본 적도 없었을 애들이 태반일 거라고. 그러니까 오래된 마법사 가문만 받아야 해.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -314,7 +314,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오래된 마법사 가문의 자제들만 허용하고 머글 태생은 받지도 말아야 해.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 난 아무리 생각해도 오래된 마법사 가문들만 허용하고 머글 태생은 받지도 말아야 한다고 생각해.\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -355,7 +355,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아니라고? 그럼 덤블도어랑 말이 잘 통하겠네. 아버지께서는 항상 덤블도어가 제일 최악의 호그와트 교장이라고 하셨어. 슬리데린 창립자셨던 살라자르 슬리데린도 그렇게 생각하실 거야. 가장 순수한 혈통을 지닌 애들만 호그와트를 다녀야 한다고 생각하셨으니까. 그 의견이 받아들여지지 않아서 호그와트를 떠나시게 되었지.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아니라고? 그럼 덤블도어랑 말이 잘 통하겠네. 아버지께서는 항상 덤블도어가 제일 최악의 호그와트 교장이라고 하셨어. 슬리데린 창립자셨던 살라자르 슬리데린도 그렇게 생각하실 거야. 가장 순수한 혈통을 지닌 애들만 호그와트를 다녀야 한다고 생각하셨으니까. 그 의견이 받아들여지지 않아서 호그와트를 떠나시게 되었지만.\"}"}
 
 execute if entity @s[tag=use] run tag @s add longHeader
 
@@ -391,7 +391,7 @@ tag @s[scores={convState=10},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 정말 끔찍해. 오죽하시면 아버지께서 나를 호그와트 말고 덤스트랭에 보내려고 하셨겠어? 덤스트랭 교장 선생님과 친분도 있으시니까. 그분은 덤블도어처럼 머글 태생에 우호적이지도 않으시고 그런 격 떨어지는 애들은 받지도 않으셔.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 정말 끔찍해. 오죽하면 아버지께서 나를 호그와트 말고 덤스트랭에 보내려고 하셨겠어? 게다가 덤스트랭 교장 선생님과 친분도 있으시니까. 그분은 덤블도어처럼 머글 태생에 우호적이지도 않으시고 그런 격 떨어지는 애들은 받지도 않으셔.\\n\"}"}
 
 execute if entity @s[tag=use] run tag @s add longHeader
 

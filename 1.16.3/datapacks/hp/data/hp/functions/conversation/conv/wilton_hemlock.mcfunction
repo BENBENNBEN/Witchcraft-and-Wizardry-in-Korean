@@ -101,7 +101,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 물약을 좋아한다면 여기만 한 곳이 없지. 여기 없으면 다이애건 앨리의 다른 물약 상점에서 구매해도 되고. 돈 주고 사기 싫으면 직접 재료를 찾으러 가도 되고. 여기저기 돌아다니거나 직접 사냥이나 채집을 하면 돼.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 물약을 좋아한다면 여기만 한 곳이 없지. 여기 없으면 다이애건 앨리의 다른 물약 상점에서 구매해도 되고. 돈 주고 사기 싫으면 직접 재료를 찾으러 가도 되고. 여기저기 돌아다니거나 직접 사냥이나 채집을 해도 되고.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
