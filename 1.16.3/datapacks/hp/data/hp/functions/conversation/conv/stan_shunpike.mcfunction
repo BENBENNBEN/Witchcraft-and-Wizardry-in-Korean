@@ -34,7 +34,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 갈 곳 없는 마녀와 마법사를 운송하는 나이트 버스에 탄 걸 환영해. 내 이름은 \"},{\"text\":\"스탠 션파이크\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\", 이 나이트 버스의 차장이야.\\n\\n\\n\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 갈 곳 없는 마녀와 마법사를 운송하는 나이트 버스에 타게 된 걸 환영해. 내 이름은 \"},{\"text\":\"스탠 션파이크,\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 이 나이트 버스의 차장이야.\\n\\n\\n\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
