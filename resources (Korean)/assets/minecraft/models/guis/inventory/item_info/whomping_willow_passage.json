@@ -1,0 +1,1238 @@
+{
+     "textures": {
+         "preview": "guis/fast_travel/whomping_willow_passage", 
+         "text_0": "guis/guis_outline_font_text", 
+         "text_1": "guis/korean/korean_0", 
+         "text_2": "guis/korean/korean_1", 
+         "text_3": "guis/korean/korean_2", 
+         "text_4": "guis/korean/korean_3", 
+         "text_5": "guis/korean/korean_4", 
+         "text_6": "guis/korean/korean_5", 
+         "text_7": "guis/korean/korean_6", 
+         "text_8": "guis/korean/korean_7", 
+         "text_9": "guis/korean/korean_8", 
+         "text_10": "guis/korean/korean_9", 
+         "text_11": "guis/korean/korean_10", 
+         "text_12": "guis/korean/korean_11", 
+         "text_13": "guis/korean/korean_12", 
+         "text_14": "guis/korean/korean_13", 
+         "text_15": "guis/korean/korean_14", 
+         "text_16": "guis/korean/korean_15", 
+         "text_17": "guis/korean/korean_16", 
+         "text_18": "guis/korean/korean_17", 
+         "text_19": "guis/korean/korean_18", 
+         "text_20": "guis/korean/korean_19", 
+         "text_21": "guis/korean/korean_20", 
+         "text_22": "guis/korean/korean_21", 
+         "text_23": "guis/korean/korean_22", 
+         "text_24": "guis/korean/korean_23", 
+         "text_25": "guis/korean/korean_24", 
+         "text_26": "guis/korean/korean_25", 
+         "text_27": "guis/korean/korean_26", 
+         "text_28": "guis/korean/korean_27", 
+         "text_29": "guis/korean/korean_28", 
+         "text_30": "guis/korean/korean_29", 
+         "text_31": "guis/korean/korean_30", 
+         "text_32": "guis/korean/korean_31", 
+         "text_33": "guis/korean/korean_32", 
+         "shadow_0": "guis/guis_outline_font_outline", 
+         "shadow_1": "guis/korean/shadow/korean_shadow_0", 
+         "shadow_2": "guis/korean/shadow/korean_shadow_1", 
+         "shadow_3": "guis/korean/shadow/korean_shadow_2", 
+         "shadow_4": "guis/korean/shadow/korean_shadow_3", 
+         "shadow_5": "guis/korean/shadow/korean_shadow_4", 
+         "shadow_6": "guis/korean/shadow/korean_shadow_5", 
+         "shadow_7": "guis/korean/shadow/korean_shadow_6", 
+         "shadow_8": "guis/korean/shadow/korean_shadow_7", 
+         "shadow_9": "guis/korean/shadow/korean_shadow_8", 
+         "shadow_10": "guis/korean/shadow/korean_shadow_9", 
+         "shadow_11": "guis/korean/shadow/korean_shadow_10"
+      },
+      "elements": [
+         {
+             "__comment": "preview",
+             "from": [ 0, 7.9, -4.5 ],
+             "to": [ 16, 7.9, 11.5 ],
+             "faces": {
+                 "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#preview" }
+             }
+         },
+         {
+             "__comment": " letter 0",
+             "from": [ 2.631006, 8, 11.4669 ],
+             "to": [ 4.529004, 8, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 6, 1, 7, 2], "texture": "#text_30" }
+             }
+         },
+         {
+             "__comment": " letter 0_shadow",
+             "from": [ 2.631006, 7.9, 11.4669 ],
+             "to": [ 4.529004, 7.9, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 6, 2, 7, 3], "texture": "#shadow_10" }
+             }
+         },
+         {
+             "__comment": " letter 1",
+             "from": [ 3.801004, 8, 11.4669 ],
+             "to": [ 5.699002, 8, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 5, 1, 6, 2], "texture": "#text_10" }
+             }
+         },
+         {
+             "__comment": " letter 1_shadow",
+             "from": [ 3.801004, 7.9, 11.4669 ],
+             "to": [ 5.699002, 7.9, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 5, 14, 6, 15], "texture": "#shadow_3" }
+             }
+         },
+         {
+             "__comment": " letter 2",
+             "from": [ 4.971003, 8, 11.4669 ],
+             "to": [ 6.869001, 8, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 11, 0, 12, 1], "texture": "#text_25" }
+             }
+         },
+         {
+             "__comment": " letter 2_shadow",
+             "from": [ 4.971003, 7.9, 11.4669 ],
+             "to": [ 6.869001, 7.9, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 11, 8, 12, 9], "texture": "#shadow_8" }
+             }
+         },
+         {
+             "__comment": " letter 3",
+             "from": [ 6.141002, 8, 11.4669 ],
+             "to": [ 8.039001, 8, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 12, 3, 13, 4], "texture": "#text_6" }
+             }
+         },
+         {
+             "__comment": " letter 3_shadow",
+             "from": [ 6.141002, 7.9, 11.4669 ],
+             "to": [ 8.039001, 7.9, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 12, 12, 13, 13], "texture": "#shadow_2" }
+             }
+         },
+         {
+             "__comment": " letter 4",
+             "from": [ 7.311, 8, 11.4669 ],
+             "to": [ 9.208999, 8, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 0, 0, 1, 1], "texture": "#text_0" }
+             }
+         },
+         {
+             "__comment": " letter 4_shadow",
+             "from": [ 7.311, 7.9, 11.4669 ],
+             "to": [ 9.208999, 7.9, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 0, 0, 1, 1], "texture": "#shadow_0" }
+             }
+         },
+         {
+             "__comment": " letter 5",
+             "from": [ 7.830999, 8, 11.4669 ],
+             "to": [ 9.728998, 8, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 6, 1, 7, 2], "texture": "#text_13" }
+             }
+         },
+         {
+             "__comment": " letter 5_shadow",
+             "from": [ 7.830999, 7.9, 11.4669 ],
+             "to": [ 9.728998, 7.9, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 6, 13, 7, 14], "texture": "#shadow_4" }
+             }
+         },
+         {
+             "__comment": " letter 6",
+             "from": [ 9.000998, 8, 11.4669 ],
+             "to": [ 10.899, 8, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 13, 1, 14, 2], "texture": "#text_8" }
+             }
+         },
+         {
+             "__comment": " letter 6_shadow",
+             "from": [ 9.000998, 7.9, 11.4669 ],
+             "to": [ 10.899, 7.9, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 13, 4, 14, 5], "texture": "#shadow_3" }
+             }
+         },
+         {
+             "__comment": " letter 7",
+             "from": [ 10.171, 8, 11.4669 ],
+             "to": [ 12.069, 8, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 6, 1, 7, 2], "texture": "#text_5" }
+             }
+         },
+         {
+             "__comment": " letter 7_shadow",
+             "from": [ 10.171, 7.9, 11.4669 ],
+             "to": [ 12.069, 7.9, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 6, 5, 7, 6], "texture": "#shadow_2" }
+             }
+         },
+         {
+             "__comment": " letter 8",
+             "from": [ 11.341, 8, 11.4669 ],
+             "to": [ 13.23899, 8, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 11, 1, 12, 2], "texture": "#text_12" }
+             }
+         },
+         {
+             "__comment": " letter 8_shadow",
+             "from": [ 11.341, 7.9, 11.4669 ],
+             "to": [ 13.23899, 7.9, 13.3649 ],
+             "faces": {
+                 "up": { "uv": [ 11, 8, 12, 9], "texture": "#shadow_4" }
+             }
+         },
+         {
+             "__comment": " letter 10",
+             "from": [ 5.231003, 8, 12.6369 ],
+             "to": [ 7.129001, 8, 14.5349 ],
+             "faces": {
+                 "up": { "uv": [ 15, 1, 16, 2], "texture": "#text_14" }
+             }
+         },
+         {
+             "__comment": " letter 10_shadow",
+             "from": [ 5.231003, 7.9, 12.6369 ],
+             "to": [ 7.129001, 7.9, 14.5349 ],
+             "faces": {
+                 "up": { "uv": [ 15, 2, 16, 3], "texture": "#shadow_5" }
+             }
+         },
+         {
+             "__comment": " letter 11",
+             "from": [ 6.401001, 8, 12.6369 ],
+             "to": [ 8.299, 8, 14.5349 ],
+             "faces": {
+                 "up": { "uv": [ 0, 4, 1, 5], "texture": "#text_12" }
+             }
+         },
+         {
+             "__comment": " letter 11_shadow",
+             "from": [ 6.401001, 7.9, 12.6369 ],
+             "to": [ 8.299, 7.9, 14.5349 ],
+             "faces": {
+                 "up": { "uv": [ 0, 11, 1, 12], "texture": "#shadow_4" }
+             }
+         },
+         {
+             "__comment": " letter 12",
+             "from": [ 7.571, 8, 12.6369 ],
+             "to": [ 9.468999, 8, 14.5349 ],
+             "faces": {
+                 "up": { "uv": [ 3, 1, 4, 2], "texture": "#text_27" }
+             }
+         },
+         {
+             "__comment": " letter 12_shadow",
+             "from": [ 7.571, 7.9, 12.6369 ],
+             "to": [ 9.468999, 7.9, 14.5349 ],
+             "faces": {
+                 "up": { "uv": [ 3, 3, 4, 4], "texture": "#shadow_9" }
+             }
+         },
+         {
+             "__comment": " letter 13",
+             "from": [ 8.740999, 8, 12.6369 ],
+             "to": [ 10.639, 8, 14.5349 ],
+             "faces": {
+                 "up": { "uv": [ 2, 2, 3, 3], "texture": "#text_10" }
+             }
+         },
+         {
+             "__comment": " letter 13_shadow",
+             "from": [ 8.740999, 7.9, 12.6369 ],
+             "to": [ 10.639, 7.9, 14.5349 ],
+             "faces": {
+                 "up": { "uv": [ 2, 15, 3, 16], "texture": "#shadow_3" }
+             }
+         },
+         {
+             "__comment": " letter 0",
+             "from": [ 2.848538, 8, 14.72773 ],
+             "to": [ 3.860804, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 6, 11, 7, 12], "texture": "#text_30" }
+             }
+         },
+         {
+             "__comment": " letter 0_shadow",
+             "from": [ 2.848538, 7.9, 14.72773 ],
+             "to": [ 3.860804, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 6, 2, 7, 3], "texture": "#shadow_10" }
+             }
+         },
+         {
+             "__comment": " letter 1",
+             "from": [ 3.472538, 8, 14.72773 ],
+             "to": [ 4.484804, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 5, 11, 6, 12], "texture": "#text_10" }
+             }
+         },
+         {
+             "__comment": " letter 1_shadow",
+             "from": [ 3.472538, 7.9, 14.72773 ],
+             "to": [ 4.484804, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 5, 14, 6, 15], "texture": "#shadow_3" }
+             }
+         },
+         {
+             "__comment": " letter 2",
+             "from": [ 4.096537, 8, 14.72773 ],
+             "to": [ 5.108803, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 11, 10, 12, 11], "texture": "#text_25" }
+             }
+         },
+         {
+             "__comment": " letter 2_shadow",
+             "from": [ 4.096537, 7.9, 14.72773 ],
+             "to": [ 5.108803, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 11, 8, 12, 9], "texture": "#shadow_8" }
+             }
+         },
+         {
+             "__comment": " letter 3",
+             "from": [ 4.720537, 8, 14.72773 ],
+             "to": [ 5.732802, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 12, 13, 13, 14], "texture": "#text_6" }
+             }
+         },
+         {
+             "__comment": " letter 3_shadow",
+             "from": [ 4.720537, 7.9, 14.72773 ],
+             "to": [ 5.732802, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 12, 12, 13, 13], "texture": "#shadow_2" }
+             }
+         },
+         {
+             "__comment": " letter 4",
+             "from": [ 5.344536, 8, 14.72773 ],
+             "to": [ 6.356802, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 0, 10, 1, 11], "texture": "#text_0" }
+             }
+         },
+         {
+             "__comment": " letter 4_shadow",
+             "from": [ 5.344536, 7.9, 14.72773 ],
+             "to": [ 6.356802, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 0, 0, 1, 1], "texture": "#shadow_0" }
+             }
+         },
+         {
+             "__comment": " letter 5",
+             "from": [ 5.621869, 8, 14.72773 ],
+             "to": [ 6.634135, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 6, 11, 7, 12], "texture": "#text_13" }
+             }
+         },
+         {
+             "__comment": " letter 5_shadow",
+             "from": [ 5.621869, 7.9, 14.72773 ],
+             "to": [ 6.634135, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 6, 13, 7, 14], "texture": "#shadow_4" }
+             }
+         },
+         {
+             "__comment": " letter 6",
+             "from": [ 6.245868, 8, 14.72773 ],
+             "to": [ 7.258134, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 13, 11, 14, 12], "texture": "#text_8" }
+             }
+         },
+         {
+             "__comment": " letter 6_shadow",
+             "from": [ 6.245868, 7.9, 14.72773 ],
+             "to": [ 7.258134, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 13, 4, 14, 5], "texture": "#shadow_3" }
+             }
+         },
+         {
+             "__comment": " letter 7",
+             "from": [ 6.869868, 8, 14.72773 ],
+             "to": [ 7.882133, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 6, 11, 7, 12], "texture": "#text_5" }
+             }
+         },
+         {
+             "__comment": " letter 7_shadow",
+             "from": [ 6.869868, 7.9, 14.72773 ],
+             "to": [ 7.882133, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 6, 5, 7, 6], "texture": "#shadow_2" }
+             }
+         },
+         {
+             "__comment": " letter 8",
+             "from": [ 7.493867, 8, 14.72773 ],
+             "to": [ 8.506133, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 11, 11, 12, 12], "texture": "#text_12" }
+             }
+         },
+         {
+             "__comment": " letter 8_shadow",
+             "from": [ 7.493867, 7.9, 14.72773 ],
+             "to": [ 8.506133, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 11, 8, 12, 9], "texture": "#shadow_4" }
+             }
+         },
+         {
+             "__comment": " letter 9",
+             "from": [ 8.117867, 8, 14.72773 ],
+             "to": [ 9.130133, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 12, 13, 13, 14], "texture": "#text_6" }
+             }
+         },
+         {
+             "__comment": " letter 9_shadow",
+             "from": [ 8.117867, 7.9, 14.72773 ],
+             "to": [ 9.130133, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 12, 12, 13, 13], "texture": "#shadow_2" }
+             }
+         },
+         {
+             "__comment": " letter 10",
+             "from": [ 8.741866, 8, 14.72773 ],
+             "to": [ 9.754132, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 0, 10, 1, 11], "texture": "#text_0" }
+             }
+         },
+         {
+             "__comment": " letter 10_shadow",
+             "from": [ 8.741866, 7.9, 14.72773 ],
+             "to": [ 9.754132, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 0, 0, 1, 1], "texture": "#shadow_0" }
+             }
+         },
+         {
+             "__comment": " letter 11",
+             "from": [ 9.019199, 8, 14.72773 ],
+             "to": [ 10.03147, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 5, 14, 6, 15], "texture": "#text_29" }
+             }
+         },
+         {
+             "__comment": " letter 11_shadow",
+             "from": [ 9.019199, 7.9, 14.72773 ],
+             "to": [ 10.03147, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 5, 0, 6, 1], "texture": "#shadow_10" }
+             }
+         },
+         {
+             "__comment": " letter 12",
+             "from": [ 9.643198, 8, 14.72773 ],
+             "to": [ 10.65546, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 7, 12, 8, 13], "texture": "#text_3" }
+             }
+         },
+         {
+             "__comment": " letter 12_shadow",
+             "from": [ 9.643198, 7.9, 14.72773 ],
+             "to": [ 10.65546, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 7, 12, 8, 13], "texture": "#shadow_1" }
+             }
+         },
+         {
+             "__comment": " letter 13",
+             "from": [ 10.2672, 8, 14.72773 ],
+             "to": [ 11.27946, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 1, 14, 2, 15], "texture": "#text_19" }
+             }
+         },
+         {
+             "__comment": " letter 13_shadow",
+             "from": [ 10.2672, 7.9, 14.72773 ],
+             "to": [ 11.27946, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 1, 14, 2, 15], "texture": "#shadow_6" }
+             }
+         },
+         {
+             "__comment": " letter 14",
+             "from": [ 10.8912, 8, 14.72773 ],
+             "to": [ 11.90346, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 4, 13, 5, 14], "texture": "#text_27" }
+             }
+         },
+         {
+             "__comment": " letter 14_shadow",
+             "from": [ 10.8912, 7.9, 14.72773 ],
+             "to": [ 11.90346, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 4, 5, 5, 6], "texture": "#shadow_9" }
+             }
+         },
+         {
+             "__comment": " letter 15",
+             "from": [ 11.5152, 8, 14.72773 ],
+             "to": [ 12.52746, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 5, 11, 6, 12], "texture": "#text_19" }
+             }
+         },
+         {
+             "__comment": " letter 15_shadow",
+             "from": [ 11.5152, 7.9, 14.72773 ],
+             "to": [ 12.52746, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 5, 11, 6, 12], "texture": "#shadow_6" }
+             }
+         },
+         {
+             "__comment": " letter 16",
+             "from": [ 12.1392, 8, 14.72773 ],
+             "to": [ 13.15146, 8, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 7, 14, 8, 15], "texture": "#text_15" }
+             }
+         },
+         {
+             "__comment": " letter 16_shadow",
+             "from": [ 12.1392, 7.9, 14.72773 ],
+             "to": [ 13.15146, 7.9, 15.74 ],
+             "faces": {
+                 "up": { "uv": [ 7, 10, 8, 11], "texture": "#shadow_5" }
+             }
+         },
+         {
+             "__comment": " letter 18",
+             "from": [ 2.085872, 8, 15.6984 ],
+             "to": [ 3.098138, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 5, 14, 6, 15], "texture": "#text_29" }
+             }
+         },
+         {
+             "__comment": " letter 18_shadow",
+             "from": [ 2.085872, 7.9, 15.6984 ],
+             "to": [ 3.098138, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 5, 0, 6, 1], "texture": "#shadow_10" }
+             }
+         },
+         {
+             "__comment": " letter 19",
+             "from": [ 2.709872, 8, 15.6984 ],
+             "to": [ 3.722138, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 7, 12, 8, 13], "texture": "#text_3" }
+             }
+         },
+         {
+             "__comment": " letter 19_shadow",
+             "from": [ 2.709872, 7.9, 15.6984 ],
+             "to": [ 3.722138, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 7, 12, 8, 13], "texture": "#shadow_1" }
+             }
+         },
+         {
+             "__comment": " letter 20",
+             "from": [ 3.333871, 8, 15.6984 ],
+             "to": [ 4.346137, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 2, 11, 3, 12], "texture": "#text_17" }
+             }
+         },
+         {
+             "__comment": " letter 20_shadow",
+             "from": [ 3.333871, 7.9, 15.6984 ],
+             "to": [ 4.346137, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 2, 1, 3, 2], "texture": "#shadow_6" }
+             }
+         },
+         {
+             "__comment": " letter 21",
+             "from": [ 3.957871, 8, 15.6984 ],
+             "to": [ 4.970137, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 12, 13, 13, 14], "texture": "#text_12" }
+             }
+         },
+         {
+             "__comment": " letter 21_shadow",
+             "from": [ 3.957871, 7.9, 15.6984 ],
+             "to": [ 4.970137, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 12, 10, 13, 11], "texture": "#shadow_4" }
+             }
+         },
+         {
+             "__comment": " letter 22",
+             "from": [ 4.58187, 8, 15.6984 ],
+             "to": [ 5.594136, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 13, 11, 14, 12], "texture": "#text_8" }
+             }
+         },
+         {
+             "__comment": " letter 22_shadow",
+             "from": [ 4.58187, 7.9, 15.6984 ],
+             "to": [ 5.594136, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 13, 4, 14, 5], "texture": "#shadow_3" }
+             }
+         },
+         {
+             "__comment": " letter 23",
+             "from": [ 5.20587, 8, 15.6984 ],
+             "to": [ 6.218135, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 9, 14, 10, 15], "texture": "#text_20" }
+             }
+         },
+         {
+             "__comment": " letter 23_shadow",
+             "from": [ 5.20587, 7.9, 15.6984 ],
+             "to": [ 6.218135, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 9, 3, 10, 4], "texture": "#shadow_7" }
+             }
+         },
+         {
+             "__comment": " letter 24",
+             "from": [ 5.829869, 8, 15.6984 ],
+             "to": [ 6.842134, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 0, 10, 1, 11], "texture": "#text_0" }
+             }
+         },
+         {
+             "__comment": " letter 24_shadow",
+             "from": [ 5.829869, 7.9, 15.6984 ],
+             "to": [ 6.842134, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 0, 0, 1, 1], "texture": "#shadow_0" }
+             }
+         },
+         {
+             "__comment": " letter 25",
+             "from": [ 6.107202, 8, 15.6984 ],
+             "to": [ 7.119468, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 15, 11, 16, 12], "texture": "#text_14" }
+             }
+         },
+         {
+             "__comment": " letter 25_shadow",
+             "from": [ 6.107202, 7.9, 15.6984 ],
+             "to": [ 7.119468, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 15, 2, 16, 3], "texture": "#shadow_5" }
+             }
+         },
+         {
+             "__comment": " letter 26",
+             "from": [ 6.731201, 8, 15.6984 ],
+             "to": [ 7.743467, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 15, 14, 16, 15], "texture": "#text_11" }
+             }
+         },
+         {
+             "__comment": " letter 26_shadow",
+             "from": [ 6.731201, 7.9, 15.6984 ],
+             "to": [ 7.743467, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 15, 6, 16, 7], "texture": "#shadow_4" }
+             }
+         },
+         {
+             "__comment": " letter 27",
+             "from": [ 7.355201, 8, 15.6984 ],
+             "to": [ 8.367467, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 13, 13, 14, 14], "texture": "#text_20" }
+             }
+         },
+         {
+             "__comment": " letter 27_shadow",
+             "from": [ 7.355201, 7.9, 15.6984 ],
+             "to": [ 8.367467, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 13, 2, 14, 3], "texture": "#shadow_7" }
+             }
+         },
+         {
+             "__comment": " letter 28",
+             "from": [ 7.9792, 8, 15.6984 ],
+             "to": [ 8.991467, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 0, 10, 1, 11], "texture": "#text_0" }
+             }
+         },
+         {
+             "__comment": " letter 28_shadow",
+             "from": [ 7.9792, 7.9, 15.6984 ],
+             "to": [ 8.991467, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 0, 0, 1, 1], "texture": "#shadow_0" }
+             }
+         },
+         {
+             "__comment": " letter 29",
+             "from": [ 8.256533, 8, 15.6984 ],
+             "to": [ 9.268799, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 6, 13, 7, 14], "texture": "#text_22" }
+             }
+         },
+         {
+             "__comment": " letter 29_shadow",
+             "from": [ 8.256533, 7.9, 15.6984 ],
+             "to": [ 9.268799, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 6, 12, 7, 13], "texture": "#shadow_7" }
+             }
+         },
+         {
+             "__comment": " letter 30",
+             "from": [ 8.880532, 8, 15.6984 ],
+             "to": [ 9.892798, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 5, 10, 6, 11], "texture": "#text_11" }
+             }
+         },
+         {
+             "__comment": " letter 30_shadow",
+             "from": [ 8.880532, 7.9, 15.6984 ],
+             "to": [ 9.892798, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 5, 2, 6, 3], "texture": "#shadow_4" }
+             }
+         },
+         {
+             "__comment": " letter 31",
+             "from": [ 9.504532, 8, 15.6984 ],
+             "to": [ 10.5168, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 12, 13, 13, 14], "texture": "#text_6" }
+             }
+         },
+         {
+             "__comment": " letter 31_shadow",
+             "from": [ 9.504532, 7.9, 15.6984 ],
+             "to": [ 10.5168, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 12, 12, 13, 13], "texture": "#shadow_2" }
+             }
+         },
+         {
+             "__comment": " letter 32",
+             "from": [ 10.12853, 8, 15.6984 ],
+             "to": [ 11.1408, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 0, 10, 1, 11], "texture": "#text_0" }
+             }
+         },
+         {
+             "__comment": " letter 32_shadow",
+             "from": [ 10.12853, 7.9, 15.6984 ],
+             "to": [ 11.1408, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 0, 0, 1, 1], "texture": "#shadow_0" }
+             }
+         },
+         {
+             "__comment": " letter 33",
+             "from": [ 10.40586, 8, 15.6984 ],
+             "to": [ 11.41813, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 4, 13, 5, 14], "texture": "#text_19" }
+             }
+         },
+         {
+             "__comment": " letter 33_shadow",
+             "from": [ 10.40586, 7.9, 15.6984 ],
+             "to": [ 11.41813, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 4, 13, 5, 14], "texture": "#shadow_6" }
+             }
+         },
+         {
+             "__comment": " letter 34",
+             "from": [ 11.02986, 8, 15.6984 ],
+             "to": [ 12.04213, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 6, 10, 7, 11], "texture": "#text_8" }
+             }
+         },
+         {
+             "__comment": " letter 34_shadow",
+             "from": [ 11.02986, 7.9, 15.6984 ],
+             "to": [ 12.04213, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 6, 3, 7, 4], "texture": "#shadow_3" }
+             }
+         },
+         {
+             "__comment": " letter 35",
+             "from": [ 11.65386, 8, 15.6984 ],
+             "to": [ 12.66613, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 9, 11, 10, 12], "texture": "#text_11" }
+             }
+         },
+         {
+             "__comment": " letter 35_shadow",
+             "from": [ 11.65386, 7.9, 15.6984 ],
+             "to": [ 12.66613, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 9, 3, 10, 4], "texture": "#shadow_4" }
+             }
+         },
+         {
+             "__comment": " letter 36",
+             "from": [ 12.27786, 8, 15.6984 ],
+             "to": [ 13.29013, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 10, 13, 11, 14], "texture": "#text_20" }
+             }
+         },
+         {
+             "__comment": " letter 36_shadow",
+             "from": [ 12.27786, 7.9, 15.6984 ],
+             "to": [ 13.29013, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 10, 2, 11, 3], "texture": "#shadow_7" }
+             }
+         },
+         {
+             "__comment": " letter 37",
+             "from": [ 12.90186, 8, 15.6984 ],
+             "to": [ 13.91413, 8, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 2, 12, 3, 13], "texture": "#text_10" }
+             }
+         },
+         {
+             "__comment": " letter 37_shadow",
+             "from": [ 12.90186, 7.9, 15.6984 ],
+             "to": [ 13.91413, 7.9, 16.71067 ],
+             "faces": {
+                 "up": { "uv": [ 2, 15, 3, 16], "texture": "#shadow_3" }
+             }
+         },
+         {
+             "__comment": " letter 39",
+             "from": [ 2.155206, 8, 16.66907 ],
+             "to": [ 3.167472, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 14, 14, 15, 15], "texture": "#text_20" }
+             }
+         },
+         {
+             "__comment": " letter 39_shadow",
+             "from": [ 2.155206, 7.9, 16.66907 ],
+             "to": [ 3.167472, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 14, 3, 15, 4], "texture": "#shadow_7" }
+             }
+         },
+         {
+             "__comment": " letter 40",
+             "from": [ 2.779205, 8, 16.66907 ],
+             "to": [ 3.791471, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 4, 10, 5, 11], "texture": "#text_19" }
+             }
+         },
+         {
+             "__comment": " letter 40_shadow",
+             "from": [ 2.779205, 7.9, 16.66907 ],
+             "to": [ 3.791471, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 4, 10, 5, 11], "texture": "#shadow_6" }
+             }
+         },
+         {
+             "__comment": " letter 41",
+             "from": [ 3.403204, 8, 16.66907 ],
+             "to": [ 4.415471, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 6, 13, 7, 14], "texture": "#text_22" }
+             }
+         },
+         {
+             "__comment": " letter 41_shadow",
+             "from": [ 3.403204, 7.9, 16.66907 ],
+             "to": [ 4.415471, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 6, 12, 7, 13], "texture": "#shadow_7" }
+             }
+         },
+         {
+             "__comment": " letter 42",
+             "from": [ 4.027204, 8, 16.66907 ],
+             "to": [ 5.03947, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 12, 13, 13, 14], "texture": "#text_6" }
+             }
+         },
+         {
+             "__comment": " letter 42_shadow",
+             "from": [ 4.027204, 7.9, 16.66907 ],
+             "to": [ 5.03947, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 12, 12, 13, 13], "texture": "#shadow_2" }
+             }
+         },
+         {
+             "__comment": " letter 43",
+             "from": [ 4.651203, 8, 16.66907 ],
+             "to": [ 5.663469, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 0, 10, 1, 11], "texture": "#text_0" }
+             }
+         },
+         {
+             "__comment": " letter 43_shadow",
+             "from": [ 4.651203, 7.9, 16.66907 ],
+             "to": [ 5.663469, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 0, 0, 1, 1], "texture": "#shadow_0" }
+             }
+         },
+         {
+             "__comment": " letter 44",
+             "from": [ 4.928536, 8, 16.66907 ],
+             "to": [ 5.940802, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 15, 11, 16, 12], "texture": "#text_14" }
+             }
+         },
+         {
+             "__comment": " letter 44_shadow",
+             "from": [ 4.928536, 7.9, 16.66907 ],
+             "to": [ 5.940802, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 15, 2, 16, 3], "texture": "#shadow_5" }
+             }
+         },
+         {
+             "__comment": " letter 45",
+             "from": [ 5.552536, 8, 16.66907 ],
+             "to": [ 6.564802, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 0, 14, 1, 15], "texture": "#text_12" }
+             }
+         },
+         {
+             "__comment": " letter 45_shadow",
+             "from": [ 5.552536, 7.9, 16.66907 ],
+             "to": [ 6.564802, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 0, 11, 1, 12], "texture": "#shadow_4" }
+             }
+         },
+         {
+             "__comment": " letter 46",
+             "from": [ 6.176535, 8, 16.66907 ],
+             "to": [ 7.188801, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 0, 10, 1, 11], "texture": "#text_0" }
+             }
+         },
+         {
+             "__comment": " letter 46_shadow",
+             "from": [ 6.176535, 7.9, 16.66907 ],
+             "to": [ 7.188801, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 0, 0, 1, 1], "texture": "#shadow_0" }
+             }
+         },
+         {
+             "__comment": " letter 47",
+             "from": [ 6.453868, 8, 16.66907 ],
+             "to": [ 7.466134, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 3, 11, 4, 12], "texture": "#text_27" }
+             }
+         },
+         {
+             "__comment": " letter 47_shadow",
+             "from": [ 6.453868, 7.9, 16.66907 ],
+             "to": [ 7.466134, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 3, 3, 4, 4], "texture": "#shadow_9" }
+             }
+         },
+         {
+             "__comment": " letter 48",
+             "from": [ 7.077868, 8, 16.66907 ],
+             "to": [ 8.090134, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 2, 12, 3, 13], "texture": "#text_10" }
+             }
+         },
+         {
+             "__comment": " letter 48_shadow",
+             "from": [ 7.077868, 7.9, 16.66907 ],
+             "to": [ 8.090134, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 2, 15, 3, 16], "texture": "#shadow_3" }
+             }
+         },
+         {
+             "__comment": " letter 49",
+             "from": [ 7.701867, 8, 16.66907 ],
+             "to": [ 8.714133, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 8, 10, 9, 11], "texture": "#text_11" }
+             }
+         },
+         {
+             "__comment": " letter 49_shadow",
+             "from": [ 7.701867, 7.9, 16.66907 ],
+             "to": [ 8.714133, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 8, 2, 9, 3], "texture": "#shadow_4" }
+             }
+         },
+         {
+             "__comment": " letter 50",
+             "from": [ 8.325867, 8, 16.66907 ],
+             "to": [ 9.338133, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 0, 10, 1, 11], "texture": "#text_0" }
+             }
+         },
+         {
+             "__comment": " letter 50_shadow",
+             "from": [ 8.325867, 7.9, 16.66907 ],
+             "to": [ 9.338133, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 0, 0, 1, 1], "texture": "#shadow_0" }
+             }
+         },
+         {
+             "__comment": " letter 51",
+             "from": [ 8.603199, 8, 16.66907 ],
+             "to": [ 9.615465, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 10, 13, 11, 14], "texture": "#text_1" }
+             }
+         },
+         {
+             "__comment": " letter 51_shadow",
+             "from": [ 8.603199, 7.9, 16.66907 ],
+             "to": [ 9.615465, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 10, 3, 11, 4], "texture": "#shadow_1" }
+             }
+         },
+         {
+             "__comment": " letter 52",
+             "from": [ 9.227199, 8, 16.66907 ],
+             "to": [ 10.23946, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 11, 13, 12, 14], "texture": "#text_24" }
+             }
+         },
+         {
+             "__comment": " letter 52_shadow",
+             "from": [ 9.227199, 7.9, 16.66907 ],
+             "to": [ 10.23946, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 11, 6, 12, 7], "texture": "#shadow_8" }
+             }
+         },
+         {
+             "__comment": " letter 53",
+             "from": [ 9.851198, 8, 16.66907 ],
+             "to": [ 10.86346, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 15, 12, 16, 13], "texture": "#text_2" }
+             }
+         },
+         {
+             "__comment": " letter 53_shadow",
+             "from": [ 9.851198, 7.9, 16.66907 ],
+             "to": [ 10.86346, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 15, 7, 16, 8], "texture": "#shadow_1" }
+             }
+         },
+         {
+             "__comment": " letter 54",
+             "from": [ 10.4752, 8, 16.66907 ],
+             "to": [ 11.48746, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 0, 10, 1, 11], "texture": "#text_0" }
+             }
+         },
+         {
+             "__comment": " letter 54_shadow",
+             "from": [ 10.4752, 7.9, 16.66907 ],
+             "to": [ 11.48746, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 0, 0, 1, 1], "texture": "#shadow_0" }
+             }
+         },
+         {
+             "__comment": " letter 55",
+             "from": [ 10.75253, 8, 16.66907 ],
+             "to": [ 11.7648, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 8, 10, 9, 11], "texture": "#text_21" }
+             }
+         },
+         {
+             "__comment": " letter 55_shadow",
+             "from": [ 10.75253, 7.9, 16.66907 ],
+             "to": [ 11.7648, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 8, 4, 9, 5], "texture": "#shadow_7" }
+             }
+         },
+         {
+             "__comment": " letter 56",
+             "from": [ 11.37653, 8, 16.66907 ],
+             "to": [ 12.3888, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 8, 11, 9, 12], "texture": "#text_17" }
+             }
+         },
+         {
+             "__comment": " letter 56_shadow",
+             "from": [ 11.37653, 7.9, 16.66907 ],
+             "to": [ 12.3888, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 8, 1, 9, 2], "texture": "#shadow_6" }
+             }
+         },
+         {
+             "__comment": " letter 57",
+             "from": [ 12.00053, 8, 16.66907 ],
+             "to": [ 13.0128, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 9, 14, 10, 15], "texture": "#text_6" }
+             }
+         },
+         {
+             "__comment": " letter 57_shadow",
+             "from": [ 12.00053, 7.9, 16.66907 ],
+             "to": [ 13.0128, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 9, 13, 10, 14], "texture": "#shadow_2" }
+             }
+         },
+         {
+             "__comment": " letter 58",
+             "from": [ 12.62453, 8, 16.66907 ],
+             "to": [ 13.6368, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 3, 10, 4, 11], "texture": "#text_7" }
+             }
+         },
+         {
+             "__comment": " letter 58_shadow",
+             "from": [ 12.62453, 7.9, 16.66907 ],
+             "to": [ 13.6368, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 3, 14, 4, 15], "texture": "#shadow_2" }
+             }
+         },
+         {
+             "__comment": " letter 59",
+             "from": [ 13.24853, 8, 16.66907 ],
+             "to": [ 14.26079, 8, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 9, 10, 10, 11], "texture": "#text_0" }
+             }
+         },
+         {
+             "__comment": " letter 59_shadow",
+             "from": [ 13.24853, 7.9, 16.66907 ],
+             "to": [ 14.26079, 7.9, 17.68133 ],
+             "faces": {
+                 "up": { "uv": [ 9, 0, 10, 1], "texture": "#shadow_0" }
+             }
+         },
+         {
+             "__comment": " texture element0",
+             "from": [ 0, 7.9, 11.417 ],
+             "to": [ 16, 7.9, 20.117 ],
+             "faces": {
+                 "up": { "uv": [ 15, 16, 16, 15.6], "texture": "#shadow_0" }
+             }
+         },
+         {
+             "__comment": " texture element1",
+             "from": [ 0.917, 8, 14.36 ],
+             "to": [ 15.083, 8, 14.44 ],
+             "faces": {
+                 "up": { "uv": [ 15, 15.5, 16, 15], "texture": "#shadow_0" }
+             }
+         }
+     ],
+     "display": {
+         "firstperson_righthand": {
+             "rotation":     [ 90, 0, 0 ],
+             "translation":  [ -7.68, 17.88, 10 ],
+             "scale":        [ 0.0675, 0.0675, 0.0675 ]
+         },
+         "ground": {
+             "scale":        [ 0, 0, 0 ]
+         },
+         "head": {
+             "scale":        [ 0, 0, 0 ]
+         },
+         "firstperson_lefthand": {
+             "scale":        [ 0, 0, 0 ]
+         },
+         "thirdperson_righthand": {
+             "scale":        [ 0, 0, 0 ]
+         },
+         "thirdperson_lefthand": {
+             "scale":        [ 0, 0, 0 ]
+         },
+         "gui": {
+             "scale":        [ 0, 0, 0 ]
+         }
+     }
+}
