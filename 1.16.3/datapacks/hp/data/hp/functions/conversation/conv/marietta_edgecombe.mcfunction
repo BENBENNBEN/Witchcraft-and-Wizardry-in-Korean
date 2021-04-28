@@ -111,7 +111,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 수중 식물은 밝은 파란색이라서 쉽게 찾을 수 있을 거야. 찾아서 여기로 와. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 수중 식물은 밝은 파란색이라서 쉽게 찾을 수 있을 거야. 찾으면 여기로 와줘. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -143,7 +143,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도와준다고 해줘서 고마워. 수영을 못 하니까 난 절대 갈 수 없거든. 수중 식물은 밝은 파란색이라서 발견하기 쉬울 거야.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도와준다고 해줘서 고마워. 난 수영을 못 해서 찾으러 갈 수 없거든. 수중 식물은 밝은 파란색이라서 찾기 쉬울 거야.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

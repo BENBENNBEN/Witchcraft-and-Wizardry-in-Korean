@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 한 번 맞춰봐. 어떻게 포터가 가마솥을 젓는 줄 알아? 그냥 지팡이 들고 서 있으면 세상이 걔 중심으로 돌아. 하 인생! \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 한 번 맞춰봐. 어떻게 포터가 가마솥을 젓는 줄 알아? 그냥 지팡이 들고 서 있으면 세상이 걔 중심으로 돌 걸? 하 인생! \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

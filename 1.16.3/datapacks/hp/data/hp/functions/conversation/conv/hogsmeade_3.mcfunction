@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고대 룬문자 한 학기 수업을 3시간 만에 벼락치기 한 적 있으니까... 아마도 천문학 두 학기 수업도 가능하지 않을까. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고대 룬문자 한 학기 수업을 3시간 만에 벼락치기 한 적 있으니까... 아마 천문학 두 학기 수업도 가능하지 않을까. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################	

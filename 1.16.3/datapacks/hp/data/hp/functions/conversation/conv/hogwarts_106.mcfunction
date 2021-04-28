@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 슬리데린 애들은 어떻게 어둡고 축축한 곳에서 아무 말 없이 만족하며 살고 있는지 모르겠어. 내 말은... 돈도 많은 집안 애들이 대부분이잖아. 그럼 자는 곳에 더 까다로울 것 같단 말이지. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 슬리데린 애들은 어떻게 어둡고 축축한 곳에서 아무 말 없이 사는지 모르겠어. 내 말은... 대부분 돈 많은 집안 애들이잖아. 그럼 자는 곳에 더 까다로울 것 같단 말이지. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

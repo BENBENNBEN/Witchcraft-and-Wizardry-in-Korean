@@ -149,7 +149,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 예전 호그와트 학생들은 각자 좋아하는 방식으로 학교에 도착했어. 어떤 학생들은 짐가방과 동물을 옮기는 게 어려운 빗자루를 타고 왔지. 다른 학생들은 마법을 건 수레나 마차를 이용했어. 또 어떤 애들은 순간이동을 시도했는데, 호그와트에는 순간이동을 막는 마법이 걸려 있어서 대부분 끔찍한 결과를 초래했지. 다른 애들은 다양한 마법 동물을 타고 오기도 했어. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 예전 호그와트 학생들은 각자 좋아하는 방식으로 학교에 도착했어. 어떤 학생들은 짐가방과 동물을 옮기는 게 힘든데도 불구하고 빗자루를 타고 왔지. 마법을 건 수레나 마차를 이용한 학생들도 있었고, 또 어떤 애들은 순간이동을 시도했는데 호그와트에는 순간이동을 막는 마법이 걸려 있어서 대부분 끔찍한 결과를 초래했어. 그리고 여러 마법 동물을 타고 오기도 했어. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -180,7 +180,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 1827년에 마법부 장관이었던 오탈린 갬볼이 머글들의 증기 기관차를 이용해 노선 개통을 추진함으로써, 오랜 걱정이었던 매년 수백 명의 학생을 머글들의 눈을 피해 통학시킬 수 있었지. 그때 이후로 안전하고 편안하게 오갈 수 있었던 거야. 포트키라든지, 다른 방법들을 대신해서. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 1827년에 마법부 장관이었던 오탈린 갬볼이 머글들의 증기 기관차를 이용해 노선 개통을 추진함으로써, 오랜 걱정이었던 수백 명의 학생을 머글들의 눈을 피해 통학시킬 수 있었지. 그때 이후로 안전하고 편안하게 오갈 수 있었던 거야. 포트키라든지, 다른 방법들을 대신해서. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -212,7 +212,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 급행열차는 머글들이 발명한 증기 기관차야. 1830년도에 마법 정부는 급행열차를 숨기기 위해 167번의 기억 조작 마법과 영국 최대 규모의 은폐 마법을 부렸어.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 급행열차 자체는 머글 기술자들이 만든 증기 기관차야. 1830년도에 마법 정부는 급행열차를 숨기기 위해 167번의 기억 조작 마법과 영국 최대 규모의 은폐 마법을 부렸어.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
