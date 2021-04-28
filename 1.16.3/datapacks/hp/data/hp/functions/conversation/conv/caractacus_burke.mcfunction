@@ -242,7 +242,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어둠의 마법... 가장 압도적인 마법이지. 최고야. 짜릿해. 어떤 이는 타락한 마법이라 하고, 또 어떤 이는... 매혹적이라고 할 테지. 어둠의 마법은 자신의 힘 경계를 뛰어넘거든. 요즘에는 너무 많은 어둠의 마법이 불법이라 아쉬울 따름이야. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어둠의 마법... 가장 압도적인 마법이지. 최고야. 어떤 이는 타락한 마법이라 매도하고, 또 어떤 이는... 매혹적이라고 할 거야. 어둠의 마법은 자신의 힘 경계를 뛰어넘거든. 요즘에는 너무 많은 어둠의 마법이 불법이라 참 아쉬울 따름이야. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

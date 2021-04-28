@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕! 나는 브란웬 스캐먼더야. 편하게 둘러봐. 마법 생물들만 조심하고. 질문이 있으면 말해줘.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 안녕! 나는 브란웬 스캐먼더야. 편하게 둘러봐. 마법 생물들만 조심하고. 혹시 질문이 있으면 말해줘.\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -162,7 +162,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 니플러는 새까만 털에 긴 주둥이를 한 마법 생물이야. 무해한 생물이지만 반짝거리는 물건을 좋아하는 특성상 주변을 엉망으로 만들거나 혼란을 일으키곤 해. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 니플러는 새까만 털에 긴 주둥이를 한 마법 생물이야. 무해한 생물이지만 반짝거리는 물건을 좋아해서 주변을 엉망으로 만들거나 혼란을 일으키곤 해. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -224,7 +224,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 머트랩은 길들이지 않으면 공격적이야. 대부분 물린다고 해도 부상이 심각하지 않지만, 가끔 심한 반응을 보이는 사람들이 있어. 항문에서 불꽃을 쏘는데, 다행히 24시간 이상 지속하지 않아. 머트랩 등에서 자라는 촉수를 사용해서 마법약으로 만들 수 있어. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 머트랩은 길들이지 않으면 공격적이야. 대부분 물린다고 해도 부상이 심각하지 않지만, 가끔 심한 반응을 보이는 사람들이 있어. 엉덩이에서 불꽃을 쏘거나 하는데 다행히 하루면 괜찮아져. 그리고 머트랩 등에서 자라는 촉수를 사용해서 마법약을 만들 수 있어. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -256,7 +256,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 보우트러클은 곤충을 먹고 나무에 사는 작은 마법 생물이야. 나무껍질이나 나뭇가지가 뭉쳐있는 것처럼 생겨서 나무와 구별하기 힘들다고 해. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 보우트러클은 곤충을 먹고 나무에 사는 작은 마법 생물이야. 나무껍질이나 나뭇가지가 뭉쳐있는 것처럼 생겨서 나무와 구별하기 힘들어. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -288,7 +288,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 위겐나무처럼 주로 지팡이 재료로 쓰이는 나무에 살아. 나뭇가지 같은 손가락은 자기가 사는 나무에 기생하는 벌레를 잡아먹거나, 상대의 눈을 겨냥할 때 무기로 사용하곤 하지. 보우트러클 한 무리는 나뭇가지를 부르듯 한 다발이라고 해. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그들은 위겐나무처럼 주로 지팡이 재료로 쓰이는 나무에 살아. 나뭇가지 같은 손가락으로 자기가 사는 나무에 기생하는 벌레를 잡아먹거나, 상대의 눈을 겨냥할 때 무기로 사용하곤 하지. 보우트러클 한 무리는 나뭇가지를 부르듯 한 다발이라고 해. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

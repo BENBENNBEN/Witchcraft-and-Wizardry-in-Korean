@@ -66,29 +66,29 @@ execute as @s[scores={questState=2..4,npcQuestIcon=1},tag=!inProperCutScene,tag=
 
 ### Guidance titles ###
 execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2..6,conv=29},tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"신비한 동물 사전을 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"마법 주문에 관한 표준 교과서를 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"마법과 마법의 약을 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"어둠의 힘: 자기 방어를 위한 안내서를 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"입문자를 위한 변환 마법을 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"신비한 동물 사전 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"마법 주문에 관한 표준 교과서 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"고급 마법약 제조 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"어둠의 힘: 자기 방어를 위한 안내서 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=1,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"입문자를 위한 변환 마법 구매하기","color":"gold"}]
 
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"신비한 동물 사전을 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"마법 주문에 관한 표준 교과서를 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"마법과 마법의 약을 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"어둠의 힘: 자기 방어를 위한 안내서를 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"입문자를 위한 변환 마법을 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"신비한 동물 사전 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"마법 주문에 관한 표준 교과서 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"고급 마법약 제조 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"어둠의 힘: 자기 방어를 위한 안내서 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=2,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"입문자를 위한 변환 마법 구매하기","color":"gold"}]
 
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"신비한 동물 사전을 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"마법 주문에 관한 표준 교과서를 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"마법과 마법의 약을 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"어둠의 힘: 자기 방어를 위한 안내서를 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"입문자를 위한 변환 마법을 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"신비한 동물 사전 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"마법 주문에 관한 표준 교과서 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"고급 마법약 제조 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"어둠의 힘: 자기 방어를 위한 안내서 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=3,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"입문자를 위한 변환 마법 구매하기","color":"gold"}]
 
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"신비한 동물 사전을 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"마법 주문에 관한 표준 교과서를 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"마법과 마법의 약을 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"어둠의 힘: 자기 방어를 위한 안내서를 구입하기","color":"gold"}]
-execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"입문자를 위한 변환 마법을 구입하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=2,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"신비한 동물 사전 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=3,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"마법 주문에 관한 표준 교과서 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=4,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"고급 마법약 제조 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=5,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"어둠의 힘: 자기 방어를 위한 안내서 구매하기","color":"gold"}]
+execute as @s[tag=inConversation,tag=buy,tag=inInventory,scores={questState=6,playerID=4,conv=29},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"입문자를 위한 변환 마법 구매하기","color":"gold"}]
 
 
 # check what items the player has bought and what they are allowed to purchase

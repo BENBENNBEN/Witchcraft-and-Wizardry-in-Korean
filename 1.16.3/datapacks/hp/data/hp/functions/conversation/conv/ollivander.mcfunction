@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 기원전 382년 전부터 고급 마법 지팡이들을 판매하는 올리밴더스에 온 걸 환영한단다. \"},{\"text\":\"난 게릭 올리밴더야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 올리밴더스에 온 걸 환영한단다. 기원전 382년 전부터 대대로 지팡이를 제작해왔지. \"},{\"text\":\"난 게릭 올리밴더야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -103,10 +103,10 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 지팡이 상점에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 상점에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 3
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 얼마나 오랫동안 지팡이를 파셨나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 언제부터 지팡이를 만드셨나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 4
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트에 다니셨나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -140,7 +140,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 내가 이 상점을 운영한 지도 꽤 되었구나. 우리 올리밴더 가문은 대대로 지팡이를 제작해왔어. 전통 있는 지팡이 장인 가문이야. 나처럼 해박한 지팡이 장인은 못 찾을 거다! \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 내가 이 상점을 운영한 지도 벌써 꽤 되었구나. 우리 올리밴더 가문이 대대로 운영해온 상점이거든. 유서깊은 지팡이 장인 가문이지. 나보다 해박한 지팡이 장인은 찾지 못할 거다! \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -171,7 +171,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 네가 지팡이를 사기에 가장 좋은 곳일 거다! 그냥 하는 말이 아니라 내 평생을 지팡이를 제작해왔거든. 그리고 우리 올리밴더 가문이 기원전 382년부터 지팡이를 제작해왔지. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지팡이는 여기가 최고야! 그냥 하는 말이 아니라 내 평생 지팡이를 만들어왔단다. 그리고 기원전 382년부터 우리 올리밴더 가문이 대대로 지팡이를 제작했어. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -203,7 +203,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래 그랬단다. 내가 너처럼 어렸을 때는 호그와트를 다녔었지. 나는 래번클로 출신이란다. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래 그랬단다. 내가 너처럼 어렸을 때 호그와트를 다녔었지. 나는 래번클로 출신이란다. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -236,7 +236,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지팡이가 마법사를 택한단다... 어떤 이유로 선택되었는지는 분명하지 않아. 지팡이 마법은 신비롭고 복잡한 분야거든. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지팡이가 마법사를 택한단다... 어떤 이유로 지팡이에게 선택되었는지는 분명하지 않아. 지팡이 마법은 신비롭고 복잡한 분야거든. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -274,7 +274,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지팡이 심은 마법 생물의 신체 일부가 쓰여. 어떤 심을 재료로 삼았는지에 따라서 지팡이의 성향이 크게 달라져. 그래서 벨라 머리카락 같은 경우는 변덕스러워서 좋은 재료가 아니야. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지팡이 심은 마법 생물의 신체 일부가 쓰여. 어떤 심을 재료로 삼았는지에 따라서 지팡이의 성향이 크게 달라지지. 그래서 벨라 머리카락 같은 경우는 변덕스러워서 좋은 재료가 아니야. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -336,7 +336,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법의 힘을 가진 소수 나무만 지팡이 재료로 사용할 수 있어. 그래서 나무를 감별하려면 수년의 경험이 필요하지. 물론 보우트러클이 서식하는 나무는 마법의 힘을 가지고 있기 때문에 그런 나무를 발견하면 작업이 쉬워진단다. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법의 힘을 가진 소수 나무만 지팡이 재료로 사용할 수 있어. 그래서 나무를 감별하려면 수년의 경험이 필요하지. 물론 보우트러클이 서식하는 나무는 마법의 힘을 가진 나무라서 그런 나무를 발견하면 작업이 한결 쉬워진단다. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -533,7 +533,7 @@ tag @s[scores={convState=17},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 그래. 이건 어떨까? 자작나무와 유니콘의 깃털로 된 지팡이. 15인치에 매끈한데. 아니... 안 되겠군. 그렇다면 이걸로? 아이비로 된 지팡이. 13인치, 용의 심근이 들어있지. 아니, 정말 안 되겠어. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 그래. 이건 어떨까? 자작나무와 유니콘의 깃털로 된 지팡이. 15인치 길이의 매끈한 지팡이인데. 아니... 안 되겠군. 그렇다면 이걸로? 아이비로 된 지팡이. 13인치, 용의 심근이 들어있지. 아니, 정말 안 되겠어. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

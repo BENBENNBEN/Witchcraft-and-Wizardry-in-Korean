@@ -449,7 +449,7 @@ tag @s[scores={convState=12},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐 하고 있어? 이제 호그와트 급행열차를 타러 가봐! 이 근처 킹스 크로스 역의 9와 4분의 3 승강장으로 가면 돼. 시간 좀 있으니까 런던이라도 구경하던가. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐 하고 있어? 이제 호그와트 급행열차를 타러 가봐! 이 근처에 있는 킹스 크로스 역의 9와 4분의 3 승강장으로 가면 돼. 시간 좀 있으니까 런던이라도 구경하던가. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

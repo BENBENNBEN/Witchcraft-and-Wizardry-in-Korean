@@ -163,7 +163,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래. 여기 다이애건 앨리에서 잘 된 이후에 호그스미드에 다른 지점을 열었지. 그 지점에서 일하는 동료와는 주로 부엉이로 대화하는데 지금 이 쓸모없는 새가 힘들어서 못 간대. 생각해보니까 자네가 도움을 줄 수 있을 것 같군.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래. 여기 다이애건 앨리에서 잘 된 이후에 호그스미드에 다른 지점을 열었지. 그 지점에서 일하는 동료와는 주로 부엉이로 얘기하는데 지금 이 쓸모없는 새가 힘들어서 못 간대. 괜찮다면 날 도와줄 수 있어?\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

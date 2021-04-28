@@ -132,7 +132,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 물약에 관심 있어? 아주 좋아. 원하는 효과를 얻으려면 정성스럽게 해야 해. 가끔 생각 없이 실수하거나 더러운 가마솥에서 만드는데 그럼 안된다구. 어떨 때는 순서에 맞게 양조해도 잘못되는 경우가 있으니까.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 물약에 관심 있어? 아주 좋아. 원하는 효과를 얻으려면 정성스럽게 해야 해. 가끔 생각 없이 실수하거나 더러운 가마솥에서 만드는데 그러면 안 돼. 어떨 때는 순서에 맞게 양조해도 잘못되는 경우가 있으니까.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법약 시간에 위즐리 쌍둥이가 모든 가마솥에 구토 사탕을 집어넣었대. 아, 스네이프 교수님 얼굴이 어땠을까. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법약 시간에 위즐리 쌍둥이가 모든 가마솥에 구토 사탕을 집어넣었대. 아, 스네이프 교수님 반응이 어땠을까. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

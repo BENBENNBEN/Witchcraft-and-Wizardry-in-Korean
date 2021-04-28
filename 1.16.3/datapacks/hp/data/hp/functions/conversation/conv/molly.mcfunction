@@ -128,7 +128,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 9번과 10번 플랫폼 사이의 벽으로 곧장 걸어가면 된단다. 부딪힐까 봐 멈추지 말고. 긴장되면 그냥 뛰렴.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 9번과 10번 플랫폼 사이의 벽으로 곧장 걸어가면 된단다. 부딪칠까 봐 멈추지 말고. 긴장되면 그냥 뛰렴.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

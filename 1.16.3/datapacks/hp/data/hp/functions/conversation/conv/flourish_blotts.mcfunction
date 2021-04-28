@@ -319,7 +319,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음유시인 비들 이야기는 어린 마법사와 마녀를 위한 여러 이야기가 담긴 동화책이랍니다. 체프 출판사에서 출판되었고 룩소 카르조스가 삽화를 그렸어요. 수 세기 동안 아이들에게 들려주었고, 아직도 많은 호그와트 학생들이 좋아하는 동화책입니다. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음유시인 비들 이야기는 어린 마법사와 마녀를 위한 여러 이야기가 담긴 동화책이랍니다. 체프 출판사에서 출판되었고 룩소 카르조스가 삽화를 그렸어요. 수 세기 동안 아이들에게 사랑을 받아왔고, 아직도 많은 호그와트 학생들이 좋아하는 동화책입니다. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

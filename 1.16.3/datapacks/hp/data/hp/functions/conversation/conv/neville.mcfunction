@@ -63,7 +63,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내 두꺼비 트레버를 잃어버린 것 같아. 그를 찾는 걸 도와줄 수 있니?\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내 두꺼비 트레버를 잃어버린 것 같아. 혹시 찾는 걸 도와줄 수 있니?\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -97,7 +97,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾았으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾을 수 있으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -337,7 +337,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾았으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾을 수 있으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -438,7 +438,7 @@ tag @s[scores={convState=10},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾았으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾을 수 있으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -552,7 +552,7 @@ tag @s[scores={convState=12},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾았으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾을 수 있으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -666,7 +666,7 @@ tag @s[scores={convState=14},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾았으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾을 수 있으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -768,7 +768,7 @@ tag @s[scores={convState=16},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾았으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾을 수 있으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1104,7 +1104,7 @@ tag @s[scores={convState=24},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾았으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 고마워! 네가 찾을 수 있으면 좋겠다. 혹시 누가 봤을 수도 있으니까 주위에 물어봐 줘.\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
