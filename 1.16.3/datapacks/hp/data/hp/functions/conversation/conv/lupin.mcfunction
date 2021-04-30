@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 반가워! 내가 어둠의 마법 방어법 수업을 가르칠\\n \"},{\"text\":\"리무스 존 루핀 교수란다.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 반가워! 내가 어둠의 마법 방어법 수업을 가르칠\\n \"},{\"text\":\"리무스 존 루핀 교수란다.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\"\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -71,13 +71,13 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 
 
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 디멘터에 대해 얘기해 주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 디멘터에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 9
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 보가트에 대해 얘기해 주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 보가트에 대해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 3
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 어둠의 마법 방어법에 관해 얘기해 주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=3}] run data merge entity @s {CustomName:"{\"text\":\"≤ 어둠의 마법 방어법에 관해 얘기해주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 8
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"≤ DADA 수업은 전에 누가 가르치셨나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -317,7 +317,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 수업에서는 어둠의 생물과 어둠의 마법으로부터 방어하는 방법을 배운단다. 결투하는 법도 배우는데 방어 마법과 공격 마법을 잘 사용해야 할 거다.\\n\"}"} 
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 수업에서는 어둠의 생물과 어둠의 마법으로부터 방어하는 방법을 배운단다. 결투하는 법도 배우는데 방어 마법과 공격 마법을 잘 사용해야 할 거다.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -349,7 +349,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 디멘터는 검은 망토를 입은 채 떠다니는 형상을 하고 있어. 세상에서 가장 불쾌한 마법 생물이지. 가까이 가면 끔찍했던 기억을 떠올리게 해. 행복한 기억을 빼앗아 가기 때문이야.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 디멘터는 세상에서 가장 불쾌한 마법 생물로, 검은 망토를 입은 채 허공을 떠다니는 형상을 하고 있어. 그리고 디멘터에게 가까이 가면 끔찍했던 기억을 떠올리게 될 거야. 좋은 기분이나 행복한 기억을 빼앗아 가기 때문이야.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -445,7 +445,7 @@ tag @s[scores={convState=12},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 디멘터는 마법 정부의 통제하에 아즈카반의 간수 역할을 하고 있어. 가장 많은 사람을 제공하는 정부를 따르고 있는 것이지 충성하는 게 아니란다. 목표물이 아니어도 방해가 되면 가차 없이 공격하니 조심해.\"}"} 
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 디멘터는 마법 정부의 통제하에 아즈카반의 간수 역할을 하고 있어. 가장 많은 사람을 제공하는 정부를 따르고 있는 것이지 충성하는 게 아니란다. 목표물이 아니어도 방해가 되면 가차 없이 공격하니 조심해.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -479,7 +479,7 @@ tag @s[scores={convState=13},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어둠의 마법 방어법 담당 교수는 1년 넘게 재직하지 못한다는 징크스가 있지. 길더로이 록하트, 퀴리너스 퀴럴 모두 그랬으니까. \\n\\n\\n\"}"} 
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어둠의 마법 방어법 담당 교수는 1년 넘게 재직하지 못한다는 징크스가 있지. 길더로이 록하트, 퀴리너스 퀴럴 모두 그랬으니까. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -513,7 +513,7 @@ tag @s[scores={convState=14},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 비밀지도 혹은 마루더즈 지도는 호그와트의 모든 비밀 장소를 보여주지. 잠금 해제한 장소로 빠르게 이동할 수 있어. \\n\\n\"}"} 
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 비밀지도 혹은 마루더즈 지도는 호그와트의 모든 비밀 장소를 보여주지. 잠금 해제한 장소로 빠르게 이동할 수 있어. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -545,7 +545,7 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이게 뭐지? 이런. 어둠의 마법 아티팩트구나. 확실히 호그와트 물건은 아니군. 보긴 앤 버크에서 구매한 물건일 거다. 위험하기 전에 내게 가져다줘서 고마워. 여기 고마움의 표시야. \"}"} 
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이게 뭐지? 이런. 어둠의 마법 아티팩트구나. 확실히 호그와트 물건은 아니군. 보긴 앤 버크에서 구매한 물건일 거다. 위험하기 전에 내게 가져다줘서 고마워. 여기 고마움의 표시야. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1003,7 +1003,7 @@ tag @s[scores={convState=28},tag=triggerOption,tag=!drawOptions] add trg
 
 ################################
 ##### Conversation Header ######
-################################									
+################################
 execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 네 패트로누스는 어떤 형상이니? \\n\"},{\"text\":\" (나중에 변경할 수 있습니다)\",\"color\":\"dark_gray\",\"bold\":\"false\"}]"}
 # # execute if entity @s[tag=use] run tag @s add longHeader
 
@@ -1115,7 +1115,7 @@ tag @s[scores={convState=31},tag=triggerOption,tag=!drawOptions] add trg
 
 ################################
 ##### Conversation Header ######
-################################									
+################################
 execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 네 패트로누스는 어떤 형상이니? \\n\"},{\"text\":\" (나중에 변경할 수 있습니다)\",\"color\":\"dark_gray\",\"bold\":\"false\"}]"}
 # # execute if entity @s[tag=use] run tag @s add longHeader
 
@@ -1486,7 +1486,7 @@ scoreboard players set @s[tag=use,tag=!inInventory] convMaxView 1
 scoreboard players set @s[tag=use] backConvState 40
 tag @s remove use
 tag @s remove trg
-#=============================== 
+#===============================
 
 ################################################################################################
 ##################################### Conversation State 42 #####################################
@@ -1530,7 +1530,7 @@ tag @s[scores={convState=43},tag=triggerOption,tag=!drawOptions] add trg
 
 ################################
 ##### Conversation Header ######
-################################									
+################################
 execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 네 패트로누스는 어떤 형상이니? \\n\"},{\"text\":\" (나중에 변경할 수 있습니다)\",\"color\":\"dark_gray\",\"bold\":\"false\"}]"}
 # # execute if entity @s[tag=use] run tag @s add longHeader
 

@@ -102,7 +102,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 죽었어... 나를 아끼던 사람한테 죽임을 당했지. 나를 짝사랑하던 사람, 죽은 지 오래되었는데도 복도를 돌아다니더구나. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는... 나를 아끼던 사람한테 죽임을 당했지. 나를 짝사랑하던 사람, 죽은 지 오래되었는데도 복도를 돌아다니더구나. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

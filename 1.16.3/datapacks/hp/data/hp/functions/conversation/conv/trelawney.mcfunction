@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 드디어 실제로 만나게 되었구나. 정말 반가워. 나는 \\n \"},{\"text\":\"트릴로니 교수야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 드디어 실제로 만나게 되었구나. 정말 반가워. 나는 \\n \"},{\"text\":\"트릴로니 교수야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\"\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -105,7 +105,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 점술학에 관심이 있니? 오, 당연하지. 네가 물어볼 줄 알았단다. 이미 그걸 예견했거든. 네게 알려주도록 할게. 점술학은 가장 어려운 마법이라고 할 수 있지. 너한테 재능이 없다면 가르쳐 줄 수 있는 것이 거의 없어. 책을 읽는 다고 해도 한계가 있어서.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 점술학에 관심이 있니? 오, 당연하지. 네가 물어볼 줄 알았단다. 이미 그걸 예견했거든. 그럼 설명해줄게. 점술학은 가장 어려운 마법이라고 할 수 있단다. 너한테 재능이 없으면 가르쳐 줄 수 있는 것이 거의 없어. 책을 읽고 공부한다고 해도 한계가 있어서.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -138,7 +138,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내면의 눈은 누가 시킨다고 볼 수 있는 게 아니야! 그치만... 난 예언할 수 있지. 그렇다고 내면의 눈을 떠벌리면 안 된단다. 난 가끔 다른 사람들이 불안해하지 않도록 위해 내면의 눈을 볼 수 없는 것처럼 행동해.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내면의 눈은 누가 시킨다고 볼 수 있는 게 아니야! 그치만... 난 예언할 수 있지. 그렇다고 내면의 눈을 떠벌리면 안 돼. 난 가끔 다른 사람들이 두려워하지 않도록 내면의 눈을 볼 수 없는 것처럼 행동한단다.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -170,7 +170,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 점술학은 가르친다고 되는 것이 아니란다. 내면의 눈을 타고난 사람이 있고 그렇지 않은 사람이 있는 거지. 브라운과 파틸은 훌륭한 예언자가 될 소지가 보여. 그들은 내면의 눈이 있어서 내 예견을 신뢰하거든. 그게 매우 중요해. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 점술학은 가르친다고 되는 것이 아니야. 내면의 눈을 타고난 사람이 있고 그렇지 않은 사람이 있는 거지. 그런 의미에서 브라운과 파틸은 훌륭한 예언자가 될 소지가 보여. 이미 내면의 눈을 타고나서 내 예견을 신뢰하거든. 그게 매우 중요해. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -203,7 +203,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그에 반해 맥고나걸 교수와 그레인저는 축복받지 못했지. 점술을 사기라고 생각하고 무조건 틀렸다고 부정하니까. 너도 아는 진실을 말이야. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그에 반해 맥고나걸 교수와 그레인저는 축복받지 못했지. 점술을 사기라고 생각하고 무조건 틀렸다고 부정하니까. 너도 아는 사실을 말이야. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -236,7 +236,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그렇단다. 대예언자 카산드라 트릴로니의 고손녀이지. 난 가족 중에 카산드라 이후 처음으로 내면의 눈을 가지게 되었어. 이런 재능은... 어... 종종 3대를 건너뛰기도 해. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그렇단다. 대예언자 카산드라 트릴로니의 고손녀이지. 난 가족 중에 카산드라 이후 처음으로 내면의 눈을 타고났어. 이런 재능은... 어... 종종 3대를 건너뛰기도 해. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

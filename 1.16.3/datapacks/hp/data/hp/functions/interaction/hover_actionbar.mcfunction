@@ -80,16 +80,16 @@ execute if entity @s[tag=riddleLockedDoor,tag=locked] as @p[tag=activePlayer,sco
 execute if entity @s[tag=convNPC,tag=scroll] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"읽으려면  ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
 
 # Clue
-execute if entity @s[tag=convNPC,tag=clue] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"단서를 읽으려면  ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
+execute if entity @s[tag=convNPC,tag=clue] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"단서를 읽으려면 ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
 
 # Demiguise
 execute if entity @s[tag=demiguise] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"토닥이려면  ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
 
 # Snowman
-execute if entity @s[tag=snowman] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"눈사람을 완성하려면  ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
+execute if entity @s[tag=snowman] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"눈사람을 완성하려면 ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
 
 # Pear Painting
-execute if entity @s[tag=pearPainting] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"상호 작용하려면  ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
+execute if entity @s[tag=pearPainting] as @p[tag=activePlayer,scores={pickUpTimer=0},tag=!cutsceneOverrideActionbar,tag=!flyingBroom] store success score @s tmp run title @s actionbar ["",{"text":"상호 작용하려면 ","color":"gold"},{"text":"⌡","bold":false,"color":"white"},{"text":" 를 누르세요","color":"gold"}]
 execute if entity @s[tag=pearPainting] if entity @p[tag=activePlayer,tag=hasPressedF] as a5fa9ae0-17a7-4615-9d7d-410e29eb7da6 run tag @s[tag=bookShelfClose] add open
 execute if entity @s[tag=pearPainting] if entity @p[tag=activePlayer,tag=hasPressedF] as a5fa9ae0-17a7-4615-9d7d-410e29eb7da6 run tag @s[tag=bookShelfOpen] add close
 

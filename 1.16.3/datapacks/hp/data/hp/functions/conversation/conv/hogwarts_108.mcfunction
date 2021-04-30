@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 롱바텀은 어떻게 아직도 그리핀도르에 있는 거지? 분류모자가 잘못 배정했다며 후플푸프로 옮기게 할 줄 알았는데. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 롱바텀은 왜 아직도 그리핀도르에 있는 거지? 분류모자가 잘못 배정했다면서 후플푸프로 옮기게 할 줄 알았는데. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

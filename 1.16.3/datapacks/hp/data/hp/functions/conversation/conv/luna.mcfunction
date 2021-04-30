@@ -145,7 +145,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 겨우살이를 감염시키는 작은 생물이야. 장난기도 많아서 물건을 숨기곤 해. 그래서 나글스들이 싫어하는 버터 맥주 코르크 목걸이를 하고 다녀. 대부분의 사람들은 나글스를 믿지 않지만 난 존재한다는 걸 알아. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 겨우살이를 감염시키는 작은 생물이야. 장난기도 많아서 물건을 숨기곤 해. 그래서 난 나글스들이 싫어하는 버터 맥주 코르크 목걸이를 하고 다녀. 대부분의 사람들은 나글스를 믿지 않지만 난 존재한다는 걸 알아. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -178,7 +178,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 그것들은 눈에 안 보여. 네 귀에 들어가서 머릿속을 혼란스럽게 한다고 아빠가 그러셨어. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 렉스퍼트들은 눈에 안 보여. 네 귀에 들어가서 머릿속을 혼란스럽게 하는 생물이라고 아빠가 그러셨어. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -211,7 +211,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 아빠가 편집장이야. 그래서 출간할 때마다 항상 먼저 읽고 있지. 이러쿵 저러쿵은 좋은 정보로 가득해서 좋아. 예언자 일보는 싣지 않을 정보들 말이야. 굽은뿔 스노캑에 대해 기사 한 줄이라도 쓴 걸 본 적 있어? \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 아빠가 이러쿵 저러쿵의 편집장이야. 그래서 출간할 때마다 항상 먼저 읽고 있지. 이러쿵 저러쿵은 좋은 정보들로 가득해서 좋아. 예언자 일보는 싣지 않을 정보들로 가득 차 있지. 예언자 일보가 굽은뿔 스노캑에 대해 기사 한 줄이라도 쓴 걸 본 적 있어? \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -244,7 +244,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 응. 아주 행복하게 살고 있어. 예전에는 엄마도 같이 살았었지. 아주 훌륭한 마녀셨는데... 어느 날 실험을 하시다가 주문이 잘못되어서 내가 아홉 살 때 말이야. 그래 끔찍한 일이었지. 가끔 그 일 때문에 슬픈 기분이 들지만, 아빠가 있으니까. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 응. 아주 행복하게 살고 있어. 예전에는 엄마도 같이 살았았어. 아주 훌륭한 마녀셨는데... 어느 날 실험을 하시다가 주문이 잘못되어서... 내가 아홉 살 때 말이야. 그래 끔찍한 일이었지. 가끔 그 일 때문에 슬픈 기분이 들지만, 아빠가 있으니까. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

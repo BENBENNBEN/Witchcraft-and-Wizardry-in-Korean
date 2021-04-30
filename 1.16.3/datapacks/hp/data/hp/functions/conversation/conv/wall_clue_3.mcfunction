@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" \\n 세 번째 단서는 이것이나, 아직 두 개가 있다.; \\n 고귀한 피가 섞이기를 거부하고 고여있는 곳은 어디인가. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" \\n 세 번째 단서는 이것이나, 아직 두 개가 더 있다. \\n 고귀한 피가 섞이기를 거부하고 고여있는 곳은 어디인가. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

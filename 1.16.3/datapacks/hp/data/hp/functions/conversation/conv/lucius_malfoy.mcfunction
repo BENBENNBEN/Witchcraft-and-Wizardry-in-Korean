@@ -76,7 +76,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 말포이 가문이 대대로 살아온 대저택은 정복왕 윌리엄 1세의 노르만 정복 때 함께 영국으로 와 도움을 준 아르망 말포이가 보답으로 받은 영지에 세워져 있어. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 말포이 가문이 대대로 살아온 말포이 대저택은 정복왕 윌리엄 1세의 노르만 정복 때 함께 영국으로 와 도움을 준 아르망 말포이가 보답으로 받은 영지에 세워져 있어. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -141,7 +141,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트를 나온 말포이는 모두 슬리데린이었지. 원래 내 아들 드레이코 말포이를 덤스트랭에 입학시키려고 했어. 덤블도어가 나쁜 영향을 끼칠까 봐. 그는 순수혈통이 아닌 혼혈이나 머글 태생에게도 관대하니까. 덤스트랭은 머글 혈통 학생은 입학조차 허가하지 않아. 그리고 개인적으로 덤스트랭 교장인 이고르 카르카로프와 친분도 있고. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트를 나온 말포이는 모두 슬리데린이었지. 원래 내 아들 드레이코 말포이를 덤스트랭에 입학시키려고 했어. 덤블도어가 나쁜 영향을 끼칠까 봐 그랬지. 그는 순수혈통이 아닌 혼혈이나 머글 태생에게도 관대하니까. 그에 비해 덤스트랭은 머글 혈통 학생은 입학조차 허가하지 않아. 그리고 개인적으로 덤스트랭 교장인 이고르 카르카로프와 친분도 있고. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -174,7 +174,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 게다가 덤스트랭은 호그와트와 달리 어둠의 마법에 합리적이야. 반면에 호그와트는 편협하지. 그건... 학문의 자유를 억압하는 거란다. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 게다가 덤스트랭은 호그와트와 달리 어둠의 마법에 합리적이야. 반면에 호그와트는 편협하지. 그건... 학문의 자유를 억압하는 행위야. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -206,7 +206,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 상당히 무능한 교장이야. 머글의 권리 따위나 옹호하고 위험한 사상으로 호그와트를 이끌고 있어. 수백 년 동안 말포이 가문이 중하게 여긴 가치와 매우 상반되게 말이야. 정말 안타까운 일이지. 그가 강력한 마법사인 것은 부인할 수 없으니까. 조금이라도 다른 관점을 가졌더라면 이룰 수 있었던 것들을 생각해봐. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 상당히 무능한 교장이야. 머글의 권리 따위나 옹호하고 위험한 사상으로 호그와트를 이끌고 있어. 수백 년 동안 말포이 가문이 중요하게 여긴 가치와 매우 상반되게 말이야. 정말 안타까운 일이지. 그가 강력한 마법사인 것은 부인할 수 없으니까. 조금이라도 다른 관점을 가졌더라면 이룰 수 있었던 것들을 생각해보면 말이야. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -239,7 +239,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 하지만 그렇지 않지. 그래도 내 선에서 처리 못 할 문제는 아니야. 마법 정부에 있는 연줄을 통해 그를 통제하면 되니까. 언젠가 세베루스 스네이프가 그 자리를 대신했으면 좋겠어. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 하지만 그는 그렇지 않으니까. 그래도 내 선에서 처리 못 할 문제는 아니야. 마법 정부에 있는 연줄을 통해 그를 통제하면 되는 문제니까. 언젠가 세베루스 스네이프가 그 자리를 대신하게 만들어야지. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법약 수업에서 롱바텀이 항아리를 태우는 바람에 스네이프 교수님이 점수를 깎았어. 진짜 멍청한 자식. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 롱바텀이 마법약 수업에서 항아리를 태워서 스네이프 교수님이 그리핀도르 점수를 깎으셨어. 꼴좋다! 진짜 멍청한 자식. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

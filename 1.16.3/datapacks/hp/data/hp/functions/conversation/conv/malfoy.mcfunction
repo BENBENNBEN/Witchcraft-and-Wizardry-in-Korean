@@ -812,7 +812,7 @@ tag @s[scores={convState=22},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 돕겠다고? 말포이 가문을 위해 봉사하고 싶은 거야? 네가 섬길 사람을 알고 있다니 다행이네. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 돕겠다고? 말포이 가문을 위해 봉사하고 싶은 거야? 네가 섬길 사람을 안다니 다행이네. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -844,7 +844,7 @@ tag @s[scores={convState=23},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐, 네가 할 수 있는 일이 있어. 말포이 가문을 위할 마음이 들었다면 말이야... 너도 알다시피 요즘 마법 정부가 여러 저택을 압수수색 하고 있다는 소문이 있잖아... 위즐리가 주도한 일이라고 아버지께서 알려주시더라고. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐, 네가 할 일이 있어. 말포이 가문을 위해 일하고 싶다면 말이야... 너도 알다시피 요즘 마법 정부가 여러 저택을 압수수색 하러 다니잖아... 그게 위즐리가 주도한 일이라고 아버지께서 알려주시더라고. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -876,7 +876,7 @@ tag @s[scores={convState=24},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 심지어 머글 보호법을 개정한다는 얘기가 있다고 하셨어. 점점 순수혈통의 위상이 낮아질 거라고. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 심지어 머글 보호법을 개정한다는 얘기가 있다고 하셨어. 그게 통과되면 점점 순수혈통의 위상이 낮아질 거라고. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -908,7 +908,7 @@ tag @s[scores={convState=25},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 물론 우리 가문은 해당 없는 얘기지만, 그래도 우리 저택에... 마법 정부가 발견하면 그런 물건들이 몇 개 있어. 아티펙트라던가, 독이라던가... \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 물론 우리 가문은 해당 안 되는 얘기지만, 그래도 우리 저택에... 마법 정부가 발견하면 트집 잡힐 만한 물건들이 몇 개 있어. 아티펙트라던가, 독이라던가... \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -941,7 +941,7 @@ tag @s[scores={convState=26},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 말포이 저택에서 그런 물건들을 찾아서 녹턴 앨리에 있는 커랙티커스 버크에게 파는 걸 도와줘. 하나같이 그가 관심 있을 만한 물건들일 테니까. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 말포이 저택에서 그런 물건들을 찾아서 녹턴 앨리에 있는 커랙티커스 버크에게 파는 걸 도와줘. 하나같이 그가 좋아할 물건일 테니까. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1025,7 +1025,7 @@ tag @s[scores={convState=28},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 모두 찾았어? 잘했어. 마법 정부라는 곳이 마법 물품에 개방적이지 않다니 참. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 모두 찾았어? 잘했어. 마법 정부라는 곳이 마법 물품에 너그럽지 않다니 참. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1056,7 +1056,7 @@ tag @s[scores={convState=29},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 녹턴 앨리에 있는 커랙티커스 버크에게 팔도록 해. 그가 관심 가질 물건들일 테니까. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 녹턴 앨리에 있는 커랙티커스 버크에게 팔도록 해. 그가 좋아할 만한 물건들일 테니까. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
