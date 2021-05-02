@@ -28,7 +28,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 네 머리 주위에 렉스퍼트로 가득하구나. \"},{\"text\":\"난 제노필리우스 러브굿이란다.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 네 머리 주위에 렉스퍼트로 가득하구나. \"},{\"text\":\"난 제노필리우스 러브굿이란다\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -517,7 +517,7 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나글스? 나글스는 어디에나 있어. 나글스를 더 많은 사람이 못 찾은 게 이상할 정도라고. 낡은 풍차 옆에서 나글스를 본 것 같은데. 자네가 거길 조사하는 걸 도와주는 건 어때. 조사해 온 정보를 이러쿵 저러쿵의 다음 호에 담고 싶군. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나글스? 나글스는 어디에나 있어. 더 많은 사람들이 찾지 못 하는 게 이상할 정도지. 그렇지 않아도 이 근처에 있는 낡은 풍차 옆에서 나글스를 본 것 같은데 자네가 거길 조사하는 걸 도와주는 건 어때? 조사해 온 정보를 이러쿵 저러쿵의 다음 호에 담고 싶군.  \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -551,7 +551,7 @@ tag @s[scores={convState=16},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나글스를 보려면 심령 안경을 써야 할 거야. 이 안경은 맨눈으로 볼 수 없는 것들을 보여주거든. 우리가 그냥 보는 것과 볼 수 없지만, 존재하는 것들은 다르니까. 많은 사람이 깨닫지 못하고 있지만. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나글스를 보려면 심령 안경을 써야 할 거야. 이 안경은 맨눈으로 볼 수 없는 것들을 보여주거든. 우리가 그냥 보는 것과 볼 수 없지만 존재하는 것들은 다르니까. 많은 사람이 깨닫지 못하고 있지만. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -617,7 +617,7 @@ tag @s[scores={convState=18},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 풍차로 가봐. 심령 안경을 쓰면 아마 단서가 보일 거야. 나글스는 교활해서 숨는 걸 잘해... \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 풍차로 가봐. 심령 안경은 꼭 쓰고. 한번 단서를 찾아봐! 나글스는 교활한 생물이라서 숨는 걸 아주 잘하니까 구석구석 찾아봐야 할 거야. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -650,7 +650,7 @@ tag @s[scores={convState=19},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 조사를 마치면 와. 내게 찾은 걸 알려줘. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 조사를 마치면 돌아와서 내게 찾은 걸 알려주게. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -684,7 +684,7 @@ tag @s[scores={convState=20},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래서 발견했나? 아니라고? 내가 생각했던 것보다 더 잘 숨었나 보군. 어딘가 있을 거야. 루나도 믿고 있지. 우리 잡지의 애독자도 믿고 있을 거라고. 이러쿵 저러쿵이 유일하게 이런 중요한 정보를 싣는 잡지니까. 대부분 마녀와 마법사들은 안온하게 이런 정보를 모르고 살지.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래서 발견했나? 발견하지 못 했다고? 내가 생각했던 것보다 더 잘 숨었나 보군. 분명 어딘가 있을 거야. 루나도 믿고 있지. 물론 우리 잡지의 애독자들도 믿고 있을 거라네. 이러쿵 저러쿵이 유일하게 이런 중요한 정보를 싣는 잡지니까. 하지만 대부분의 마법사나 마녀들은 이런 정보를 모르고 안온하게 살지.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

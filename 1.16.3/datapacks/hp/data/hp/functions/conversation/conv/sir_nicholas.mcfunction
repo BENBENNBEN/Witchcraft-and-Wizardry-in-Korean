@@ -27,14 +27,14 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 니콜라스 경이야! 오늘은 기분이 울적해. 목 없는 사냥꾼 협회에서 또 가입 거절당했거든. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 난 니콜라스 경이란다! 미안 오늘은 기분이 울적하구나. 목 없는 사냥꾼 협회에서 또 가입을 거절당했거든. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 목이 달랑달랑한 닉 아저씨죠? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 목이 달랑달랑한 닉이시죠? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 유령이시네요 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -134,7 +134,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내가 학교 다닐 때 그리핀도르로 배정되었고, 지금도 그리핀도르 유령으로 탑에서 살아. 호그와트를 졸업하고 나서는 왕정 마법사가 되었지. 어떤 귀부인의 치아를 마법으로 교정하려다 상아가 자라서 지위도 박탈되고 내 목도 거의 잘렸단다. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내가 학교 다닐 때는 그리핀도르였고, 지금도 그리핀도르 유령으로 탑에서 지내고 있어. 호그와트를 졸업하고 나서는 왕정 마법사가 되었는데, 어떤 귀부인의 치아를 마법으로 교정하려다 상아가 자라는 바람에 지위도 박탈되고 내 목도 거의 잘리게 되었단다. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

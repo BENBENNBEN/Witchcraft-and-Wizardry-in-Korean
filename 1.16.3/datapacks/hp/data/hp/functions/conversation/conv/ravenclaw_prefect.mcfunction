@@ -282,7 +282,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 반가워. 내 이름은 \"},{\"text\":\"마커스 터너야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\\n\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 반가워. 내 이름은 \"},{\"text\":\"마커스 터너야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\"\\n\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -358,7 +358,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 ################################
 
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"√  어디 가는 길을 알려줘\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"√ 어디 가는 길을 알려줘\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 18
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 래번클로 기숙사 특징이 뭐야?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -404,7 +404,7 @@ tag @s[scores={convState=11},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 래번클로에서는 지혜와 지식, 그리고 재치를 중시해. 그리고 마법을 배울 때 개개인의 창의성과 독창성 또한 놓치기 싫어해. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 래번클로에서는 지혜와 지식, 그리고 재치를 중요하게 생각해. 그리고 마법을 배울 때 개개인의 창의성과 독창성 또한 놓치기 싫어하지. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -436,7 +436,7 @@ tag @s[scores={convState=12},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 로위너 래번클로는 4명의 호그와트 설립자 중 한 분이셔. 10세기 영국 스코틀랜드 태생의 마녀셨지. 호그와트를 세울 터를 정하고 호그와트라는 이름을 지은 것도 모두 로위너 래번클로의 공이었다는 거 알아? 어느 날 물사마귀 투성의 돼지가 호수 옆 절벽으로 인도하는 꿈을 꾸셨대. 거기에 성이 있었고. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 로위너 래번클로는 4명의 호그와트 설립자 중 한 분이셔. 10세기 영국 스코틀랜드 태생의 마녀셨지. 호그와트를 세울 터를 정하고 호그와트라는 이름을 지은 것도 모두 로위너 래번클로가 하신 거 알아? 어느 날 물사마귀 투성의 돼지가 호수 옆 절벽으로 인도하는 꿈을 꾸셨대. 거기에 성이 있었고. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -533,7 +533,7 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 일반 마법을 가르치시는 필리우스 플리트윅 교수님이야. 많은 학생들이 교수님을 무시하긴 해... 아무래도 키가 작으시니까. 요정 혼혈이신 것 같은데 실례가 될까봐 여쭤보지는 않았어. 오늘날 세계에서 가장 훌륭하고 박식한 일반 마법과 결투의 대가셔. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 일반 마법을 가르치시는 필리우스 플리트윅 교수님이야. 많은 학생들이 교수님을 무시하지... 아무래도 키가 작으시니까. 요정 혼혈이신 것 같은데 실례가 될까 봐 여쭤보지는 않았어. 그래도 일반 마법으로는 세계에서 가장 박식하시고 마법 결투의 대가셔. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -597,7 +597,7 @@ tag @s[scores={convState=17},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 교수님의 사무실은 항상 래번클로 학생들에게 열려있어. 만약 네가 축져저 있으면 작고 맛있는 컵케이크를 꺼내서 너를 위해 춤을 춰주신다고. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 교수님의 사무실은 항상 래번클로 학생들에게 열려있어. 만약 네가 우울해하면 작고 맛있는 컵케이크도 주시고 너를 위해 춤도 춰주신다고. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

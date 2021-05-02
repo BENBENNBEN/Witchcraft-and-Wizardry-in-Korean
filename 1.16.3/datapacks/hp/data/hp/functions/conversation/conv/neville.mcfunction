@@ -1176,7 +1176,7 @@ tag @s[scores={convState=25},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 정말 너무 좋아. 슬리데린 애들이 조금 못되게 굴고 마법 수업이 어렵기는 해도 좋아. 할머니는 내가 스큅인 줄 아셨대. 그래서 편지가 왔을 때 우리 둘 다 엄청나게 놀랐었지. \\n\\n\"}"} 
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 정말 너무 좋아. 슬리데린 애들이 조금 괴롭히고 마법 수업이 어렵기는 해도 좋아. 마법 능력은 어릴 때도 그래서 할머니는 내가 스큅인 줄 아셨대. 그래서 편지가 왔을 때 엄청나게 놀라셨지. \\n\\n\"}"} 
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1208,7 +1208,7 @@ tag @s[scores={convState=26},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법약 수업은 정말 싫어. 스네이프 교수님 너무 무섭거든. 난 식물에 관심이 많아서 약초학 수업이 제일 좋아. 네팔에 어떤 마법사는 중력을 거스르는 나무를 기르고 있대. \\n\\n\"}"} 
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법약 수업은 정말 싫어. 스네이프 교수님이 너무 무섭거든. 난 식물에 관심이 많아서 약초학 수업이 제일 좋아. 네팔에 어떤 마법사는 중력을 거스르는 나무를 기르고 있대. \\n\\n\"}"} 
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

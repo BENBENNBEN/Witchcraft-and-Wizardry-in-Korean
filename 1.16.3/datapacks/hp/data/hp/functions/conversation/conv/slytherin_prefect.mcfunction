@@ -92,7 +92,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 슬리데린은 영리하고, 지략을 겸비하고, 결단력 있지. 또한, 야망 있고, 빈틈없고, 교활하고, 타고난 지도자에 성취 지향적이야.\\n\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 슬리데린은 영리하고, 지략을 겸비했을 뿐 아니라, 결단력 있지. 또한, 야망 있고, 빈틈없고, 교활하고, 타고난 지도자에 성취 지향적이야.\\n\\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -283,7 +283,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 안녕. 나는 \"},{\"text\":\"젬마 팔리야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\\n\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 안녕. 나는 \"},{\"text\":\"젬마 팔리야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\"\\n\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -359,7 +359,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 ################################
 
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"√  어디 가는 길을 알려줘\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"√ 어디 가는 길을 알려줘\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 18
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 슬리데린 기숙사 특징이 뭐야?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -405,7 +405,7 @@ tag @s[scores={convState=11},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 슬리데린은 야심 차고, 빈틈없고, 교활하고, 타고난 지도자에 성취 지향적이야. 어떤 사람들은 우리가 원하는 것을 얻기 위해 '모든 수단을 정당화한다'라고 말하는데, 이는 매우 사실이야. 하지만 아쉽게도 슬리데린에는 오직 힘으로만 자신의 능력을 증명하려는 크래브와 고일 같은 애들도 있어. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 우리 슬리데린은 야심 차고, 빈틈없고, 교활하고, 타고난 지도자에 성취 지향적이야. 사람들은 우리가 원하는 것을 얻기 위해 '모든 수단을 정당화한다'고 하는데, 이는 매우 사실이야. 하지만 아쉽게도 슬리데린에는 오직 힘으로만 자신의 능력을 증명하려는 크래브와 고일 같은 애들도 있어. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -437,7 +437,7 @@ tag @s[scores={convState=12},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\"그분은 호그와트의 4명의 창립자 중 한 분이셨지. 너도 알다시피 가장 위대한 사람이셨고. 파셀마우스에 뛰어난 레질러먼스셨으니까. 직접 스네이크우드와 바실리스크의 뿔을 재료 삼아 지팡이를 만드셨대. 특이하게 파셀텅으로 어떤 주문을 외우면 지팡이를 잠들게 할 수 있다던데. 다른 사람이 그 지팡이를 쓸 수 없게 말이야. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그분은 호그와트의 4명의 창립자 중 한 분이셨지. 너도 알다시피 가장 위대한 마법사셨고. 파셀마우스에 뛰어난 레질러먼스셨으니까. 직접 스네이크우드와 바실리스크의 뿔을 재료 삼아 지팡이도 만드셨대. 파셀텅으로 어떤 주문을 외우면 지팡이를 잠들게 하실 수 있었다던데. 다른 사람이 그 지팡이를 쓸 수 없게 말이야. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -534,7 +534,7 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법약의 대가시고, 우리 슬리데린이 모두 존경하는 세베루스 스네이프 교수님이지. 물론 교수님은 공정하게 하시려고 하지만 모두 교수님이 슬리데린을 편애한다는 것을 알고 있어. 그건 부정 못 하지. 근데 그래서 어쩌라고? 덤블도어 교장 선생님도 그러는데 뭐. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법약의 대가시고, 우리 슬리데린이 모두 존경하는 세베루스 스네이프 교수님이지. 물론 교수님은 공정하시려고 하지만 모두 교수님이 슬리데린을 편애하신다는 것을 알고 있어. 그건 부정 못 하지. 근데 그래서 뭐. 덤블도어 교장 선생님도 그러는데 뭐. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -566,7 +566,7 @@ tag @s[scores={convState=16},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 피투성이 남작. 조금 무섭게 생기긴 했지. 과거에 대해 궁금해하지 마. 사랑이 이성을 잃게 했는가 보니까. 과거만 빼면 괜찮아. 피브스를 통제할 수 있는 유일한 유령이기도 하고. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 피투성이 남작이야. 조금 무섭게 생기긴 했지. 과거에 대해서는 궁금해하지 마. 사랑이 이성을 잃게 했었나 봐. 아무튼, 과거만 빼면 괜찮아. 피브스를 통제할 수 있는 유일한 유령이기도 하고. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

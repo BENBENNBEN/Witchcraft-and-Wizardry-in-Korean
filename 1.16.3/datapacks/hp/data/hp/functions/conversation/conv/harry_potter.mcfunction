@@ -107,7 +107,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래. 내 이름이 마법 세계에서 무슨 의미인지 알아. 처음에는 나도 놀랐어. 아무리 상관 안 하고 내 삶을 살려고 노력해도, 매년 볼드모트가 약속한 것처럼 나타나서 잊어버릴 수가 없어. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래. 내 이름이 마법 세계에서 무슨 의미인지 알아. 처음에는 나도 놀랐어. 아무리 신경 안 쓰고 내 삶을 살려고 노력해도 매년 볼드모트가 약속한 것처럼 나타나서 잊어버릴 수 없지만 말이야. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -173,7 +173,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그럼. 호그와트 팀의 수색꾼이야. 일 학년 때부터 쭉. 그때 말포이가 네빌의 리멤브럴을 훔치고 빗자루 타고 도망가서, 내가 그 뒤를 쫓았거든. 빗자루 처음 타는 것이기도 하고, 큰일 났다고 생각했는데 그 반대였지. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그럼, 그리핀도르 팀의 수색꾼이야. 일 학년 때부터 쭉. 그때 말포이가 네빌의 리멤브럴을 훔치고 빗자루 타고 도망가는 걸 내가 그 뒤를 쫓았거든. 빗자루를 처음 타는 것이기도 하고, 허락 없이 빗자루를 타서 큰일 났다고 생각했는데 그 반대였지. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

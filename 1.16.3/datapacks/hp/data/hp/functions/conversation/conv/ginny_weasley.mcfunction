@@ -107,7 +107,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 좋아. 내가 일곱 남매 중 마지막이지만, 그래도 기대돼. 교과서는 다 헌 책이라도 여자 형제가 없어서 교복은 새 거니까.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 좋아. 내가 일곱 남매 중 마지막이라서 이미 호그와트에 대해 어느 정도 예상되었거든. 교과서도 거의 다 헌 책이지만, 여자 형제가 없어서 교복은 새 거니까.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -139,7 +139,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내 빨간 머리 보고 알아챘구나. 맞아. 위즐리 집안에서 몇 세대 만에 태어난 여자아이야. 오빠가 여섯 명이나 있어! 찰리랑 빌만 빼고 다 호그와트에 다니고 있어.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내 빨간 머리 보고 알아챘구나. 맞아. 위즐리 집안에서 몇 세대 만에 태어난 여자아이야. 오빠만 여섯 명이나 있어! 찰리랑 빌만 빼고 다 호그와트에 다니고 있어.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -171,7 +171,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 맞아, 그리핀도르 소속이야. 놀랄 것도 없지. 오빠들 전부 다 그리핀도르였으니까. 슬리데린처럼 야망 있고 자기중심적이고 래번클로처럼 지루한 퍼시 오빠도 그리핀도르 학생회장이니까 뭐. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 맞아, 그리핀도르 소속이야. 놀랄 것도 없지. 오빠들 전부 다 그리핀도르였으니까. 슬리데린처럼 야망있고 자기중심적이고 래번클로처럼 지루한 퍼시 오빠도 그리핀도르 학생회장이니까 뭐. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
