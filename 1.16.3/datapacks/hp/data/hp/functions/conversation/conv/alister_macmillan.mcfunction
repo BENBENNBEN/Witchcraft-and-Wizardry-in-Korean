@@ -159,7 +159,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 머글 우체국 같지만, 대신 부엉이가 배달하는 거야. 가정용 부엉이가 없는 사람들이 많이 오지. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 머글 우체국 같지만, 대신 부엉이가 배달하는 거야. 가정용 부엉이가 없는 사람들이 많이 와. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -291,7 +291,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지금이 일 년 중에서 제일 바쁜 때야. 그래서 편지 배달도 많이 밀려있지. 네가 도와주면 좋을 텐데. 괜찮으면 호그스미드 마을 사람들에게 편지 좀 배달해줄래? 당연히 보답은 할 게. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지금이 일 년 중에서 제일 바쁜 때야. 그래서 편지 배달도 많이 밀려있지. 네가 도와주면 좋을 텐데. 괜찮으면 호그스미드 마을 사람들에게 편지 좀 배달해줄래? 당연히 보답은 할게. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

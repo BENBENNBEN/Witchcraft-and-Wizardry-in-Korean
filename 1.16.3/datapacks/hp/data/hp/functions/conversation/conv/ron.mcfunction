@@ -559,7 +559,7 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 와 타이밍 신기하다. 사실 도움이 필요했거든. 우리 집 부엉이 에롤이 방금 엄마 편지를 전해줬는데 두꺼비 때문에 정원이 말이 아닌가 봐. 보통은 노움들이 정원을 다 뒤집어놓는데... 길더로이 록하트의 가정 유해 생물 안내서도 도움이 안 되는 것 같고. 놀랍지도 않지만.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 와 타이밍 신기하다. 사실 도움이 필요했거든. 우리 집 부엉이 에롤이 방금 엄마 편지를 전해줬는데 두꺼비 때문에 정원이 말이 아닌가 봐. 보통은 노움들이 정원을 다 뒤집어놓거든... 길더로이 록하트의 가정 유해 생물 안내서도 도움이 안 되는 것 같고. 놀랍지도 않지만.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -618,7 +618,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless ent
 #####
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless entity @p[tag=queingQuest] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 17
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"미안, 지금은 도와드릴 수 없어.\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"미안, 지금은 도와줄 수 없어\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 #-------------------------------
 

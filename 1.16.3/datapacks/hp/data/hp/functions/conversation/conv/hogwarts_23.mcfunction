@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 난 좀 정신없는 것 같아. 정신이 있으면 한 가지에 집중하느라 다른 것에 신경 못 쓴다구! 어... 내가 리멤브럴을 어디다가 두었더라? \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나 정도면 멍하게 있는 건 아니지. 오히려 한 가지에 너무 집중하면 다른 것에 신경 못 쓴다구! 그러니까 어... 내가 리멤브럴을 어디다가 두었더라? \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

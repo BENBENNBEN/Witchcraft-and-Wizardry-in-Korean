@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 안녕 나는 \"},{\"text\":\"이르마 핀스 부인이야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\". 호그와트 도서관 사서지.\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 안녕 나는 \"},{\"text\":\"이르마 핀스 부인이야.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 호그와트 도서관의 사서지.\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -67,7 +67,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 
 
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트 도서관에 대해 말해주세요.\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트 도서관에 대해 얘기해주세요.\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 3
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≤ 책에 대해 물어보고 싶어요.\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -97,7 +97,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 경고하는데 도서관 책을 찢거나 꾸기거나 분리하거나 낙서하거나 뭘 흘리거나 던지거나 떨어뜨리거나 어떻게든 훼손하면 내가 가능한 한 끔찍한 벌을 줄 거란다!\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 미리 경고하는데 도서관 책을 찢거나 꾸기거나 분리하거나 낙서하거나 뭘 흘리거나 던지거나 떨어뜨리거나 어떻게든 훼손하면 내가 가능한 한 끔찍한 벌을 줄 거란다!\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -132,7 +132,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도서관 자체가 말해주지 않니? 수천 개의 선반, 수천 권의 책들. 이 소중한 컬렉션에 대한 존경심이라고 하나 없는 웃고 떠들고 재채기하기 바쁜 학생들로부터 소중히 지키는 게 내 일이야. 내가 아니었더라면 이 도서관은 하나같이 망가진 책만 있고 휑한 책 선반만 남았을 거라고. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도서관을 직접 둘러 보렴. 수천 개의 선반, 수천 권의 책들. 이 소중한 컬렉션에 대한 존경심이라고 하나 없이 웃고 떠들고 재채기하기 바쁜 학생들로부터 지키는 게 내 일이야. 내가 아니었더라면 이 도서관은 하나같이 망가진 책만 있거나 휑한 책 선반만 남았을 거란다. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -314,7 +314,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음유시인 비들 이야기는 어린 마법사와 마녀를 위한 여러 이야기가 담긴 동화책이야. 체프 출판사에서 출판되었고 룩소 카르조스가 삽화를 그렸어. 수 세기 동안 아이들에게 자기 전에 들려주었고, 많은 호그와트 학생들이 아직도 좋아하는 동화책이야.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음유시인 비들 이야기는 어린 마법사와 마녀를 위한 여러 이야기가 담긴 동화책이야. 체프 출판사에서 출판되었고 룩소 카르조스가 삽화를 그렸어. 수 세기 동안 아이들에게 사랑을 받아왔고, 아직도 많은 호그와트 학생들이 좋아하는 동화책이야.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -1011,7 +1011,7 @@ execute as @s[scores={cutSceneTimer=440},tag=cutsceneLeader] as @e[tag=lupinStup
 
 # ¤Lupin:¤ Shape shifting creatures that dwell in dark places and take on form to scare their target.
 execute as @s[scores={cutSceneTimer=480},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=480..650}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 어두운 곳에 살고, 상대를 겁주기 위해 어떤 모양이든 변신할 수 있는 괴물이지."}]
+execute as @s[scores={cutSceneTimer=480..650}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 어두운 곳에 살면서 상대를 겁주기 위해 어떤 모양이든 변신할 수 있는 괴물이지."}]
 execute as @s[scores={cutSceneTimer=480},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=487},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=491},tag=cutsceneLeader] as @e[tag=lupinStupefyArena,limit=1] run function hp:npc/update_npc_head_expression

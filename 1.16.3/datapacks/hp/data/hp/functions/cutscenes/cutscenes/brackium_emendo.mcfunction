@@ -171,7 +171,7 @@ execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=flitwickCl
 
 # ¤Flitwick:¤ You've already learned that you can heal yourself using potions.
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=161..300}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 아마 전 수업에서 물약을 사용하여 치유하는 법을 배웠을 텐데"}]
+execute as @s[scores={cutSceneTimer=161..300}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 아마 전 수업에서 물약을 사용하여 체력을 회복하는 법을 배웠을 텐데"}]
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=168},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=172},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -501,7 +501,7 @@ execute as @s[scores={cutSceneTimer=450..520}] run title @s actionbar ["",{"text
 
 # ¤Flitwick:¤ Fight off the enemies, and use the spell to heal yourself if you take damage.
 execute as @s[scores={cutSceneTimer=521},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=521..630}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 적과 싸우다가 피해를 받으면 마법 주문을 사용하여 자신을 치유해봐."}]
+execute as @s[scores={cutSceneTimer=521..630}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 적과 싸우다가 피해를 입으면 마법 주문을 사용해서 치유해보렴."}]
 
 
 execute as @s[scores={cutSceneTimer=452}] run function hp:cutscenes/fade_out

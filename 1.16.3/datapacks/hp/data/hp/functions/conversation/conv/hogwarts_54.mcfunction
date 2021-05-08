@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 방향 표지판은 정말 도움이 돼. 이게 없었다면 항상 길을 잃었을 거야. 지금은 그에 반만큼만 길을 잃는다고. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 방향 표지판은 정말 도움이 돼. 이게 없었다면 항상 길을 잃었을 거야. 지금은 그에 반만큼만 길을 잃고 있지. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

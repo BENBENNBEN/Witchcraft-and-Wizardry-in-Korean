@@ -63,7 +63,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 싫어해? 하! 경멸한다고. 샐리 앤이 자기한테 곧 넘어갈 거라는 착각에 빠져있어 한심하게도. 푸디풋 부인의 찻집에 가자고 곧 데이트 신청한대잖아. 샐리 앤이 잘도 가겠다고 하겠다. 그런 말도 안 되는 개수작에 넘어갈 리가 없잖아... 아마도. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 싫어해? 하! 경멸한다고. 그놈은 주제도 모르고 샐리 앤이 자기한테 넘어갈 거라는 착각에 빠져있어 한심하게도. 푸디풋 부인의 찻집에 가자고 곧 데이트 신청할 거래. 샐리 앤이 잘도 가겠다고 하겠다. 그런 말도 안 되는 개수작에 넘어갈 리가 없잖아... 아마도. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -97,7 +97,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 생각해봤는데... 샐리 앤은 데이비스가 정말로 어떤 놈인지 알아야 해. 그래서 말인데 이 편지를 그녀에게 전해줄래? 트레반 데이비스가 보낸 편지라고 하면서. 그놈의 모자란 지능을 완벽히 따라 하느라 애썼다고. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 생각해봤는데... 샐리 앤은 데이비스가 정말로 어떤 놈인지 알아야 해. 그래서 말인데 이 편지를 그녀에게 전해줄래? 트레반 데이비스가 보낸 편지라고 하면서. 그놈의 모자란 지능을 완벽히 따라 하느라 애썼지. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -252,7 +252,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐라고?! 우리 거래했잖아. 샐리 앤 같은 여자애들은 누가 알려주지 않으면 나 같은 착한 남자가 아니라 트레반 같은 나쁜 놈들한테 속는다고. 하, 믿을 수 없네. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐라고?! 우리 거래했잖아. 샐리 앤 같은 여자애들은 누가 알려주지 않으면 나 같은 착한 남자가 아니라 트레반 같은 놈들한테 속아 넘어간다고. 하, 믿을 수 없네. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

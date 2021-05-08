@@ -214,7 +214,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 입 다무는 게 좋겠군. 이미 오래전 일이 돼버렸으니까. 요즘은 말조심해야 한다고. 그래도 이것만 말할게. 순수혈통을 지키기 위해서 지팡이를 뽑는 시대가 아니라고 해도 사상 자체를 버리는 건 비겁하지 않아? \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 입 다무는 게 좋겠군. 이미 오래전 일이 돼버렸으니까. 요즘은 말조심해야 하는데 그래도 이것만 말할게. 순수혈통을 지키기 위해서 지팡이를 뽑는 시대가 아니라고 해도 사상 자체를 버리는 건 비겁하지 않아? \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader	
 
 ###############################

@@ -532,7 +532,7 @@ tag @s[scores={convState=16},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 어떻게 하면 좋을까 다른 의견이 듣고 싶어서 그런데, 보아하니 호그와트 학생이지? 나 대신 해그리드에게 물어봐 줄 수 있어? \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 어떻게 하면 좋을까 다른 의견이 듣고 싶어서 그런데, 보아하니 호그와트 학생이지? 나 대신 해그리드에게 물어봐 줄 수 있니? \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

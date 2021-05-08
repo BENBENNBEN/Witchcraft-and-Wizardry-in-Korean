@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 슬리데린 식 조언을 해줄게. 인생에서 중요한 것은 정직함과 공정함이야. 물론 그런 것처럼 꾸며낼 수 있으면 더 좋고. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 슬리데린 식 조언을 해줄게. 인생에서 중요한 것은 정직함과 공정함이야. 물론 그런 것처럼 꾸며내는 게 제일 좋아. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

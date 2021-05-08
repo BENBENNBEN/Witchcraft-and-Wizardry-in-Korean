@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 기숙사 배정이 이해가 안 가. 학생들을 나누는 기준이 정확히 뭐야...? 용감한 학생, 영리한 학생, 사악한 학생 그리고 나머지들이냐고. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 기숙사 배정이 이해가 안 가. 학생들을 나누는 기준이 정확히 뭐야...? 용감한 학생, 영리한 학생, 사악한 학생 그리고 나머지들? \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

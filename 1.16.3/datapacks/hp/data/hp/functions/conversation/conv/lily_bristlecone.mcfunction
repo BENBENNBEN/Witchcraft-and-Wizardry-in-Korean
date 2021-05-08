@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 슬러그 앤 지글러 마법약 상점, 호그스미드 지점입니다. 물약 양조에 필요한 모든 것을 팔고 있죠. 여기 없으면 다이애건 앨리 지점에 방문해보세요. 거기에 있을 겁니다. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 슬러그 앤 지글러 마법약 상점, 호그스미드 지점입니다. 물약 양조에 필요한 모든 것을 팔고 있죠. 여기 없으면 다이애건 앨리 지점에 방문해보세요. 거기에 있을 거예요. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

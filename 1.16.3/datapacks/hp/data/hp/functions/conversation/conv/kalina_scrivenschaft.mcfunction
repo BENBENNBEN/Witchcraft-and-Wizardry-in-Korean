@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 양피지가 다 떨어졌다고? 아니면 잉크? 깃펜? 걱정말라구, 여기 다 있으니까. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 양피지가 다 떨어졌다고? 아니면 잉크? 깃펜? 걱정말렴, 여기 다 있으니까. \\n\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -68,7 +68,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기는 문구점이야. 호그스미드에서는 유일한 문구점이지. 깃펜이라던가 양피지, 호그와트 학생들에게 필요한 문구 용품을 팔고 있어. 종코의 장난감 가게나 허니듀크만큼 인기는 없지만, 숙제하려면 우리 가게로 잉크나 양피지를 사러 와야 하지. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기는 문구점이야. 호그스미드에서는 유일한 문구점이란다. 깃펜이라던가 양피지, 호그와트 학생들에게 필요한 문구 용품을 팔고 있어. 종코의 장난감 가게나 허니듀크만큼 인기는 없지만, 숙제하려면 우리 가게로 잉크나 양피지를 사러 와야 하지. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -1157,7 +1157,7 @@ execute as @s[scores={cutSceneTimer=550},tag=cutsceneLeader] as @e[tag=snapeClas
 
 # ¤Snape:¤ In this lesson you will be brewing the "Murtlap Essence" potion,
 execute as @s[scores={cutSceneTimer=600},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=600..800}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 오늘 수업에서는 머트랩 용액을 만들 거야."}]
+execute as @s[scores={cutSceneTimer=600..800}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 오늘 수업에서는 머트랩 용액을 만들 거다."}]
 execute as @s[scores={cutSceneTimer=600},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=607},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=611},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -1194,7 +1194,7 @@ execute as @s[scores={cutSceneTimer=840},tag=cutsceneLeader] as @e[tag=snapeClas
 
 # ¤Snape:¤ You may begin.
 execute as @s[scores={cutSceneTimer=970},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=970..1170}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 이제 시작해."}]
+execute as @s[scores={cutSceneTimer=970..1170}] run title @s actionbar ["",{"text":""},{"text":"스네이프","color":"dark_gray"},{"text":" 이제 시작해라."}]
 execute as @s[scores={cutSceneTimer=970},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=977},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=981},tag=cutsceneLeader] as @e[tag=snapeClassroom,limit=1] run function hp:npc/update_npc_head_expression

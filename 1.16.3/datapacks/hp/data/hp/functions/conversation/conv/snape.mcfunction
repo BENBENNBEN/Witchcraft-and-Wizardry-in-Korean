@@ -118,7 +118,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=4}] as @s[tag=
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"≤ 마법약을 가르치는 것을 좋아하세요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=5}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 4
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=6}] run data merge entity @s {CustomName:"{\"text\":\"다른 것을 물어보고 싶어요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=6}] run data merge entity @s {CustomName:"{\"text\":\"다른 거요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=6}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 #-------------------------------
 
@@ -174,7 +174,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 처음 교수직에 지원했을 때는 어둠의 마법 방어법 교수 자리를 원했지만, 덤블도어 교장 선생님이 마법약 교수로 임명했다. 이미 너도 알겠지만, 삶은 공평하지 않아.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 처음 교수직에 지원했을 때는 어둠의 마법 방어법 교수 자리를 원했지만, 덤블도어 교장 선생님께서 나를 마법약 교수로 임명하셨다. 이미 너도 알겠지만, 인생은 공평하지 않아.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -206,7 +206,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 난 슬리데린 출신이다. 교활하고 야심가들을 위한 기숙사지. 마법의 힘보다 논리와 교활함을 중시해. 호러스 슬러그혼 교수님의 자리를 이어받았어.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 난 슬리데린 출신이다. 교활하고 야심가들을 위한 기숙사지. 슬리데린은 마법의 힘보다 논리와 교활함을 중시해. 마법약 교수가 되고서는 호러스 슬러그혼 교수님의 자리를 이어받아 슬리데린의 사감이 되었지.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -238,7 +238,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 그 당시 마법약 교수셨던 슬러그혼 교수님에게 가르침을 받았어. 기숙사 사감이시기도 하셨지. 이제는 내가 교수님의 역할을 완전히 대신한 셈이군. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는 그 당시 마법약 교수이셨던 슬러그혼 교수님에게 가르침을 받았어. 기숙사 사감이시기도 하셨지. 이제는 내가 교수님의 역할을 완전히 대신한 셈이군. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -507,7 +507,7 @@ tag @s[scores={convState=13},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 슬리데린은 살라자르 슬리데린에 의해 설립되었어. 내가 슬리데린의 기숙사 사감이야. 슬리데린은 야망과 교활함이 특징이지. 살라자르 슬리데린은 순수 혈통 학생들을 높이 평가하고 선호해. 이제는 어떤 혈통이든 슬리데린에 배정될 수 있지만, 머글 태생은 아주 드물게 배정되지. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 슬리데린은 살라자르 슬리데린에 의해 설립되었다. 내가 기숙사 사감이지. 슬리데린은 야망과 교활함이 특징이고, 옛날부터 순수 혈통 학생들을 높이 평가하고 선호해왔어. 이제는 어떤 혈통이든 슬리데린에 배정될 수 있지만, 머글 태생은 아주 드물게 배정되지. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

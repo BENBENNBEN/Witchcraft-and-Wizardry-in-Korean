@@ -684,7 +684,7 @@ tag @s[scores={convState=19},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 교실로 돌아가겠습니까?\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 교실로 돌아갈래?\\n\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1403,7 +1403,7 @@ tag @s[scores={convState=39},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 스투페파이는 상대에게 피해를 주고 방어하는 주문이야. 근접 무기와 함께 사용하는 것이 좋지. 위험할 때, 적을 기절시키는 것만큼 좋은 게 없기도 하고.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 스투페파이는 상대에게 피해를 주고 방어하는 주문이야. 근접 무기와 함께 사용하는 것이 좋지. 위험할 때 적을 기절시키는 것만큼 좋은 게 없기도 하고.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1435,7 +1435,7 @@ tag @s[scores={convState=40},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 스투페파이 같은 공격 주문은 많은 에너지, 그러니까 '\"},{\"text\":\"마나가 필요해.\",\"color\":\"blue\",\"bold\":\"true\"},{\"text\":\"'. 파란색 바를 잘 주시하도록 해. 마나가 없으면 마법 주문을 못 외우니까. \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 스투페파이 같은 공격 주문은 많은 에너지, 그러니까 '\"},{\"text\":\"마나\",\"color\":\"blue\",\"bold\":\"true\"},{\"text\":\"'가 필요해. 파란색 바를 잘 주시하도록 해. 마나가 없으면 마법 주문을 못 쓰니까. \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1466,7 +1466,7 @@ tag @s[scores={convState=41},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마나는 시간이 지남에 따라 천천히 생성되지만, 신속하게 채우는 여러 가지 방법이 있어.\\n\\n 적을 쓰러뜨리면 마나의 일부분이 회복돼. 내 옆에 보이는 마나 샘에서 회복할 수도 있고, 마나 물약을 마셔서 회복할 수도 있지.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마나는 시간이 지남에 따라 천천히 회복되지만, 여러 가지 방법으로 신속하게 채울 수 있어.\\n\\n 적을 쓰러뜨리면 마나의 일부분을 회복해. 내 옆에 보이는 마나 샘에서 회복할 수도 있고, 마나 물약을 마셔서 회복할 수도 있단다.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1498,7 +1498,7 @@ tag @s[scores={convState=42},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 주문을 사용하려면 주문 메뉴에서 ² 를 눌러 선택하고 ⌠ 를 두 번 클릭해. 장애물 코스를 통과할 수 있는지 연습해보자. 다음 방에 있는 목표물에 주문을 맞춰보렴. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 주문을 사용하려면 주문 메뉴에서 ² 를 눌러 선택하고 ⌠ 를 두 번 클릭해. 장애물 코스를 한번 통과해봐. 다음 방에 있는 목표물에 주문을 맞춰보렴. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

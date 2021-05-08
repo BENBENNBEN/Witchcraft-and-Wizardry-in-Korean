@@ -40,8 +40,8 @@ execute if entity @s[scores={InvItemID=-6}] if score noGlowEffect global matches
 execute if entity @s[scores={InvItemID=-6}] if score noGlowEffect global matches 1 as @e[tag=focusInventoryOption,limit=1,tag=selected] run data merge entity @s {CustomName:"[\"\",{\"text\":\"  ˈˈˈˈˈˈˈˈˈ  ˈˈ\"},{\"text\":\">>\",\"color\":\"gray\"},{\"text\":\" [\",\"color\":\"gray\"},{\"text\":\"광원 효과: 비활성화 (셰이더)\",\"color\":\"white\",\"underlined\":true},{\"text\":\"] \",\"color\":\"gray\"},{\"text\":\"<<\",\"color\":\"gray\"}]"}
 
 #  Exit Playmode and Explore
-execute if entity @s[scores={InvItemID=-7}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"  ˈˈˈˈˈˈˈˈˈ     \",\"color\":\"gray\"},{\"text\":\" [\",\"color\":\"dark_gray\"},{\"text\":\"플레이 모드를 종료하고 맵 탐험 모드 실행하기\",\"color\":\"gray\"},{\"text\":\"] ˈˈˈˈˈˈˈˈˈˈ\",\"color\":\"dark_gray\"}]"}
-execute if entity @s[scores={InvItemID=-7}] as @e[tag=focusInventoryOption,limit=1,tag=selected] run data merge entity @s {CustomName:"[\"\",{\"text\":\"  ˈˈˈˈˈˈˈˈˈ  ˈˈ\"},{\"text\":\">>\",\"color\":\"gray\"},{\"text\":\" [\",\"color\":\"gray\"},{\"text\":\"플레이 모드를 종료하고 맵 탐험 모드 실행하기\",\"color\":\"white\",\"underlined\":true},{\"text\":\"] \",\"color\":\"gray\"},{\"text\":\"<<\",\"color\":\"gray\"}]"}
+execute if entity @s[scores={InvItemID=-7}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"  ˈˈˈˈˈˈˈˈˈ     \",\"color\":\"gray\"},{\"text\":\" [\",\"color\":\"dark_gray\"},{\"text\":\"맵 탐험 모드\",\"color\":\"gray\"},{\"text\":\"] ˈˈˈˈˈˈˈˈˈˈ\",\"color\":\"dark_gray\"}]"}
+execute if entity @s[scores={InvItemID=-7}] as @e[tag=focusInventoryOption,limit=1,tag=selected] run data merge entity @s {CustomName:"[\"\",{\"text\":\"  ˈˈˈˈˈˈˈˈˈ  ˈˈ\"},{\"text\":\">>\",\"color\":\"gray\"},{\"text\":\" [\",\"color\":\"gray\"},{\"text\":\"맵 탐험 모드\",\"color\":\"white\",\"underlined\":true},{\"text\":\"] \",\"color\":\"gray\"},{\"text\":\"<<\",\"color\":\"gray\"}]"}
 
 #  Reset game
 execute if entity @s[scores={InvItemID=-8}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"  ˈˈˈˈˈˈˈˈˈ     \",\"color\":\"gray\"},{\"text\":\" [\",\"color\":\"dark_gray\"},{\"text\":\"게임 초기화\",\"color\":\"gray\"},{\"text\":\"] ˈˈˈˈˈˈˈˈˈˈ\",\"color\":\"dark_gray\"}]"}
@@ -58,7 +58,7 @@ execute if entity @s[scores={InvItemID=2}] as @e[tag=focusInventoryOption,limit=
 # 3
 execute if entity @s[scores={InvItemID=3}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"}]"}
 # 4
-execute if entity @s[scores={InvItemID=4}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          \",\"color\":\"gray\"},{\"text\":\"모델링:\",\"color\":\"white\"}]"}
+execute if entity @s[scores={InvItemID=4}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          \",\"color\":\"gray\"},{\"text\":\"메인 모델링:\",\"color\":\"white\"}]"}
 # 5
 execute if entity @s[scores={InvItemID=5}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"Wacky\",\"color\":\"gray\"}]"}
 # 6
@@ -66,7 +66,7 @@ execute if entity @s[scores={InvItemID=6}] as @e[tag=focusInventoryOption,limit=
 # 7
 execute if entity @s[scores={InvItemID=7}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"Wednesday Frog\",\"color\":\"gray\"}]"}
 # 8
-execute if entity @s[scores={InvItemID=8}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"\",\"color\":\"white\"}]"}
+execute if entity @s[scores={InvItemID=8}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"기타 모델링:\",\"color\":\"white\"}]"}
 # 9
 execute if entity @s[scores={InvItemID=9}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"                    \",\"color\":\"gray\"},{\"text\":\"Elsweyr\",\"color\":\"gray\"}]"}
 # 10
@@ -80,17 +80,17 @@ execute if entity @s[scores={InvItemID=13}] as @e[tag=focusInventoryOption,limit
 # 14
 execute if entity @s[scores={InvItemID=14}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"}]"}
 # 15
-execute if entity @s[scores={InvItemID=15}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          \",\"color\":\"gray\"},{\"text\":\"건설:\",\"color\":\"white\"}]"}
+execute if entity @s[scores={InvItemID=15}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          \",\"color\":\"gray\"},{\"text\":\"메인 건설:\",\"color\":\"white\"}]"}
 # 16
 execute if entity @s[scores={InvItemID=16}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"Wednesday Frog\",\"color\":\"gray\"}]"}
 # 17
-execute if entity @s[scores={InvItemID=17}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"도움을 주셨습니다\",\"color\":\"white\"}]"}
+execute if entity @s[scores={InvItemID=17}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"기타 건설:\",\"color\":\"white\"}]"}
 # 18
 execute if entity @s[scores={InvItemID=18}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"                    \",\"color\":\"gray\"},{\"text\":\"Barteldvn\",\"color\":\"gray\"}]"}
 # 19
 execute if entity @s[scores={InvItemID=19}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"                    \",\"color\":\"gray\"},{\"text\":\"Aendrel\",\"color\":\"gray\"}]"}
 # 20
-execute if entity @s[scores={InvItemID=20}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"\",\"color\":\"white\"}]"}
+execute if entity @s[scores={InvItemID=20}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"기타 도움:\",\"color\":\"white\"}]"}
 # 21
 execute if entity @s[scores={InvItemID=21}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"                    \",\"color\":\"gray\"},{\"text\":\"Dark_Knight_2013\",\"color\":\"gray\"}]"}
 # 22
@@ -412,7 +412,7 @@ execute if entity @s[scores={InvItemID=179}] as @e[tag=focusInventoryOption,limi
 # 180
 execute if entity @s[scores={InvItemID=180}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"}]"}
 # 181
-execute if entity @s[scores={InvItemID=181}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          \",\"color\":\"gray\"},{\"text\":\"개발자:\",\"color\":\"white\"}]"}
+execute if entity @s[scores={InvItemID=181}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          \",\"color\":\"gray\"},{\"text\":\"개발 프로그램:\",\"color\":\"white\"}]"}
 # 182
 execute if entity @s[scores={InvItemID=182}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"Blockbench\",\"color\":\"gray\"}]"}
 # 183
@@ -428,7 +428,7 @@ execute if entity @s[scores={InvItemID=187}] as @e[tag=focusInventoryOption,limi
 # 188
 execute if entity @s[scores={InvItemID=188}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"}]"}
 # 189
-execute if entity @s[scores={InvItemID=189}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          그리고 마지막으로 여러분께 감사드립니다! :)\",\"color\":\"white\"}]"}
+execute if entity @s[scores={InvItemID=189}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"그리고 마지막으로 여러분께 감사드립니다! :)\",\"color\":\"white\"}]"}
 
 
 scoreboard players set @s InvItemID 0

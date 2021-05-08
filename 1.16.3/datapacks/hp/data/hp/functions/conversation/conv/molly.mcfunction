@@ -160,7 +160,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 두꺼비 문제를 도와주러 론이랑 같이 와준 거니? 사려 깊구나. 이 두꺼비들이 정원을 엉망으로 만들고 있어. 좀 도와주렴. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 두꺼비 문제를 도와주러 론이랑 같이 와준 거니? 사려 깊구나. 이 두꺼비들이 정원을 엉망으로 만들고 있어서 골치 아프단다. 좀 도와주렴. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -194,7 +194,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 좋아. 이제 두꺼비들이 잠잠해지겠지. 여기 이거 받아. \\n\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 좋아. 이제 두꺼비들이 잠잠해지겠지. 여기 이거 받으렴. \\n\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

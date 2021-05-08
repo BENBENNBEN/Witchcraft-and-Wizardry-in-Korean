@@ -236,7 +236,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 정말 그러셨어? 너에게 마법 주문을 가르쳐 줄 수 있는데 지금은 좀 바빠. 네가 날 도와주면 가르쳐 줄 시간이 있을지도 몰라.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 정말 그러셨어? 너에게 마법 주문을 가르쳐 줄 수 있지. 근데 지금은 좀 바빠. 네가 날 도와주면 가르쳐 줄 시간이 생길지도 몰라.\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -379,7 +379,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"다른 용무가 있어\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"다른 질문이 있어\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 1
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≥ˈˈ 알았어\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
@@ -437,7 +437,7 @@ tag @s[scores={convState=14},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 완벽해. 지금 가르쳐줄 수 있겠다. 내가 유용하게 쓰는 주문을 가르쳐 줄 게. '알로호모라'라는 마법 주문이고 잠긴 문을 여는 데 쓸 수 있어. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 완벽해. 그럼 내가 유용하게 쓰는 주문을 가르쳐 줄게. '알로호모라'라는 마법 주문이고 잠긴 문을 여는 데 쓸 수 있어. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

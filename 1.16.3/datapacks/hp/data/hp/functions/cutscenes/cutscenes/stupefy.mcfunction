@@ -334,7 +334,7 @@ execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=lupinClass
 
 # ¤Lupin:¤ I'm Professor Lupin, your Defense Against the Dark Arts teacher here at Hogwarts.
 execute as @s[scores={cutSceneTimer=80},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=80..160}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 여기 호그와트에서 어둠의 마법 방어법을 가르치는 루핀 교수야."}]
+execute as @s[scores={cutSceneTimer=80..160}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 여기 호그와트에서 어둠의 마법 방어법을 가르치는 루핀 교수란다."}]
 execute as @s[scores={cutSceneTimer=80},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=87},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=91},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -346,7 +346,7 @@ execute as @s[scores={cutSceneTimer=120},tag=cutsceneLeader] as @e[tag=lupinClas
 
 # ¤Lupin:¤ Please put away your books, this is going to be a practical lesson. You will only need your wand.
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=161..320}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 모두 책은 치우렴. 이 수업에서는 주로 실습을 하니까. 마법 지팡이만 있으면 돼."}]
+execute as @s[scores={cutSceneTimer=161..320}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 모두 책은 치우렴. 이 수업에서는 주로 실습을 하니까 마법 지팡이만 있으면 돼."}]
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=168},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=172},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -358,7 +358,7 @@ execute as @s[scores={cutSceneTimer=191},tag=cutsceneLeader] as @e[tag=lupinClas
 
 # ¤Lupin:¤ Today you will be learning the spell 'Stupefy', which will allow you to stun and damage opponents.
 execute as @s[scores={cutSceneTimer=320},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=320..490}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 오늘은 적을 기절시키고 피해를 주는 '스투페파이' 주문을 배울 거야."}]
+execute as @s[scores={cutSceneTimer=320..490}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 오늘은 적을 기절시키고 마법 피해를 주는 '스투페파이' 주문을 배울 거란다."}]
 execute as @s[scores={cutSceneTimer=320},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=327},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=331},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -609,7 +609,7 @@ execute as @s[scores={cutSceneTimer=530},tag=cutsceneLeader] as @s run setblock 
 
 # ¤Lupin:¤ I've set up an obstacle course with targets for you to make your way through, so you can practice the spell.
 execute as @s[scores={cutSceneTimer=490},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=490..980}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 목표물이 있는 장애물 코스를 만들어뒀으니 마법 주문을 연습해보자."}]
+execute as @s[scores={cutSceneTimer=490..980}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 장애물 코스를 만들어뒀으니 마법 주문을 한번 연습해보자."}]
 
 execute as @s[scores={cutSceneTimer=550}] as @s run function hp:cutscenes/fade_out
 tp @s[scores={cutSceneTimer=551}] 5567.31 45.23 -70.44 35.12 -9.110001
@@ -972,7 +972,7 @@ execute as @s[scores={cutSceneTimer=880}] as @s run function hp:cutscenes/fade_i
 
 # ¤Lupin:¤ You can select the Stupefy spell by pressing { and cast it by double clicking £.
 execute as @s[scores={cutSceneTimer=980},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=980..1110}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" { 를 눌러 스투페파이 주문을 선택하고 £ 를 두 번 클릭하여 주문을 시전 하렴."}]
+execute as @s[scores={cutSceneTimer=980..1110}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" { 를 눌러 스투페파이 주문을 선택하고 £ 를 두 번 클릭하여 주문을 시전해 보렴."}]
 
 execute as @s[scores={cutSceneTimer=910}] as @s run function hp:cutscenes/fade_out
 tp @s[scores={cutSceneTimer=900}] 5507.347 43.80817 -36.82643 -336.56 -5.83

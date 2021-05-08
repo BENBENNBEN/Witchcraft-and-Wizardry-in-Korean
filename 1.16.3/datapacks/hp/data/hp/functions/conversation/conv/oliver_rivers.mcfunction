@@ -86,7 +86,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless ent
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless entity @p[tag=queingQuest] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0},tag=!hasLearnedStupefy] store success score @s tmp run scoreboard players set @s convState 6
 #-------------------------------
 
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≥ 정말 유감이야.\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≥ 정말 유감이야\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=2}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
 
@@ -143,7 +143,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도와줘서 고마워! 학생들이 사는 곳과 가까운 금지된 숲에 거미들이 살도록 허락해준 건 문제 있는 거 아니냐? 호그와트가 마법 세계에서 안전한 장소 중 하나라며! 지금 생각해보면 학교에 위험한 게 한둘이 아니야. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도와준다고 해줘서 고마워! 학생들이 사는 곳과 가까운 금지된 숲에 거미들이 살도록 허락해준 건 좀 문제 있는 거 아냐? 호그와트가 마법 세계에서 안전한 장소 중 하나라며! 지금 생각해보면 학교에 위험한 곳이 한둘이 아니야. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -176,7 +176,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 와, 내 앵무새 되찾았구나! 도와주다가 다치진 않았지? 어떻게 고마움을 표시해야 하는지 모르겠다. 여기, 이거 받아.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 와, 내 앵무새 찾았구나! 도와주다가 다치진 않았지? 어떻게 고마움을 표시해야 할지 모르겠다. 여기, 이거 받아.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

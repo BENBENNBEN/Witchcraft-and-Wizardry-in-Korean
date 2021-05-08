@@ -63,7 +63,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 눈이 내리기 시작하면 빛을 발하는 지팡이에 달려드는 나방처럼 우리 집 빵을 사려고 몰려들어. 헨드리가 도와줘서 다행이지 아니었으면 물량을 못 맞췄을 것 같아. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 눈이 내리기 시작하면 빛을 발하는 지팡이에 달려드는 나방처럼 우리 집 빵을 사려고 몰려들어. 헨드리가 도와줘서 다행이지 아니었으면 물량을 못 맞췄을 거야. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

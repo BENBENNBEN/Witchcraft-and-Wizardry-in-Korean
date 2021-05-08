@@ -73,7 +73,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 지금 입고 있는 게 뭔지 모르겠지만... 그거보다는 좀 더 세련된 옷을 찾고 있는 거지? 잘 찾아왔어. 우리 글래드래그스 옷가게는 꽤 유명하다고. 런던의 다이애건 앨리 뿐만 아니라, 파리, 호그스미드에도 지점이 있어. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 지금 입고 있는 게 뭔지 모르겠지만... 그거보다는 좀 더 세련된 옷을 찾고 있는 거지? 잘 왔어. 우리 글래드래그스 옷가게는 꽤 유명하다고. 런던의 다이애건 앨리 뿐만 아니라, 파리나 호그스미드에도 지점이 있어. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -166,7 +166,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 학생들이 마을을 방문할 시기가 오면 장사가 잘돼. 최근에는 특히 더 잘되고 있어. 학생 세 명이 양말을 끊임없이 찾거든. 집요정한테 선물한다나 뭐라나. 어쨌든 덕분에 수익이 괜찮아. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트 학생들이 마을을 방문할 시기가 오면 장사가 잘돼. 최근에는 특히 더 잘 되고 있어. 학생 세 명이 양말을 끊임없이 찾거든. 집요정한테 선물한다나 뭐라나. 어쨌든 덕분에 수익이 괜찮아. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

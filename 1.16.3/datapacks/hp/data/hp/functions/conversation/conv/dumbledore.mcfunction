@@ -140,7 +140,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=4}] as @s[tag=
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트 성에 대해 알려주세요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=5}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 22
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=6}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트 교수님들은 누구인가요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=6}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트 교수님들은 누가 있나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=6}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 5
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=7}] run data merge entity @s {CustomName:"{\"text\":\"≤ 호그와트에서는 어떤 과목을 가르치나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
@@ -241,7 +241,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트의 일반 마법 교수 겸 래번클로 기숙사 사감으로 필리우스 플리트윅이 있고, 변환 마법 교수이자 그리핀도르 기숙사 사감으로 미네르바 맥고나걸이 있고, 약초학 교수 겸 후플푸프 기숙사 사감으로 포모나 스프라우트가 있고, 마법약 교수이자 슬리데린 기숙사 사감으로 세베루스 스네이프가 있어; ...\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트의 일반 마법 교수 겸 래번클로 기숙사 사감으로 필리우스 플리트윅이 있고, 변환 마법 교수이자 그리핀도르 기숙사 사감으로 미네르바 맥고나걸이 있고, 약초학 교수 겸 후플푸프 기숙사 사감으로 포모나 스프라우트가 있고, 마법약 교수이자 슬리데린 기숙사 사감으로 세베루스 스네이프가 있어...\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -328,7 +328,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 호그와트는 창립자들의 성을 딴 4개의 기숙사로 이뤄져 있단다. \"},{\"text\":\"그리핀도르, 후플푸프, 래번클로, 슬리데린.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 호그와트는 창립자들의 성을 딴 4개의 기숙사로 이뤄져 있단다. \"},{\"text\":\"그리핀도르, 후플푸프, 래번클로, 슬리데린.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\"\"}]"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
