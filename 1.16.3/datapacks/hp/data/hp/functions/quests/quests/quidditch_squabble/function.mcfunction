@@ -223,7 +223,7 @@ execute as @s[scores={playerID=4}] unless score quidditchSquabble p4Quests = qui
 execute as @s[tag=newState] run scoreboard players set @s questState 13
 execute as @s[tag=newState] run function hp:quests/set_quest
 execute as @s[tag=newState] run title @s times 2 16 2
-execute as @s[tag=newState] run title @s subtitle {"text":"Go!","color":"gold"}
+execute as @s[tag=newState] run title @s subtitle {"text":"시작!","color":"gold"}
 execute as @s[tag=newState] at @s run playsound minecraft:custom.ui.event3 master @s ~ ~ ~ 10 1 1
 execute as @s[tag=newState] run title @s title {"text":""}
 execute as @s[tag=newState,scores={playerID=1}] run scoreboard players operation quidditchSquabble p1Quests = quidditchSquabble sharedQuests
@@ -279,14 +279,14 @@ scoreboard players set @s[scores={questState=13..59},tag=isTrackedQuest] tmp3 0
 execute as @s[scores={questState=13..59},tag=isTrackedQuest] run function hp:quests/quests/flying/timer
 
 execute as @s[scores={questState=13..59},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=13..59,playerID=1,tmp2=10..},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Complete a lap before the timer runs out (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=13..59,playerID=3,tmp2=10..},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Complete a lap before the timer runs out (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=13..59,playerID=2,tmp2=10..},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Complete a lap before the timer runs out (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=13..59,playerID=4,tmp2=10..},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Complete a lap before the timer runs out (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=13..59,playerID=1,tmp2=..9},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"Complete a lap before the timer runs out (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":0","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=13..59,playerID=3,tmp2=..9},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"Complete a lap before the timer runs out (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":0","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=13..59,playerID=2,tmp2=..9},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"Complete a lap before the timer runs out (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":0","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
-execute as @s[scores={questState=13..59,playerID=4,tmp2=..9},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"Complete a lap before the timer runs out (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":0","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=13..59,playerID=1,tmp2=10..},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"시간 내로 돌아오세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=13..59,playerID=3,tmp2=10..},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"시간 내로 돌아오세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=13..59,playerID=2,tmp2=10..},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"시간 내로 돌아오세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=13..59,playerID=4,tmp2=10..},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"시간 내로 돌아오세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=13..59,playerID=1,tmp2=..9},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"시간 내로 돌아오세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":0","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=13..59,playerID=3,tmp2=..9},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"시간 내로 돌아오세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":0","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=13..59,playerID=2,tmp2=..9},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"시간 내로 돌아오세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":0","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
+execute as @s[scores={questState=13..59,playerID=4,tmp2=..9},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"시간 내로 돌아오세요 (","color":"gold"},{"score":{"name":"@s","objective":"tmp3"},"color":"gold"},{"text":":0","color":"gold"},{"score":{"name":"@s","objective":"tmp2"},"color":"gold"},{"text":")","color":"gold"}]
 
 
 ### Tracked Quest ###
@@ -1311,10 +1311,10 @@ execute as @s[tag=newState] run tag @s remove newState
 ##############
 # Cancelled
 execute as @s[scores={questState=59,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=59,playerID=1},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"You were too slow.","color":"red"}]
-execute as @s[scores={questState=59,playerID=3},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"You were too slow.","color":"red"}]
-execute as @s[scores={questState=59,playerID=2},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"You were too slow.","color":"red"}]
-execute as @s[scores={questState=59,playerID=4},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"You were too slow.","color":"red"}]
+execute as @s[scores={questState=59,playerID=1},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"너무 느렸습니다.","color":"red"}]
+execute as @s[scores={questState=59,playerID=3},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"너무 느렸습니다.","color":"red"}]
+execute as @s[scores={questState=59,playerID=2},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"너무 느렸습니다.","color":"red"}]
+execute as @s[scores={questState=59,playerID=4},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"너무 느렸습니다.","color":"red"}]
 
 ### Trigger ###
 execute as @s[scores={questState=59,playerID=1}] if score qudditchQuarrelFlyingTimer p1Quests matches 0.. run scoreboard players set quidditchSquabble sharedQuests 70
@@ -1350,10 +1350,10 @@ execute as @s[tag=newState] run tag @s remove newState
 ##############
 # Success
 execute as @s[scores={questState=60,playerID=1},tag=!inConversation,tag=!inProperCutScene,tag=!inResetPoint,tag=isTrackedQuest] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={questState=60,playerID=1},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"마커스 플린트의 기록을 깼어!","color":"gold"}]
-execute as @s[scores={questState=60,playerID=3},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"마커스 플린트의 기록을 깼어!","color":"gold"}]
-execute as @s[scores={questState=60,playerID=2},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"마커스 플린트의 기록을 깼어!","color":"gold"}]
-execute as @s[scores={questState=60,playerID=4},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"마커스 플린트의 기록을 깼어!","color":"gold"}]
+execute as @s[scores={questState=60,playerID=1},tag=isTrackedQuest] run bossbar set minecraft:player1quest name ["",{"text":"와! 마커스 플린트의 기록을 깼습니다!","color":"gold"}]
+execute as @s[scores={questState=60,playerID=3},tag=isTrackedQuest] run bossbar set minecraft:player3quest name ["",{"text":"와! 마커스 플린트의 기록을 깼습니다!","color":"gold"}]
+execute as @s[scores={questState=60,playerID=2},tag=isTrackedQuest] run bossbar set minecraft:player2quest name ["",{"text":"와! 마커스 플린트의 기록을 깼습니다!","color":"gold"}]
+execute as @s[scores={questState=60,playerID=4},tag=isTrackedQuest] run bossbar set minecraft:player4quest name ["",{"text":"와! 마커스 플린트의 기록을 깼습니다!","color":"gold"}]
 
 ### Trigger ###
 execute as @s[scores={questState=60,playerID=1}] if score qudditchQuarrelFlyingTimer p1Quests matches 0.. run scoreboard players set quidditchSquabble sharedQuests 70

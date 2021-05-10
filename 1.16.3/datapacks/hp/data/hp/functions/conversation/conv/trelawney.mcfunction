@@ -269,7 +269,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 스미스? 그녀는 재능 없다고 생각했는데. 학생이 내면의 눈을 타고나지 않았으면 가르쳐 줄 수 있는 게 거의 없거든. 책은 어느 정도 한계가 있으니까. 보통 마녀와 마법사는 시끄럽게 사라지고 나타나고 할 수 있지만, 가려진 미래의 신비는 아무나 꿰뚫을 수 없는 법이야.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 스미스? 오, 그녀는 재능이라곤 없어 보였어. 학생이 내면의 눈을 타고나지 않았으면 가르쳐 줄 수 있는 게 거의 없거든. 책은 어느 정도 한계가 있으니까. 보통 마녀와 마법사는 시끄럽게 사라지고 나타나고 할 수 있지만, 가려진 미래의 신비는 아무나 꿰뚫을 수 없는 법이야.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -302,7 +302,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그런데 놀라운 일이 일어났지. 스미스의 말도 안 되는 예언이 이뤄진 거야... 물론... 나도 예견했지만. 내면의 눈이 미래를 알려줬지... 아무래도 그녀의 예언 능력에 대해서 다시 재평가해야겠어.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그런데 놀라운 일이 일어났어. 스미스의 말도 안 되는 예언이 이뤄진 거야... 물론... 나도 예견했지만. 내면의 눈이 아무도 예측 못 할 미래를 알려줬으니까... 아무래도 그녀의 예언 능력에 대해서 다시 재평가해야겠어.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

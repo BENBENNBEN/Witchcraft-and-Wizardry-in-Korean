@@ -742,12 +742,12 @@ tag @s[scores={convState=23},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이거 흥미로워 보이는데... 재밌게 읽을게!  \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 흥미로워 보이는데... 재밌게 읽을게!  \\n\"}"}
 execute if entity @s[tag=use] run scoreboard players set @s questTextTimer 2
-execute as @s[scores={playerID=1},tag=use] run bossbar set minecraft:player1quest name ["",{"text":"교환 ","color":"white"},{"score":{"name":"@s","objective":"rareBooks"},"color":"white"},{"text":" rare books for ","color":"white"},{"score":{"name":"@s","objective":"rareBooksMoney"},"color":"white"},{"text":" ≈","color":"white"},{"text":".","color":"white"}]
-execute as @s[scores={playerID=3},tag=use] run bossbar set minecraft:player3quest name ["",{"text":"교환 ","color":"white"},{"score":{"name":"@s","objective":"rareBooks"},"color":"white"},{"text":" rare books for ","color":"white"},{"score":{"name":"@s","objective":"rareBooksMoney"},"color":"white"},{"text":" ≈","color":"white"},{"text":".","color":"white"}]
-execute as @s[scores={playerID=2},tag=use] run bossbar set minecraft:player2quest name ["",{"text":"교환 ","color":"white"},{"score":{"name":"@s","objective":"rareBooks"},"color":"white"},{"text":" rare books for ","color":"white"},{"score":{"name":"@s","objective":"rareBooksMoney"},"color":"white"},{"text":" ≈","color":"white"},{"text":".","color":"white"}]
-execute as @s[scores={playerID=4},tag=use] run bossbar set minecraft:player4quest name ["",{"text":"교환 ","color":"white"},{"score":{"name":"@s","objective":"rareBooks"},"color":"white"},{"text":" rare books for ","color":"white"},{"score":{"name":"@s","objective":"rareBooksMoney"},"color":"white"},{"text":" ≈","color":"white"},{"text":".","color":"white"}]
+execute as @s[scores={playerID=1},tag=use] run bossbar set minecraft:player1quest name ["",{"text":"","color":"white"},{"score":{"name":"@s","objective":"rareBooks"},"color":"white"},{"text":" 개의 희귀한 책 교환하기 ","color":"white"},{"score":{"name":"@s","objective":"rareBooksMoney"},"color":"white"},{"text":" ≈","color":"white"},{"text":"","color":"white"}]
+execute as @s[scores={playerID=3},tag=use] run bossbar set minecraft:player3quest name ["",{"text":"","color":"white"},{"score":{"name":"@s","objective":"rareBooks"},"color":"white"},{"text":" 개의 희귀한 책 교환하기 ","color":"white"},{"score":{"name":"@s","objective":"rareBooksMoney"},"color":"white"},{"text":" ≈","color":"white"},{"text":"","color":"white"}]
+execute as @s[scores={playerID=2},tag=use] run bossbar set minecraft:player2quest name ["",{"text":"","color":"white"},{"score":{"name":"@s","objective":"rareBooks"},"color":"white"},{"text":" 개의 희귀한 책 교환하기 ","color":"white"},{"score":{"name":"@s","objective":"rareBooksMoney"},"color":"white"},{"text":" ≈","color":"white"},{"text":"","color":"white"}]
+execute as @s[scores={playerID=4},tag=use] run bossbar set minecraft:player4quest name ["",{"text":"","color":"white"},{"score":{"name":"@s","objective":"rareBooks"},"color":"white"},{"text":" 개의 희귀한 책 교환하기 ","color":"white"},{"score":{"name":"@s","objective":"rareBooksMoney"},"color":"white"},{"text":" ≈","color":"white"},{"text":"","color":"white"}]
 execute if entity @s[tag=use] run tag @s remove longHeader
 
 ################################

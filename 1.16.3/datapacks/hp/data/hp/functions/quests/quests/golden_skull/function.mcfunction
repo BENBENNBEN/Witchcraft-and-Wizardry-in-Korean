@@ -39,10 +39,10 @@ execute as @s[tag=newState] run scoreboard players set @s questState 2
 execute as @s[tag=newState] run function hp:quests/set_quest
 execute as @s[tag=newState] run function hp:quests/ding_sound
 execute as @s[tag=newState] run scoreboard players set @s questTextTimer 100
-execute as @s[tag=newState,scores={playerID=1}] run bossbar set minecraft:player1quest name {"text":"황금 해골 같은데. 누군가 버리려고 한 것 같아요.","bold":false,"color":"gold"}
-execute as @s[tag=newState,scores={playerID=2}] run bossbar set minecraft:player2quest name {"text":"황금 해골 같은데. 누군가 버리려고 한 것 같아요.","bold":false,"color":"gold"}
-execute as @s[tag=newState,scores={playerID=3}] run bossbar set minecraft:player3quest name {"text":"황금 해골 같은데. 누군가 버리려고 한 것 같아요.","bold":false,"color":"gold"}
-execute as @s[tag=newState,scores={playerID=4}] run bossbar set minecraft:player4quest name {"text":"황금 해골 같은데. 누군가 버리려고 한 것 같아요.","bold":false,"color":"gold"}
+execute as @s[tag=newState,scores={playerID=1}] run bossbar set minecraft:player1quest name {"text":"누군가 버리고 간 황금 해골입니다.","bold":false,"color":"gold"}
+execute as @s[tag=newState,scores={playerID=2}] run bossbar set minecraft:player2quest name {"text":"누군가 버리고 간 황금 해골입니다.","bold":false,"color":"gold"}
+execute as @s[tag=newState,scores={playerID=3}] run bossbar set minecraft:player3quest name {"text":"누군가 버리고 간 황금 해골입니다.","bold":false,"color":"gold"}
+execute as @s[tag=newState,scores={playerID=4}] run bossbar set minecraft:player4quest name {"text":"누군가 버리고 간 황금 해골입니다.","bold":false,"color":"gold"}
 execute as @s[tag=newState] run tag @s remove hasInteractedWithGoldenSkull
 execute as @s[tag=newState,scores={playerID=1}] run scoreboard players operation goldenSkull p1Quests = goldenSkull sharedQuests
 execute as @s[tag=newState,scores={playerID=2}] run scoreboard players operation goldenSkull p2Quests = goldenSkull sharedQuests

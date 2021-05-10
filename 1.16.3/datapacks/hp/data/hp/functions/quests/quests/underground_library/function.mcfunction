@@ -188,10 +188,10 @@ execute as @s[tag=newState] run scoreboard players set @s questState 4
 execute as @s[tag=newState] run function hp:quests/set_quest
 execute as @s[tag=newState] run function hp:quests/ding_sound
 execute as @s[tag=newState] run scoreboard players set @s questTextTimer 150
-execute as @s[tag=newState,scores={playerID=1}] run bossbar set minecraft:player1quest name {"text":"관리인 사무실에 제한 구역 열쇠가 있을지도 몰라요","bold":false,"color":"gold"}
-execute as @s[tag=newState,scores={playerID=2}] run bossbar set minecraft:player2quest name {"text":"관리인 사무실에 제한 구역 열쇠가 있을지도 몰라요","bold":false,"color":"gold"}
-execute as @s[tag=newState,scores={playerID=3}] run bossbar set minecraft:player3quest name {"text":"관리인 사무실에 제한 구역 열쇠가 있을지도 몰라요","bold":false,"color":"gold"}
-execute as @s[tag=newState,scores={playerID=4}] run bossbar set minecraft:player4quest name {"text":"관리인 사무실에 제한 구역 열쇠가 있을지도 몰라요","bold":false,"color":"gold"}
+execute as @s[tag=newState,scores={playerID=1}] run bossbar set minecraft:player1quest name {"text":"관리인 사무실에서 제한 구역 열쇠를 찾아보세요","bold":false,"color":"gold"}
+execute as @s[tag=newState,scores={playerID=2}] run bossbar set minecraft:player2quest name {"text":"관리인 사무실에서 제한 구역 열쇠를 찾아보세요","bold":false,"color":"gold"}
+execute as @s[tag=newState,scores={playerID=3}] run bossbar set minecraft:player3quest name {"text":"관리인 사무실에서 제한 구역 열쇠를 찾아보세요","bold":false,"color":"gold"}
+execute as @s[tag=newState,scores={playerID=4}] run bossbar set minecraft:player4quest name {"text":"관리인 사무실에서 제한 구역 열쇠를 찾아보세요","bold":false,"color":"gold"}
 execute as @s[tag=newState,scores={playerID=1}] run scoreboard players set officeFilch p1convOverride 3
 execute as @s[tag=newState,scores={playerID=2}] run scoreboard players set officeFilch p2convOverride 3
 execute as @s[tag=newState,scores={playerID=3}] run scoreboard players set officeFilch p3convOverride 3
@@ -402,10 +402,10 @@ execute as @s[tag=newState] run scoreboard players set @s questState 9
 execute as @s[tag=newState] run function hp:quests/set_quest
 execute as @s[tag=newState] run function hp:quests/ding_sound
 execute as @s[tag=newState] run scoreboard players set @s questTextTimer 200
-execute as @s[tag=newState,scores={playerID=1}] run bossbar set minecraft:player1quest name {"text":"바로 그거예요! 지하 도서관으로 가는 지도. 금지된 숲에 입구가 있어요.","bold":false,"color":"gold"}
-execute as @s[tag=newState,scores={playerID=2}] run bossbar set minecraft:player2quest name {"text":"바로 그거예요! 지하 도서관으로 가는 지도. 금지된 숲에 입구가 있어요.","bold":false,"color":"gold"}
-execute as @s[tag=newState,scores={playerID=3}] run bossbar set minecraft:player3quest name {"text":"바로 그거예요! 지하 도서관으로 가는 지도. 금지된 숲에 입구가 있어요.","bold":false,"color":"gold"}
-execute as @s[tag=newState,scores={playerID=4}] run bossbar set minecraft:player4quest name {"text":"바로 그거예요! 지하 도서관으로 가는 지도. 금지된 숲에 입구가 있어요.","bold":false,"color":"gold"}
+execute as @s[tag=newState,scores={playerID=1}] run bossbar set minecraft:player1quest name {"text":"찾았습니다! 지하 도서관으로 가는 지도를 발견했습니다. 금지된 숲으로 가세요.","bold":false,"color":"gold"}
+execute as @s[tag=newState,scores={playerID=2}] run bossbar set minecraft:player2quest name {"text":"찾았습니다! 지하 도서관으로 가는 지도를 발견했습니다. 금지된 숲으로 가세요.","bold":false,"color":"gold"}
+execute as @s[tag=newState,scores={playerID=3}] run bossbar set minecraft:player3quest name {"text":"찾았습니다! 지하 도서관으로 가는 지도를 발견했습니다. 금지된 숲으로 가세요.","bold":false,"color":"gold"}
+execute as @s[tag=newState,scores={playerID=4}] run bossbar set minecraft:player4quest name {"text":"찾았습니다! 지하 도서관으로 가는 지도를 발견했습니다. 금지된 숲으로 가세요.","bold":false,"color":"gold"}
 execute as @s[tag=newState] run tag @s remove hasLearnedTheLocationOfTheUndergroundLibrary
 execute as @s[tag=newState,scores={playerID=1}] run scoreboard players operation undergroundLibrary p1Quests = undergroundLibrary sharedQuests
 execute as @s[tag=newState,scores={playerID=2}] run scoreboard players operation undergroundLibrary p2Quests = undergroundLibrary sharedQuests

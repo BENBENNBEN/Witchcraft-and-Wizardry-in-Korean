@@ -239,7 +239,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래서 됐어? 짱이다! 내 예언이 이뤄졌으니 성적이 망하진 않겠지. 이걸 받아. 도와준 보답이야. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래서 했어? 짱이다! 내 예언이 이뤄졌으니 성적이 아주 망하진 않았을 거야. 이거 받아. 도와준 보답이야. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

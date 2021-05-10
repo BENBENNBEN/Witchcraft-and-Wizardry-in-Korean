@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\"하 진짜 저 자식?! \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 하 진짜 저 자식?! \\n\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -63,7 +63,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여름 내내 새로운 퀴디치 연습 루틴을 짰거든. 이제 더 일찍, 더 열심히, 더 오래 훈련하려고 했는데. 정말 어이가 없어. 그리핀도르가 퀴디치 경기장을 예약해뒀는데 저 플린트 놈은 그냥 막무가내야. 우기면 되느냐고. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여름 내내 새로운 퀴디치 연습 루틴을 짰거든. 더 일찍, 더 열심히, 더 오래 훈련하려고 말이야. 근데 정말 어이가 없어. 내가 먼저 퀴디치 경기장을 예약해뒀는데 저 플린트 놈은 그냥 막무가내야. 슬리데린이 쓰겠다고 우기면 되는 문제냐고. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -210,7 +210,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 해냈구나! 드디어 플린트 놈에게 누가 더 대단한지 보여주었네. 이제 슬리데린 팀도 규칙을 따르겠지. 여기, 이거 받아. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 잘했어! 플린트 놈에게 어떤 기숙사가 더 대단한지 보여줬구나. 이제 슬리데린 팀도 규칙을 따르라고 해. 자, 이거 받아. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -245,7 +245,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도와줘서 고마워. 이제 슬리데린 퀴디치 팀도 정정당당하게 경기하는 법을 배웠겠지. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도와줘서 고마워. 이제 슬리데린 퀴디치 팀도 정정당당하게 경기하는 법을 배웠을 거야. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -278,7 +278,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 괜찮아. 비행하는 법을 배우고 빗자루를 사고 나서 다시 와도 돼. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 괜찮아. 비행하는 법을 배우고 나서 네 빗자루를 산 다음에 도와줘. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

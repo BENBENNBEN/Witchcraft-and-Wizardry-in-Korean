@@ -164,7 +164,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 요점만 직설적으로 해달라고? 지루한 설명이나 이유는 관심 없구나. 아주 좋아.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 요점만 말해달라고? 지루한 설명이나 이유는 관심 없구나. 아주 좋아.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -196,7 +196,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 궁금한 게 많은 아이구나. 스코틀랜드의 고대 켈트 사회의 흔적과 마법의 징조를 찾고 있어. 어쩌다 중세 초기에 쓰였다는 두루마리에 대해 알게 되었지. 거기에 내게 필요한 정보가 있을 것 같아. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 궁금한 게 많은 아이구나. 스코틀랜드의 고대 켈트 사회의 흔적과 마법의 징조를 찾고 있어. 어쩌다 중세 초기에 쓰였다는 두루마리에 대해 알게 되었지. 거기에 내게 필요한 정보가 있을 것 같아서 찾고 있는 거란다. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -228,7 +228,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 두루마리를 기억하는 사람은 많지 않아. 잊혀진 호그와트 지하 도서관에 있다는 소문만 있을 뿐. 분명 본관 어딘가에 있을 텐데... 실제로 존재한다면 말이지. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 두루마리를 기억하는 사람은 많지 않아. 잊혀진 호그와트 지하 도서관에 있다는 소문만 있을 뿐. 분명 본관 어딘가에 있을 텐데... 실제로 존재한다면 말이야. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -261,7 +261,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 괴물도 있을지 모르니까 조심하고. 이제 가서 두루마리를 가져오렴! 부탁은 그것뿐이야. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 가서 두루마리를 가져오렴! 오, 괴물도 있을지 모르니까 조심하고. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -296,7 +296,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 오래되었다는 것 말고는 거의 알려지지 않았어. 호그와트만큼이나 오래되었을 거야. 어떤 이들은 도서관에 걸린 어둡고 강력한 마법 때문에 버려졌다고 하더라고. 오랜 시간이 지난 후에도 여전히 공기 중에 어둠의 마법이 퍼져 있다고.\\n\"}"} 
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아주 오래되었다는 것 말고는 알려지지 않았어. 아마 호그와트만큼이나 오래되었을 거야. 어떤 이들은 도서관에 걸린 어둡고 강력한 마법 때문에 버려졌다고 하더라고. 오랜 시간이 지난 후에도 여전히 공기 중에 어둠의 마법이 퍼져 있다고.\\n\"}"} 
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -328,14 +328,14 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내가 말했듯이, 두루마리가 정확히 어디에 있는지 아무도 모르지만, 호그와트 어딘가에 있는 건 확실해. 네가 호그와트 학생이었지? 빈스 교수가 알고 있을지도 모르니까 그에게 물어봐. 몇 세기 전에 쓰였으니 알지도 몰라.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내가 말했듯이, 두루마리가 정확히 어디 있는지 아무도 모르지만, 호그와트 어딘가에 있는 건 확실해. 네가 호그와트 학생이었지? 빈스 교수가 알고 있을지도 모르니까 그에게 물어볼래? 몇 세기 전에 쓰였으니 알지도 몰라.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\" ±ˈˈ I'm ready to go \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\" ±ˈˈ 이제 가볼게요 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run tag @s add hasTalkedToBathildaBagshotAboutTheScroll
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
@@ -372,7 +372,7 @@ tag @s[scores={convState=11},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 두루마리를 찾으면 오도록 해.\\n\\n\\n\\n\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 두루마리를 찾으면 오렴.\\n\\n\\n\\n\\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -447,7 +447,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 두루마리를 가져왔는데 다음은 뭔가요?\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 두루마리 다음은 뭔가요?\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 15
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
@@ -474,7 +474,7 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 네가 할 일은 없고, 내가 해야 할 일만 남았어. 네가 이걸 해석까지 하기를 바라지 않아. 골머리를 썩혀야 하는 일이거든. 이제 연구를 시작하고 완전히 이해할 수 있기를 바라야지. \\n\\n\"}"} 
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 네가 할 일은 없고, 내가 해야 할 일만 남았단다. 네가 이걸 해석까지 하기를 바라지 않아. 골머리를 꽤나 썩혀야 하는 일이거든. 먼저 연구를 하고 점차 이해할 수 있기를 바라야지. \\n\\n\"}"} 
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

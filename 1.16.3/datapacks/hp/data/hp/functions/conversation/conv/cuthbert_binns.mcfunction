@@ -199,7 +199,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지하 도서관은 1612년 고블린 반란 관련한 문서에서 본 기억이 있군. 문서는 도서관 제한 구역에 있었던 것 같아. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 지하 도서관은 1612년 고블린 반란 관련된 문서에서 본 기억이 있군. 아마 문서는 도서관 제한 구역에 있을 거다. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

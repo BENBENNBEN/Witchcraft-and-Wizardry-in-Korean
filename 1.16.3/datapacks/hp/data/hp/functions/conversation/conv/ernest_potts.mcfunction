@@ -156,7 +156,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 정말요? 음, 아직 학생이지만 강해 보이는군요... 호그와트 학생에게 터져 죽거나 발톱에 찢겨 죽을 만한 위험한 일을 시키는 게 좋은 일인지는 모르겠지만... \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 정말입니까? 음, 아직 학생이지만 강해 보이는군요... 호그와트 학생에게 터져 죽거나 발톱에 찢겨 죽을 만한 위험한 일을 시키는 게 좋은 일인지는 모르겠지만... \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -270,7 +270,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 가져오셨군요! 믿을 수가 없네요! 보통 사람들에게는 평범해 보이겠지만 저한테는 정말 특별한 항아리거든요. \\n 여기, 약속한 보상입니다: \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 가져오셨군요! 믿을 수가 없네요! 보통 사람들에게는 평범해 보이겠지만 저한테는 정말 특별한 항아리거든요. \\n 여기, 약속한 보상입니다. \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

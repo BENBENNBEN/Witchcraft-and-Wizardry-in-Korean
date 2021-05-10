@@ -1242,7 +1242,7 @@ tag @s[scores={convState=34},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그게 사실이라면, 볼드모트의 추종자들이 다시 모였구나. 우리도 빠르게 움직여야 해. 이제 보니 호그와트에서 많이 성장했구나. 나이가 들면 어리석게도 젊은이들을 과소평가하게 되지. 이제서야 너를 믿을 수 있겠어.\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그게 사실이라면, 볼드모트의 추종자들이 다시 모였다는 거겠지. 우리도 빠르게 움직여야 해. 이제 보니 호그와트에서 많이 성장했구나. 나이가 들면 어리석게도 젊은이들을 과소평가하게 된단다. 이제서야 너를 믿을 수 있겠어.\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1414,7 +1414,7 @@ tag @s[scores={convState=39},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 호그와트에서 있는 동안 이걸 언제든지 사용해도 좋아. \"},{\"text\":\"이건 펜시브란다.\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 여기 내 사무실에 있지. \\n\\n 자신의 복잡한 기억을 꺼내 병에 담아두고 나중에 들여다볼 수 있게 하는 거란다. 기억을 다시 체험하는 거야. \"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 호그와트에서 있는 동안 이걸 언제든지 사용해도 좋아. 이건 \"},{\"text\":\"펜시브\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\"란다. 여기 내 사무실에 있어.\\n\\n 자신의 복잡한 기억을 꺼내 병에 담아두고 나중에 들여다볼 수 있게 해준단다. 기억을 다시 체험하게 해주지. \"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1448,7 +1448,7 @@ tag @s[scores={convState=40},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 네가 해야 할 일을 다해주었구나. 남은 시간 동안 호그와트에서 평화롭게 즐기렴. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 네가 해야 할 일을 다해주었으니 남은 시간 동안 호그와트에서 평화롭게 즐기렴. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

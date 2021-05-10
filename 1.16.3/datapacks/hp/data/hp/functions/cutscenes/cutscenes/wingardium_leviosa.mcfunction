@@ -14,7 +14,7 @@ execute as @s[scores={cutSceneTimer=22}] run function hp:cutscenes/fade_out
 execute as @s[scores={cutSceneTimer=..20}] run title @s actionbar ["",{"text":" "}]
 
 execute as @s[scores={cutSceneTimer=100},tag=cutsceneLeader] run kill @e[tag=cutsceneWingardiumBlock]
-execute as @s[scores={cutSceneTimer=100},tag=cutsceneLeader] positioned 7029.5 67.10 -16.01 run summon armor_stand ~ ~ ~ {Small:1b, Team:"wingardium",NoBasePlate:1b,Pose:{LeftLeg:[180f,0f,0f],RightLeg:[180f,0f,0f],Head:[180f,0f,0f]},Invulnerable:1b,Small:1b,Invisible:1b,Tags:["cutsceneWingardiumBlock"],DisabledSlots:2039583,ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:49}}],CustomName:"{\"text\":\"WingardiumMoveBlock\"}"}
+execute as @s[scores={cutSceneTimer=100},tag=cutsceneLeader] positioned 7029.5 67.10 -16.01 run summon armor_stand ~ ~ ~ {Small:1b, Team:"wingardium",NoBasePlate:1b,Pose:{LeftLeg:[180f,0f,0f],RightLeg:[180f,0f,0f],Head:[180f,0f,0f]},Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["cutsceneWingardiumBlock"],DisabledSlots:2039583,ArmorItems:[{},{},{},{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b,Damage:49}}],CustomName:"{\"text\":\"WingardiumMoveBlock\"}"}
 
 execute as @s[scores={cutSceneTimer=22},tag=gameLeader] run time set day
 execute as @s[scores={cutSceneTimer=22},tag=gameLeader] run gamerule doDaylightCycle false
@@ -301,7 +301,7 @@ execute as @s[scores={cutSceneTimer=280}] run function hp:cutscenes/fade_in
 
 # ¤Flitwick:¤ Welcome back students!
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=20..160}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 다시 만나서 반가워!"}]
+execute as @s[scores={cutSceneTimer=20..160}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 다시 만나서 반갑구나!"}]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=27},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=31},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -313,7 +313,7 @@ execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=flitwickCl
 
 # ¤Flitwick:¤ Now, one of a wizard's most rudimentary skills is levitation: The ability to make objects fly.
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=161..350}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 자, 마법사의 가장 기본 기술은 공중부양이야. 물체를 띄우는 능력이지."}]
+execute as @s[scores={cutSceneTimer=161..350}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 자, 오늘 배울 주문은 마법사의 가장 기본 기술인 공중부양이란다. 물체를 띄우는 능력이지."}]
 execute as @s[scores={cutSceneTimer=161},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=168},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=172},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -325,7 +325,7 @@ execute as @s[scores={cutSceneTimer=201},tag=cutsceneLeader] as @e[tag=flitwickC
 
 # ¤Flitwick:¤ The charm "Wingardium Leviosa" will allow you to levitate certain objects.
 execute as @s[scores={cutSceneTimer=351},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=351..500}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 윙가르디움 레비오우사 주문은 물체를 공중에 띄울 거야."}]
+execute as @s[scores={cutSceneTimer=351..500}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 윙가르디움 레비오우사 주문으로 특정 물체를 공중에 띄울 수 있어."}]
 execute as @s[scores={cutSceneTimer=351},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=358},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=362},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -337,11 +337,11 @@ execute as @s[scores={cutSceneTimer=391},tag=cutsceneLeader] as @e[tag=flitwickC
 
 # ¤Flitwick:¤ To focus on an object to levitate, start by double clicking £.
 execute as @s[scores={cutSceneTimer=500},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=500..600}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" £ 를 두 번 클릭하여 띄우고 싶은 물체에 초점을 맞춰."}]
+execute as @s[scores={cutSceneTimer=500..600}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" £ 를 두 번 클릭하여 띄우고 싶은 물체에 초점을 맞춰봐."}]
 
 # ¤Flitwick:¤ After that, you can click € once to levitate the object you are looking at,
 execute as @s[scores={cutSceneTimer=601},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=601..690}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 그리고 € 를 클릭하여 초점에 맞춘 물체를 띄워."}]
+execute as @s[scores={cutSceneTimer=601..690}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 그리고 € 를 클릭하여 초점에 맞춘 물체를 띄워봐."}]
 
 # ¤Flitwick:¤ and click € again to release it.
 execute as @s[scores={cutSceneTimer=691},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
@@ -349,7 +349,7 @@ execute as @s[scores={cutSceneTimer=691..760}] run title @s actionbar ["",{"text
 
 # ¤Flitwick:¤ When levitating an object simply look where you want it to go.
 execute as @s[scores={cutSceneTimer=761},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=761..850}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 내려놓고 싶은 장소 방향을 보면 돼."}]
+execute as @s[scores={cutSceneTimer=761..850}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 물체를 띄우고 나서는 옮기고 싶은 장소 방향을 보면 된단다."}]
 
 # ¤Flitwick:¤ You can use the mouse-wheel to adjust its distance to you.
 execute as @s[scores={cutSceneTimer=861},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
@@ -357,11 +357,11 @@ execute as @s[scores={cutSceneTimer=861..950}] run title @s actionbar ["",{"text
 
 # ¤Flitwick:¤ When you are done you can unfocus by double clicking £ again.
 execute as @s[scores={cutSceneTimer=951},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=951..1050}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 물체를 내려놓고 나서 £ 를 다시 두 번 클릭하여 초점을 해제하면 돼."}]
+execute as @s[scores={cutSceneTimer=951..1050}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 물체를 내려놓고 나서 £ 를 두 번 클릭하여 선택을 해제하면 된단다."}]
 
 # ¤Flitwick:¤ This spell is particularly useful for moving heavy blocks into switches, to trigger their mechanisms.
 execute as @s[scores={cutSceneTimer=1051},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=1051..1200}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 이 마법 주문은 무거운 블록을 스위치로 옮겨서 장치를 작동시키는 데 유용하지."}]
+execute as @s[scores={cutSceneTimer=1051..1200}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 이 마법 주문은 무거운 블록을 스위치로 옮겨서 장치를 작동시키는 데 유용해."}]
 
 # ¤Flitwick:¤ I've put up an obstacle course that will require you to use the levitation spell.
 execute as @s[scores={cutSceneTimer=1201},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0

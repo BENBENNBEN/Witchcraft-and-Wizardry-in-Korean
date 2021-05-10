@@ -64,7 +64,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 순간이동은 매우 유용하지만, 고등 마법이라서 마법 정부에서 교육을 담당하고 있어. 한 위치에서 다른 위치로 즉시 이동할 수 있는 교통수단 같은 거지. 그러니까 마녀나 마법사가 꼭 배워야 하는 필수 마법이란다. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 순간이동은 매우 유용하지만, 고등 마법이라서 마법 정부에서 교육을 담당하고 있어. 한 위치에서 다른 위치로 즉시 이동할 수 있는 교통수단 같은 거야. 그래서 마녀나 마법사가 꼭 배워야 하는 필수 마법이란다. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -201,7 +201,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 훌륭해. 아주 잘했어. 합격이란다. 이제 순간이동 주문을 사용할 수 있어. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 훌륭해. 아주 잘했어. 합격이란다. 이제 순간이동 주문을 능숙하게 사용할 수 있게 되었구나. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -233,7 +233,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 다른 사람은 몰라도 우리는 무슨 일이 있었는지 알잖아. 마법 정부와 덤블도어가 항상 협력 관계는 아니지만, 이 일은 전해줘야 한다고 생각해. 덤블도어라면 어떻게 해야 할지 알 테니까. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 다른 사람은 몰라도 우리는 무슨 일이 있었는지 알잖아. 마법 정부와 덤블도어가 항상 협력 관계는 아니지만, 이 일은 그에게 알려야 해. 덤블도어라면 어떻게 해야 할지 알 테니까. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -436,7 +436,7 @@ tag @s[scores={convState=13},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그러니까, 마법 정부 혹은 '마법부'는 영국과 아일랜드의 마법 세계를 담당하는 곳으로 머글 세계의 영국 정부와 협력하고 있어. 그래서 마법 정부 청사는 화이트홀 밑, 웨스트민스터 궁전 근처, 런던 지하에 있지. 매우 실용적이게도 말이야. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법 정부 혹은 '마법부'는 영국과 아일랜드의 마법 세계를 담당하는 곳으로 머글 세계의 영국 정부와 협력하고 있어. 그래서 마법 정부 청사는 화이트홀 지하에 위치해 있어. 웨스트민스터 궁전도 근처에 있지. 매우 편리하게도 말이야. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

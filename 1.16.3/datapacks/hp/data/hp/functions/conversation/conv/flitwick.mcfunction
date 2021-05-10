@@ -259,7 +259,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\"\"},{\"text\":\"루모스\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\"주문을 사용하면 지팡이 끝에서 빛을 낼 수 있어. 어두워서 접근하기 어려운 통로에 빛을 밝힐 수 있단다.\\n\\n\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\"\"},{\"text\":\" 루모스\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\" 주문을 사용하면 지팡이 끝에서 빛을 낼 수 있어. 어두워서 접근하기 어려운 통로에 빛을 밝힐 수 있단다.\\n\\n\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -296,7 +296,7 @@ execute if entity @s[tag=use] run tag @s add longHeader
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\" 알겠어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\" 알겠습니다 \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState -1
 #-------------------------------
 #===============================

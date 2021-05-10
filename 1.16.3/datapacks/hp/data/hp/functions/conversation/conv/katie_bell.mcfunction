@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 거기, 너...! 그리핀도르 퀴디치 팀을 위한 응원을 보여주고 싶지 않아? 퀴디치에 별 관심 없으면 보상이 달린 일이라고. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 거기, 너...! 그리핀도르 퀴디치 팀을 위한 응원을 보여주고 싶지 않아? 퀴디치에 별 관심 없으면 보상이 달린 일인데. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

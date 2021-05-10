@@ -314,7 +314,7 @@ execute as @s[scores={cutSceneTimer=280}] as @s run function hp:cutscenes/fade_i
 
 # ¤Lupin:¤ Hello Students!
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=20..120}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 만나서 반가워!"}]
+execute as @s[scores={cutSceneTimer=20..120}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 다시 만나서 반가워!"}]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=27},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=31},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] run function hp:npc/update_npc_head_expression
@@ -326,7 +326,7 @@ execute as @s[scores={cutSceneTimer=60},tag=cutsceneLeader] as @e[tag=lupinClass
 
 # ¤Lupin:¤ Today we will be learning to use 'Bombarda Maxima';
 execute as @s[scores={cutSceneTimer=121},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=121..210}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 오늘은 '봄바르다 막시마' 주문을 배워볼 거야."}]
+execute as @s[scores={cutSceneTimer=121..210}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 오늘은 '봄바르다 막시마' 주문을 배워볼 거란다."}]
 execute as @s[scores={cutSceneTimer=121},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=128},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=132},tag=cutsceneLeader] as @e[tag=lupinClassroomBombarda,limit=1] run function hp:npc/update_npc_head_expression
@@ -580,7 +580,7 @@ execute as @s[scores={cutSceneTimer=480}] as @s run function hp:cutscenes/fade_i
 
 # ¤Lupin:¤ I have set up an area below the castle where you can practice the spell.
 execute as @s[scores={cutSceneTimer=550},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=550..700}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 성 아래에 주문을 연습할 장소를 마련해놨어."}]
+execute as @s[scores={cutSceneTimer=550..700}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 성 아래에 주문을 연습할 장소를 마련해놨단다."}]
 
 # Add fog effect
 execute as @s[scores={cutSceneTimer=500}] as @s run tag @s add fog

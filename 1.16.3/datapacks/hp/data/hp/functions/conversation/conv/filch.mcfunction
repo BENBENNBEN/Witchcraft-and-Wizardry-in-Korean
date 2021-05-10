@@ -166,7 +166,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐? 말이 되는 소리를 해. 허가가 있어야만 제한 구역에 들어갈 수 있다.\\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐? 말이 되는 소리를 해. 허가가 있어야지 제한 구역에 들어갈 수 있다.\\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -230,7 +230,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 멍청한 자식. 교장 선생님과 불과 몇 시간 전에 대화 나눴다. 그리고 나 부르려고 학생들을 시키실 것 같아? 내가 너희를 싫어한단 것도 알고 계실 거다. 방해하지 말고, 어서 썩 꺼져!\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 멍청한 자식. 교장 선생님과 불과 몇 시간 전에 대화 나눴다. 그리고 나 부르려고 학생들을 시키실 것 같아? 내가 너희를 싫어한단 것도 알고 계실 텐데. 방해하지 말고, 어서 썩 꺼져!\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -525,7 +525,7 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 생각해보면 이게 다 덤블도어 교장 선생님께서 초래한 거야. 내가 너희를 거꾸로 매달아 놀 수만 있다면 알아서 조심할 텐데. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 생각해보면 이게 다 덤블도어 교장 선생님께서 초래하신 거야. 내가 너희를 거꾸로 매달아 놀 수만 있다면 알아서 조심할 텐데. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -624,7 +624,7 @@ tag @s[scores={convState=18},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래... 뭘 해야 하는지 설명해주마. 포터랑 퀴럴 교수가 몇 년 전에 지하를 엉망으로 만들어 놓고 나서 덤블도어 교수님이 소망의 거울을 제자리에 갖다놓으라고 시키셨다. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래... 뭘 해야 하는지 설명해주마. 포터랑 퀴럴 교수가 몇 년 전에 지하를 엉망으로 만들어 놓고 나서 덤블도어 교장 선생님께서 그 자리에 있는 소망의 거울을 제자리에 갖다놓으라고 시키셨어. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -655,7 +655,7 @@ tag @s[scores={convState=19},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 네가 대신해라. 난 아주 바쁘니까 말이야. 위험해서 그런 게 아니고. 누구이든 간에 쓸데없이 위험한 일을 시킬 리가 없잖아. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그걸 네가 대신해라. 난 아주 바쁘니까 말이야. 위험해서 그런 게 아니고. 누구든 간에 쓸데없이 위험한 일을 시킬 리가 없잖아. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -735,7 +735,7 @@ tag @s[scores={convState=21},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 거울은 가져왔느냐? 아니라고? 그럼 왜 아직도 여기 있어? 느려 터진 생쥐 같으니라고. 가봐! \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 거울은 가져왔어? 아니라고? 그럼 왜 아직도 여기 있어? 느려 터진 생쥐 같으니라고. 얼른 가봐! \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

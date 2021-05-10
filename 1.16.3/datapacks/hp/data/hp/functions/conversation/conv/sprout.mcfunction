@@ -207,7 +207,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 약초학은 마법 식물이나 일반 버섯의 특성에 대해 배우는 수업이란다. 마법 식물들을 다루는 법을 배우게 되지. 몇몇 식물은 유용한 만큼 위험하기도 해서 조심히 다뤄야 한단다. 예를 들어, 맨드레이크, 플럭스위드, 길리위드는 물약 만들 때 조심히 다뤄야 해. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 약초학은 마법 식물이나 일반 버섯의 특성에 대해 배우는 수업이란다. 마법 식물들을 다루는 법을 배우게 되지. 몇몇 식물은 유용한 만큼 위험하기도 해서 조심히 다뤄야 한단다. 예를 들어, 맨드레이크, 플럭스위드, 길리위드는 물약 만들 때 조심히 해야 해. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

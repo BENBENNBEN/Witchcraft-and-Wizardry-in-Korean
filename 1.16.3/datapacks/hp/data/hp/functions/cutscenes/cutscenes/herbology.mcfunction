@@ -1611,11 +1611,11 @@ execute as @s[scores={cutSceneTimer=1301..1370}] run title @s actionbar ["",{"te
 
 # ¤Sprout:¤ Be careful not to drop the earmuffs though! You'll have to move around gently.
 execute as @s[scores={cutSceneTimer=1371},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=1371..1510}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 항상 귀마개를 주의해! 조심히 움직이고."}]
+execute as @s[scores={cutSceneTimer=1371..1510}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 항상 귀마개를 끼는 거 잊지말고! 조심히 움직이렴."}]
 
 # ¤Sprout:¤ To practice you will have to enter the four greenhouses outside to collect four stars and then return to me.
 execute as @s[scores={cutSceneTimer=1511},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=1511..1700}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 이제 연습을 해보도록 하자. 바깥에 있는 온실에 들어가 별 4개를 모아 오렴."}]
+execute as @s[scores={cutSceneTimer=1511..1700}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 이제 연습을 해보도록 하자. 바깥에 있는 온실에서 별 4개를 모아 오렴."}]
 
 execute as @s[scores={cutSceneTimer=1510}] as @s run function hp:cutscenes/fade_out
 tp @s[scores={cutSceneTimer=1510}] 779.42 88.51 13.63 406.78 43.43

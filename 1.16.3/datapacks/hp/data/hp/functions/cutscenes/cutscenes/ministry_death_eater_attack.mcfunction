@@ -318,7 +318,7 @@ execute as @s[scores={cutSceneTimer=650..740}] run title @a[tag=cutsceneSlave] a
 execute as @s[scores={cutSceneTimer=650}] as @a[tag=cutsceneSlave] at @e[tag=walkingTwycross,limit=1] run playsound minecraft:custom.voices.voice1 master @s ~ ~ ~ 3 1 0
 
 # ¤Twycross:¤ Quick, fend them off! I'll run awa... uh... I'll go get help!
-execute as @s[scores={cutSceneTimer=740..850}] run title @a[tag=cutsceneSlave] actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 빨리 그들을 막아! 난 도망...어... 가서 도움을 청하마!"}]
+execute as @s[scores={cutSceneTimer=740..850}] run title @a[tag=cutsceneSlave] actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 빨리 그들을 막아! 난 도망... 어... 가서 도움을 청하마!"}]
 execute as @s[scores={cutSceneTimer=740}] as @a[tag=cutsceneSlave] at @e[tag=walkingTwycross,limit=1] run playsound minecraft:custom.voices.voice1 master @s ~ ~ ~ 3 1 0
 
 execute as @s[scores={cutSceneTimer=810}] as @a[tag=cutsceneSlave] run function hp:cutscenes/fade_in

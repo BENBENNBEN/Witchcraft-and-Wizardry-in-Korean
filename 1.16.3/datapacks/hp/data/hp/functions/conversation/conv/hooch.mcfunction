@@ -264,7 +264,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 퀴디치의 목표는 상대 팀보다 더 많은 점수를 얻는 것이야. 골대에 넣을 때마다 10점을 얻고 골든 스니치를 잡으면 150점을 얻어. 골든 스니치를 잡거나 양 팀 합의가 있어야만 게임이 종료돼. 가끔 골든 스니치를 잡지 못하면 며칠 동안 계속될 수도 있어. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 퀴디치의 목표는 상대 팀보다 더 많은 점수를 얻는 것이야. 골대에 넣을 때마다 10점을 얻고 골든 스니치를 잡으면 150점을 얻어. 골든 스니치를 잡거나 양 팀 합의가 있어야만 게임이 종료된단다. 가끔 골든 스니치를 잡지 못하면 며칠 동안 계속될 수도 있어. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -387,7 +387,7 @@ tag @s[scores={convState=10},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 비행 연습을 위한 길을 표시했어. 빛나는 고리를 통과하며 한 번 성 주변을 비행해보렴! \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 비행 연습을 위한 길을 표시해놨어. 빛나는 고리를 통과하며 한 번 성 주변을 비행해보렴! \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

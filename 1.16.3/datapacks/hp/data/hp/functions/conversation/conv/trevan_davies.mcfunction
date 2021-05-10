@@ -132,7 +132,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아니... 뭐? 내가 뭘 했다고? 그녀가 정확히 뭐라고 했어? 그녀의 결정은 존중하는데 무슨 이유인지 궁금하네. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아니... 뭐? 내가 뭘 했다고? 정확히 뭐라고 했어? 그녀의 결정은 존중하는데 무슨 이유인지 궁금하네. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -167,7 +167,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그녀의 생각은 알겠어. 이제 물러설 거라고. 그냥 내가 뭘 잘못했는지 알고 싶은 거뿐이야... \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 거절한 건 알아. 이제 물러설 거야. 그냥 내가 뭘 잘못했는지 알고 싶어서 그래... \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
