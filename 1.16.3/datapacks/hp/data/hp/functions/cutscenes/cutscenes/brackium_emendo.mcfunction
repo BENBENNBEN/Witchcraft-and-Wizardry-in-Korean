@@ -911,7 +911,7 @@ tp @s[scores={cutSceneTimer=852}] 5994.051 47 17.40947 203.1025 50.5982
 
 # ¤Flitwick:¤ By holding shift and pressing { at the same time you can quickly switch between combat relevant spells.
 execute as @s[scores={cutSceneTimer=630},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=630..740}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" Shift 키를 누른 상태에서  {  를 동시에 누르면 전투 중에 빠르게 주문을 바꿀 수 있어."}]
+execute as @s[scores={cutSceneTimer=630..740}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" Shift 키를 누른 상태에서 ² 를 동시에 누르면 전투 중에 빠르게 주문을 바꿀 수 있어."}]
 
 # ¤Flitwick:¤ Best of luck!
 execute as @s[scores={cutSceneTimer=741},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0

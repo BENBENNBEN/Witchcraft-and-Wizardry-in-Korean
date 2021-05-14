@@ -398,7 +398,7 @@ execute if entity @s[scores={InvItemID=172}] as @e[tag=focusInventoryOption,limi
 # 173
 execute if entity @s[scores={InvItemID=173}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"}]"}
 # 174
-execute if entity @s[scores={InvItemID=174}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          \",\"color\":\"gray\"},{\"text\":\"다음과 같은 리소스팩의 나무 리소스를 사용했습니다:\",\"color\":\"white\"}]"}
+execute if entity @s[scores={InvItemID=174}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          \",\"color\":\"gray\"},{\"text\":\"나무 리소스:\",\"color\":\"white\"}]"}
 # 175
 execute if entity @s[scores={InvItemID=175}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"},{\"text\":\"Monsterfish_\",\"color\":\"gray\"}]"}
 # 176
@@ -428,7 +428,7 @@ execute if entity @s[scores={InvItemID=187}] as @e[tag=focusInventoryOption,limi
 # 188
 execute if entity @s[scores={InvItemID=188}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"               \",\"color\":\"gray\"}]"}
 # 189
-execute if entity @s[scores={InvItemID=189}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"그리고 마지막으로 여러분께 감사드립니다! :)\",\"color\":\"white\"}]"}
+execute if entity @s[scores={InvItemID=189}] as @e[tag=focusInventoryOption,limit=1] run data merge entity @s {CustomName:"[\"\",{\"text\":\"          그리고 마지막으로 여러분께 감사드립니다! :)\",\"color\":\"white\"}]"}
 
 
 scoreboard players set @s InvItemID 0

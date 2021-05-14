@@ -337,15 +337,15 @@ execute as @s[scores={cutSceneTimer=391},tag=cutsceneLeader] as @e[tag=flitwickC
 
 # ¤Flitwick:¤ To focus on an object to levitate, start by double clicking £.
 execute as @s[scores={cutSceneTimer=500},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=500..600}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" £ 를 두 번 클릭하여 띄우고 싶은 물체에 초점을 맞춰봐."}]
+execute as @s[scores={cutSceneTimer=500..600}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" ⌠ 를 두 번 클릭하여 띄우고 싶은 물체에 초점을 맞춰봐."}]
 
 # ¤Flitwick:¤ After that, you can click € once to levitate the object you are looking at,
 execute as @s[scores={cutSceneTimer=601},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=601..690}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 그리고 € 를 클릭하여 초점에 맞춘 물체를 띄워봐."}]
+execute as @s[scores={cutSceneTimer=601..690}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 그리고 ⌡ 를 클릭하여 초점에 맞춘 물체를 띄워봐."}]
 
 # ¤Flitwick:¤ and click € again to release it.
 execute as @s[scores={cutSceneTimer=691},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=691..760}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 다시 € 를 눌러 내려놔."}]
+execute as @s[scores={cutSceneTimer=691..760}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 물체를 놓으려면 다시 ⌡ 를 누르렴."}]
 
 # ¤Flitwick:¤ When levitating an object simply look where you want it to go.
 execute as @s[scores={cutSceneTimer=761},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
@@ -357,7 +357,7 @@ execute as @s[scores={cutSceneTimer=861..950}] run title @s actionbar ["",{"text
 
 # ¤Flitwick:¤ When you are done you can unfocus by double clicking £ again.
 execute as @s[scores={cutSceneTimer=951},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=951..1050}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 물체를 내려놓고 나서 £ 를 두 번 클릭하여 선택을 해제하면 된단다."}]
+execute as @s[scores={cutSceneTimer=951..1050}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 물체를 내려놓고 나서 ⌠ 를 두 번 클릭하여 선택을 해제하면 된단다."}]
 
 # ¤Flitwick:¤ This spell is particularly useful for moving heavy blocks into switches, to trigger their mechanisms.
 execute as @s[scores={cutSceneTimer=1051},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0

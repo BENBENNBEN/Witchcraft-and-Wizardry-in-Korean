@@ -972,7 +972,7 @@ execute as @s[scores={cutSceneTimer=880}] as @s run function hp:cutscenes/fade_i
 
 # ¤Lupin:¤ You can select the Stupefy spell by pressing { and cast it by double clicking £.
 execute as @s[scores={cutSceneTimer=980},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=980..1110}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" { 를 눌러 스투페파이 주문을 선택하고 £ 를 두 번 클릭하여 주문을 시전해 보렴."}]
+execute as @s[scores={cutSceneTimer=980..1110}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":"  ² 를 눌러 스투페파이 주문을 선택하고 ⌠ 를 두 번 클릭하여 주문을 시전해 보렴."}]
 
 execute as @s[scores={cutSceneTimer=910}] as @s run function hp:cutscenes/fade_out
 tp @s[scores={cutSceneTimer=900}] 5507.347 43.80817 -36.82643 -336.56 -5.83

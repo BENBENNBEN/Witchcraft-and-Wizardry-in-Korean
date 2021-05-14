@@ -612,7 +612,7 @@ tag @s[scores={convState=17},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 주문을 사용하려면 주문 메뉴에서 ² 를 눌러 선택하고 ⌠ 를 두 번 클릭해. 장애물 코스를 통과할 수 있는지 연습해보자. 다음 방에 있는 목표물에 주문을 맞춰보렴. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 주문을 사용하려면 주문 메뉴에서 ² 를 눌러 선택하고 ⌠ 를 두 번 클릭해봐. 스투페파이 마법 주문을 사용해 장애물 코스를 통과해보렴. 다음 방에 있는 목표물에 주문을 맞춰봐. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
