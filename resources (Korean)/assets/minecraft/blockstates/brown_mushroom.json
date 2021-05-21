@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "custom/mushrooms1" },
-			{ "model": "custom/mushrooms1", "y": 90  },
-			{ "model": "custom/mushrooms1", "y": 180  },
-			{ "model": "custom/mushrooms1", "y": 270  }]
-        }
-    }

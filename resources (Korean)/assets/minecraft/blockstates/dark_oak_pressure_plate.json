@@ -1,4 +1,0 @@
-{    "variants": {"powered=false": { "model": "block/stone_pressure_plate" }, "powered=true": 
-{ "model": "custom/paintings/ps1_hagrid", "y": 0 , "weight": 1 }
-    }
-}

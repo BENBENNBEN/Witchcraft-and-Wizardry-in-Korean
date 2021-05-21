@@ -1,6 +1,0 @@
-{
-    "parent": "guis/quest_direction/quest_direction",
-    "textures": {
-        "layer0": "guis/quest_direction/compass_06"
-    }
-}

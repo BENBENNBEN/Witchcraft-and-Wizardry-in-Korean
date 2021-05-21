@@ -1,8 +1,0 @@
-﻿{
-    "variants": {
-        "facing=south": { "model": "custom/beds/gryffindor_bed" },
-        "facing=west": { "model": "custom/beds/gryffindor_bed", "y": 90 },
-        "facing=north": { "model": "custom/beds/gryffindor_bed", "y": 180 },
-        "facing=east": { "model": "custom/beds/gryffindor_bed", "y": 270 }
-	}
-}

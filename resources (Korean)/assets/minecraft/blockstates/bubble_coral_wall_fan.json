@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "custom/signs/warning_riddle", "y": 0 },
-		"facing=south": { "model": "custom/signs/hogsmeade_station_sign_1", "y": 0 },
-		"facing=east": { "model": "custom/signs/hogsmeade_station_sign_2", "y": 0 },
-		"facing=west": { "model": "custom/signs/warning_riddle", "y": 0 }
-    }
-}

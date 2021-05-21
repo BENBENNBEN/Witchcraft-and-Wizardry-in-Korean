@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "axis=y": { "model": "custom/beds/slytherin_bed", "y": 270  },
-        "axis=z": { "model": "custom/beds/slytherin_bed", "y": 90},
-        "axis=x": { "model": "custom/beds/slytherin_bed" }
-    }
-}

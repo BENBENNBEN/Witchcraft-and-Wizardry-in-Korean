@@ -1,7 +1,0 @@
-{
-    "parent": "block/carpet",
-    "textures": {
-        "particle": "block/nether_bricks",
-        "wool": "block/nether_bricks"
-    }
-}

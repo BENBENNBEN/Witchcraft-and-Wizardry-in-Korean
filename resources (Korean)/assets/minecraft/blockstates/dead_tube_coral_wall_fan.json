@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=east": { "model": "custom/telescope", "y": 90 },
-        "facing=south": { "model": "custom/telescope", "y": 180 },
-        "facing=west": { "model": "custom/telescope", "y": 270 },
-        "facing=north": { "model": "custom/telescope", "y": 0 }
-    }
-}

@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "axis=y": { "model": "custom/diagon_alley/wall_2x" },
-        "axis=z": { "model": "custom/diagon_alley/wall_2x_m" },
-        "axis=x": { "model": "custom/diagon_alley/floor_nudge" }
-    }
-}

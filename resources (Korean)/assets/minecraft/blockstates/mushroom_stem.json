@@ -1,9 +1,0 @@
-{
-	"comment": "Thanks to Lapis Demon for this block state",
-	"multipart":[
-		{"when":{"down":false,"east":false,"north":false,"south":false,"up":false,"west":false},"apply":{"model":"block/chess/pawn"}},
-		{"when":{"down":false,"east":true,"north":true,"south":true,"up":false,"west":true},"apply":{"model":"block/chess/knight"}},
-		{"when":{"down":true,"east":true,"north":true,"south":true,"up":true,"west":true},"apply":{"model":"block/chess/rook"}},
-		{"when":{"down":false,"east":false,"north":false,"south":false,"up":false,"west":true},"apply":{"model":"block/chess/bishop"}}
-	]
-}

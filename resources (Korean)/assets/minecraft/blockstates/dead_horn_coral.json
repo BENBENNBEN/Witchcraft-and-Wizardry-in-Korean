@@ -1,8 +1,0 @@
-﻿{
-    "variants": {
-        "": [
-			{ "model": "custom/candles/flying_candles" }, { "model": "custom/candles/flying_candles","y": 90}, { "model": "custom/candles/flying_candles","y": 180}, { "model": "custom/candles/flying_candles","y": 270}
-		]
-    }
-}
-

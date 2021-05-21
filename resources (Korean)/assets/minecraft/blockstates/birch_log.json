@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "axis=y": { "model": "custom/signs/hogsmeade/three_broomsticks_inn", "y": 180  },
-        "axis=z": { "model": "custom/cabinet/brown_cabinet", "y": 90},
-        "axis=x": { "model": "custom/cabinet/brown_cabinet" }
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "age=0": { "model": "custom/open_book2" },
-        "age=1": { "model": "custom/open_book2", "y": 90 },
-        "age=2": { "model": "custom/open_book2", "y": 180 },
-        "age=3": { "model": "custom/open_book2", "y": 270 }
-    }
-}

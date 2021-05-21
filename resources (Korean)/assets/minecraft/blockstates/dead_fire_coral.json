@@ -1,8 +1,0 @@
-﻿{
-    "variants": {
-        "": [
-			{ "model": "custom/chamber_candlestick" }, { "model": "custom/chamber_candlestick","y": 90}, { "model": "custom/chamber_candlestick","y": 180}, { "model": "custom/chamber_candlestick","y": 270}
-		]
-    }
-}
-
