@@ -90,7 +90,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 항아리에 관심 있으세요? 저도 말이죠. 제 평생을 기다린 항아리가 있어요. 너무 오래되어서 다른 사람들 기억 속에서는 거의 사라졌죠. 저한테는 아니지만요. \\n\\n\\n \",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 항아리에 관심 있으세요? 저도 말이죠. 제 평생을 기다린 항아리가 있습니다. 너무 오래되어서 다른 사람들 기억 속에서는 거의 사라졌죠. 저한테는 아니지만요. \\n\\n\\n \",\"color\":\"white\",\"bold\":\"false\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -120,7 +120,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 항아리는 금지된 숲의 폐허 아래 지하 감옥에 있어요. 제가 몇 년 전에 가지러 가려 했지만 실패했죠. 그곳은 너무 위험하더군요. 겨우 살아서 돌아왔습니다. \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 항아리는 금지된 숲의 어느 폐허 밑 지하 던전에 있습니다. 제가 몇 년 전에 가지러 가려 했지만 실패했죠. 그곳은 너무 위험하더군요. 겨우 살아서 돌아왔습니다. \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -156,7 +156,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 정말입니까? 음, 아직 학생이지만 강해 보이는군요... 호그와트 학생에게 터져 죽거나 발톱에 찢겨 죽을 만한 위험한 일을 시키는 게 좋은 일인지는 모르겠지만... \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 정말입니까? 음, 아직 학생이지만 강해 보이는군요... 호그와트 학생에게 터져 죽거나 발톱에 찢겨 죽을 만한 위험한 일을 시키는 게 옳은 일인지는 모르겠지만... \\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -333,7 +333,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법을 조금 더 배우시고 다시 물어봐 주세요. \\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법을 조금 더 배우고 나서 다시 물어봐 주세요. \\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

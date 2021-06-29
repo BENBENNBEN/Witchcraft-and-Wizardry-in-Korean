@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기서 똥 폭탄 좀 사려고. 사나운 마법 생물이 공격해올 때 방어용으로 아주 좋거든. 아니면 슬리데린 자식들한테! \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아무래도 똥 폭탄 좀 사야겠어. 사나운 마법 생물이 공격해올 때 방어용으로 아주 좋거든. 아니면 슬리데린 자식들한테도! \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기 선반을 둘러보렴. 상상을 초월할 만큼 흥미로운 과자들로 가득 차 있단다. 허니듀크에 온 걸 환영해. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 여기 선반을 둘러보렴. 상상을 초월할 만큼 다양한 과자들로 가득 차 있단다. 허니듀크에 온 걸 환영해. \"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -66,7 +66,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 호기심이 많은 친구네. 보자. 이 가게는 1641년에 세워졌고 지금은 아내와 내가 운영하고 있어. 호그스미드를 방문하는 호그와트 학생들에게 인기가 많아. 크리스마스 시즌에는 발 디딜 틈도 없을 정도로. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 음, 호기심이 많은 친구네. 보자. 이 가게는 1641년에 세워졌고 지금은 우리 부부가 운영하고 있어. 호그스미드를 방문하는 호그와트 학생들에게 인기가 많지. 크리스마스 시즌에는 발 디딜 틈도 없을 정도로. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

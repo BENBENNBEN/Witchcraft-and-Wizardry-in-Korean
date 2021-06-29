@@ -64,7 +64,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법 세계로 온 지 얼마 안 됐니? WWN은 마법사들에게 인기 있는 무선국이야. 주로 머글들이 라디오 방송국이라고 부르는 곳 말이야. 우리 무선국은 마법으로 작동한단다. 그 전기 같은 헛소리가 아니라. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 마법 세계로 온 지 얼마 안 됐니? WWN은 마법사들에게 인기 있는 무선국이야. 주로 머글들이 라디오 방송국이라고 부르는 곳 말이야. 하지만 우리 무선국은 마법으로 작동한단다. 그 전기 같은 헛소리가 아니라. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

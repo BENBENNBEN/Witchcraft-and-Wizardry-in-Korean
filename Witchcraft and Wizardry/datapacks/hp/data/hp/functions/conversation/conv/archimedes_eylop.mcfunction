@@ -95,7 +95,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 부엉이에 관심 있나 보군? 아주 좋아. 부엉이는 맹금류 중 하나로, 야행성 동물이야. 그리고 매우 똑똑하지. 심지어 마녀와 마법사들과 어느 정도 소통할 수 있어. 덕분에 마법 세계에서 실용적인 동물 중 하나야. 머글들은 상상도 못 할 정도로 먼 거리에 떨어진 사람과 부엉이 덕에 우편물을 주고받을 수 있으니까.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 부엉이에 관심 있나 보군? 아주 좋아. 부엉이는 맹금류 중 하나로 야행성 동물이야. 그리고 매우 똑똑해서 마녀와 마법사들과 어느 정도 소통할 수 있어. 덕분에 마법 세계에서 실용적인 동물 중 하나야. 머글들은 상상도 못 할 정도로 먼 거리에 떨어진 사람과 부엉이 덕에 우편물을 주고받을 수 있으니까.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

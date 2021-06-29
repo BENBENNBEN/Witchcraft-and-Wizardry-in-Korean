@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 오, 안녕! 나는 \"},{\"text\":\"아서 위즐리란다\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\".\\n\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 오, 안녕! 나는 \"},{\"text\":\"아서 위즐리\",\"color\":\"gold\",\"bold\":\"true\"},{\"text\":\"란다.\\n\\n\\n\\n\\n\",\"color\":\"white\",\"bold\":\"false\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -125,7 +125,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 난 머글 문화에 관심이 많단다. 편지통이나 콘센트, 전화기 그리고 이상한 종이돈 같은 것 말이야. 그런데 머글들은 그런 흥미로운 것들을 그냥 버린다고 하더구나! 혹시 런던에 가서 그런 물건들을 가져다줄 수 있니?\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 난 머글 문화에 관심이 많단다. 편지통이나 콘센트, 전화기 그리고 이상한 종이돈 같은 것 말이야. 그런데 머글들은 그런 흥미로운 물건들을 그냥 버린다고 하더구나! 혹시 런던에 가서 그것들을 가져다줄 수 있니?\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -177,7 +177,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 머글 물건들은 다 찾았니?\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 머글 물건은 다 찾았니?\\n\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

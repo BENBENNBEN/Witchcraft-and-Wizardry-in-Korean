@@ -60,7 +60,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그러다가, 어느 순간 땅에 떨어지지 않게 될 거야. 그런 식으로 계속하다 보면, 점점 실패할 가능성이 줄어들겠지. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 문제는 그대로 땅에 부딪힐 수 있다는 거야. 그런 식으로 계속하다 보면 점점 실패할 확률이 줄어들겠지. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

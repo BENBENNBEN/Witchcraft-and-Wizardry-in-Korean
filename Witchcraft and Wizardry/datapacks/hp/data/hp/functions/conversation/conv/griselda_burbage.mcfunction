@@ -72,7 +72,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 한번 둘러봐. 여긴 보다시피 고물상이야. 잡동사니를 사서 적당한 가격에 되팔고 있어. 더비시 앤 뱅크스랑은 다르게 난 솔직히 말한다고. 말 나온 김에 혹시 필요 없는 물건이 있으면 나한테 팔아서 돈 버는 게 어때. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 한번 둘러봐. 여긴 보다시피 고물상이야. 잡동사니를 사서 적당한 가격에 되팔고 있어. 더비시 앤 뱅크스랑은 다르게 난 솔직히 말한다고. 말 나온 김에 혹시 필요 없는 물건이 있으면 나한테 파는 게 어때. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -103,7 +103,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그스미드에는 많은 상점이 있어. 인벤토리에 쌓여있는 잡동사니나 돈이 필요하면, 나한테나 아니면 더비시 앤 뱅크스 가게로 가봐. 나 같으면 거긴 안 가겠지만. 그 사람들 사상이 좀 불순해. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그스미드에는 많은 상점이 있어. 인벤토리에 쌓여있는 잡동사니나 돈이 필요하면, 나한테나 아니면 더비시 앤 뱅크스 가게로 가봐. 나 같으면 거긴 안 가겠지만. 그 사람들 사상이 좀 불순하거든. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -134,7 +134,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 떠도는 소문이 궁금하면 스리 브룸스틱스 여관에 로즈메르타 부인과 대화해봐. 이 마을에서 일어나는 일은 전부 알 테니까. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 떠도는 소문이 궁금하면 스리 브룸스틱스 여관에 로즈메르타 부인에게 물어봐. 이 마을에서 일어나는 일은 전부 알 테니까. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

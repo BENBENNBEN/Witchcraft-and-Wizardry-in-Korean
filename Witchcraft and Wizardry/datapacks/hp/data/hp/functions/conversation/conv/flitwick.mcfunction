@@ -163,7 +163,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 7학년에 N.E.W.T.를 마친 후, 호그와트를 졸업해서 마법사 결투의 길을 걸었지. '챔피언 칭호'를 얻고 나서는 호그와트로 돌아와 일반 마법을 가르치게 되었고 기숙사 사감도 맡게 되었단다.\\n\"}]"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"[{\"text\":\" 7학년에 N.E.W.T.를 마친 후, 호그와트를 졸업해서 마법사 결투의 길을 걸었지. '챔피언' 칭호를 얻고 나서는 호그와트로 돌아와 일반 마법을 가르치게 되었고 기숙사 사감도 맡게 되었단다.\\n\"}]"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

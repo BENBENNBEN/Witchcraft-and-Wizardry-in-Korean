@@ -104,7 +104,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 책방은 1768년부터 있었지. 브리태니커 백과사전의 초판이 발행된 해부터 말이야. 그 백과사전도 마법사들이 쓰던 건데, 이제는 머글들이 편집하고 있어. 마법은 오래전에 없어져 버렸지. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 책방은 1768년부터 있었지. 브리태니커 백과사전의 초판이 발행된 해부터 말이야. 그 백과사전도 원래는 마법사들이 만들던 건데, 이제는 머글들이 하고 있어. 그 안에 깃들었던 마법은 오래전에 없어져 버렸지. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -135,7 +135,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 하나같이 다 오래된 책이야. 역사에 관심 있다면 여기만 한 곳이 없어. 여기 없으면, 호그스미드 중고 서점에 가봐. 하이스트리트로 쭉 가다가 왼쪽으로 꺾으면 오른쪽에 있어. 아니면 런던에 다이애건 앨리로 가보던가. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 하나같이 다 오래된 책을 팔고 있어. 역사를 좋아한다면 여기만 한 곳이 없을 거야. 만약 여기 없으면 호그스미드 중고 서점으로 가봐. 하이스트리트로 쭉 가다가 왼쪽으로 꺾으면 오른쪽에 있어. 아니면 런던에 다이애건 앨리로 가보던가. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -166,7 +166,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 마을의 역사를 짧게 설명해줄게. 호그스미드는 영국에서 유일하게 마법사만 사는 마을이야. 약 천 년 전에 호그와트가 설립됐을 때 즈음, 우드크로프트의 헹기스트가 머글들의 박해로 집 떠나서 세운 마을이지. 마법사 카드에도 있는 인물이야. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 마을의 역사를 짧게 설명해주마. 호그스미드는 영국에서 유일하게 마법사만 사는 마을이야. 약 천 년 전에 호그와트가 설립됐을 때 즈음, 우드크로프트의 헹기스트가 머글들의 박해로 집 떠나서 세운 마을이지. 마법사 카드에도 있는 유명 인사야. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -197,7 +197,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 후로 수백 년 동안 호그와트 학생들이 마을을 방문해왔어. 1714년에는 학생들이 호그스미드를 방문하는 동안 지켜야 할 규정이 제정되었지. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 후로 수백 년 동안 호그와트 학생들이 호그스미드 마을을 방문해왔어. 1714년에 학생들이 호그스미드를 방문하는 동안 지켜야 할 규정이 제정되었지. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -228,7 +228,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 또 뭐가 있었더라... 아 마지막으로, 1600년도에 이 근처에서 고블린 반란이 일어났을 때 이 마을이 마법사 본부 역할을 했었어. 아쉽게도 그 이후로는 흥미로운 일이 없었지. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 또 뭐가 있었더라... 아, 1600년도에 이 근처에서 고블린 반란이 일어났을 때 이 마을이 마법사 본부 역할을 했었어. 아쉽게도 그 이후로는 별다른 일이 없었지. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

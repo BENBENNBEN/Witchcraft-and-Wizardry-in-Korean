@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 엘릭의 엘릭서에 어서 옵쇼! 괜히 가마솥 앞에서 땀 흘리지 마시고 저희 가게 선반에 진열돼있는 물약을 사세요. 품질 만족 보장해 드립니다. 무료 샘플 같은 건 없지만요.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 엘릭의 엘릭서에 어서 옵쇼! 괜히 가마솥 앞에서 땀 흘리지 마시고 저희 가게에서 사세요. 품질 만족 보장해 드립니다. 무료 샘플 같은 건 없지만요.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -63,7 +63,7 @@ tag @s[scores={convState=1},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if score elikElixersRats sharedQuests matches 0 if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 빌어먹을 쥐들이 재료를 먹어치우는 바람에 재고가 많지는 않아요. 그래도 찾으시는 게 있으면 좋겠네요.\"}"}
+execute if score elikElixersRats sharedQuests matches 0 if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 빌어먹을 쥐들이 재료를 먹어치우는 바람에 재고가 많지는 않아요. 그래도 찾으시는 게 있다면 좋겠네요.\"}"}
 execute if score elikElixersRats sharedQuests matches 1.. if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 쥐들을 다 처리하셨나요?\\n\"}"}
 execute if score elikElixersRats sharedQuests matches -1 if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 쥐들을 제거하는데 도와주셔서 감사합니다! 어떻게 도와드릴까요?\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
@@ -141,7 +141,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 돈으로 사는 게 부담스러우시다면 직접 돌아다니면서 구하셔야 합니다. 좋은 재료가 어디 땅에 떨어져 있을지도 모르니까요. 몬스터나 공격적인 생물을 사냥하면서 얻으실 수도 있고요.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 돈으로 사는 게 부담스러우시다면 직접 돌아다니면서 구하셔야 합니다. 좋은 재료가 어디 땅에 떨어져 있을지 모르니까요. 몬스터나 공격적인 생물을 사냥하면서 얻으실 수도 있고요.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -266,7 +266,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 네. 저주받을 것들이 지하실을 통해 올라와 재료들을 먹어치웠습니다. 내려가서 처리하려고 했지만, 제가 영 소질이 없어서요. 지팡이보다 가마솥이랑 더 친하거든요.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 네. 저주받을 것들이 지하실을 통해 올라와 재료들을 먹어치웠습니다. 내려가서 처리해 보려고 했지만, 제가 영 소질이 없어서요. 지팡이보다 가마솥이랑 더 친하거든요.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

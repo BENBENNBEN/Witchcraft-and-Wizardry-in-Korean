@@ -107,7 +107,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 글쎄, 마법의 분류모자가 래번클로에 배정하는 걸 진지하게 고민하긴 했었어. 결국, 그리핀도르에 배정하더라고. 래번클로도 나쁘지 않았을 것 같지만, 난 그리핀도르에 배정되고 싶었어. 덤블도어 교장 선생님도 그리핀도르셨으니까. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 글쎄, 마법의 분류모자가 래번클로에 배정하는 걸 진지하게 고민하긴 했지. 결국, 그리핀도르에 배정하더라고. 래번클로도 나쁘지 않았을 것 같지만, 난 그리핀도르에 배정되고 싶었어. 덤블도어 교장 선생님도 그리핀도르셨으니까. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -139,7 +139,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" SPEW는 집요정 복지 향상을 위한 모임이야. 그거 아니? 집요정들은 부당하게 노동력을 착취당하고 있어! 그들의 처우와 인식을 개선하기 위해 S.P.E.W 모임을 만들었어. 돈도 한 번도 못 받고 휴일도 한 번도 받은 적 없다는 게 말이 돼? 난 집요정들의 복지가 개선될 때까지 싸울 거야. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" SPEW는 집요정 복지 향상을 위한 모임이야. 그거 아니? 집요정들이 부당하게 노동력을 착취당하고 있다는 사실 말이야! 그래서 내가 SPEW 모임을 만들었어. 아니 어떻게 돈도 한 번 못 받고 휴일도 한 번 못 받을 수가 있어? 난 집요정들의 복지가 개선될 때까지 싸울 거야. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -271,7 +271,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 좋아! 내가 만든 S.P.E.W 모임에 대해서 들어봤지? 나는 집요정들의 근무 환경과 처우를 개선하려고 노력하고 있어. 너도 알다시피 엄청나게 부당한 대우를 받고 있잖아. 돈도 안 받고 휴일도 없고! \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 좋아! 내가 만든 SPEW 모임에 대해서 들어봤지? 나는 집요정들의 근무 환경과 처우를 개선하려고 노력하고 있거든. 너도 알다시피 엄청나게 부당한 대우를 받고 있잖아. 돈도 안 받고 휴일도 없고! \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -303,7 +303,7 @@ tag @s[scores={convState=10},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 다른 학생들을 설득해봤지만 아무도 관심 없어 해. 오히려 모임 자체를 기분 나빠하더라고.\\n 호그스미드 주민들에게도 이 좋은 뜻이 널리 알려지면 좋을 것 같아. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 다른 학생들을 설득해봤지만 아무도 관심 없어 하더라. 오히려 모임 자체를 기분 나빠하더라고.\\n 호그스미드 주민들에게도 이 좋은 뜻이 널리 알려지면 좋을 것 같아. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -413,7 +413,7 @@ execute if entity @s[tag=use] run tag @s add longHeader
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 응, 했어!\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"±ˈˈ 응, 붙이고 왔어!\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 14
 #-------------------------------
 
@@ -437,7 +437,7 @@ tag @s[scores={convState=14},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 완벽해. 그럼 내가 유용하게 쓰는 주문을 가르쳐 줄게. '알로호모라'라는 마법 주문이고 잠긴 문을 여는 데 쓸 수 있어. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 완벽해. 그럼 내가 유용하게 쓰는 주문을 가르쳐 줄게. '알로호모라'라는 마법 주문인데, 잠긴 문을 여는 데 쓸 수 있어. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -672,7 +672,7 @@ tag @s[scores={convState=21},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 정말 친절하구나. 사실 내가 호그와트 도서관에 있는 책들을 거의 다 읽어서 다른 책들을 찾고 있거든. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 정말 친절하구나. 사실 내가 호그와트 도서관에 있는 책들을 거의 다 읽어서 새로운 책들을 찾고 있었거든. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

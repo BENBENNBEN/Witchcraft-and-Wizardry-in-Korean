@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이런, 이런... 여기서 어린 얼굴을 볼 줄이야. 유리 전시장 주위에서는 조심하도록 해. 깨지기 쉬우니까. 그게 아니더라도 조심하는 게 좋아. 여기 있는 물건 대부분은... 어둠의 마법이 깃들어져 있으니까. \\n\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이런, 이런... 여기서 어린 얼굴을 볼 줄이야. 유리 전시장 주위에서는 조심하도록 해. 깨지기 쉬우니까. 그게 아니더라도 조심하는 게 좋을거야. 여기 있는 물건 대부분은... 어둠의 마법이 깃들어져 있거든. \\n\\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -242,7 +242,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어둠의 마법... 가장 압도적인 마법이지. 최고야. 어떤 이는 타락한 마법이라 매도하고, 또 어떤 이는... 매혹적이라고 할 거야. 어둠의 마법은 자신의 힘 경계를 뛰어넘거든. 요즘에는 너무 많은 어둠의 마법이 불법이라 참 아쉬울 따름이야. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어둠의 마법... 가장 압도적인 마법이지. 최고야. 어떤 이는 타락한 마법이라 매도하고, 또 어떤 이는... 매혹적이라고 할 거야. 어둠의 마법은 자신의 힘 그 이상으로 발휘할 수 있게 해주거든. 요즘에는 너무 많은 어둠의 마법이 금지되어 있어 그저 아쉬울 따름이야.  \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -275,7 +275,7 @@ tag @s[scores={convState=7},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래 물론. 누구나 아는 캐로우, 고일 집안이 있고. 겔러트 그린델왈드나 어둠의 마왕처럼 강력한 어둠의 마법사들도 있어. 우리와 비교가 되지 않을 정도로 위대하시지... 너무 솔직하게 말했군. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래 물론. 누구나 아는 캐로우, 고일 집안이 있고. 겔러트 그린델왈드나 어둠의 마왕처럼 강력한 어둠의 마법사들도 있어. 우리와 비교가 되지 않을 정도로 위대하시지... 이런 너무 솔직하게 말했군. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -519,7 +519,7 @@ tag @s[scores={convState=14},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 흐으음... 그래 아주 흥미로운 물건들이군. 자네와 거래하게 되어 기쁘네. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 흐으음... 그래 아주 흥미로운 물건들이군. 자네와 좋은 거래하게 되어서 기쁘네. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

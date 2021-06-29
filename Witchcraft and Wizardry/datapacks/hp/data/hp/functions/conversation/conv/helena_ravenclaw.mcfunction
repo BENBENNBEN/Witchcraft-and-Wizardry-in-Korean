@@ -102,7 +102,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는... 나를 아끼던 사람한테 죽임을 당했지. 나를 짝사랑하던 사람, 죽은 지 오래되었는데도 복도를 돌아다니더구나. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 나는... 나를 아끼던 사람한테 죽임을 당했어. 나를 짝사랑하던 사람, 죽은 지 오래되었는데도 복도를 돌아다니더구나. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -134,7 +134,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 보관을 탐낸 학생이 네가 처음은 아니야. 이미 몇 세대 걸쳐 날 귀찮게 했지. 그래도 알려줄 생각이 없단다. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 보관을 탐낸 학생이 네가 처음은 아니야. 이미 몇 세대 걸쳐 날 귀찮게 했지. 그래도 알려줄 생각은 없단다. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -166,7 +166,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 로위너 래번클로는 우리 어머니였어. 래번클로 기숙사를 세우고 호그와트를 다른 설립자들과 함께 세우셨지. 난 평생을 어머니보다 똑똑해지고 싶다는 욕망과 질투에 사로잡혀있었어. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 로위너 래번클로는 내 어머니였어. 래번클로 기숙사를 세우고 호그와트를 다른 설립자들과 함께 세우셨지. 난 평생을 어머니보다 똑똑해지고 싶다는 욕망과 질투에 사로잡혀있었어. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

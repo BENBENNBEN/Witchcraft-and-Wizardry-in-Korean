@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐가 필요한데? 아무것도 아니면 귀찮게 하지 마. 뭐 팔고 싶은 거라도 있어?\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 뭐가 필요한데? 볼일 없으면서 괜히 귀찮게 하지 마. 뭐 팔고 싶은 거라도 있어?\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

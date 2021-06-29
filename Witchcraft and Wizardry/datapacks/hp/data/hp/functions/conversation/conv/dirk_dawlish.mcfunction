@@ -205,7 +205,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트나 호그스미드를 돌아다니려면 빗자루만 한 게 없지. 이동하면서 멋진 경치도 볼 수 있잖아. 혹시 비행 기록에 도전하고 싶다면, 여기저기에 비행 선로가 흩어져 있으니 시도해봐.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 호그와트나 호그스미드를 돌아다니려면 빗자루만 한 게 없지. 이동하면서 멋진 경치도 볼 수 있잖아. 혹시 비행 기록에 도전하고 싶다면, 여기저기에 비행 선로가 있으니 시도해봐.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

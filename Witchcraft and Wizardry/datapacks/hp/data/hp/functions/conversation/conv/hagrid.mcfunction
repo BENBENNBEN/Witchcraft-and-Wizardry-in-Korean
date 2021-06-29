@@ -116,7 +116,7 @@ execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=3}] as @s[tag=
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=4}] run data merge entity @s {CustomName:"{\"text\":\"≤ 어떻게 그렇게 키가 크시나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=4}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 14
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"≤ 어떤 기숙사에 속하셨나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=5}] run data merge entity @s {CustomName:"{\"text\":\"≤ 어떤 기숙사셨나요?\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=5}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 4
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=6}] run data merge entity @s {CustomName:"{\"text\":\"다른 거요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
@@ -286,7 +286,7 @@ tag @s[scores={convState=8},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그는 마법 세계를 지배하려고 했어. 물론 대항하려는 사람들이 있었고, 그들을 끔찍하게 죽였단다. 그때 호그와트는 가장 안전한 장소 중 하나였는데 그 사람이 가장 두려워하는 덤블도어 교장 선생님께서 있었기 때문이었지. 그 당시에는 학교는 공격하지 않았단다. 어느 날, 해리 포터를 죽이지 못하고 실패한 뒤, 그는 사라져 버렸어. 반대 세력을 다 처리하려고 했는지 아니면 그냥 사람 죽이는 게 좋았는지 알 수 없지만, 아직 갓난아기였던 해리도 죽이려고 했어. 결국, 죽이지 못했지만.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그는 마법 세계를 지배하려고 했어. 물론 대항하려는 사람들이 있었고, 그는 그런 이들을 끔찍하게 죽였단다. 그때 호그와트는 가장 안전한 장소 중 하나였는데, 그 사람이 가장 두려워하는 덤블도어 교장 선생님께서 있었기 때문이었어. 그 당시에는 학교를 공격하지 않았어. 어느 날, 해리 포터를 죽이지 못하고 실패한 뒤, 그는 사라져 버렸어. 반대 세력을 다 처리하려고 했는지 아니면 그냥 사람 죽이는 게 좋아서 였는지 알 수 없지만, 아직 갓난아기였던 해리도 죽이려고 했었어. 결국, 죽이지 못했지만.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -319,7 +319,7 @@ tag @s[scores={convState=9},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래서 해리 포터 이마에 흉터가 새겨지게 된 거야. 강력하고, 사악한 저주가 닿아서 말이야. 해리가 유명한 이유이기도 하고. 해리를 제외하고 그자가 죽이려고 마음먹은 사람은 전부 죽었거든. 당대의 최고의 마법사들이었던 맥키논 가족이나, 본 가족, 프루잇 가족들 모두 다 죽었어. 그런데 갓난아기였던 해리 포터만 살아남았던 거야. 내가 덤블도어 교장 선생님의 지시에 따라 폐허가 된 집에서 해리를 무사히 데려왔지.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그래서 해리 포터 이마에 흉터가 새겨지게 된 거야. 강력하고, 사악한 저주가 닿아서 말이야. 해리가 유명한 이유이기도 하고. 해리를 제외하고 그자가 죽이려고 마음먹은 사람은 전부 죽었거든. 당대의 최고의 마법사들이었던 맥키논 가족이나, 본 가족, 프루잇 가족들 모두 다 죽었어. 그런데 갓난아기였던 해리 포터만 살아남았던 거야. 내가 덤블도어 교장 선생님의 지시에 따라 폐허가 된 집에서 해리를 무사히 데려왔었지.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -384,7 +384,7 @@ tag @s[scores={convState=11},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 죽음을 먹는 자들이란다. 주로 어둠의 마법을 쓰는 마녀나 마법사들이었지. 그자가 사라지고 나서 그의 추종자였던 사람들 몇몇은 우리 편으로 돌아왔어.\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 죽음을 먹는 자들이라고 부른단다. 주로 어둠의 마법을 쓰는 마법사나 마녀들이지. 그자가 사라지고 나서 그의 추종자였던 사람들 몇몇은 우리 편으로 돌아왔어.\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -482,7 +482,7 @@ tag @s[scores={convState=14},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내가 거인 혼혈이라서 그래. 어머니가 거인이고, 아버지가 인간이야. 어머니가 영국의 마지막 거인 중 하나셨지. 물론 기억은 잘 안 나지만... 내가 3살 때, 우리 집을 나가셨거든. 그래도 나는 나야. 하나도 부끄럽지 않아. 왜냐하면 '절대 부끄러워하지 말렴. 그걸로 뭐라 하는 사람들이 있겠지만, 신경 쓸 가치 없단다'라고 우리 아버지가 항상 그러셨거든. 그리고 그 말은 하나도 틀리지 않았어.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 내가 거인 혼혈이라서 그래. 어머니가 거인이고, 아버지가 인간이야. 어머니가 영국의 마지막 거인 중 하나셨지. 물론 기억은 잘 안 나지만... 내가 3살 때, 우리 집을 나가셨거든. 그래도 나는 나야. 하나도 부끄럽지 않아. 왜냐하면 '절대 부끄러워하지 말렴. 그걸로 뭐라 하는 사람들이 있겠지만, 신경 쓸 가치 없는 말들이다'라고 우리 아버지가 항상 그러셨거든. 그리고 그 말은 하나도 틀리지 않았어.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -845,7 +845,7 @@ tag @s[scores={convState=25},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도와준다니 고마워. 사실 네가 해줄 수 있는 일이 있단다. 내가 지금 데미가이즈를 돌보고 있는데. 음, 돌보고 있어야 하는데 보이질 않아. 데미가이즈는 자기 몸을 투명하게 만들 수 있거든. 그리고 미래를 예견도 해! 그래서 더 잡기 힘들단다.\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 도와준다니 고마워. 사실 도움이 필요한 일이 있어. 내가 지금 데미가이즈를 돌보고 있는데. 음, 돌보고 있어야 하는데 보이질 않아. 데미가이즈는 자기 몸을 투명하게 만들 수 있거든. 그리고 미래를 예견할 수 있어! 그래서 더 찾기 힘들단다.\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -876,7 +876,7 @@ tag @s[scores={convState=26},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 근처 어디에 있는 것 같은데, 나한테서 숨는 걸 좋아하거든. 네가 찾는 걸 도와줄래?\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이 근처 어디에 있는 것 같은데... 내 눈을 피해 숨는 걸 좋아한단 말이야. 괜찮다면 데미가이즈 찾는 걸 도와줄래?\"}"}
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -914,14 +914,14 @@ tag @s[scores={convState=27},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 좋아. 그를 발견하면 조심스럽게 다가가면 된단다. 처음에는 낯을 가리겠지만, 시간이 지나면 너한테 다가올 거란다. 일단 신뢰를 얻고 그의 등을 토닥이기만 하면 돼. 그러면 달아나지 않을 거다. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 좋아. 그를 발견하면 조심스럽게 다가가면 된단다. 처음에는 낯을 가리겠지만, 시간이 지나면 너한테 다가올 거야. 일단 신뢰를 얻고 그의 등을 토닥이기만 하면 돼. 그러면 달아나지 않을 거다. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
 ##### Conversation Options #####
 ################################
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"ⁿ 제가 할게요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"ⁿ 알겠어요\"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless entity @p[tag=queingQuest] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] run scoreboard players set demiguiseDodge sharedQuests 1
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless entity @p[tag=queingQuest] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] run scoreboard players set demiguiseDodge p1Quests 1
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] unless entity @p[tag=queingQuest] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] run scoreboard players set demiguiseDodge p2Quests 1
@@ -956,7 +956,7 @@ tag @s[scores={convState=28},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그 은색 원숭이처럼 생겼어. 은색 털에 기다린 팔에, 커다란 노란색 눈을 하고 있지. 몸이 투명하지 않을 때 얘기지만. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 데미가이즈는 은색 원숭이처럼 생겼어. 은색 털에 기다린 팔에, 커다란 노란색 눈을 하고 있지. 몸이 투명하지 않을 때 얘기지만. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -989,7 +989,7 @@ tag @s[scores={convState=29},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 데미가이즈를 길들였구나? 나를 힘들게 하더니, 너에게 마음을 열어서 다행이다. 데미가이즈 털이 투명 물약에 쓰이는 거 아니? 여기 좀 있으니 가져가렴.\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오, 데미가이즈를 길들였구나? 나를 힘들게 하더니, 너에게 마음을 열어서 다행이다. 데미가이즈 털이 투명 물약에 쓰이는 거 아니? 여기 좀 있으니 가져가렴.\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -1087,7 +1087,7 @@ tag @s[scores={convState=32},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 조금만 지켜보다 보면 괜찮아질 거야. 이미 할 수 있는 걸 다 하고 있다고 전해줘. 그대로만 하면 된다고. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 조금만 지켜보다 보면 괜찮아질 거야. 이미 잘하고 있다고 전해줘. 그대로만 하면 된다고. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

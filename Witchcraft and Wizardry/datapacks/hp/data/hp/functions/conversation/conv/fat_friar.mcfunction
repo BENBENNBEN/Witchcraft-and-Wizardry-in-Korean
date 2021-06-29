@@ -99,7 +99,7 @@ tag @s[scores={convState=2},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 대뜸 그런 우울한 얘기를 물어보는구나. 뭐, 내 대답까지 우울할 필요는 없지. 그냥 어이없는 죽음이었어. 호그와트에서 졸업하고 나서 성직자가 되었는데 평생을 기부 좀 해달라고 구걸만 하다 죽었거든. \\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 대뜸 그런 우울한 얘기를 물어보는구나. 뭐, 내 대답까지 우울할 필요 없지. 그냥 어이없는 죽음이었어. 호그와트에서 졸업하고 나서 성직자가 되었는데 평생을 기부 좀 해달라고 구걸만 하다 죽었거든. \\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -131,7 +131,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 사람들은 내가 쓸데없이 친절을 베풀다 죽은 거라고 하더라. 내가 그냥 '막대기'로 농민들을 찌르는 것만으로 수두를 치료하고, 가끔 성찬용 컵에서 토끼를 꺼내는 것을 수상하게 여긴 고위 성직자가 날 처형시켜버렸지. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 어떤 사람들은 내가 쓸데없이 친절을 베풀다 죽은 거라고 하더라. 내가 그냥 '막대기'로 마을 주민을 찌르는 것만으로 수두를 치료하고, 가끔 성찬용 컵에서 토끼를 꺼내는 것을 수상하게 여긴 고위 성직자가 날 처형시켜버렸으니까. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -163,7 +163,7 @@ tag @s[scores={convState=4},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 유령이 되고 나서 호그와트로 돌아왔어. 내 인생에서 가장 즐거운 추억들이 있는 곳이고, 죽고 나서도 가장 즐거운 곳이라서 아주 당연하게 후플푸프의 기숙사 유령이 되었단다. 지금은 다른 유령들과 함께 만족스러운 사후 생활을 하고 있어. \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 유령이 되고 나서 호그와트로 돌아오는 게 맞는 것 같았거든. 내 인생에서 가장 즐거웠던 추억들이 있는 곳이고, 죽고 나서도 가장 즐거운 곳이라서 아주 당연하게 후플푸프의 기숙사 유령이 되었단다. 지금은 다른 유령들과 함께 만족스러운 사후 생활을 지내고 있어. \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

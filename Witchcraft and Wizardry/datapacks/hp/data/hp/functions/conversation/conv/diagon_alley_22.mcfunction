@@ -27,7 +27,7 @@ tag @s[scores={convState=0},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오플래허티가 신비한 동물 돌보기 수업에 내 고양이를 날려버려서 새로 데려와야 해. 나쁜 자식. \\n\\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 오플래허티가 신비한 동물 돌보기 수업 중에 내 고양이를 날려버리는 바람에 새로 데려와야 해. 나쁜 자식. \\n\\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

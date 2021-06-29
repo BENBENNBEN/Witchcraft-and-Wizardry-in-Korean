@@ -241,7 +241,7 @@ tag @s[scores={convState=6},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그린고트 은행은 1474년에 그린고트이라는 고블린에 의해 설립되었소. 그 후 얼마 지나지 않아 마법부 손에 들어갔고, 어느 정도 마법사들에게 영향을 받았소. 1865년 마법부가 그린고트의 모든 권한을 다시 고블린에게 넘겨주었소.\\n \"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 그린고트 은행은 1474년에 그린고트라는 고블린에 의해 설립되었소. 그 후 얼마 지나지 않아 마법부 손에 들어갔고, 완전히는 아니지만, 어느 정도 마법사들 관리하에 있었소. 1865년 마법부가 그린고트의 모든 권한을 다시 고블린에게 넘겨주었소.\\n \"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

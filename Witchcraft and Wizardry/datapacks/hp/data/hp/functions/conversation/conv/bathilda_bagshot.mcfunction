@@ -72,7 +72,7 @@ execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:
 #-------------------------------
 
 #-------------------------------
-execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 마법의 역사를 쓰셨나요? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
+execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=1}] run data merge entity @s {CustomName:"{\"text\":\"≤ 혹시 마법의 역사 책을 쓰셨나요? \"}",Tags:["_____Normal_____","_____click_____","convOption","i"]}
 execute as @s[tag=trg] as @e[type=armor_stand,limit=1,scores={con=1}] as @s[tag=convSelected] as @p[tag=activePlayer,scores={tmp=0}] store success score @s tmp run scoreboard players set @s convState 16
 #-------------------------------
 execute as @s[tag=use] as @e[type=armor_stand,limit=1,scores={con=2}] run data merge entity @s {CustomName:"{\"text\":\"≥ 안녕히 계세요\"}",Tags:["_____Return_____","_____click_____","convOption","i"]}
@@ -196,7 +196,7 @@ tag @s[scores={convState=5},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 궁금한 게 많은 아이구나. 스코틀랜드의 고대 켈트 사회의 흔적과 마법의 징조를 찾고 있어. 어쩌다 중세 초기에 쓰였다는 두루마리에 대해 알게 되었지. 거기에 내게 필요한 정보가 있을 것 같아서 찾고 있는 거란다. \\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 궁금한 게 많은 아이구나. 난 스코틀랜드의 고대 켈트 사회의 흔적과 마법의 징조를 조사하고 있단다. 어쩌다 중세 초기에 쓰였다는 두루마리에 대해 알게 되었지. 거기에 내게 필요한 정보가 있을 것 같아서 찾고 있는 거란다. \\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -440,7 +440,7 @@ tag @s[scores={convState=13},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 두루마리! 정말 대단해. 이런 일에 재능이 있는 것 같구나! 그럼 약속한 보상을 줘야지. 여기 받으렴. 400 ≈. \"}"} 
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 아, 두루마리! 정말 대단해. 이런 일에 재능이 있는 것 같은데? 그럼 약속한 보상을 줘야지. 여기 받으렴. 400 ≈. \"}"} 
 # execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
@@ -474,7 +474,7 @@ tag @s[scores={convState=15},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 네가 할 일은 없고, 내가 해야 할 일만 남았단다. 네가 이걸 해석까지 하기를 바라지 않아. 골머리를 꽤나 썩혀야 하는 일이거든. 먼저 연구를 하고 점차 이해할 수 있기를 바라야지. \\n\\n\"}"} 
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 이제 네가 할 일은 없고, 내가 해야 할 일만 남았단다. 네가 이걸 해석까지 하기를 바라지 않아. 골머리를 꽤나 썩혀야 하는 일이거든. 여러 방법으로 연구하고 점차 이해할 수 있기를 바라야지. \\n\\n\"}"} 
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################
