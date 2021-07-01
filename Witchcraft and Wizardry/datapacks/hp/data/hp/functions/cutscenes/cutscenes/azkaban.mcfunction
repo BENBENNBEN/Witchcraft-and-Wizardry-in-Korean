@@ -1074,7 +1074,7 @@ execute as @s[scores={cutSceneTimer=842},tag=cutsceneLeader] as @e[tag=phoenixOr
 
 # ¤Alastor Moody:¤ These villains are everywhere. Hunt them down. Fight them. They must not escape!
 execute as @s[scores={cutSceneTimer=800},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=800..940}] run title @s actionbar ["",{"text":""},{"text":"앨러스터 무디","color":"dark_gray"},{"text":" 사방에서 적이 온다. 전부 맞서 싸워! 도망치게 두면 안돼!"}]
+execute as @s[scores={cutSceneTimer=800..940}] run title @s actionbar ["",{"text":""},{"text":"앨러스터 무디","color":"dark_gray"},{"text":" 사방에서 적이 온다. 전부 맞서 싸워! 도망치게 두면 안 돼!"}]
 
 
 execute as @s[scores={cutSceneTimer=941..}] run title @s actionbar ""

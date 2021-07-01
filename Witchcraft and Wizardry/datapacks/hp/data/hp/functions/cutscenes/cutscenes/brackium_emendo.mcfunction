@@ -184,7 +184,7 @@ execute as @s[scores={cutSceneTimer=201},tag=cutsceneLeader] as @e[tag=flitwickC
 
 # ¤Flitwick:¤ In this lesson you will learn the spell 'Brackium Emendo' as another way to restore your health after a fight.
 execute as @s[scores={cutSceneTimer=301},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 10 1 0
-execute as @s[scores={cutSceneTimer=301..450}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 이번 수업에서는 다른 회복 방법으로 '브라키움 엠멘도' 주문을 배울 거야."}]
+execute as @s[scores={cutSceneTimer=301..450}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 이번 수업에서는 '브라키움 엠멘도' 주문으로 회복하는 방법을 배울 거야."}]
 execute as @s[scores={cutSceneTimer=301},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=308},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=312},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] run function hp:npc/update_npc_head_expression

@@ -133,7 +133,7 @@ tag @s[scores={convState=3},tag=triggerOption,tag=!drawOptions] add trg
 ################################
 ##### Conversation Header ######
 ################################
-execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 소문이라고? 뒷소문 재밌지. 나보단 스리 브룸스틱스 여관 주인인 로즈메르타 부인에게 물어봐. 그런 거 잘 알거든. \\n\\n\\n\"}"}
+execute if entity @s[tag=use] as 0-0-6-0-9 run data merge entity @s {CustomName:"{\"text\":\" 소문이라고? 뒷소문 재밌지. 나보단 스리 브룸스틱스 여관 주인인 로즈메르타 씨에게 물어봐. 그런 거 잘 알거든. \\n\\n\\n\"}"}
 execute if entity @s[tag=use] run tag @s add longHeader
 
 ################################

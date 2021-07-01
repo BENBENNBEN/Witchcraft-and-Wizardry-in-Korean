@@ -1320,7 +1320,7 @@ execute as @s[scores={cutSceneTimer=640},tag=cutsceneLeader] as @e[tag=mcGonagal
 
 # ¤McGonagall:¤ Now it's your turn. I have prepared a section of the castle, where you might practice.
 execute as @s[scores={cutSceneTimer=701},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=700..850}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 이제 너희 차례란다. 연습할 장소를 준비해놨어."}]
+execute as @s[scores={cutSceneTimer=700..850}] run title @s actionbar ["",{"text":""},{"text":"맥고나걸","color":"dark_gray"},{"text":" 이제 너희 차례란다. 연습할 장소를 준비해놨단다."}]
 
 # ¤McGonagall:¤ When you see blue particles around an object, you will be able to transform it.
 execute as @s[scores={cutSceneTimer=851},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1

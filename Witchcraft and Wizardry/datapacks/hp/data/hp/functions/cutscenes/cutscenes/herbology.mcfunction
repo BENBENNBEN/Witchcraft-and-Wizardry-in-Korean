@@ -911,7 +911,7 @@ execute as @s[scores={cutSceneTimer=610},tag=cutsceneLeader] as @e[tag=sproutCla
 
 # ¤Sprout:¤ Our mandrakes are still only seedlings, so their cries probably won't kill you just yet,
 execute as @s[scores={cutSceneTimer=670},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=670..760}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 이 맨드레이크는 아직 어려서 울음소리가 누굴 죽일 정도는 아니지만,"}]
+execute as @s[scores={cutSceneTimer=670..760}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 이 맨드레이크는 아직 어려서 누굴 죽일 정도는 아니지만,"}]
 execute as @s[scores={cutSceneTimer=670},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=677},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=681},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -923,7 +923,7 @@ execute as @s[scores={cutSceneTimer=710},tag=cutsceneLeader] as @e[tag=sproutCla
 
 # ¤Sprout:¤ but be careful, they could certainly knock you out for several hours.
 execute as @s[scores={cutSceneTimer=760},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice4 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=760..860}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 그래도 조심하렴. 몇 시간 동안 기절할 수 있으니까."}]
+execute as @s[scores={cutSceneTimer=760..860}] run title @s actionbar ["",{"text":""},{"text":"스프라우트","color":"dark_gray"},{"text":" 그래도 몇 시간 동안 기절할 수 있으니까 조심하렴."}]
 execute as @s[scores={cutSceneTimer=760},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=767},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=771},tag=cutsceneLeader] as @e[tag=sproutClassroom,limit=1] run function hp:npc/update_npc_head_expression

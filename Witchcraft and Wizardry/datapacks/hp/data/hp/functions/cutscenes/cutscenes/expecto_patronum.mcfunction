@@ -2010,7 +2010,7 @@ execute as @s[scores={cutSceneTimer=650},tag=cutsceneLeader] as @e[tag=lupinPatr
 
 # ¤Lupin:¤ which takes the form of an animal, and which will force the dementors to retreat.
 execute as @s[scores={cutSceneTimer=710},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=710..820}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 동물 형상의 소환수가 나와서 디멘터를 물리치는 거야."}]
+execute as @s[scores={cutSceneTimer=710..820}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 동물 형상의 소환수가 나와서 디멘터를 물리치는 거지."}]
 execute as @s[scores={cutSceneTimer=710},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=717},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=721},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
@@ -2022,7 +2022,7 @@ execute as @s[scores={cutSceneTimer=750},tag=cutsceneLeader] as @e[tag=lupinPatr
 
 # ¤Lupin:¤ Let me demonstrate:
 execute as @s[scores={cutSceneTimer=820},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=820..900}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 내가 한 번 시범을 보여주마."}]
+execute as @s[scores={cutSceneTimer=820..900}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 내가 한번 시범을 보여주마."}]
 execute as @s[scores={cutSceneTimer=820},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=827},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=831},tag=cutsceneLeader] as @e[tag=lupinPatronusClassroom,limit=1] run function hp:npc/update_npc_head_expression

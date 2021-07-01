@@ -322,7 +322,7 @@ execute as @s[scores={cutSceneTimer=300}] as @s run function hp:cutscenes/fade_i
 # ¤Lupin:¤ Welcome to Defense Against the Dark Arts!
 execute as @s[scores={cutSceneTimer=40},tag=cutsceneLeader] run tag @e[tag=lupinClassroomFpEngine,limit=1] remove cutsceneStop
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 1000 1 1
-execute as @s[scores={cutSceneTimer=20..80}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 어둠의 마법 방어법 수업에 온 걸 환영한다!"}]
+ execute as @s[scores={cutSceneTimer=20..80}] run title @s actionbar ["",{"text":""},{"text":"루핀","color":"dark_gray"},{"text":" 어둠의 마법 방어법 수업에 온 걸 환영한다!"}]
 execute as @s[scores={cutSceneTimer=20},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=27},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=31},tag=cutsceneLeader] as @e[tag=lupinClassroom,limit=1] run function hp:npc/update_npc_head_expression

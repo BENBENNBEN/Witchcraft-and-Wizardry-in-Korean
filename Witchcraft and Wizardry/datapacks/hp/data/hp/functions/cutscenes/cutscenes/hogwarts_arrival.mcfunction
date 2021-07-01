@@ -545,7 +545,7 @@ execute as @s[scores={cutSceneTimer=400}] run function hp:cutscenes/fade_out
 # Explore the turrets and towers, get lost in the forbidden forest,
 title @s[scores={cutSceneTimer=400..600}] actionbar ["",{"text":"성의 내부와 외부를 탐험하고, 금지된 숲에서 길을 잃으면서"}]
 # uncover the mysteries and uncover the mysteries of the castle and its grounds.
-title @s[scores={cutSceneTimer=600..800}] actionbar ["",{"text":" 호그와트의 수많은 수수께끼와 숨겨진 신비를 밝혀 내세요"}]
+title @s[scores={cutSceneTimer=600..800}] actionbar ["",{"text":" 호그와트의 수많은 수수께끼와 숨겨진 신비를 밝혀내 보세요"}]
 
 title @s[scores={cutSceneTimer=801..}] actionbar ""
 

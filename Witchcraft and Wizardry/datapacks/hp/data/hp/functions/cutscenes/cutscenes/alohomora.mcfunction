@@ -454,7 +454,7 @@ execute as @s[scores={cutSceneTimer=161..300}] run title @s actionbar ["",{"text
 
 # ¤Hermione:¤ Double click £ while hovering over the locked door to use the spell.
 execute as @s[scores={cutSceneTimer=301},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice2 master @a ~ ~ ~ 1 1 0
-execute as @s[scores={cutSceneTimer=301..440}] run title @s actionbar ["",{"text":""},{"text":"헤르미온느","color":"dark_gray"},{"text":" 마법을 사용하려면 잠긴 문 위로 마우스를 올려놓고 ⌠ 를 두 번 클릭해봐."}]
+execute as @s[scores={cutSceneTimer=301..440}] run title @s actionbar ["",{"text":""},{"text":"헤르미온느","color":"dark_gray"},{"text":" 잠긴 문 위로 마우스를 올려놓고 ⌠ 를 두 번 클릭해봐."}]
 
 # ¤Hermione:¤ Other doors are magically protected against the charm, and require a key.
 execute as @s[scores={cutSceneTimer=441},tag=cutsceneLeader] at @s run playsound minecraft:custom.voices.voice2 master @a ~ ~ ~ 1 1 0

@@ -1051,7 +1051,7 @@ execute as @s[scores={cutSceneTimer=920}] run function hp:cutscenes/fade_in
 
 # ¤Flitwick:¤ Collect the five stars scattered throughout this maze of corridors, and return to me to complete the lesson.
 execute as @s[scores={cutSceneTimer=781},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
-execute as @s[scores={cutSceneTimer=781..940}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 미로 같은 복도에 흩어져 있는 다섯 개의 별을 모아서 돌아오렴."}]
+execute as @s[scores={cutSceneTimer=781..940}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 미로 같은 복도에 흩어져 있는 다섯 개의 별을 모아 오렴."}]
 execute as @s[scores={cutSceneTimer=781},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=788},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=792},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] run function hp:npc/update_npc_head_expression
@@ -1357,7 +1357,7 @@ tp @s[scores={cutSceneTimer=1222}] 5097.933 94.18749 39.80437 124.78 4.1
 
 # ¤Flitwick:¤ Only this maze is completely dark. You will need to use your wand to find your way.
 execute as @s[scores={cutSceneTimer=941},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 20 1 0
-execute as @s[scores={cutSceneTimer=941..1100}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 완벽히 어두울 때 지팡이를 사용해서 길을 찾는 거 잊지 말고."}]
+execute as @s[scores={cutSceneTimer=941..1100}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 아주 어두울 때 주문을 외워서 길을 찾는 거 잊지 말고."}]
 execute as @s[scores={cutSceneTimer=941},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=948},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=952},tag=cutsceneLeader] as @e[tag=flitwickClassroom2,limit=1] run function hp:npc/update_npc_head_expression

@@ -909,7 +909,7 @@ execute as @s[scores={cutSceneTimer=271},tag=cutsceneLeader] as @e[tag=cutsceneT
 
 # ¤Twycross:¤ This ability can be very useful
 execute as @s[scores={cutSceneTimer=301},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=301..350}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 이 마법은 여러므로 매우 유용한데"}]
+execute as @s[scores={cutSceneTimer=301..350}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 이 마법은 여러모로 매우 유용한데"}]
 execute as @s[scores={cutSceneTimer=301},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=308},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=312},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
@@ -921,7 +921,7 @@ execute as @s[scores={cutSceneTimer=341},tag=cutsceneLeader] as @e[tag=cutsceneT
 
 # ¤Twycross:¤ and at times necessary in order to reach areas that are otherwise inaccessible.
 execute as @s[scores={cutSceneTimer=351},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=351..420}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 특히 다른 방법으로는 접근할 수 없는 지역에 가야할 때 좋아."}]
+execute as @s[scores={cutSceneTimer=351..420}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 특히 다른 방법으로는 접근할 수 없는 지역에 갈 때 좋아."}]
 execute as @s[scores={cutSceneTimer=351},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=358},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=362},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
@@ -935,7 +935,7 @@ execute as @s[scores={cutSceneTimer=391},tag=cutsceneLeader] as @e[tag=cutsceneT
 
 # ¤Twycross:¤ Let me demonstrate:
 execute as @s[scores={cutSceneTimer=421},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=421..480}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 한 번 보여줄게."}]
+execute as @s[scores={cutSceneTimer=421..480}] run title @s actionbar ["",{"text":""},{"text":"트와이크로스","color":"dark_gray"},{"text":" 한번 보여줄게."}]
 execute as @s[scores={cutSceneTimer=421},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression
 execute as @s[scores={cutSceneTimer=428},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_neutral
 execute as @s[scores={cutSceneTimer=432},tag=cutsceneLeader] as @e[tag=cutsceneTwycross1,limit=1] run function hp:npc/update_npc_head_expression

@@ -337,7 +337,7 @@ execute as @s[scores={cutSceneTimer=391},tag=cutsceneLeader] as @e[tag=flitwickC
 
 # ¤Flitwick:¤ To focus on an object to levitate, start by double clicking £.
 execute as @s[scores={cutSceneTimer=500},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=500..600}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" ⌠ 를 두 번 클릭하여 띄우고 싶은 물체에 초점을 맞춰봐."}]
+execute as @s[scores={cutSceneTimer=500..600}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" ⌠ 를 두 번 클릭하여 띄우고 싶은 물체에 초점을 맞추렴."}]
 
 # ¤Flitwick:¤ After that, you can click € once to levitate the object you are looking at,
 execute as @s[scores={cutSceneTimer=601},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
@@ -361,7 +361,7 @@ execute as @s[scores={cutSceneTimer=951..1050}] run title @s actionbar ["",{"tex
 
 # ¤Flitwick:¤ This spell is particularly useful for moving heavy blocks into switches, to trigger their mechanisms.
 execute as @s[scores={cutSceneTimer=1051},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
-execute as @s[scores={cutSceneTimer=1051..1200}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 이 마법 주문은 무거운 블록을 스위치로 옮겨서 장치를 작동시키는 데 유용해."}]
+execute as @s[scores={cutSceneTimer=1051..1200}] run title @s actionbar ["",{"text":""},{"text":"플리트윅","color":"dark_gray"},{"text":" 이 마법 주문은 무거운 블록을 스위치로 옮겨서 장치를 작동시키는 데 유용하지."}]
 
 # ¤Flitwick:¤ I've put up an obstacle course that will require you to use the levitation spell.
 execute as @s[scores={cutSceneTimer=1201},tag=cutsceneLeader] as @e[tag=flitwickClassroom,limit=1] at @s run playsound minecraft:custom.voices.voice1 master @a ~ ~ ~ 100000 1 0
